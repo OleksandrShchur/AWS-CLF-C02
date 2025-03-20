@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question 221",
+        "question": "A company is seeking to deploy an existing .NET application onto AWS as quickly as possible. Which AWS Service should the customer use to achieve this goal?",
+        "options": [
+            "Amazon SNS.",
+            "AWS Elastic Beanstalk.",
+            "AWS Systems Manager.",
+            "AWS Trusted Advisor."
+        ],
+        "correct_answers": [
+            "AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "question_number": "Question 222",
+        "question": "Which of the following is NOT a factor when estimating the costs of Amazon EC2? (Choose TWO)",
+        "options": [
+            "The amount of time the instances will be running.",
+            "Number of security groups.",
+            "Allocated Elastic IP Addresses.",
+            "Number of Hosted Zones.",
+            "Number of instances."
+        ],
+        "correct_answers": [
+            "Number of security groups.",
+            "Number of Hosted Zones."
+        ]
+    },
+    {
+        "question_number": "Question 223",
+        "question": "Which AWS Service helps enterprises extend their on-premises storage to AWS in a cost-effective manner?",
+        "options": [
+            "AWS Data Pipeline.",
+            "AWS Storage Gateway.",
+            "Amazon Aurora.",
+            "Amazon EFS."
+        ],
+        "correct_answers": [
+            "AWS Storage Gateway."
+        ]
+    },
+    {
+        "question_number": "Question 224",
+        "question": "A company is building an online cloud storage platform. They need a storage service that can scale capacity automatically, while minimizing cost. Which AWS storage service should the company use to meet these requirements?",
+        "options": [
+            "Amazon Simple Storage Service.",
+            "Amazon Elastic Block Store.",
+            "Amazon Elastic Container Service.",
+            "AWS Storage Gateway."
+        ],
+        "correct_answers": [
+            "Amazon Simple Storage Service."
+        ]
+    },
+    {
+        "question_number": "Question 225",
+        "question": "You have just hired a skilled sys-admin to join your team. As usual, you have created a new IAM user for him to interact with AWS services. On his first day, you ask him to create snapshots of all existing Amazon EBS volumes and save them in a new Amazon S3 bucket. However, the new member reports back that he is unable to create neither EBS snapshots nor S3 buckets. What might prevent him from doing this simple task?",
+        "options": [
+            "EBS and S3 are accessible only to the root account owner.",
+            "The systems administrator must contact AWS Support first to activate his new IAM account.",
+            "There is not enough space in S3 to store the snapshots.",
+            "There is a non-explicit deny to all new users."
+        ],
+        "correct_answers": [
+            "There is a non-explicit deny to all new users."
+        ]
+    },
+    {
+        "question_number": "Question 226",
+        "question": "An external auditor is requesting a log of all accesses to the AWS resources in the company's account. Which of the following services will provide the auditor with the requested information?",
+        "options": [
+            "AWS CloudTrail.",
+            "Amazon CloudFront.",
+            "AWS CloudFormation.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 227",
+        "question": "Which of the below options is true of Amazon Cloud Directory?",
+        "options": [
+            "Amazon Cloud Directory allows the organization of hierarchies of data across multiple dimensions.",
+            "Amazon Cloud Directory enables the analysis of video and data streams in real time.",
+            "Amazon Cloud Directory allows users to access AWS with their existing Active Directory credentials.",
+            "Amazon Cloud Directory allows for registration and management of domain names."
+        ],
+        "correct_answers": [
+            "Amazon Cloud Directory allows the organization of hierarchies of data across multiple dimensions."
+        ]
+    },
+    {
+        "question_number": "Question 228",
+        "question": "A user has opened a 'Production System Down' support case to get help from AWS Support after a production system disruption. What is the expected response time for this type of support case?",
+        "options": [
+            "12 hours.",
+            "15 minutes.",
+            "24 hours.",
+            "One hour."
+        ],
+        "correct_answers": [
+            "One hour."
+        ]
+    },
+    {
+        "question_number": "Question 229",
+        "question": "Which of the below options is a best practice for making your application on AWS highly available?",
+        "options": [
+            "Deploy the application to at least two Availability Zones.",
+            "Use Elastic Load Balancing (ELB) across multiple AWS Regions.",
+            "Deploy the application code on at least two servers in the same Availability Zone.",
+            "Rewrite the application code to handle all incoming requests."
+        ],
+        "correct_answers": [
+            "Deploy the application to at least two Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 230",
+        "question": "Which of the following should be taken into account when performing a TCO analysis regarding the costs of running an application on AWS VS on-premises? (Choose TWO)",
+        "options": [
+            "Labor and IT costs.",
+            "Cooling and power consumption.",
+            "Amazon EBS computing power.",
+            "Software architecture.",
+            "Software compatibility."
+        ],
+        "correct_answers": [
+            "Labor and IT costs.",
+            "Cooling and power consumption."
+        ]
+    },
+    {
+        "question_number": "Question 231",
+        "question": "Your company requires a response time of less than 15 minutes from support interactions about their business-critical systems that are hosted on AWS if those systems go down. Which AWS Support Plan should this company use?",
+        "options": [
+            "AWS Basic Support.",
+            "AWS Developer Support.",
+            "AWS Business Support.",
+            "AWS Enterprise Support."
+        ],
+        "correct_answers": [
+            "AWS Enterprise Support."
+        ]
+    },
+    {
+        "question_number": "Question 232",
+        "question": "Which of the following AWS offerings are serverless services? (Choose TWO)",
+        "options": [
+            "Amazon EC2.",
+            "AWS Lambda.",
+            "Amazon DynamoDB.",
+            "Amazon EMR.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "AWS Lambda.",
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 233",
+        "question": "Which AWS service enables you to quickly purchase and deploy SSL/TLS certificates?",
+        "options": [
+            "Amazon GuardDuty.",
+            "AWS ACM.",
+            "Amazon Detective.",
+            "AWS WAF."
+        ],
+        "correct_answers": [
+            "AWS ACM."
+        ]
+    },
+    {
+        "question_number": "Question 234",
+        "question": "Which AWS Service provides integration with Chef to automate the configuration of EC2 instances?",
+        "options": [
+            "AWS Config.",
+            "AWS OpsWorks.",
+            "AutoScaling.",
+            "AWS CloudFormation."
+        ],
+        "correct_answers": [
+            "AWS OpsWorks."
+        ]
+    },
+    {
+        "question_number": "Question 235",
+        "question": "A customer is seeking to store objects in their AWS environment and to make those objects downloadable over the internet. Which AWS Service can be used to accomplish this?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon EFS.",
+            "Amazon S3.",
+            "Amazon Instance Store."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 236",
+        "question": "Which of the following services can be used to monitor the HTTP and HTTPS requests that are forwarded to Amazon CloudFront?",
+        "options": [
+            "AWS WAF.",
+            "Amazon CloudWatch.",
+            "AWS Cloud9.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS WAF."
+        ]
+    },
+    {
+        "question_number": "Question 237",
+        "question": "A company is migrating a web application to AWS. The application's compute capacity is continually utilized throughout the year. Which of the below options offers the company the most cost-effective solution?",
+        "options": [
+            "On-demand Instances.",
+            "Dedicated Hosts.",
+            "Spot Instances.",
+            "Reserved Instances."
+        ],
+        "correct_answers": [
+            "Reserved Instances."
+        ]
+    },
+    {
+        "question_number": "Question 238",
+        "question": "A company wants to grant a new employee long-term access to manage Amazon DynamoDB databases. Which of the following is a recommended best-practice when granting these permissions?",
+        "options": [
+            "Create an IAM role and attach a policy with Amazon DynamoDB access permissions.",
+            "Create an IAM role and attach a policy with Administrator access permissions.",
+            "Create an IAM user and attach a policy with Amazon DynamoDB access permissions.",
+            "Create an IAM user and attach a policy with Administrator access permissions."
+        ],
+        "correct_answers": [
+            "Create an IAM user and attach a policy with Amazon DynamoDB access permissions."
+        ]
+    },
+    {
+        "question_number": "Question 239",
+        "question": "When granting permissions to applications running on Amazon EC2 instances, which of the following is considered best practice?",
+        "options": [
+            "Generate new IAM access keys every time you delegate permissions.",
+            "Store the required AWS credentials directly within the application code.",
+            "Use temporary security credentials (IAM roles) instead of long-term access keys.",
+            "Do nothing; Applications that run on Amazon EC2 instances do not need permission to interact with other AWS services or resources."
+        ],
+        "correct_answers": [
+            "Use temporary security credentials (IAM roles) instead of long-term access keys."
+        ]
+    },
+    {
+        "question_number": "Question 240",
+        "question": "Which of the following will help AWS customers save on costs when migrating their workloads to AWS?",
+        "options": [
+            "Use servers instead of managed services.",
+            "Use existing third-party software licenses on AWS.",
+            "Migrate production workloads to AWS edge locations instead of AWS Regions.",
+            "Use AWS Outposts to run all workloads in a cost-optimized environment."
+        ],
+        "correct_answers": [
+            "Use existing third-party software licenses on AWS."
+        ]
+    }
+]

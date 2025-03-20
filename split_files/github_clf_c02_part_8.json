@@ -1,0 +1,271 @@
+[
+    {
+        "question_number": "Question 141",
+        "question": "Which AWS service or feature can be used to call AWS Services from different programming languages?",
+        "options": [
+            "AWS Software Development Kit.",
+            "AWS Command Line Interface.",
+            "AWS CodeDeploy.",
+            "AWS Management Console."
+        ],
+        "correct_answers": [
+            "AWS Software Development Kit."
+        ]
+    },
+    {
+        "question_number": "Question 142",
+        "question": "Which AWS Service can be used to register a new domain name?",
+        "options": [
+            "Amazon Personalize.",
+            "Amazon Route 53.",
+            "AWS KMS.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "Amazon Route 53."
+        ]
+    },
+    {
+        "question_number": "Question 143",
+        "question": "App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO)",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Migration Hub.",
+            "AWS IAM.",
+            "AWS Elastic Beanstalk.",
+            "Amazon Macie."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation.",
+            "AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "question_number": "Question 144",
+        "question": "Which AWS service provides cost-optimization recommendations?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Pricing Calculator.",
+            "Amazon QuickSight.",
+            "AWS X-Ray."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 145",
+        "question": "A company has hundreds of VPCs in multiple AWS Regions worldwide. What service does AWS offer to simplify the connection management among the VPCs?",
+        "options": [
+            "VPC Peering.",
+            "AWS Transit Gateway.",
+            "Amazon Connect.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "AWS Transit Gateway."
+        ]
+    },
+    {
+        "question_number": "Question 146",
+        "question": "What is one benefit and one drawback of buying a reserved EC2 instance? (Select TWO)",
+        "options": [
+            "Instances can be shut down by AWS at any time with no notification.",
+            "Reserved instances require at least a one-year pricing commitment.",
+            "There is no additional charge for using dedicated instances.",
+            "Reserved instances provide a significant discount compared to on-demand instances."
+        ],
+        "correct_answers": [
+            "Reserved instances require at least a one-year pricing commitment.",
+            "Reserved instances provide a significant discount compared to on-demand instances."
+        ]
+    },
+    {
+        "question_number": "Question 147",
+        "question": "Why does every AWS Region contain multiple Availability Zones?",
+        "options": [
+            "Multiple Availability Zones allows you to build resilient and highly available architectures.",
+            "Multiple Availability Zones results in lower total cost compared to deploying in a single Availability Zone.",
+            "Multiple Availability Zones allows for data replication and global reach.",
+            "Multiple Availability Zones within a region increases the storage capacity available in that region."
+        ],
+        "correct_answers": [
+            "Multiple Availability Zones allows you to build resilient and highly available architectures."
+        ]
+    },
+    {
+        "question_number": "Question 148",
+        "question": "What is the most cost-effective purchasing option for running a set of EC2 instances that must always be available for a period of two months?",
+        "options": [
+            "On-Demand Instances.",
+            "Spot Instances.",
+            "Reserved Instances - All Upfront.",
+            "Reserved Instances - No Upfront."
+        ],
+        "correct_answers": [
+            "On-Demand Instances."
+        ]
+    },
+    {
+        "question_number": "Question 149",
+        "question": "Which of the following is a benefit of running an application in multiple Availability Zones?",
+        "options": [
+            "Allows you to exceed AWS service limits.",
+            "Reduces application response time between servers and global users.",
+            "Increases available compute capacity.",
+            "Increases the availability of your application."
+        ],
+        "correct_answers": [
+            "Increases the availability of your application."
+        ]
+    },
+    {
+        "question_number": "Question 150",
+        "question": "Data security is one of the top priorities of AWS. How does AWS deal with old storage devices that have reached the end of their useful life?",
+        "options": [
+            "AWS sells the old devices to other hosting providers.",
+            "AWS destroys the old devices in accordance with industry-standard practices.",
+            "AWS sends the old devices for remanufacturing.",
+            "AWS stores the old devices in a secure place."
+        ],
+        "correct_answers": [
+            "AWS destroys the old devices in accordance with industry-standard practices."
+        ]
+    },
+    {
+        "question_number": "Question 151",
+        "question": "A developer needs to set up an SSL security certificate for a client's eCommerce website in order to use the HTTPS protocol. Which of the following AWS services can be used to deploy the required SSL server certificates? (Choose TWO)",
+        "options": [
+            "Amazon Route 53.",
+            "AWS ACM.",
+            "AWS Directory Service.",
+            "AWS Identity & Access Management.",
+            "AWS Data Pipeline."
+        ],
+        "correct_answers": [
+            "AWS ACM.",
+            "AWS Identity & Access Management."
+        ]
+    },
+    {
+        "question_number": "Question 152",
+        "question": "Which of the following AWS services scale automatically without your intervention? (Choose TWO)",
+        "options": [
+            "Amazon EC2.",
+            "Amazon S3.",
+            "AWS Lambda.",
+            "Amazon EMR.",
+            "Amazon EBS."
+        ],
+        "correct_answers": [
+            "Amazon S3.",
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 153",
+        "question": "A company is planning to migrate an application from Amazon EC2 to AWS Lambda to use a serverless architecture. Which of the following will be the responsibility of AWS after migration? (Choose TWO)",
+        "options": [
+            "Application management.",
+            "Capacity management.",
+            "Access control.",
+            "Operating system maintenance.",
+            "Data management."
+        ],
+        "correct_answers": [
+            "Capacity management.",
+            "Operating system maintenance."
+        ]
+    },
+    {
+        "question_number": "Question 154",
+        "question": "How do ELBs improve the reliability of your application?",
+        "options": [
+            "By distributing traffic across multiple S3 buckets.",
+            "By replicating data to multiple availability zones.",
+            "By creating database Read Replicas.",
+            "By ensuring that only healthy targets receive traffic."
+        ],
+        "correct_answers": [
+            "By ensuring that only healthy targets receive traffic."
+        ]
+    },
+    {
+        "question_number": "Question 155",
+        "question": "A company needs to migrate their website from on-premises to AWS. Security is a major concern for them, so they need to host their website on hardware that is NOT shared with other AWS customers. Which of the following EC2 instance options meets this requirement?",
+        "options": [
+            "On-demand instances.",
+            "Spot instances.",
+            "Dedicated instances.",
+            "Reserved instances."
+        ],
+        "correct_answers": [
+            "Dedicated instances."
+        ]
+    },
+    {
+        "question_number": "Question 156",
+        "question": "A customer is planning to move billions of images and videos to be stored on Amazon S3. The customer has approximately 60 Petabytes of data to move. Which of the following AWS Services is the best choice to transfer the data to AWS?",
+        "options": [
+            "Snowball.",
+            "S3 Transfer Acceleration.",
+            "Snowmobile.",
+            "Amazon VPC."
+        ],
+        "correct_answers": [
+            "Snowmobile."
+        ]
+    },
+    {
+        "question_number": "Question 157",
+        "question": "A company plans to migrate a large amount of archived data to AWS. The archived data must be maintained for a period of 5 years and must be retrievable within 5 hours of a request. What is the most cost-effective AWS storage service to use?",
+        "options": [
+            "Amazon S3 Glacier.",
+            "Amazon EFS.",
+            "Amazon S3 Standard.",
+            "Amazon EBS."
+        ],
+        "correct_answers": [
+            "Amazon S3 Glacier."
+        ]
+    },
+    {
+        "question_number": "Question 158",
+        "question": "Which AWS Service is used to manage user permissions?",
+        "options": [
+            "Security Groups.",
+            "Amazon ECS.",
+            "AWS IAM.",
+            "AWS Support."
+        ],
+        "correct_answers": [
+            "AWS IAM."
+        ]
+    },
+    {
+        "question_number": "Question 159",
+        "question": "Which support plan includes AWS Support Concierge Service?",
+        "options": [
+            "Premium Support.",
+            "Business Support.",
+            "Enterprise Support.",
+            "Standard Support."
+        ],
+        "correct_answers": [
+            "Enterprise Support."
+        ]
+    },
+    {
+        "question_number": "Question 160",
+        "question": "A company needs to track resource changes using the API call history. Which AWS service can help the company achieve this goal?",
+        "options": [
+            "AWS Config.",
+            "Amazon CloudWatch.",
+            "AWS CloudTrail.",
+            "AWS CloudFormation."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail."
+        ]
+    }
+]

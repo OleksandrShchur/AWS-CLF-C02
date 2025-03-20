@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 131",
+        "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon\nDynamoDB.\nWhat is the MOST operationally efficient solution to delegate permissions?",
+        "options": [
+            "Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
+            "Create an IAM user and use its access key and secret access key in the application.",
+            "Create an IAM user and use its access key and secret access key to create a CLI profile in the EC2 instance",
+            "Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
+        ],
+        "correct_answers": [
+            "Create an IAM role with the required permissions. Attach the role to the EC2 instance."
+        ]
+    },
+    {
+        "question_number": "Question 132",
+        "question": "A large organization has a single AWS account.  \nWhat are the advantages of reconfiguring the single account into multiple AWS accounts? (Choose two.)",
+        "options": [
+            "It allows for administrative isolation between different workloads.",
+            "Discounts can be applied on a quarterly basis by submitting cases in the AWS Management Console.",
+            "Transitioning objects from Amazon S3 to Amazon S3 Glacier in separate AWS accounts will be less expensive.",
+            "Having multiple accounts reduces the risks associated with malicious activity targeted at a single account.",
+            "Amazon QuickSight offers access to a cost tool that provides application-specific recommendations for environments running in multiple accounts."
+        ],
+        "correct_answers": [
+            "It allows for administrative isolation between different workloads.",
+            "Having multiple accounts reduces the risks associated with malicious activity targeted at a single account."
+        ]
+    },
+    {
+        "question_number": "Question 133",
+        "question": "A retail company has recently migrated its website to AWS. The company wants to ensure that it is protected from SQL injection attacks. The website uses an\nApplication Load Balancer to distribute traffic to multiple Amazon EC2 instances.  \nWhich AWS service or feature can be used to create a custom rule that blocks SQL injection attacks?",
+        "options": [
+            "Security groups",
+            "AWS WAF",
+            "Network ACLs",
+            "AWS Shield"
+        ],
+        "correct_answers": [
+            "AWS WAF"
+        ]
+    },
+    {
+        "question_number": "Question 134",
+        "question": "Why is an AWS Well-Architected review a critical part of the cloud design process?",
+        "options": [
+            "A Well-Architected review is mandatory before a workload can run on AWS.",
+            "A Well-Architected review helps identify design gaps and helps evaluate design decisions and related documents.",
+            "A Well-Architected review is an audit mechanism that is a part of requirements for service level agreements.",
+            "A Well-Architected review eliminates the need for ongoing auditing and compliance tests."
+        ],
+        "correct_answers": [
+            "A Well-Architected review helps identify design gaps and helps evaluate design decisions and related documents."
+        ]
+    },
+    {
+        "question_number": "Question 135",
+        "question": "A company implements an Amazon EC2 Auto Scaling policy along with an Application Load Balancer to automatically recover unhealthy applications that run on\nAmazon EC2 instances.\nWhich pillar of the AWS Well-Architected Framework does this action cover?",
+        "options": [
+            "Security",
+            "Performance efficiency",
+            "Operational excellence",
+            "Reliability"
+        ],
+        "correct_answers": [
+            "Reliability"
+        ]
+    },
+    {
+        "question_number": "Question 136",
+        "question": "A company needs to design an AWS disaster recovery plan to cover multiple geographic areas.\nWhich action will meet this requirement?",
+        "options": [
+            "Configure multiple AWS accounts.",
+            "Configure the architecture across multiple Availability Zones in an AWS Region.",
+            "Configure the architecture across multiple AWS Regions.",
+            "Configure the architecture among many edge locations."
+        ],
+        "correct_answers": [
+            "Configure the architecture across multiple AWS Regions."
+        ]
+    },
+    {
+        "question_number": "Question 137",
+        "question": "Which AWS service monitors AWS accounts for security threats?",
+        "options": [
+            "Amazon GuardDuty",
+            "AWS Secrets Manager",
+            "Amazon Cognito",
+            "AWS Certificate Manager (ACM)"
+        ],
+        "correct_answers": [
+            "Amazon GuardDuty"
+        ]
+    },
+    {
+        "question_number": "Question 138",
+        "question": "A company requires an isolated environment within AWS for security purposes.\nWhich action can be taken to accomplish this?",
+        "options": [
+            "Create a separate Availability Zone to host the resources.",
+            "Create a separate VPC to host the resources.",
+            "Create a placement group to host the resources.",
+            "Create an AWS Direct Connect connection between the company and AWS."
+        ],
+        "correct_answers": [
+            "Create a separate VPC to host the resources."
+        ]
+    },
+    {
+        "question_number": "Question 139",
+        "question": "Which of the following is an AWS best practice for managing an AWS account root user?",
+        "options": [
+            "Keep the root user password with the security team.",
+            "Enable multi-factor authentication (MFA) for the root user.",
+            "Create an access key for the root user.",
+            "Keep the root user password consistent for compliance purposes."
+        ],
+        "correct_answers": [
+            "Enable multi-factor authentication (MFA) for the root user."
+        ]
+    },
+    {
+        "question_number": "Question 140",
+        "question": "A company wants to improve its security and audit posture by limiting Amazon EC2 inbound access.\nWhat should the company use to access instances remotely instead of opening inbound SSH ports and managing SSH keys?",
+        "options": [
+            "EC2 key pairs",
+            "AWS Systems Manager Session Manager",
+            "AWS Identity and Access Management (IAM)",
+            "Network ACLs"
+        ],
+        "correct_answers": [
+            "AWS Systems Manager Session Manager"
+        ]
+    },
+    {
+        "question_number": "Question 141",
+        "question": "A company has multiple applications and is now building a new multi-tier application. The company will host the new application on Amazon EC2 instances. The company wants the network routing and traffic between the various applications to follow the security principle of least privilege.\nWhich AWS service or feature should the company use to enforce this principle?",
+        "options": [
+            "Security groups",
+            "AWS Shield",
+            "AWS Global Accelerator",
+            "AWS Direct Connect gateway"
+        ],
+        "correct_answers": [
+            "Security groups"
+        ]
+    },
+    {
+        "question_number": "Question 142",
+        "question": "A company's web application requires AWS credentials and authorizations to use an AWS service.\nWhich IAM entity should the company use as best practice?",
+        "options": [
+            "IAM role",
+            "IAM user",
+            "IAM group",
+            "IAM multi-factor authentication (MFA)"
+        ],
+        "correct_answers": [
+            "IAM role"
+        ]
+    },
+    {
+        "question_number": "Question 143",
+        "question": "Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)",
+        "options": [
+            "Control access to AWS service APIs and to other specific resources.",
+            "Provide intelligent threat detection and continuous monitoring.",
+            "Protect the AWS environment using multi-factor authentication (MFA).",
+            "Grant users access to AWS data centers.",
+            "Provide firewall protection for applications from common web attacks."
+        ],
+        "correct_answers": [
+            "Control access to AWS service APIs and to other specific resources.",
+            "Protect the AWS environment using multi-factor authentication (MFA)."
+        ]
+    },
+    {
+        "question_number": "Question 144",
+        "question": "What information is found on an AWS Identity and Access Management (IAM) credential report? (Choose two.)",
+        "options": [
+            "The date and time when an IAM user's password was last used to sign in to the AWS Management Console.",
+            "The type of multi-factor authentication (MFA) device assigned to an IAM user.",
+            "The User-Agent browser identifier for each IAM user currently logged in.",
+            "Whether multi-factor authentication (MFA) has been enabled for an IAM user.",
+            "The number of incorrect login attempts by each IAM user in the previous 30 days."
+        ],
+        "correct_answers": [
+            "The date and time when an IAM user's password was last used to sign in to the AWS Management Console.",
+            "Whether multi-factor authentication (MFA) has been enabled for an IAM user."
+        ]
+    },
+    {
+        "question_number": "Question 145",
+        "question": "A company wants to migrate to AWS and use the same security software it uses on premises. The security software vendor offers its security software as a service on AWS.\nWhere can the company purchase the security solution?",
+        "options": [
+            "AWS Partner Solutions Finder",
+            "AWS Support Center",
+            "AWS Management Console",
+            "AWS Marketplace"
+        ],
+        "correct_answers": [
+            "AWS Marketplace"
+        ]
+    },
+    {
+        "question_number": "Question 146",
+        "question": "Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)",
+        "options": [
+            "Control access to AWS service APIs and to other specific resources.",
+            "Provide intelligent threat detection and continuous monitoring.",
+            "Protect the AWS environment using multi-factor authentication (MFA).",
+            "Grant users access to AWS data centers.",
+            "Provide firewall protection for applications from common web attacks."
+        ],
+        "correct_answers": [
+            "Control access to AWS service APIs and to other specific resources.",
+            "Protect the AWS environment using multi-factor authentication (MFA)."
+        ]
+    },
+    {
+        "question_number": "Question 147",
+        "question": "What information is found on an AWS Identity and Access Management (IAM) credential report? (Choose two.)",
+        "options": [
+            "The date and time when an IAM user's password was last used to sign in to the AWS Management Console.",
+            "The type of multi-factor authentication (MFA) device assigned to an IAM user.",
+            "The User-Agent browser identifier for each IAM user currently logged in.",
+            "Whether multi-factor authentication (MFA) has been enabled for an IAM user.",
+            "The number of incorrect login attempts by each IAM user in the previous 30 days."
+        ],
+        "correct_answers": [
+            "The date and time when an IAM user's password was last used to sign in to the AWS Management Console.",
+            "Whether multi-factor authentication (MFA) has been enabled for an IAM user."
+        ]
+    },
+    {
+        "question_number": "Question 148",
+        "question": "What is the primary use case for Amazon GuardDuty?",
+        "options": [
+            "Prevention of DDoS attacks",
+            "Protection against SQL injection attacks",
+            "Automatic monitoring for threats to AWS workloads",
+            "Automatic provisioning of AWS resources"
+        ],
+        "correct_answers": [
+            "Automatic monitoring for threats to AWS workloads"
+        ]
+    },
+    {
+        "question_number": "Question 149",
+        "question": "A company has deployed applications on Amazon EC2 instances. The company needs to assess application vulnerabilities and must identify infrastructure deployments that do not meet best practices.\nWhich AWS service can the company use to meet these requirements?",
+        "options": [
+            "AWS Trusted Advisor",
+            "Amazon Inspector",
+            "AWS Config",
+            "Amazon GuardDuty"
+        ],
+        "correct_answers": [
+            "Amazon Inspector"
+        ]
+    },
+    {
+        "question_number": "Question 150",
+        "question": "According to security best practices, how should an Amazon EC2 instance be given access to an Amazon S3 bucket?",
+        "options": [
+            "Hard code an IAM user’s secret key and access key directly in the application, and upload the file.",
+            "Store the IAM user’s secret key and access key in a text file on the EC2 instance, read the keys, then upload the file.",
+            "Have the EC2 instance assume a role to obtain the privileges to upload the file.",
+            "Modify the S3 bucket policy so that any service can upload to it at any time."
+        ],
+        "correct_answers": [
+            "Have the EC2 instance assume a role to obtain the privileges to upload the file."
+        ]
+    }
+]

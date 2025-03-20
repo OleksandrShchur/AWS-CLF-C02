@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question 261",
+        "question": "There is a requirement to grant a DevOps team full administrative access to all resources in an AWS account. Who can grant them these permissions?",
+        "options": [
+            "AWS account owner.",
+            "AWS technical account manager.",
+            "AWS security team.",
+            "AWS cloud support engineers."
+        ],
+        "correct_answers": [
+            "AWS account owner."
+        ]
+    },
+    {
+        "question_number": "Question 262",
+        "question": "You need to migrate a large number of on-premises workloads to AWS. Which AWS service is the most appropriate?",
+        "options": [
+            "AWS File Transfer Acceleration.",
+            "AWS Server Migration Service.",
+            "AWS Database Migration Service.",
+            "AWS Application Discovery Service."
+        ],
+        "correct_answers": [
+            "AWS Server Migration Service."
+        ]
+    },
+    {
+        "question_number": "Question 263",
+        "question": "What are some key benefits of using AWS CloudFormation? (Choose TWO)",
+        "options": [
+            "It helps AWS customers deploy their applications without worrying about the underlying infrastructure.",
+            "It applies advanced IAM security features automatically.",
+            "It automates the provisioning and updating of your infrastructure in a safe and controlled manner.",
+            "It allows you to model your entire infrastructure in just a text file.",
+            "It compiles and builds application code in a timely manner."
+        ],
+        "correct_answers": [
+            "It automates the provisioning and updating of your infrastructure in a safe and controlled manner.",
+            "It allows you to model your entire infrastructure in just a text file."
+        ]
+    },
+    {
+        "question_number": "Question 264",
+        "question": "Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?",
+        "options": [
+            "On-premises.",
+            "Mixed.",
+            "Hybrid.",
+            "Cloud."
+        ],
+        "correct_answers": [
+            "Hybrid."
+        ]
+    },
+    {
+        "question_number": "Question 265",
+        "question": "A company is hosting business critical workloads in an AWS Region. To protect against data loss and ensure business continuity, a mirror image of the current AWS environment should be created in another AWS Region. Company policy requires that the standby environment must be available in minutes in case of an outage in the primary AWS Region. Which AWS service can be used to meet these requirements?",
+        "options": [
+            "CloudEndure Disaster Recovery.",
+            "CloudEndure Migration.",
+            "AWS Backup.",
+            "AWS Glue."
+        ],
+        "correct_answers": [
+            "CloudEndure Disaster Recovery."
+        ]
+    },
+    {
+        "question_number": "Question 266",
+        "question": "Which of the following S3 storage classes is most appropriate to host static assets for a popular e-commerce website with stable access patterns?",
+        "options": [
+            "S3 Standard-IA.",
+            "S3 Intelligent-Tiering.",
+            "S3 Glacier Deep Archive.",
+            "S3 Standard."
+        ],
+        "correct_answers": [
+            "S3 Standard."
+        ]
+    },
+    {
+        "question_number": "Question 267",
+        "question": "You want to create a backup of your data in another geographical location. Where should you create this backup?",
+        "options": [
+            "In another Edge location.",
+            "In another Region.",
+            "In another VPC.",
+            "In another Availability Zone."
+        ],
+        "correct_answers": [
+            "In another Region."
+        ]
+    },
+    {
+        "question_number": "Question 268",
+        "question": "Which statement is true in relation to the security of Amazon EC2?",
+        "options": [
+            "You should use instance store volumes to store login data.",
+            "You should regularly patch the operating system and applications on your EC2 instances.",
+            "You should deploy critical components of your application in the Availability Zone that you trust.",
+            "You can track all API calls using Amazon Athena."
+        ],
+        "correct_answers": [
+            "You should regularly patch the operating system and applications on your EC2 instances."
+        ]
+    },
+    {
+        "question_number": "Question 269",
+        "question": "What does AWS Cost Explorer provide to help manage your AWS spend?",
+        "options": [
+            "Cost comparisons between AWS Cloud environments and on-premises environments.",
+            "Accurate estimates of AWS service costs based on your expected usage.",
+            "Consolidated billing.",
+            "Highly accurate cost forecasts for up to 12 months ahead."
+        ],
+        "correct_answers": [
+            "Highly accurate cost forecasts for up to 12 months ahead."
+        ]
+    },
+    {
+        "question_number": "Question 270",
+        "question": "Which of the following is a feature of Amazon RDS that performs automatic failover when the primary database fails to respond?",
+        "options": [
+            "RDS Single-AZ.",
+            "RDS Write Replica.",
+            "RDS Snapshots.",
+            "RDS Multi-AZ."
+        ],
+        "correct_answers": [
+            "RDS Write Replica."
+        ]
+    },
+    {
+        "question_number": "Question 271",
+        "question": "You are using several on-demand EC2 Instances to run your development environment. What is the best way to reduce your charges when these instances are not in use?",
+        "options": [
+            "Deleting all EBS volumes attached to the instances.",
+            "You cannot minimize charges for on-demand instances.",
+            "Terminating the instances.",
+            "Stopping the instances."
+        ],
+        "correct_answers": [
+            "Stopping the instances."
+        ]
+    },
+    {
+        "question_number": "Question 272",
+        "question": "Which of the following strategies helps protect your AWS root account?",
+        "options": [
+            "Delete root user access keys if you do not need them.",
+            "Apply MFA for the root account and use it for all of your work.",
+            "Access the root account only from your personal Mobile Phone.",
+            "Only share your AWS account password or access keys with trusted persons."
+        ],
+        "correct_answers": [
+            "Delete root user access keys if you do not need them."
+        ]
+    },
+    {
+        "question_number": "Question 273",
+        "question": "Which of the following are factors should be considered for Amazon EBS pricing? (Choose TWO)",
+        "options": [
+            "The size of volumes provisioned per month.",
+            "The compute capacity you consume.",
+            "The amount of data you have stored in snapshots.",
+            "The compute time you consume.",
+            "The number of Snowball storage devices you request."
+        ],
+        "correct_answers": [
+            "The size of volumes provisioned per month.",
+            "The amount of data you have stored in snapshots."
+        ]
+    },
+    {
+        "question_number": "Question 274",
+        "question": "You have just set up your AWS environment and have created six IAM user accounts for the DevOps team. What is the AWS recommendation when granting permissions to these IAM accounts?",
+        "options": [
+            "Attach a separate IAM policy for each individual account.",
+            "Apply the Principle of Least Privilege.",
+            "For security purposes, you should not grant any permission to the DevOps team.",
+            "Create six different IAM passwords."
+        ],
+        "correct_answers": [
+            "Apply the Principle of Least Privilege."
+        ]
+    },
+    {
+        "question_number": "Question 275",
+        "question": "Which of the following has the greatest impact on cost? (Choose TWO)",
+        "options": [
+            "Compute charges.",
+            "The number of services used.",
+            "Data Transfer In charges.",
+            "Data Transfer Out charges.",
+            "The number of IAM roles provisioned."
+        ],
+        "correct_answers": [
+            "Compute charges.",
+            "Data Transfer Out charges."
+        ]
+    },
+    {
+        "question_number": "Question 276",
+        "question": "Who from the following will get the largest discount?",
+        "options": [
+            "A user who chooses to buy On-demand, Convertible, Partial upfront instances.",
+            "A user who chooses to buy Reserved, Convertible, All upfront instances.",
+            "A user who chooses to buy Reserved, Standard, No upfront instances.",
+            "A user who chooses to buy Reserved, Standard, All upfront instances."
+        ],
+        "correct_answers": [
+            "A user who chooses to buy Reserved, Standard, All upfront instances."
+        ]
+    },
+    {
+        "question_number": "Question 277",
+        "question": "Which of the following is an available option when purchasing Amazon EC2 instances?",
+        "options": [
+            "The ability to bid to get the lowest possible prices.",
+            "The ability to register EC2 instances to get volume discounts on every hour the instances are running.",
+            "The ability to buy Dedicated Instances for up to 90% discount.",
+            "The ability to pay upfront to get lower hourly costs."
+        ],
+        "correct_answers": [
+            "The ability to pay upfront to get lower hourly costs."
+        ]
+    },
+    {
+        "question_number": "Question 278",
+        "question": "What does the term 'Economies of scale' mean?",
+        "options": [
+            "It means that you save more when you consume more.",
+            "It means as more time passes using AWS, you pay more for its services.",
+            "It means that AWS will continuously lower costs as it grows.",
+            "It means that you have the ability to pay as you go."
+        ],
+        "correct_answers": [
+            "It means that AWS will continuously lower costs as it grows."
+        ]
+    },
+    {
+        "question_number": "Question 279",
+        "question": "A company experiences fluctuations in traffic patterns to their e-commerce website when running flash sales. What service can help the company dynamically match the required compute capacity to handle spikes in traffic during flash sales?",
+        "options": [
+            "AWS Auto Scaling.",
+            "Amazon Elastic Compute Cloud.",
+            "Amazon Elastic File System.",
+            "Amazon ElastiCache."
+        ],
+        "correct_answers": [
+            "AWS Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 280",
+        "question": "Which of the below options is true of Amazon VPC?",
+        "options": [
+            "Amazon VPC allows customers to control user interactions with all other AWS resources.",
+            "AWS Customers have complete control over their Amazon VPC virtual networking environment.",
+            "AWS is responsible for all the management and configuration details of Amazon VPC.",
+            "Amazon VPC helps customers to review their AWS architecture and adopt best practices."
+        ],
+        "correct_answers": [
+            "AWS Customers have complete control over their Amazon VPC virtual networking environment."
+        ]
+    }
+]

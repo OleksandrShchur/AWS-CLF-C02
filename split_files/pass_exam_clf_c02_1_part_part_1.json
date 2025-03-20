@@ -1,0 +1,262 @@
+[
+    {
+        "question_number": "Question 1",
+        "question": "Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?",
+        "options": [
+            "Edge Locations",
+            "Availability Zones",
+            "Regions"
+        ],
+        "correct_answers": [
+            "Availability Zones"
+        ]
+    },
+    {
+        "question_number": "Question 2",
+        "question": "Which of the following is NOT one of the Five Characteristics of Cloud Computing?",
+        "options": [
+            "Rapid elasticity and scalability",
+            "Multi-tenancy and resource pooling",
+            "Dedicated Support Agent to help you deploy applications",
+            "On-demand self service"
+        ],
+        "correct_answers": [
+            "Dedicated Support Agent to help you deploy applications"
+        ]
+    },
+    {
+        "question_number": "Question 3",
+        "question": "Which of the following options is NOT a point of consideration when choosing an AWS Region?",
+        "options": [
+            "Compliance with data governance",
+            "Latency",
+            "Capacity availability",
+            "Pricing"
+        ],
+        "correct_answers": [
+            "Capacity availability"
+        ]
+    },
+    {
+        "question_number": "Question 4",
+        "question": "Which of the following is NOT an advantage of Cloud Computing?",
+        "options": [
+            "Trade capital expense (CAPEX) for operational expense (OPEX)",
+            "Train your employees less",
+            "Go global in minutes",
+            "Stop spending money running and maintaining data centers"
+        ],
+        "correct_answers": [
+            "Train your employees less"
+        ]
+    },
+    {
+        "question_number": "Question 5",
+        "question": "Which of the following services has a global scope?",
+        "options": [
+            "EC2",
+            "IAM",
+            "Lambda",
+            "Rekognition"
+        ],
+        "correct_answers": [
+            "IAM"
+        ]
+    },
+    {
+        "question_number": "Question 6",
+        "question": "Which of the following is the definition of Cloud Computing?",
+        "options": [
+            "Rapidly develop, test and launch software applications",
+            "Automatic and quick ability to acquire resources as you need them and release resources when you no longer need them",
+            "On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user",
+            "Change resource types when needed"
+        ],
+        "correct_answers": [
+            "On-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user"
+        ]
+    },
+    {
+        "question_number": "Question 7",
+        "question": "What defines the distribution of responsibilities for security in the AWS Cloud?",
+        "options": [
+            "AWS Pricing Fundamentals",
+            "The Shared Responsibility Model",
+            "AWS Acceptable Use Policy",
+            "The AWS Management Console"
+        ],
+        "correct_answers": [
+            "The Shared Responsibility Model"
+        ]
+    },
+    {
+        "question_number": "Question 8",
+        "question": "A company would like to benefit from the advantages of the Public Cloud but would like to keep sensitive assets in its own infrastructure. Which deployment model should the company use?",
+        "options": [
+            "Private Cloud",
+            "Public Cloud",
+            "Hybrid Cloud"
+        ],
+        "correct_answers": [
+            "Hybrid Cloud"
+        ]
+    },
+    {
+        "question_number": "Question 9",
+        "question": "What is NOT authorized to do on AWS according to the AWS Acceptable Use Policy?",
+        "options": [
+            "Building a gaming application",
+            "Deploying a website",
+            "Run analytics on stolen content",
+            "Backup your data"
+        ],
+        "correct_answers": [
+            "Run analytics on stolen content"
+        ]
+    },
+    {
+        "question_number": "Question 10",
+        "question": "Which security-related duty is AWS accountable for under the AWS shared responsibility model?",
+        "options": [
+            "Lifecycle management of IAM credentials",
+            "Physical security of global infrastructure",
+            "Encryption of Amazon EBS volumes",
+            "Firewall configuration"
+        ],
+        "correct_answers": [
+            "Physical security of global infrastructure"
+        ]
+    },
+    {
+        "question_number": "Question 11",
+        "question": "Which cloud architecture design concept is supported by distributing workloads across various Availability Zones?",
+        "options": [
+            "Implement automation.",
+            "Design for agility.",
+            "Design for failure.",
+            "Implement elasticity."
+        ],
+        "correct_answers": [
+            "Design for failure."
+        ]
+    },
+    {
+        "question_number": "Question 12",
+        "question": "Who is responsible for configuration management under the AWS shared responsibility model?",
+        "options": [
+            "It is solely the responsibility of the customer.",
+            "It is solely the responsibility of AWS.",
+            "It is shared between AWS and the customer.",
+            "It is not part of the AWS shared responsibility model."
+        ],
+        "correct_answers": [
+            "It is shared between AWS and the customer."
+        ]
+    },
+    {
+        "question_number": "Question 13",
+        "question": "Which compute hosting model should be accounted for in the Total Cost of Ownership (TCO) when undertaking a cost analysis that allows physical isolation of a customer workload?",
+        "options": [
+            "Dedicated Hosts",
+            "Reserved Instances",
+            "On-Demand Instances",
+            "No Upfront Reserved Instances"
+        ],
+        "correct_answers": [
+            "Dedicated Hosts"
+        ]
+    },
+    {
+        "question_number": "Question 14",
+        "question": "Which of the following is a suggestion made by an AWS Trusted Advisor? (Select two.)",
+        "options": [
+            "Cost optimization",
+            "Auditing",
+            "Serverless architecture",
+            "Performance",
+            "Scalability"
+        ],
+        "correct_answers": [
+            "Cost optimization",
+            "Performance"
+        ]
+    },
+    {
+        "question_number": "Question 15",
+        "question": "Which of the following is a critical design concept for architecting cloud applications?",
+        "options": [
+            "Use the largest instance possible",
+            "Provision capacity for peak load",
+            "Use the Scrum development process",
+            "Implement elasticity"
+        ],
+        "correct_answers": [
+            "Implement elasticity"
+        ]
+    },
+    {
+        "question_number": "Question 16",
+        "question": "Which pillar of the AWS Well-Architected Framework is supported by the design philosophy of performing operations as code?",
+        "options": [
+            "Performance efficiency",
+            "Operational excellence",
+            "Reliability",
+            "Security"
+        ],
+        "correct_answers": [
+            "Operational excellence"
+        ]
+    },
+    {
+        "question_number": "Question 17",
+        "question": "Which pillar of the AWS Well-Architected Framework is designed on the idea of frequent, minor, reversible changes?",
+        "options": [
+            "Reliability",
+            "Operational excellence",
+            "Performance efficiency",
+            "Cost optimization"
+        ],
+        "correct_answers": [
+            "Operational excellence"
+        ]
+    },
+    {
+        "question_number": "Question 18",
+        "question": "What is raised when a business deploys web servers across several AWS Regions?",
+        "options": [
+            "Coupling",
+            "Availability",
+            "Security",
+            "Durability"
+        ],
+        "correct_answers": [
+            "Availability"
+        ]
+    },
+    {
+        "question_number": "Question 19",
+        "question": "Which of the following is a shared control between a client and AWS under the shared responsibility model?",
+        "options": [
+            "Physical controls",
+            "Patch management",
+            "Zone security",
+            "Data center auditing"
+        ],
+        "correct_answers": [
+            "Patch management"
+        ]
+    },
+    {
+        "question_number": "Question 20",
+        "question": "How should an application be created to function on the AWS Cloud in accordance with best practices?",
+        "options": [
+            "Use tightly coupled components.",
+            "Use loosely coupled components.",
+            "Use infrequently coupled components.",
+            "Use frequently coupled components."
+        ],
+        "correct_answers": [
+            "Use loosely coupled components."
+        ]
+    }
+]

@@ -1,0 +1,264 @@
+[
+    {
+        "question_number": "Question 481",
+        "question": "Which of the following services is in the category of AWS serverless platform?",
+        "options": [
+            "Amazon EMR.",
+            "Elastic Load Balancing.",
+            "AWS Lambda.",
+            "AWS Mobile Hub."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 482",
+        "question": "The use of what AWS feature or service allows companies to track and categorize spending on a detailed level?",
+        "options": [
+            "Cost allocation tags.",
+            "Consolidated billing.",
+            "AWS Budgets.",
+            "AWS Marketplace."
+        ],
+        "correct_answers": [
+            "Cost allocation tags."
+        ]
+    },
+    {
+        "question_number": "Question 483",
+        "question": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Trusted Advisor.",
+            "Consolidated billing.",
+            "Detailed billing."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 484",
+        "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
+        "options": [
+            "Cloud-native.",
+            "Partner network.",
+            "Hybrid architecture.",
+            "Infrastructure as a service."
+        ],
+        "correct_answers": [
+            "Hybrid architecture."
+        ]
+    },
+    {
+        "question_number": "Question 485",
+        "question": "What technology enables compute capacity to adjust as loads change?",
+        "options": [
+            "Load balancing.",
+            "Automatic failover.",
+            "Round robin.",
+            "Auto Scaling."
+        ],
+        "correct_answers": [
+            "Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 486",
+        "question": "Which AWS service is a managed NoSQL database?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon Aurora.",
+            "Amazon RDS for ManaDB."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 487",
+        "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+        "options": [
+            "Data centers contain regions.",
+            "Regions contain Availability Zones.",
+            "Availability Zones contain edge locations.",
+            "Edge locations contain regions."
+        ],
+        "correct_answers": [
+            "Regions contain Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 488",
+        "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
+        "options": [
+            "Using many instances in parallel.",
+            "Using a single large instance during off-peak hours.",
+            "Using dedicated hardware.",
+            "Using a large GPU instance type."
+        ],
+        "correct_answers": [
+            "Using many instances in parallel."
+        ]
+    },
+    {
+        "question_number": "Question 489",
+        "question": "Which AWS services can host a Microsoft SQL Server database? (Select TWO)",
+        "options": [
+            "Amazon EC2.",
+            "Amazon Relational Database Service (Amazon RDS).",
+            "Amazon Aurora.",
+            "Amazon Redshift.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon EC2.",
+            "Amazon Relational Database Service (Amazon RDS)."
+        ]
+    },
+    {
+        "question_number": "Question 490",
+        "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
+        "options": [
+            "API keys.",
+            "Access keys.",
+            "User names/Passwords.",
+            "SSH keys."
+        ],
+        "correct_answers": [
+            "Access keys."
+        ]
+    },
+    {
+        "question_number": "Question 491",
+        "question": "The user is fully responsible for which action when running workloads on AWS?",
+        "options": [
+            "Patching the infrastructure components.",
+            "Maintaining the underlying infrastructure components.",
+            "Maintaining physical and environmental controls.",
+            "Implementing controls to route application traffic."
+        ],
+        "correct_answers": [
+            "Patching the infrastructure components."
+        ]
+    },
+    {
+        "question_number": "Question 492",
+        "question": "Which AWS support plan includes a dedicated Technical Account Manager?",
+        "options": [
+            "Developer.",
+            "Enterprise.",
+            "Business.",
+            "Basic."
+        ],
+        "correct_answers": [
+            "Enterprise."
+        ]
+    },
+    {
+        "question_number": "Question 493",
+        "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+        "options": [
+            "Amazon Rekognition provides automatic watermarking of images.",
+            "Amazon Rekognition provides automatic detection of objects appearing in pictures.",
+            "Amazon Recognition provides the ability to resize millions of images automatically.",
+            "Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs."
+        ],
+        "correct_answers": [
+            "Amazon Rekognition provides automatic detection of objects appearing in pictures."
+        ]
+    },
+    {
+        "question_number": "Question 494",
+        "question": "Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Redshift.",
+            "AWS CloudTrail.",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 495",
+        "question": "Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?",
+        "options": [
+            "AWS manages the data stored in Amazon RDS tables.",
+            "AWS manages the maintenance of the operating system.",
+            "AWS automatically scales up instance types on demand.",
+            "AWS manages the database type."
+        ],
+        "correct_answers": [
+            "AWS automatically scales up instance types on demand."
+        ]
+    },
+    {
+        "question_number": "Question 496",
+        "question": "A company's web application currently has light dependencies on underlying components so when one component fails the entire web application fails. Applying which AWS Cloud design principle will address the current design issue?",
+        "options": [
+            "Implementing elasticity enabling the application to scale up or scale down as demand changes.",
+            "Enabling several EC2 instances to run in parallel to achieve better performance.",
+            "Focusing on decoupling components by isolating them and ensuring individual components can function when other components.",
+            "Doubling EC2 computing resources to increase system fault tolerance."
+        ],
+        "correct_answers": [
+            "Focusing on decoupling components by isolating them and ensuring individual components can function when other components."
+        ]
+    },
+    {
+        "question_number": "Question 497",
+        "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+        "options": [
+            "AWS Partner Network Technology Partners.",
+            "AWS Marketplace.",
+            "AWS Partner Network Consulting Partners.",
+            "AWS Service Catalog."
+        ],
+        "correct_answers": [
+            "AWS Partner Network Consulting Partners."
+        ]
+    },
+    {
+        "question_number": "Question 498",
+        "question": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
+        "options": [
+            "Amazon Glacier.",
+            "AWS Storage Gateway.",
+            "Amazon S3.",
+            "Amazon EBS."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 499",
+        "question": "Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?",
+        "options": [
+            "Implement automation.",
+            "Design for agility.",
+            "Design for failure.",
+            "Implement elasticity."
+        ],
+        "correct_answers": [
+            "Design for failure."
+        ]
+    },
+    {
+        "question_number": "Question 500",
+        "question": "Which service should a customer use to consolidate and centrally manage multiple AWS accounts?",
+        "options": [
+            "AWS IAM.",
+            "AWS Organizations.",
+            "AWS Schema Conversion Tool.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Organizations."
+        ]
+    }
+]

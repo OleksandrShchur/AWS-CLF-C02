@@ -1,0 +1,132 @@
+[
+    {
+        "question_number": "Question #161\nTopic 1",
+        "question": "A company is running a critical workload on an Amazon RDS DB instance. The company needs the DB instance to be highly available with a recovery time of less than 5 minutes.\n\nWhich solution will meet these requirements?",
+        "options": [
+            "A. Create a read replica of the DB instance.",
+            "B. Create a template of the DB instance by using AWS CloudFormation.",
+            "C. Take frequent snapshots of the DB instance. Store the snapshots in Amazon S3.",
+            "D. Modify the DB instance to be a Multi-AZ deployment."
+        ],
+        "correct_answers": [
+            "D. Modify the DB instance to be a Multi-AZ deployment."
+        ]
+    },
+    {
+        "question_number": "Question #162\nTopic 1",
+        "question": "A company plans to migrate its application to AWS and run the application on Amazon EC2 instances. The application will have continuous usage for 1 year.\n\nWhich EC2 instance purchasing option will meet these requirements MOST cost-effectively?",
+        "options": [
+            "A. Reserved Instances",
+            "B. Spot Instances",
+            "C. On-Demand Instances",
+            "D. Dedicated Hosts"
+        ],
+        "correct_answers": [
+            "A. Reserved Instances"
+        ]
+    },
+    {
+        "question_number": "Question #163\nTopic 1",
+        "question": "A company needs to transfer data between an Amazon S3 bucket and an on-premises application.\n\nWho is responsible for the security of this data, according to the AWS shared responsibility model?",
+        "options": [
+            "A. The company",
+            "B. AWS",
+            "C. Firewall vendor",
+            "D. AWS Marketplace partner"
+        ],
+        "correct_answers": [
+            "A. The company"
+        ]
+    },
+    {
+        "question_number": "Question #164\nTopic 1",
+        "question": "Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?",
+        "options": [
+            "A. Security",
+            "B. Reliability",
+            "C. Performance efficiency",
+            "D. Cost optimization"
+        ],
+        "correct_answers": [
+            "B. Reliability"
+        ]
+    },
+    {
+        "question_number": "Question #165\nTopic 1",
+        "question": "A company wants to identify Amazon S3 buckets that are shared with another AWS account.\n\nWhich AWS service or feature will meet these requirements?",
+        "options": [
+            "A. AWS Lake Formation",
+            "B. IAM credential report",
+            "C. Amazon CloudWatch",
+            "D. IAM Access Analyzer"
+        ],
+        "correct_answers": [
+            "D. IAM Access Analyzer"
+        ]
+    },
+    {
+        "question_number": "Question #166\nTopic 1",
+        "question": "Which AWS service gives users the ability to build interactive business intelligence dashboards that include machine learning insights?",
+        "options": [
+            "A. Amazon Athena",
+            "B. Amazon Kendra",
+            "C. Amazon QuickSight",
+            "D. Amazon Redshift"
+        ],
+        "correct_answers": [
+            "C. Amazon QuickSight"
+        ]
+    },
+    {
+        "question_number": "Question #167\nTopic 1",
+        "question": "Which of the following is an AWS value proposition that describes a user’s ability to scale infrastructure based on demand?",
+        "options": [
+            "A. Speed of innovation",
+            "B. Resource elasticity",
+            "C. Decoupled architecture",
+            "D. Global deployment"
+        ],
+        "correct_answers": [
+            "B. Resource elasticity"
+        ]
+    },
+    {
+        "question_number": "Question #168\nTopic 1",
+        "question": "Which action is a security best practice for access to sensitive data that is stored in an Amazon S3 bucket?",
+        "options": [
+            "A. Enable S3 Cross-Region Replication (CRR) on the S3 bucket.",
+            "B. Use IAM roles for applications that require access to the S3 bucket.",
+            "C. Configure AWS WAF to prevent unauthorized access to the S3 bucket.",
+            "D. Configure Amazon GuardDuty to prevent unauthorized access to the S3 bucket."
+        ],
+        "correct_answers": [
+            "B. Use IAM roles for applications that require access to the S3 bucket."
+        ]
+    },
+    {
+        "question_number": "Question #169\nTopic 1",
+        "question": "A company wants to know more about the benefits offered by cloud computing. The company wants to understand the operational advantage of agility. How does AWS provide agility for users?",
+        "options": [
+            "A. The ability the ensure high availability by deploying workloads to multiple regions",
+            "B. A pay-as-you-go model for many services and resources",
+            "C. The ability to transfer infrastructure management to the AWS Cloud",
+            "D. The ability to provision and deprovision resources quickly with minimal effort"
+        ],
+        "correct_answers": [
+            "D. The ability to provision and deprovision resources quickly with minimal effort"
+        ]
+    },
+    {
+        "question_number": "Question #170\nTopic 1",
+        "question": "A company needs a central user portal so that users can log in to third-party business applications that support Security Assertion Markup Language (SAML) 2.0.\n\nWhich AWS service will meet this requirement?",
+        "options": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. Amazon Cognito",
+            "C. AWS IAM Identity Center (AWS Single Sign-On)",
+            "D. AWS CLI"
+        ],
+        "correct_answers": [
+            "C. AWS IAM Identity Center (AWS Single Sign-On)"
+        ]
+    }
+]

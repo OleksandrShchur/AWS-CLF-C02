@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 121",
+        "question": "A company has business critical workloads hosted on AWS and they are unwilling to accept any downtime. Which of the following is a recommended best practice to protect their workloads in the event of an unexpected natural disaster?",
+        "options": [
+            "Replicate data across multiple Edge Locations worldwide and use Amazon CloudFront to perform automatic failover in the event of an outage.",
+            "Deploy AWS resources across multiple Availability Zones within the same AWS Region.",
+            "Create point-in-time backups in another subnet and recover this data when a disaster occurs.",
+            "Deploy AWS resources to another AWS Region and implement an Active-Active disaster recovery strategy."
+        ],
+        "correct_answers": [
+            "Deploy AWS resources to another AWS Region and implement an Active-Active disaster recovery strategy."
+        ]
+    },
+    {
+        "question_number": "Question 122",
+        "question": "Which statement is correct with regards to AWS service limits? (Choose TWO)",
+        "options": [
+            "You can contact AWS support to increase the service limits.",
+            "Each IAM user has the same service limit.",
+            "There are no service limits on AWS.",
+            "You can use the AWS Trusted Advisor to monitor your service limits.",
+            "The Amazon Simple Email Service is responsible for sending email notifications when usage approaches a service limit."
+        ],
+        "correct_answers": [
+            "You can contact AWS support to increase the service limits.",
+            "You can use the AWS Trusted Advisor to monitor your service limits."
+        ]
+    },
+    {
+        "question_number": "Question 123",
+        "question": "What is the AWS tool that enables you to use scripts to manage all AWS services and resources?",
+        "options": [
+            "AWS Console.",
+            "AWS Service Catalog.",
+            "AWS OpsWorks.",
+            "AWS CLI."
+        ],
+        "correct_answers": [
+            "AWS CLI."
+        ]
+    },
+    {
+        "question_number": "Question 124",
+        "question": "What are the connectivity options that can be used to build hybrid cloud architectures? (Choose TWO)",
+        "options": [
+            "AWS Artifact.",
+            "AWS Cloud9.",
+            "AWS Direct Connect.",
+            "AWS CloudTrail.",
+            "AWS VPN."
+        ],
+        "correct_answers": [
+            "AWS Direct Connect.",
+            "AWS VPN."
+        ]
+    },
+    {
+        "question_number": "Question 125",
+        "question": "A company has deployed a new web application on multiple Amazon EC2 instances. Which of the following should they use to ensure that the incoming HTTP traffic is distributed evenly across the instances?",
+        "options": [
+            "AWS EC2 Auto Recovery.",
+            "AWS Auto Scaling.",
+            "AWS Network Load Balancer.",
+            "AWS Application Load Balancer."
+        ],
+        "correct_answers": [
+            "AWS Application Load Balancer."
+        ]
+    },
+    {
+        "question_number": "Question 126",
+        "question": "Which of the following AWS offerings is a MySQL-compatible relational database service that can scale capacity automatically based on demand?",
+        "options": [
+            "Amazon Neptune.",
+            "Amazon Aurora.",
+            "Amazon RDS for SQL Server.",
+            "Amazon RDS for PostgreSQL."
+        ],
+        "correct_answers": [
+            "Amazon Aurora."
+        ]
+    },
+    {
+        "question_number": "Question 127",
+        "question": "Which of the following can help protect your EC2 instances from DDoS attacks? (Choose TWO)",
+        "options": [
+            "AWS CloudHSM.",
+            "Security Groups.",
+            "AWS Batch.",
+            "AWS IAM.",
+            "Network Access Control Lists (Network ACLs)."
+        ],
+        "correct_answers": [
+            "Security Groups.",
+            "Network Access Control Lists (Network ACLs)."
+        ]
+    },
+    {
+        "question_number": "Question 128",
+        "question": "What is the AWS data warehouse service that supports a high level of query performance on large amounts of datasets?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon Kinesis.",
+            "Amazon DynamoDB.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon Redshift."
+        ]
+    },
+    {
+        "question_number": "Question 129",
+        "question": "Which of the following should be considered when performing a TCO analysis to compare the costs of running an application on AWS instead of on-premises?",
+        "options": [
+            "Application development.",
+            "Market research.",
+            "Business analysis.",
+            "Physical hardware."
+        ],
+        "correct_answers": [
+            "Physical hardware."
+        ]
+    },
+    {
+        "question_number": "Question 130",
+        "question": "How are AWS customers billed for Linux-based Amazon EC2 usage?",
+        "options": [
+            "EC2 instances will be billed on one second increments, with a minimum of one minute.",
+            "EC2 instances will be billed on one hour increments, with a minimum of one day.",
+            "EC2 instances will be billed on one minute increments, with a minimum of one hour.",
+            "EC2 instances will be billed on one day increments, with a minimum of one month."
+        ],
+        "correct_answers": [
+            "EC2 instances will be billed on one second increments, with a minimum of one minute."
+        ]
+    },
+    {
+        "question_number": "Question 131",
+        "question": "Which of the following will impact the price paid for an EC2 instance? (Choose TWO)",
+        "options": [
+            "Instance type.",
+            "The Availability Zone where the instance is provisioned.",
+            "Load balancing.",
+            "Number of buckets.",
+            "Number of private IPs."
+        ],
+        "correct_answers": [
+            "Instance type.",
+            "The Availability Zone where the instance is provisioned."
+        ]
+    },
+    {
+        "question_number": "Question 132",
+        "question": "A customer spent a lot of time configuring a newly deployed Amazon EC2 instance. After the workload increases, the customer decides to provision another EC2 instance with an identical configuration. How can the customer achieve this?",
+        "options": [
+            "By creating an AWS Config template from the old instance and launching a new instance from it.",
+            "By creating an EBS Snapshot of the old instance.",
+            "By installing Aurora on EC2 and launching a new instance from it.",
+            "By creating an AMI from the old instance and launching a new instance from it."
+        ],
+        "correct_answers": [
+            "By creating an AMI from the old instance and launching a new instance from it."
+        ]
+    },
+    {
+        "question_number": "Question 133",
+        "question": "A company uses AWS Organizations to manage all of its AWS accounts. Which of the following allows the company to restrict what services and actions are allowed in each individual account?",
+        "options": [
+            "IAM Principals.",
+            "AWS Service Control Policies (SCPs).",
+            "IAM policies.",
+            "AWS Fargate."
+        ],
+        "correct_answers": [
+            "AWS Service Control Policies (SCPs)."
+        ]
+    },
+    {
+        "question_number": "Question 134",
+        "question": "Which of the following statements describes the AWS Cloud's agility?",
+        "options": [
+            "AWS allows you to host your applications in multiple regions around the world.",
+            "AWS provides customizable hardware at the lowest possible cost.",
+            "AWS allows you to provision resources in minutes.",
+            "AWS allows you to pay upfront to reduce costs."
+        ],
+        "correct_answers": [
+            "AWS allows you to provision resources in minutes."
+        ]
+    },
+    {
+        "question_number": "Question 135",
+        "question": "What are the benefits of using the Amazon Relational Database Service? (Choose TWO)",
+        "options": [
+            "Lower administrative burden.",
+            "Complete control over the underlying host.",
+            "Resizable compute capacity.",
+            "Scales automatically to larger or smaller instance types.",
+            "Supports the document and key-value data structure."
+        ],
+        "correct_answers": [
+            "Lower administrative burden.",
+            "Resizable compute capacity."
+        ]
+    },
+    {
+        "question_number": "Question 136",
+        "question": "What is the connectivity option that uses Internet Protocol Security (IPSec) to establish encrypted connectivity between an on-premises network and the AWS Cloud?",
+        "options": [
+            "Internet Gateway.",
+            "AWS IQ.",
+            "AWS Direct Connect.",
+            "AWS Site-to-Site VPN."
+        ],
+        "correct_answers": [
+            "AWS Site-to-Site VPN."
+        ]
+    },
+    {
+        "question_number": "Question 137",
+        "question": "What is the minimum level of AWS support that provides 24x7 access to technical support engineers via phone and chat?",
+        "options": [
+            "Enterprise Support.",
+            "Developer Support.",
+            "Basic Support.",
+            "Business Support."
+        ],
+        "correct_answers": [
+            "Business Support."
+        ]
+    },
+    {
+        "question_number": "Question 138",
+        "question": "Which of the following is used to control network traffic in AWS? (Choose TWO)",
+        "options": [
+            "Network Access Control Lists (NACLs).",
+            "Key Pairs.",
+            "Access Keys.",
+            "IAM Policies.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "Network Access Control Lists (NACLs).",
+            "Security Groups."
+        ]
+    },
+    {
+        "question_number": "Question 139",
+        "question": "A company has developed a media transcoding application in AWS. The application is designed to recover quickly from hardware failures. Which one of the following types of instance would be the most cost-effective choice to use?",
+        "options": [
+            "Reserved instances.",
+            "Spot Instances.",
+            "On-Demand instances.",
+            "Dedicated instances."
+        ],
+        "correct_answers": [
+            "Spot Instances."
+        ]
+    },
+    {
+        "question_number": "Question 140",
+        "question": "Which AWS Service provides the current status of all AWS Services in all AWS Regions?",
+        "options": [
+            "AWS Service Health Dashboard.",
+            "AWS Management Console.",
+            "Amazon CloudWatch.",
+            "AWS Personal Health Dashboard."
+        ],
+        "correct_answers": [
+            "AWS Service Health Dashboard."
+        ]
+    }
+]

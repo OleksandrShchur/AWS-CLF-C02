@@ -1,0 +1,278 @@
+[
+    {
+        "question_number": "Question 241",
+        "question": "An organization has a legacy application designed using monolithic-based architecture. Which AWS Service can be used to decouple the components of the application?",
+        "options": [
+            "Amazon SQS.",
+            "Virtual Private Gateway.",
+            "AWS Artifact.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Amazon SQS."
+        ]
+    },
+    {
+        "question_number": "Question 242",
+        "question": "Which of the following can be used to enable the Virtual Multi-Factor Authentication? (Choose TWO)",
+        "options": [
+            "Amazon Connect.",
+            "AWS CLI.",
+            "AWS Identity and Access Management (IAM).",
+            "Amazon SNS.",
+            "Amazon Virtual Private Cloud."
+        ],
+        "correct_answers": [
+            "AWS CLI.",
+            "AWS Identity and Access Management (IAM)."
+        ]
+    },
+    {
+        "question_number": "Question 243",
+        "question": "According to best practices, which of the below options is best suited for processing a large number of binary files?",
+        "options": [
+            "Vertically scaling EC2 instances.",
+            "Running RDS instances in parallel.",
+            "Vertically scaling RDS instances.",
+            "Running EC2 instances in parallel."
+        ],
+        "correct_answers": [
+            "Running EC2 instances in parallel."
+        ]
+    },
+    {
+        "question_number": "Question 244",
+        "question": "A company is planning to use Amazon S3 and Amazon CloudFront to distribute its video courses globally. What tool can the company use to estimate the costs of these services?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Pricing Calculator.",
+            "AWS Budgets.",
+            "AWS Cost & Usage Report."
+        ],
+        "correct_answers": [
+            "AWS Pricing Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 245",
+        "question": "What should you do if you see resources, which you don't remember creating, in the AWS Management Console? (Choose TWO)",
+        "options": [
+            "Stop all running services and open an investigation.",
+            "Give your root account password to AWS Support so that they can assistin troubleshooting and securing the account.",
+            "Check the AWS CloudTrail logs and delete all IAM users that have access to your resources.",
+            "Open an investigation and delete any potentially compromised IAM users.",
+            "Change your AWS root account password and the passwords of any IAM users."
+        ],
+        "correct_answers": [
+            "Open an investigation and delete any potentially compromised IAM users.",
+            "Change your AWS root account password and the passwords of any IAM users."
+        ]
+    },
+    {
+        "question_number": "Question 246",
+        "question": "A key practice when designing solutions on AWS is to minimize dependencies between components so that the failure of a single component does not impact other components. What is this practice called?",
+        "options": [
+            "Elastic coupling.",
+            "Loosely coupling.",
+            "Scalable coupling.",
+            "Tightly coupling."
+        ],
+        "correct_answers": [
+            "Loosely coupling."
+        ]
+    },
+    {
+        "question_number": "Question 247",
+        "question": "Which AWS Service offers an NFS file system that can be mounted concurrently from multiple EC2 instances?",
+        "options": [
+            "Amazon Elastic File System.",
+            "Amazon Simple Storage Service.",
+            "Amazon Elastic Block Store.",
+            "AWS Storage Gateway."
+        ],
+        "correct_answers": [
+            "Amazon Elastic File System."
+        ]
+    },
+    {
+        "question_number": "Question 248",
+        "question": "Availability Zones within a Region are connected over low-latency links. Which of the following is a benefit of these links?",
+        "options": [
+            "Create private connection to your data center.",
+            "Achieve global high availability.",
+            "Automate the process of provisioning new compute resources.",
+            "Make synchronous replication of your data possible."
+        ],
+        "correct_answers": [
+            "Make synchronous replication of your data possible."
+        ]
+    },
+    {
+        "question_number": "Question 249",
+        "question": "Which of the following are true regarding the languages that are supported on AWS Lambda? (Choose TWO)",
+        "options": [
+            "Lambda only supports Python and Node.js, but third party plugins are available to convert code in other languages to these formats.",
+            "Lambda natively supports a number of programming languages such as Node.js, Python, and Java.",
+            "Lambda is AWS' proprietary programming language for microservices.",
+            "Lambda doesn't support programming languages; it is a serverless compute service.",
+            "Lambda can support any programming language using an API."
+        ],
+        "correct_answers": [
+            "Lambda natively supports a number of programming languages such as Node.js, Python, and Java.",
+            "Lambda can support any programming language using an API."
+        ]
+    },
+    {
+        "question_number": "Question 250",
+        "question": "What are the capabilities of AWS X-Ray? (Choose TWO)",
+        "options": [
+            "Automatically decouples application components.",
+            "Facilitates tracking of user requests to identify application issues.",
+            "Helps improve application performance.",
+            "Deploys applications to Amazon EC2 instances.",
+            "Deploys applications to on-premises servers."
+        ],
+        "correct_answers": [
+            "Facilitates tracking of user requests to identify application issues.",
+            "Helps improve application performance."
+        ]
+    },
+    {
+        "question_number": "Question 251",
+        "question": "Which of the following is true regarding the AWS availability zones and edge locations?",
+        "options": [
+            "Edge locations are located in separate Availability Zones worldwide to serve global customers.",
+            "An availability zone exists within an edge location to distribute content globally with low latency.",
+            "An Availability Zone is a geographic location where AWS provides multiple, physically separated and isolated edge locations.",
+            "An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide."
+        ],
+        "correct_answers": [
+            "An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide."
+        ]
+    },
+    {
+        "question_number": "Question 252",
+        "question": "Which features are included in the AWS Business Support Plan? (Choose TWO)",
+        "options": [
+            "24x7 access to customer service.",
+            "Access to Cloud Support Engineers via email only during business hours.",
+            "Access to the Infrastructure Event Management (IEM) feature for additional fee.",
+            "24x7 access to the TAM feature.",
+            "Partial access to the core Trusted Advisor checks."
+        ],
+        "correct_answers": [
+            "24x7 access to customer service.",
+            "Access to the Infrastructure Event Management (IEM) feature for additional fee."
+        ]
+    },
+    {
+        "question_number": "Question 253",
+        "question": "A company is developing a mobile application and wants to allow users to use their Amazon, Apple, Facebook, or Google identities to authenticate to the application. Which AWS Service should the company use for this purpose?",
+        "options": [
+            "Amazon GuardDuty.",
+            "Amazon Personalize.",
+            "Amazon Cognito.",
+            "AWS IAM."
+        ],
+        "correct_answers": [
+            "Amazon Cognito."
+        ]
+    },
+    {
+        "question_number": "Question 254",
+        "question": "Which AWS Service allows customers to create a template that programmatically defines policies and configurations of all AWS resources as code and so that the same template can be reused among multiple projects?",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Config.",
+            "AWS CloudTrail.",
+            "AWS Auto Scaling."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation."
+        ]
+    },
+    {
+        "question_number": "Question 255",
+        "question": "Which of the following are advantages of using AWS as a cloud computing provider? (Choose TWO)",
+        "options": [
+            "Eliminates the need to monitor servers and applications.",
+            "Manages all the compliance and auditing tasks.",
+            "Provides custom hardware to meet any specification.",
+            "Eliminates the need to guess on infrastructure capacity needs.",
+            "Enables customers to trade their capital expenses for operational expenses."
+        ],
+        "correct_answers": [
+            "Eliminates the need to guess on infrastructure capacity needs.",
+            "Enables customers to trade their capital expenses for operational expenses."
+        ]
+    },
+    {
+        "question_number": "Question 256",
+        "question": "A customer is planning to migrate their Microsoft SQL Server databases to AWS. Which AWS Services can the customer use to run their Microsoft SQL Server database on AWS? (Choose TWO)",
+        "options": [
+            "AWS Fargate.",
+            "Amazon Elastic Compute Cloud.",
+            "Amazon RDS.",
+            "AWS Database Migration service (DMS).",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "Amazon Elastic Compute Cloud.",
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 257",
+        "question": "Which AWS Service can perform health checks on Amazon EC2 instances?",
+        "options": [
+            "AWS CloudFormation.",
+            "Amazon Route 53.",
+            "Amazon Chime.",
+            "Amazon Aurora."
+        ],
+        "correct_answers": [
+            "Amazon Route 53."
+        ]
+    },
+    {
+        "question_number": "Question 258",
+        "question": "A company is developing an application that will leverage facial recognition to automate photo tagging. Which AWS Service should the company use for facial recognition?",
+        "options": [
+            "Amazon Comprehend.",
+            "AWS IAM.",
+            "Amazon Polly.",
+            "Amazon Rekognition."
+        ],
+        "correct_answers": [
+            "Amazon Rekognition."
+        ]
+    },
+    {
+        "question_number": "Question 259",
+        "question": "Which of the following are examples of AWS-managed databases? (Choose TWO)",
+        "options": [
+            "Amazon Neptune.",
+            "Amazon CloudSearch.",
+            "Microsoft SQL Server on Amazon EC2.",
+            "MySQL on Amazon EC2.",
+            "Amazon RDS for MySQL."
+        ],
+        "correct_answers": [
+            "Amazon Neptune.",
+            "Amazon RDS for MySQL."
+        ]
+    },
+    {
+        "question_number": "Question 260",
+        "question": "A company's AWS workflow requires that it periodically perform large-scale image and video processing jobs. The customer is seeking to minimize cost and has stated that the amount of time it takes to process these jobs is not critical, but that cost minimization is the most important factor in designing the solution. Which EC2 instance class is best suited for this processing?",
+        "options": [
+            "EC2 On-Demand Instances.",
+            "EC2 Reserved Instances - No Upfront.",
+            "EC2 Spot Instances.",
+            "EC2 Reserved Instances - All Upfront."
+        ],
+        "correct_answers": [
+            "EC2 Spot Instances."
+        ]
+    }
+]

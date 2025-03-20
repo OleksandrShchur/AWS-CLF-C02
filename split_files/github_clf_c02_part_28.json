@@ -1,0 +1,270 @@
+[
+    {
+        "question_number": "Question 541",
+        "question": "One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:",
+        "options": [
+            "It allows the business to eliminate IT bills.",
+            "It allows the business to put a server in each customer's data center.",
+            "It allows the business to focus on business activities.",
+            "It allows the business to leave servers unpatched."
+        ],
+        "correct_answers": [
+            "It allows the business to focus on business activities."
+        ]
+    },
+    {
+        "question_number": "Question 542",
+        "question": "How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?",
+        "options": [
+            "AWS Senior Support Engineers.",
+            "AWS Technical Account Managers.",
+            "AWS Trusted Advisor.",
+            "AWS Discussion Forums."
+        ],
+        "correct_answers": [
+            "AWS Discussion Forums."
+        ]
+    },
+    {
+        "question_number": "Question 543",
+        "question": "How can a user protect against AWS service disruptions if a natural disaster affects an entire geographic area?",
+        "options": [
+            "Deploy applications across multiple Availability Zones within an AWS Region.",
+            "Use a hybrid cloud computing deployment model within the geographic area.",
+            "Deploy applications across multiple AWS Regions.",
+            "Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions."
+        ],
+        "correct_answers": [
+            "Deploy applications across multiple AWS Regions."
+        ]
+    },
+    {
+        "question_number": "Question 544",
+        "question": "Which activity is a customer responsibility in the AWS Cloud according to the AWS shared responsibility model?",
+        "options": [
+            "Ensuring network connectivity from AWS to the internet.",
+            "Patching and fixing flaws within the AWS Cloud infrastructure.",
+            "Ensuring the physical security of cloud data centers.",
+            "Ensuring Amazon EBS volumes are backed up."
+        ],
+        "correct_answers": [
+            "Ensuring Amazon EBS volumes are backed up."
+        ]
+    },
+    {
+        "question_number": "Question 545",
+        "question": "In which scenario should Amazon EC2 Spot Instances be used?",
+        "options": [
+            "A company wants to move its main website to AWS from an on-premises web server.",
+            "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.",
+            "A company's heavily used legacy database is currently running on-premises.",
+            "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
+        ],
+        "correct_answers": [
+            "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
+        ]
+    },
+    {
+        "question_number": "Question 546",
+        "question": "A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer's decision? (Select TWO)",
+        "options": [
+            "Reduced latency to users.",
+            "The application's presentation in the local language.",
+            "Data sovereignty compliance.",
+            "Cooling costs in hotter climates.",
+            "Proximity to the customer's office for on-site visits."
+        ],
+        "correct_answers": [
+            "Reduced latency to users.",
+            "Data sovereignty compliance."
+        ]
+    },
+    {
+        "question_number": "Question 547",
+        "question": "Which AWS service provides alerts when an AWS event may impact a company's AWS resources?",
+        "options": [
+            "AWS Personal Health Dashboard.",
+            "AWS Service Health Dashboard.",
+            "AWS Trusted Advisor.",
+            "AWS Infrastructure Event Management."
+        ],
+        "correct_answers": [
+            "AWS Personal Health Dashboard."
+        ]
+    },
+    {
+        "question_number": "Question 548",
+        "question": "Which disaster recovery scenario offers the lowest probability of down time?",
+        "options": [
+            "Backup and restore.",
+            "Pilot light.",
+            "Warm standby.",
+            "Multi-site active-active."
+        ],
+        "correct_answers": [
+            "Multi-site active-active."
+        ]
+    },
+    {
+        "question_number": "Question 549",
+        "question": "Which service's PRIMARY purpose is software version control?",
+        "options": [
+            "Amazon CodeStar.",
+            "AWS Command Line Interface (AWS CLI).",
+            "Amazon Cognito.",
+            "AWS CodeCommit."
+        ],
+        "correct_answers": [
+            "AWS CodeCommit."
+        ]
+    },
+    {
+        "question_number": "Question 550",
+        "question": "How can a customer increase security to AWS account logons? (Select TWO)",
+        "options": [
+            "Configure AWS Certificate Manager",
+            "Enable Multi-Factor Authentication (MFA)",
+            "Use Amazon Cognito to manage access",
+            "Configure a strong password policy",
+            "Enable AWS Organizations"
+        ],
+        "correct_answers": [
+            "Enable Multi-Factor Authentication (MFA)",
+            "Configure a strong password policy"
+        ]
+    },
+    {
+        "question_number": "Question 551",
+        "question": "Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
+        "options": [
+            "Availability Zone",
+            "Edge location",
+            "Region",
+            "Private networking"
+        ],
+        "correct_answers": [
+            "Availability Zone"
+        ]
+    },
+    {
+        "question_number": "Question 552",
+        "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+        "options": [
+            "The ability to bid for a lower hourly cost.",
+            "Paying a daily rate regardless of time used.",
+            "Paying only for time used.",
+            "Pre-paying for instances and paying a lower hourly rate."
+        ],
+        "correct_answers": [
+            "Paying only for time used."
+        ]
+    },
+    {
+        "question_number": "Question 553",
+        "question": "What can assist in evaluating an application for migration to the cloud? (Select TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Professional Services.",
+            "AWS Systems Manager.",
+            "AWS Partner Network (APN).",
+            "AWS Secrets Manager."
+        ],
+        "correct_answers": [
+            "AWS Professional Services.",
+            "AWS Partner Network (APN)."
+        ]
+    },
+    {
+        "question_number": "Question 554",
+        "question": "A characteristic of edge locations is that they:",
+        "options": [
+            "Host Amazon EC2 instances closer to users.",
+            "Help lower latency and improve performance for users.",
+            "Cache frequently changing data without reaching the origin server.",
+            "Refresh data changes daily."
+        ],
+        "correct_answers": [
+            "Cache frequently changing data without reaching the origin server."
+        ]
+    },
+    {
+        "question_number": "Question 555",
+        "question": "Which of the following are valid ways for a customer to interact with AWS services? (Select TWO)",
+        "options": [
+            "Command line interface.",
+            "On-premises.",
+            "Software Development Kits.",
+            "Software-as-a-service.",
+            "Hybrid."
+        ],
+        "correct_answers": [
+            "Command line interface.",
+            "Software Development Kits."
+        ]
+    },
+    {
+        "question_number": "Question 556",
+        "question": "What is a value proposition of the AWS Cloud?",
+        "options": [
+            "AWS is responsible for security in the AWS Cloud.",
+            "No long-term contract is required.",
+            "Provision new servers in days.",
+            "AWS manages user applications in the AWS Cloud."
+        ],
+        "correct_answers": [
+            "No long-term contract is required."
+        ]
+    },
+    {
+        "question_number": "Question 557",
+        "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame. Which pricing construct would provide the MOST cost-effective solution?",
+        "options": [
+            "Amazon EC2 Spot Instances.",
+            "Amazon EC2 Dedicated Instances.",
+            "Amazon EC2 On-Demand Instances.",
+            "Amazon EC2 Reserved Instances."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Reserved Instances."
+        ]
+    },
+    {
+        "question_number": "Question 558",
+        "question": "Which AWS service is used to track record, and audit configuration changes made to AWS resources?",
+        "options": [
+            "AWS Shield.",
+            "AWS Config.",
+            "AWS IAM.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 559",
+        "question": "Which feature of the AWS Cloud will support an international company's requirement for low latency to all of its customers?",
+        "options": [
+            "Fault tolerance.",
+            "Global reach.",
+            "Pay-as-you-go pricing.",
+            "High availability."
+        ],
+        "correct_answers": [
+            "Global reach."
+        ]
+    },
+    {
+        "question_number": "Question 560",
+        "question": "How can one AWS account use Reserved Instances from another AWS account?",
+        "options": [
+            "By using Amazon EC2 Dedicated Instances.",
+            "By using AWS Organizations consolidated billing.",
+            "By using the AWS Cost Explorer tool.",
+            "By using AWS Budgets."
+        ],
+        "correct_answers": [
+            "By using AWS Organizations consolidated billing."
+        ]
+    }
+]

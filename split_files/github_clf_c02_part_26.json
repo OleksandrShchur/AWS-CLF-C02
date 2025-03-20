@@ -1,0 +1,276 @@
+[
+    {
+        "question_number": "Question 501",
+        "question": "How can a company reduce its Total Cost of Ownership (TCO) using AWS?",
+        "options": [
+            "By minimizing large capital expenditures.",
+            "By having no responsibility for third-party license costs.",
+            "By having no operational expenditures.",
+            "By having AWS manage applications."
+        ],
+        "correct_answers": [
+            "By minimizing large capital expenditures."
+        ]
+    },
+    {
+        "question_number": "Question 502",
+        "question": "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Online Tech Talks.",
+            "AWS Blog.",
+            "AWS Forums.",
+            "AWS Classroom Training."
+        ],
+        "correct_answers": [
+            "AWS Online Tech Talks.",
+            "AWS Classroom Training."
+        ]
+    },
+    {
+        "question_number": "Question 503",
+        "question": "Which of the following will enhance the security of access to the AWS Management Console'? (Select TWO)",
+        "options": [
+            "AWS Secrets Manager.",
+            "AWS Certificate Manager.",
+            "AWS Multi-Factor Authentication (AWS MFA).",
+            "Security groups.",
+            "Password policies."
+        ],
+        "correct_answers": [
+            "AWS Multi-Factor Authentication (AWS MFA).",
+            "Password policies."
+        ]
+    },
+    {
+        "question_number": "Question 504",
+        "question": "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO)",
+        "options": [
+            "Amazon CloudFront distributions.",
+            "Amazon Route 53.",
+            "Security Groups.",
+            "Subnets.",
+            "Elastic Load Balancing."
+        ],
+        "correct_answers": [
+            "Security Groups.",
+            "Subnets."
+        ]
+    },
+    {
+        "question_number": "Question 505",
+        "question": "For which auditing process does AWS have sole responsibility?",
+        "options": [
+            "AWS IAM policies.",
+            "Physical security.",
+            "Amazon S3 bucket policies.",
+            "AWS CloudTrail Logs."
+        ],
+        "correct_answers": [
+            "Physical security."
+        ]
+    },
+    {
+        "question_number": "Question 506",
+        "question": "Which of the following are advantages of AWS consolidated billing? (Select TWO)",
+        "options": [
+            "The ability to receive one bill for multiple accounts.",
+            "Service limits increasing by default in all accounts.",
+            "A fixed discount on the monthly bill.",
+            "Potential volume discounts, as usage in all accounts is combined.",
+            "The automatic extension of the master account's AWS support plan to all accounts."
+        ],
+        "correct_answers": [
+            "The ability to receive one bill for multiple accounts.",
+            "Potential volume discounts, as usage in all accounts is combined."
+        ]
+    },
+    {
+        "question_number": "Question 507",
+        "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO)",
+        "options": [
+            "Patching databases software.",
+            "Testing application releases.",
+            "Backing up databases.",
+            "Creating database schema.",
+            "Running penetration tests."
+        ],
+        "correct_answers": [
+            "Patching databases software.",
+            "Backing up databases."
+        ]
+    },
+    {
+        "question_number": "Question 508",
+        "question": "A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?",
+        "options": [
+            "Contact an AWS Account Manager to sign a new contract.",
+            "Move an Availability Zone to the new Region.",
+            "Begin deploying resources in the second Region.",
+            "Download the AWS Management Console for the new Region."
+        ],
+        "correct_answers": [
+            "Begin deploying resources in the second Region."
+        ]
+    },
+    {
+        "question_number": "Question 509",
+        "question": "Why is it beneficial to use Elastic Load Balancers with applications?",
+        "options": [
+            "They allow for the conversion from Application Load.",
+            "Balancers to Classic Load Balancers.",
+            "They are capable of handling constant changes in network traffic patterns.",
+            "They automatically adjust capacity. They are provided at no charge to users."
+        ],
+        "correct_answers": [
+            "They are capable of handling constant changes in network traffic patterns."
+        ]
+    },
+    {
+        "question_number": "Question 510",
+        "question": "Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?",
+        "options": [
+            "Enterprise.",
+            "Business.",
+            "Developer",
+            "Basic"
+        ],
+        "correct_answers": [
+            "Business."
+        ]
+    },
+    {
+        "question_number": "Question 511",
+        "question": "What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?",
+        "options": [
+            "Amazon S3.",
+            "Amazon Glacier.",
+            "Amazon EBS.",
+            "Amazon EC2 Instance Store."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 512",
+        "question": "What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?",
+        "options": [
+            "AWS Enterprise Support.",
+            "AWS Solutions Architects.",
+            "AWS Professional Services.",
+            "AWS Account Managers."
+        ],
+        "correct_answers": [
+            "AWS Professional Services."
+        ]
+    },
+    {
+        "question_number": "Question 513",
+        "question": "A company needs 24/7 phone email and chat access with a response time of less than 1 hour if a production system has a service interruption. Which AWS Support plan meets these requirements at the LOWEST cost?",
+        "options": [
+            "Basic.",
+            "Developer.",
+            "Business.",
+            "Enterprise."
+        ],
+        "correct_answers": [
+            "Business."
+        ]
+    },
+    {
+        "question_number": "Question 514",
+        "question": "If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?",
+        "options": [
+            "AWS Config.",
+            "AWS Trusted Advisor.",
+            "Amazon CloudWatch.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 515",
+        "question": "How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Select TWO)",
+        "options": [
+            "It identifies software vulnerabilities in applications running on AWS.",
+            "It provides a list of cost optimization recommendations based on current AWS usage.",
+            "It detects potential security vulnerabilities caused by permissions settings on account resources.",
+            "It automatically corrects potential security issues caused by permissions settings on account resources.",
+            "It provides proactive alerting whenever an Amazon EC2 instance has been compromised."
+        ],
+        "correct_answers": [
+            "It provides a list of cost optimization recommendations based on current AWS usage.",
+            "It detects potential security vulnerabilities caused by permissions settings on account resources."
+        ]
+    },
+    {
+        "question_number": "Question 516",
+        "question": "Which AWS managed service is used to host databases?",
+        "options": [
+            "AWS Batch.",
+            "AWS Artifact.",
+            "AWS Data Pipeline.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 517",
+        "question": "Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?",
+        "options": [
+            "IAM group.",
+            "IAM user.",
+            "IAM role.",
+            "IAM policy."
+        ],
+        "correct_answers": [
+            "IAM user."
+        ]
+    },
+    {
+        "question_number": "Question 518",
+        "question": "Under the shared responsibility model, which of the following is the customer responsible for?",
+        "options": [
+            "Ensuring that disk drives are wiped after use.",
+            "Ensuring that firmware is updated on hardware devices.",
+            "Ensuring that data is encrypted at rest.",
+            "Ensuring that network cables are category six or higher."
+        ],
+        "correct_answers": [
+            "Ensuring that data is encrypted at rest."
+        ]
+    },
+    {
+        "question_number": "Question 519",
+        "question": "Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?",
+        "options": [
+            "Amazon S3.",
+            "Amazon Glacier.",
+            "Amazon EBS.",
+            "Amazon EFS."
+        ],
+        "correct_answers": [
+            "Amazon EFS."
+        ]
+    },
+    {
+        "question_number": "Question 520",
+        "question": "What credential components are required to gain programmatic access to an AWS account? (Select TWO)",
+        "options": [
+            "An access key ID.",
+            "A primary key.",
+            "A secret access key.",
+            "A user ID.",
+            "A secondary key."
+        ],
+        "correct_answers": [
+            "An access key ID.",
+            "A secret access key."
+        ]
+    }
+]

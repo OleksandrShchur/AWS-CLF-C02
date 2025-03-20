@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question 401",
+        "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+        "options": [
+            "AWS Well-Architected Framework documentation.",
+            "Amazon CloudFront.",
+            "AWS CodeCommit.",
+            "AWS Quick Start reference deployments."
+        ],
+        "correct_answers": [
+            "AWS Quick Start reference deployments."
+        ]
+    },
+    {
+        "question_number": "Question 402",
+        "question": "What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)?",
+        "options": [
+            "It simplifies relational database administration tasks.",
+            "It provides 99.99999999999% reliability and durability.",
+            "It automatically scales databases for loads.",
+            "It enabled users to dynamically adjust CPU and RAM resources."
+        ],
+        "correct_answers": [
+            "It simplifies relational database administration tasks."
+        ]
+    },
+    {
+        "question_number": "Question 403",
+        "question": "Which of the following AWS Cloud services can be used to run a customer-managed relational database?",
+        "options": [
+            "Amazon EC2.",
+            "Amazon Route 53.",
+            "Amazon ElastiCache.",
+            "Amazon DynamoDB."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 404",
+        "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability. Which action should the user take?",
+        "options": [
+            "Launch the instances across multiple Availability Zones in a single AWS Region.",
+            "Launch the instances as EC2 Reserved Instances in the same AWS Region and the same Availability Zone.",
+            "Launch the instances in multiple AWS Regions but in the same Availability Zone.",
+            "Launch the instances as EC2 Spot Instances in the same AWS Region but in different Availability Zones."
+        ],
+        "correct_answers": [
+            "Launch the instances across multiple Availability Zones in a single AWS Region."
+        ]
+    },
+    {
+        "question_number": "Question 405",
+        "question": "Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?",
+        "options": [
+            "A public and private key-pair.",
+            "Amazon Inspector.",
+            "AWS Identity and Access Management (IAM) policies.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "AWS Identity and Access Management (IAM) policies."
+        ]
+    },
+    {
+        "question_number": "Question 406",
+        "question": "Which AWS service allows companies to connect an Amazon VPC to an on-premises data center?",
+        "options": [
+            "AWS VPN.",
+            "Amazon Redshift.",
+            "API Gateway.",
+            "Amazon Direct Connect."
+        ],
+        "correct_answers": [
+            "AWS VPN."
+        ]
+    },
+    {
+        "question_number": "Question 407",
+        "question": "Which AWS service of feature can be used to monitor CPU usage?",
+        "options": [
+            "AWS CloudTrail.",
+            "VPC Flow Logs.",
+            "Amazon CloudWatch.",
+            "AWSConfig."
+        ],
+        "correct_answers": [
+            "Amazon CloudWatch."
+        ]
+    },
+    {
+        "question_number": "Question 408",
+        "question": "Which task is AWS responsible for in the shared responsibility model for security and compliance?",
+        "options": [
+            "Granting access to individuals and services.",
+            "Encrypting data in transit.",
+            "Updating Amazon EC2 host firmware.",
+            "Updating operating systems."
+        ],
+        "correct_answers": [
+            "Updating Amazon EC2 host firmware."
+        ]
+    },
+    {
+        "question_number": "Question 409",
+        "question": "Which of the following security-related actions are available at no cost?",
+        "options": [
+            "Calling AWS Support.",
+            "Contacting AWS Professional Services to request a workshop.",
+            "Accessing forums, blogs, and whitepapers.",
+            "Attending AWS classes at a local university."
+        ],
+        "correct_answers": [
+            "Accessing forums, blogs, and whitepapers."
+        ]
+    },
+    {
+        "question_number": "Question 410",
+        "question": "Which storage service can be used as a low-cost option for hosting static websites?",
+        "options": [
+            "Amazon Glacier.",
+            "Amazon DynamoDB.",
+            "Amazon Elastic File System (Amazon EFS).",
+            "Amazon Simple Storage Service (Amazon S3)."
+        ],
+        "correct_answers": [
+            "Amazon Simple Storage Service (Amazon S3)."
+        ]
+    },
+    {
+        "question_number": "Question 411",
+        "question": "According to the AWS shared responsibility model what is the sole responsibility of AWS?",
+        "options": [
+            "Application security.",
+            "Edge location management.",
+            "Patch management.",
+            "Client-side data."
+        ],
+        "correct_answers": [
+            "Edge location management."
+        ]
+    },
+    {
+        "question_number": "Question 412",
+        "question": "Which of the following are pillars of the AWS Well-Architected Framework? (Select TWO)",
+        "options": [
+            "Multiple Availability Zones.",
+            "Performance efficiency.",
+            "Security.",
+            "Encryption usage.",
+            "High availability."
+        ],
+        "correct_answers": [
+            "Performance efficiency.",
+            "Security."
+        ]
+    },
+    {
+        "question_number": "Question 413",
+        "question": "Which AWS service identifies security groups that allow unrestricted access to a user's AWS resources?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector.",
+            "Amazon CloudWatch.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 414",
+        "question": "Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Select TWO)",
+        "options": [
+            "Use manual monitoring.",
+            "Use fixed servers.",
+            "Implement loose coupling.",
+            "Rely on individual components.",
+            "Design for scalability."
+        ],
+        "correct_answers": [
+            "Implement loose coupling.",
+            "Design for scalability."
+        ]
+    },
+    {
+        "question_number": "Question 415",
+        "question": "When architecting cloud applications, which of the following are a key design principle?",
+        "options": [
+            "Use the largest instance possible.",
+            "Provision capacity for peak load.",
+            "Use the Scrum development process.",
+            "Implement elasticity."
+        ],
+        "correct_answers": [
+            "Implement elasticity."
+        ]
+    },
+    {
+        "question_number": "Question 416",
+        "question": "A company has deployed several relational databases on Amazon EC2 instances Every month the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+        "options": [
+            "Connect to each database instance on a monthly basis and download and apply the necessary security patches from the vendor.",
+            "Enable automate patching for the instances using the Amazon RDS console.",
+            "In AWS Config. configure a rule for the instances and the required patch level.",
+            "Use AWS Systems Manager to automate database patching according to a schedule."
+        ],
+        "correct_answers": [
+            "Use AWS Systems Manager to automate database patching according to a schedule."
+        ]
+    },
+    {
+        "question_number": "Question 417",
+        "question": "Which mechanism allows developers to access AWS sendees from application code?",
+        "options": [
+            "AWS Software Development Kit.",
+            "AWS Management Console.",
+            "AWS CodePipeline.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Software Development Kit."
+        ]
+    },
+    {
+        "question_number": "Question 418",
+        "question": "Which AWS feature will reduce the customer's total cost of ownership (TCO)?",
+        "options": [
+            "Shared responsibility security model.",
+            "Single tenancy.",
+            "Elastic computing.",
+            "Encryption."
+        ],
+        "correct_answers": [
+            "Elastic computing."
+        ]
+    },
+    {
+        "question_number": "Question 419",
+        "question": "Which of the following is a benefit of using the AWS Cloud?",
+        "options": [
+            "Permissive security removes the administrative burden.",
+            "Ability to focus on revenue-generating activities.",
+            "Control over cloud network hardware.",
+            "Choice of specific cloud hardware vendors."
+        ],
+        "correct_answers": [
+            "Ability to focus on revenue-generating activities."
+        ]
+    },
+    {
+        "question_number": "Question 420",
+        "question": "Which of the following are categories of AWS Trusted Advisor? (Select TWO)",
+        "options": [
+            "Fault Tolerance.",
+            "Instance Usage.",
+            "Infrastructure.",
+            "Performance.",
+            "Storage Capacity."
+        ],
+        "correct_answers": [
+            "Fault Tolerance.",
+            "Performance."
+        ]
+    }
+]

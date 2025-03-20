@@ -1,0 +1,276 @@
+[
+    {
+        "question_number": "Question 181",
+        "question": "Which of the following AWS services can help you perform security analysis and regulatory compliance auditing? (Choose TWO)",
+        "options": [
+            "Amazon Inspector.",
+            "AWS Virtual Private Gateway.",
+            "AWS Batch.",
+            "Amazon ECS.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "Amazon Inspector.",
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 182",
+        "question": "Which of the following is NOT a characteristic of Amazon Elastic Compute Cloud (Amazon EC2)?",
+        "options": [
+            "Amazon EC2 is considered a Serverless Web Service.",
+            "Amazon EC2 eliminates the need to invest in hardware upfront.",
+            "Amazon EC2 can launch as many or as few virtual servers as needed.",
+            "Amazon EC2 offers scalable computing."
+        ],
+        "correct_answers": [
+            "Amazon EC2 is considered a Serverless Web Service."
+        ]
+    },
+    {
+        "question_number": "Question 183",
+        "question": "What is the AWS Compute service that executes code only when triggered by events?",
+        "options": [
+            "AWS Lambda.",
+            "Amazon CloudWatch.",
+            "AWS Transit Gateway.",
+            "Amazon EC2."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 184",
+        "question": "Both AWS and traditional IT distributors provide a wide range of virtual servers to meet their customers' requirements. What is the name of these virtual servers in AWS?",
+        "options": [
+            "Amazon EBS Snapshots.",
+            "Amazon VPC.",
+            "AWS Managed Servers.",
+            "Amazon EC2 Instances."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Instances."
+        ]
+    },
+    {
+        "question_number": "Question 185",
+        "question": "What is the framework created by AWS Professional Services that helps organizations design a road map to successful cloud adoption?",
+        "options": [
+            "AWS Secrets Manager.",
+            "AWS WAF.",
+            "AWS CAF.",
+            "Amazon EFS."
+        ],
+        "correct_answers": [
+            "AWS CAF."
+        ]
+    },
+    {
+        "question_number": "Question 186",
+        "question": "TYMO Cloud Corp is looking forward to migrating their entire on-premises data center to AWS. What tool can they use to perform a cost-benefit analysis of moving to the AWS Cloud?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS TCO Calculator.",
+            "AWS Budgets.",
+            "AWS Pricing Calculator."
+        ],
+        "correct_answers": [
+            "AWS TCO Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 187",
+        "question": "Which of the following activities supports the Operational Excellence pillar of the AWS Well-Architected Framework?",
+        "options": [
+            "Using AWS Trusted Advisor to find underutilized resources.",
+            "Using AWS CloudTrail to record user activities.",
+            "Using AWS CloudFormation to manage infrastructure as code.",
+            "Deploying an application in multiple Availability Zones."
+        ],
+        "correct_answers": [
+            "Using AWS CloudFormation to manage infrastructure as code."
+        ]
+    },
+    {
+        "question_number": "Question 188",
+        "question": "Why do many startup companies prefer AWS over traditional on-premises solutions? (Choose TWO)",
+        "options": [
+            "AWS allows them to pay later when their business succeed.",
+            "AWS can build complete data centers faster than any other Cloud provider.",
+            "Using AWS, they can reduce time-to-market by focusing on business activities rather than on building and managing data centers.",
+            "AWS removes the need to invest in operational expenditure.",
+            "Using AWS allows companies to replace large capital expenditure with low variable costs."
+        ],
+        "correct_answers": [
+            "Using AWS, they can reduce time-to-market by focusing on business activities rather than on building and managing data centers.",
+            "Using AWS allows companies to replace large capital expenditure with low variable costs."
+        ]
+    },
+    {
+        "question_number": "Question 189",
+        "question": "What are the benefits of using DynamoDB? (Choose TWO)",
+        "options": [
+            "Automatically scales to meet required throughput capacity.",
+            "Provides resizable instances to match the current demand.",
+            "Supports both relational and non-relational data models.",
+            "Offers extremely low (single-digit millisecond) latency.",
+            "Supports the most popular NoSQL database engines such as CouchDB and MongoDB."
+        ],
+        "correct_answers": [
+            "Automatically scales to meet required throughput capacity.",
+            "Offers extremely low (single-digit millisecond) latency."
+        ]
+    },
+    {
+        "question_number": "Question 190",
+        "question": "Which of the following can be used to protect data at rest on Amazon S3? (Choose TWO)",
+        "options": [
+            "Versioning.",
+            "Deduplication.",
+            "Permissions.",
+            "Decryption.",
+            "Conversion."
+        ],
+        "correct_answers": [
+            "Versioning.",
+            "Permissions."
+        ]
+    },
+    {
+        "question_number": "Question 191",
+        "question": "As part of the AWS Migration Acceleration Program (MAP), what does AWS provide to accelerate Enterprise adoption of AWS? (Choose TWO)",
+        "options": [
+            "AWS Partners.",
+            "AWS Artifact.",
+            "AWS Professional Services.",
+            "Amazon Athena.",
+            "Amazon PinPoint."
+        ],
+        "correct_answers": [
+            "AWS Partners.",
+            "AWS Professional Services."
+        ]
+    },
+    {
+        "question_number": "Question 192",
+        "question": "AWS recommends some practices to help organizations avoid unexpected charges on their bill. Which of the following is NOT one of these practices?",
+        "options": [
+            "Deleting unused EBS volumes after terminating an EC2instance.",
+            "Deleting unused AutoScaling launch configuration.",
+            "Deleting unused Elastic Load Balancers.",
+            "Releasing unused Elastic IPs after terminating an EC2instance."
+        ],
+        "correct_answers": [
+            "Deleting unused AutoScaling launch configuration."
+        ]
+    },
+    {
+        "question_number": "Question 193",
+        "question": "What is the AWS tool that can help a company visualize their AWS spending in the last few months?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Pricing Calculator.",
+            "AWS Budgets.",
+            "AWS Consolidated Billing."
+        ],
+        "correct_answers": [
+            "AWS Cost Explorer."
+        ]
+    },
+    {
+        "question_number": "Question 194",
+        "question": "When running a workload in AWS, the customer is NOT responsible for: (Select TWO)",
+        "options": [
+            "Running penetration tests.",
+            "Reserving capacity.",
+            "Data center operations.",
+            "Auditing and regulatory compliance.",
+            "Infrastructure security."
+        ],
+        "correct_answers": [
+            "Data center operations.",
+            "Infrastructure security."
+        ]
+    },
+    {
+        "question_number": "Question 195",
+        "question": "Which AWS service can be used to send promotional text messages (SMS) to more than 200 countries worldwide?",
+        "options": [
+            "Amazon Simple Email Service (Amazon SES).",
+            "Amazon Simple Storage Service (Amazon S3).",
+            "Amazon Simple Notification Service (Amazon SNS).",
+            "Amazon Simple Queue Service (Amazon SQS)."
+        ],
+        "correct_answers": [
+            "Amazon Simple Notification Service (Amazon SNS)."
+        ]
+    },
+    {
+        "question_number": "Question 196",
+        "question": "Which of the following allows you to create new RDS instances? (Choose TWO)",
+        "options": [
+            "AWS CodeDeploy.",
+            "AWS Quick Starts.",
+            "AWS CloudFormation.",
+            "AWS DMS.",
+            "AWS Management Console."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation.",
+            "AWS Management Console."
+        ]
+    },
+    {
+        "question_number": "Question 197",
+        "question": "One of the major advantages of using AWS is cost savings. What does AWS provide to reduce the cost of running Amazon EC2 instances?",
+        "options": [
+            "Low monthly instance maintenance costs.",
+            "Low-cost instance tagging.",
+            "Per-second instance billing.",
+            "Low instance start-up fees."
+        ],
+        "correct_answers": [
+            "Per-second instance billing."
+        ]
+    },
+    {
+        "question_number": "Question 198",
+        "question": "Which AWS Group assists customers in achieving their desired business outcomes?",
+        "options": [
+            "AWS Security Team.",
+            "AWS Professional Services.",
+            "AWS Trusted Advisor.",
+            "AWS Concierge Support Team."
+        ],
+        "correct_answers": [
+            "AWS Professional Services."
+        ]
+    },
+    {
+        "question_number": "Question 199",
+        "question": "Which AWS service or feature is used to manage the keys used to encrypt customer data?",
+        "options": [
+            "AWS KMS.",
+            "AWS Service Control Policies (SCPs).",
+            "Multi-Factor Authentication (MFA).",
+            "Amazon Macie."
+        ],
+        "correct_answers": [
+            "AWS KMS."
+        ]
+    },
+    {
+        "question_number": "Question 200",
+        "question": "Which AWS Service allows customers to download AWS SOC & PCI reports?",
+        "options": [
+            "AWS Well-Architected Tool.",
+            "AWS Artifact.",
+            "AWS Glue.",
+            "Amazon Chime."
+        ],
+        "correct_answers": [
+            "AWS Artifact."
+        ]
+    }
+]

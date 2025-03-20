@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 421",
+        "question": "What is Amazon CloudWatch?",
+        "options": [
+            "A code repository with customizable build and team commit features.",
+            "A metrics repository with customizable notification thresholds and channels.",
+            "A security configuration repository with threat analytics.",
+            "A rule repository of a web application firewall with automated vulnerability prevention features."
+        ],
+        "correct_answers": [
+            "A metrics repository with customizable notification thresholds and channels."
+        ]
+    },
+    {
+        "question_number": "Question 422",
+        "question": "Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO)",
+        "options": [
+            "Patching operating system components for Amazon Relational Database Server (Amazon RDS).",
+            "Encrypting data on the client-side.",
+            "Training the data center staff.",
+            "Configuring Network Access Control Lists (ACL).",
+            "Maintaining environmental controls within a data center."
+        ],
+        "correct_answers": [
+            "Encrypting data on the client-side.",
+            "Configuring Network Access Control Lists (ACL)."
+        ]
+    },
+    {
+        "question_number": "Question 423",
+        "question": "Under the shared responsibility model, which of the following is a shared control between a customer and AWS?",
+        "options": [
+            "Physical controls.",
+            "Patch management.",
+            "Zone security.",
+            "Data center auditing."
+        ],
+        "correct_answers": [
+            "Patch management."
+        ]
+    },
+    {
+        "question_number": "Question 424",
+        "question": "Which AWS service is used to pay AWS bills, and monitor usage and budget costs?",
+        "options": [
+            "AWS Billing and Cost Management.",
+            "Consolidated billing.",
+            "Amazon CloudWatch.",
+            "Amazon GuickStght."
+        ],
+        "correct_answers": [
+            "Consolidated billing."
+        ]
+    },
+    {
+        "question_number": "Question 425",
+        "question": "How do customers benefit from Amazon's massive economies of scale?",
+        "options": [
+            "Periodic price reductions as the result of Amazon's operational efficiencies.",
+            "New Amazon EC2 instance types providing the latest hardware.",
+            "The ability to scale up and down when needed.",
+            "Increased reliability in the underlying hardware of Amazon EC2 instances."
+        ],
+        "correct_answers": [
+            "Periodic price reductions as the result of Amazon's operational efficiencies."
+        ]
+    },
+    {
+        "question_number": "Question 426",
+        "question": "Which AWS feature allows a company to take advantage of usage tiers for services across multiple member accounts?",
+        "options": [
+            "Service control policies (SCPs).",
+            "Consolidated billing.",
+            "All Upfront Reserved Instances.",
+            "AWS Cost Explorer."
+        ],
+        "correct_answers": [
+            "Consolidated billing."
+        ]
+    },
+    {
+        "question_number": "Question 427",
+        "question": "Which AWS services provide a way to extend an on-premises architecture to the AWS cloud? (Select TWO)",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Connect.",
+            "AWS Storage Gateway.",
+            "Amazon CloudFront.",
+            "AWS Direct Connect."
+        ],
+        "correct_answers": [
+            "AWS Storage Gateway.",
+            "AWS Direct Connect."
+        ]
+    },
+    {
+        "question_number": "Question 428",
+        "question": "Which of the following services will automatically scale with an expected increase in web traffic?",
+        "options": [
+            "AWS CodePipeline.",
+            "Elastic Load Balancing.",
+            "Amazon EBS.",
+            "AWS Direct Connect."
+        ],
+        "correct_answers": [
+            "Elastic Load Balancing."
+        ]
+    },
+    {
+        "question_number": "Question 429",
+        "question": "Which service provides a virtually unlimited amount of online highly durable object storage?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon Elastic File System (Amazon EFS).",
+            "Amazon Elastic Container Service (Amazon ECS).",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 430",
+        "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
+        "options": [
+            "AWS Direct Connect.",
+            "Availability Zones.",
+            "Data centers.",
+            "Amazon Virtual Private Cloud (Amazon VPC)."
+        ],
+        "correct_answers": [
+            "Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 431",
+        "question": "Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO)",
+        "options": [
+            "AWS WAF.",
+            "AWS Trusted Advisor.",
+            "AWS Direct Connect.",
+            "AWS Organizations.",
+            "Network ACLs."
+        ],
+        "correct_answers": [
+            "AWS WAF.",
+            "Network ACLs."
+        ]
+    },
+    {
+        "question_number": "Question 432",
+        "question": "Which of the following is a cloud architectural design principle?",
+        "options": [
+            "Scale up not out.",
+            "Loosely couple components.",
+            "Build monolithic systems.",
+            "Use commercial database software."
+        ],
+        "correct_answers": [
+            "Loosely couple components."
+        ]
+    },
+    {
+        "question_number": "Question 433",
+        "question": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
+        "options": [
+            "Amazon CloudWatch.",
+            "AWS CloudTrail.",
+            "AWS Config.",
+            "AWS Health."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 434",
+        "question": "Where can AWS compliance and certification reports be downloaded?",
+        "options": [
+            "AWS Artifact.",
+            "AWS Concierge.",
+            "AWS Certificate Manager.",
+            "AWS Trusted Advisor."
+        ],
+        "correct_answers": [
+            "AWS Artifact."
+        ]
+    },
+    {
+        "question_number": "Question 435",
+        "question": "The financial benefits of using AWS are: (Select TWO)",
+        "options": [
+            "Reduced Total Cost of Ownership (TCO).",
+            "Increased capital expenditure (capex).",
+            "Reduced operational expenditure ( opex ).",
+            "Deferred payment plans for startups.",
+            "Business credit lines for startups."
+        ],
+        "correct_answers": [
+            "Reduced Total Cost of Ownership (TCO).",
+            "Deferred payment plans for startups."
+        ]
+    },
+    {
+        "question_number": "Question 436",
+        "question": "Which AWS service can serve a static website?",
+        "options": [
+            "Amazon S3.",
+            "Amazon Route 53.",
+            "Amazon QuickSight.",
+            "AWS X-Ray."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 437",
+        "question": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world (Select TWO)",
+        "options": [
+            "Companies can deploy applications in multiple AWS Regions to reduce latency.",
+            "Amazon Translate automatically translates third-party website interfaces into multiple languages.",
+            "Amazon CloudFront has multiple edge locations around the world to reduce latency.",
+            "Amazon Comprehend allows users to build applications that can respond to user requests in many languages.",
+            "Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world which reduces latency."
+        ],
+        "correct_answers": [
+            "Companies can deploy applications in multiple AWS Regions to reduce latency.",
+            "Amazon CloudFront has multiple edge locations around the world to reduce latency."
+        ]
+    },
+    {
+        "question_number": "Question 438",
+        "question": "Which of the following are main components of the AWS global infrastructure? (Select TWO)",
+        "options": [
+            "Resource groups.",
+            "Availability Zones.",
+            "Security groups.",
+            "Regions.",
+            "Amazon Machine Images (AMIS)."
+        ],
+        "correct_answers": [
+            "Availability Zones.",
+            "Regions."
+        ]
+    },
+    {
+        "question_number": "Question 439",
+        "question": "What is the AWS customer responsible for according to the AWS shared responsibility model?",
+        "options": [
+            "Physical access controls.",
+            "Data encryption.",
+            "Secure disposal of storage devices.",
+            "Environmental risk management."
+        ],
+        "correct_answers": [
+            "Data encryption."
+        ]
+    },
+    {
+        "question_number": "Question 440",
+        "question": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
+        "options": [
+            "Use AWS Budgets on each account to pay only to budget.",
+            "Contact AWS Support for a monthly bill.",
+            "Create an AWS Organization from the payer account and invite the other accounts to join.",
+            "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report."
+        ],
+        "correct_answers": [
+            "Create an AWS Organization from the payer account and invite the other accounts to join."
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    {
+        "question_number": "Question 91",
+        "question": "What is the customer's obligation while using an AWS managed service under the AWS shared responsibility model?",
+        "options": [
+            "Physical security of the data centers",
+            "Server-side encryption",
+            "Customer data",
+            "Operating system patching"
+        ],
+        "correct_answers": [
+            "Customer data"
+        ]
+    },
+    {
+        "question_number": "Question 92",
+        "question": "All AWS users have access to which AWS Trusted Advisor check?",
+        "options": [
+            "Core checks",
+            "All checks",
+            "Cost optimization checks",
+            "Fault tolerance checks"
+        ],
+        "correct_answers": [
+            "Core checks"
+        ]
+    },
+    {
+        "question_number": "Question 93",
+        "question": "Which of the following is an example of security in the AWS Cloud under the AWS shared responsibility model?",
+        "options": [
+            "Managing edge locations",
+            "Physical security",
+            "Firewall configuration",
+            "Global infrastructure"
+        ],
+        "correct_answers": [
+            "Firewall configuration"
+        ]
+    },
+    {
+        "question_number": "Question 94",
+        "question": "Permissions for which of the following are managed by service control policies (SCPs)?",
+        "options": [
+            "Availability Zones",
+            "AWS Regions",
+            "AWS Organizations",
+            "Edge locations"
+        ],
+        "correct_answers": [
+            "AWS Organizations"
+        ]
+    },
+    {
+        "question_number": "Question 95",
+        "question": "According to the AWS shared responsibility model, which job is shared between AWS and the customer?",
+        "options": [
+            "Physical and environmental controls",
+            "Server hardware management and encryption",
+            "Application security",
+            "Patch management and configuration management"
+        ],
+        "correct_answers": [
+            "Patch management and configuration management"
+        ]
+    },
+    {
+        "question_number": "Question 96",
+        "question": "Which duty is the customer's responsibility while administering AWS Lambda functions under the AWS shared responsibility model?",
+        "options": [
+            "Creating versions of Lambda functions",
+            "Maintaining server and operating systems",
+            "Scaling Lambda resources according to demand",
+            "Updating the Lambda runtime environment"
+        ],
+        "correct_answers": [
+            "Creating versions of Lambda functions"
+        ]
+    },
+    {
+        "question_number": "Question 97",
+        "question": "Which of the following is a duty of the client under the AWS shared responsibility model? (Select two.)",
+        "options": [
+            "Decommissioning of physical storage devices",
+            "Security group and ACL configuration",
+            "Patch management of an Amazon RDS instance operating system",
+            "Controlling physical access to data centers",
+            "Patch management of an Amazon EC2 instance operating system"
+        ],
+        "correct_answers": [
+            "Security group and ACL configuration",
+            "Patch management of an Amazon EC2 instance operating system"
+        ]
+    },
+    {
+        "question_number": "Question 98",
+        "question": "What attributes of an AWS account can AWS Trusted Advisor monitor and advise on? (Select two.)",
+        "options": [
+            "Compliance with security best practices",
+            "Application performance",
+            "Network utilization",
+            "Cost optimization",
+            "Compliance status"
+        ],
+        "correct_answers": [
+            "Compliance with security best practices",
+            "Cost optimization"
+        ]
+    },
+    {
+        "question_number": "Question 99",
+        "question": "How should an Amazon EC2 instance be granted access to an Amazon S3 bucket in accordance with security best practices?",
+        "options": [
+            "Hard code an IAM user's secret key and access key directly in the application, and upload the file.",
+            "Store the IAM user's secret key and access key in a text file on the EC2 instance, read the keys, then upload the file.",
+            "Have the EC2 instance assume a role to obtain the privileges to upload the file.",
+            "Modify the S3 bucket policy so that any service can upload to it at any time."
+        ],
+        "correct_answers": [
+            "Have the EC2 instance assume a role to obtain the privileges to upload the file."
+        ]
+    },
+    {
+        "question_number": "Question 100",
+        "question": "Which of the following is included in the AWS Trusted Advisor checks? (Select two.)",
+        "options": [
+            "Information on Amazon S3 bucket permissions",
+            "AWS service outages",
+            "Multi-factor authentication enabled on the AWS account root user",
+            "Available software patches",
+            "Number of users in the account"
+        ],
+        "correct_answers": [
+            "Information on Amazon S3 bucket permissions",
+            "Multi-factor authentication enabled on the AWS account root user"
+        ]
+    },
+    {
+        "question_number": "Question 101",
+        "question": "Which scenarios should a user report to the AWS Abuse team? (Select two.)",
+        "options": [
+            "A DDoS attack is being made on an AWS resource.",
+            "A SQL injection attack is being made from an IP address that is not an AWS address.",
+            "AWS resources are being used to host objectionable or illegal content.",
+            "A company's resources are being used in a way that is inconsistent with corporate policy.",
+            "A company is receiving HTTPS requests on a web server that is serving HTTP."
+        ],
+        "correct_answers": [
+            "A DDoS attack is being made on an AWS resource.",
+            "AWS resources are being used to host objectionable or illegal content."
+        ]
+    },
+    {
+        "question_number": "Question 102",
+        "question": "According to the AWS shared responsibility model, which of the following is the customer's obligation?",
+        "options": [
+            "Patching underlying infrastructure",
+            "Physical security",
+            "Patching Amazon EC2 instances",
+            "Patching network infrastructure"
+        ],
+        "correct_answers": [
+            "Patching Amazon EC2 instances"
+        ]
+    },
+    {
+        "question_number": "Question 103",
+        "question": "Which of the following is the customer's obligation under the shared responsibility model?",
+        "options": [
+            "Ensuring that disk drives are wiped after use.",
+            "Ensuring that firmware is updated on hardware devices.",
+            "Ensuring that data is encrypted at rest.",
+            "Ensuring that network cables are category six or higher."
+        ],
+        "correct_answers": [
+            "Ensuring that data is encrypted at rest."
+        ]
+    },
+    {
+        "question_number": "Question 104",
+        "question": "Which action, in terms of AWS Cloud architecture, is compatible with the concept of least privilege?",
+        "options": [
+            "Allow users the minimum access that is needed to do a task.",
+            "Prevent managers from accessing important source code.",
+            "Provide only the permissions that are needed for users to do their jobs in the current month.",
+            "Assign permissions that are based on job titles."
+        ],
+        "correct_answers": [
+            "Allow users the minimum access that is needed to do a task."
+        ]
+    },
+    {
+        "question_number": "Question 105",
+        "question": "Which of the following are customer duties under the AWS shared responsibility model? (Select two.)",
+        "options": [
+            "Setting up server-side encryption on an Amazon S3 bucket",
+            "Amazon RDS instance patching",
+            "Network and firewall configurations",
+            "Physical security of data center facilities",
+            "Compute capacity availability"
+        ],
+        "correct_answers": [
+            "Setting up server-side encryption on an Amazon S3 bucket",
+            "Network and firewall configurations"
+        ]
+    },
+    {
+        "question_number": "Question 106",
+        "question": "Which of the following tasks is the AWS customer's duty under the shared responsibility model? (Select two.)",
+        "options": [
+            "Ensuring that application data is encrypted at rest",
+            "Ensuring that AWS NTP servers are set to the correct time",
+            "Ensuring that users have received security training in the use of AWS services",
+            "Ensuring that access to data centers is restricted",
+            "Ensuring that hardware is disposed of properly"
+        ],
+        "correct_answers": [
+            "Ensuring that application data is encrypted at rest",
+            "Ensuring that users have received security training in the use of AWS services"
+        ]
+    },
+    {
+        "question_number": "Question 107",
+        "question": "Before transferring an environment to the AWS Cloud, a cloud practitioner must receive AWS compliance reports.\n\nHow are these reports produced?",
+        "options": [
+            "Contact the AWS Compliance team",
+            "Download the reports from AWS Artifact",
+            "Open a case with AWS Support",
+            "Generate the reports with Amazon Macie"
+        ],
+        "correct_answers": [
+            "Download the reports from AWS Artifact"
+        ]
+    },
+    {
+        "question_number": "Question 108",
+        "question": "What may be associated to an Amazon EC2 instance through AWS Identity and Access Management (IAM) to initiate service requests?",
+        "options": [
+            "Group",
+            "Role",
+            "Policy",
+            "Access key"
+        ],
+        "correct_answers": [
+            "Role"
+        ]
+    },
+    {
+        "question_number": "Question 109",
+        "question": "Which of the following actions is the customer's responsibility under the AWS shared responsibility model? (Select two.)",
+        "options": [
+            "Patching operating system components for Amazon Relational Database Server (Amazon RDS)",
+            "Encrypting data on the client-side",
+            "Training the data center staff",
+            "Configuring Network Access Control Lists (ACL)",
+            "Maintaining environmental controls within a data center"
+        ],
+        "correct_answers": [
+            "Encrypting data on the client-side",
+            "Configuring Network Access Control Lists (ACL)"
+        ]
+    },
+    {
+        "question_number": "Question 110",
+        "question": "Which of the following is a duty of AWS under the AWS shared responsibility model?",
+        "options": [
+            "Enabling server-side encryption for objects stored in S3",
+            "Applying AWS IAM security policies",
+            "Patching the operating system on an Amazon EC2 instance",
+            "Applying updates to the hypervisor"
+        ],
+        "correct_answers": [
+            "Applying updates to the hypervisor"
+        ]
+    }
+]

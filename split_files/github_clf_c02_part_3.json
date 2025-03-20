@@ -1,0 +1,270 @@
+[
+    {
+        "question_number": "Question 41",
+        "question": "A developer is planning to build a two-tier web application that has a MySQL database layer. Which of the following AWS database services would provide automated backups for the application?",
+        "options": [
+            "A MySQL database installed on an EC2 instance.",
+            "Amazon Aurora.",
+            "Amazon DynamoDB.",
+            "Amazon Neptune."
+        ],
+        "correct_answers": [
+            "Amazon Aurora."
+        ]
+    },
+    {
+        "question_number": "Question 42",
+        "question": "What is the AWS service that enables AWS architects to manage infrastructure as code?",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Config.",
+            "Amazon SES.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation."
+        ]
+    },
+    {
+        "question_number": "Question 43",
+        "question": "Under the shared responsibility model, which of the following is the responsibility of AWS?",
+        "options": [
+            "Client-side encryption.",
+            "Configuring infrastructure devices.",
+            "Server-side encryption.",
+            "Filtering traffic with Security Groups."
+        ],
+        "correct_answers": [
+            "Configuring infrastructure devices."
+        ]
+    },
+    {
+        "question_number": "Question 44",
+        "question": "What does the AWS Health Dashboard provide? (Choose TWO)",
+        "options": [
+            "Detailed troubleshooting guidance to address AWS events impacting your resources.",
+            "Health checks for Auto Scaling instances.",
+            "Recommendations for Cost Optimization.",
+            "A dashboard detailing vulnerabilities in your applications.",
+            "Personalized view of AWS service health."
+        ],
+        "correct_answers": [
+            "Detailed troubleshooting guidance to address AWS events impacting your resources.",
+            "Personalized view of AWS service health."
+        ]
+    },
+    {
+        "question_number": "Question 45",
+        "question": "You have deployed your application on multiple Amazon EC2 instances. Your customers complain that sometimes they can't reach your application. Which AWS service allows you to monitor the performance of your EC2 instances to assist in troubleshooting these issues?",
+        "options": [
+            "AWS Lambda.",
+            "AWS Config.",
+            "Amazon CloudWatch.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "Amazon CloudWatch."
+        ]
+    },
+    {
+        "question_number": "Question 46",
+        "question": "Your company is developing a critical web application in AWS, and the security of the application is a top priority. Which of the following AWS services will provide infrastructure security optimization recommendations?",
+        "options": [
+            "AWS Shield.",
+            "AWS Management Console.",
+            "AWS Secrets Manager.",
+            "AWS Trusted Advisor."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 47",
+        "question": "Which of the following is not a benefit of Amazon S3? (Choose TWO)",
+        "options": [
+            "Amazon S3 provides unlimited storage for any type of data.",
+            "Amazon S3 can run any type of application or backend system.",
+            "Amazon S3 stores any number of objects, but with object size limits.",
+            "Amazon S3 can be scaled manually to store and retrieve any amount of data from anywhere.",
+            "Amazon S3 provides 99.999999999% (11 9's) of data durability."
+        ],
+        "correct_answers": [
+            "Amazon S3 can run any type of application or backend system.",
+            "Amazon S3 can be scaled manually to store and retrieve any amount of data from anywhere."
+        ]
+    },
+    {
+        "question_number": "Question 48",
+        "question": "In the AWS Shared responsibility Model, which of the following are the responsibility of the customer? (Choose TWO)",
+        "options": [
+            "Disk disposal.",
+            "Controlling physical access to compute resources.",
+            "Patching the Network infrastructure.",
+            "Setting password complexity rules.",
+            "Configuring network access rules."
+        ],
+        "correct_answers": [
+            "Setting password complexity rules.",
+            "Configuring network access rules."
+        ]
+    },
+    {
+        "question_number": "Question 49",
+        "question": "What does AWS provide to deploy popular technologies such as IBM MQ on AWS with the least amount of effort and time?",
+        "options": [
+            "Amazon Aurora.",
+            "Amazon CloudWatch.",
+            "AWS Quick Start reference deployments.",
+            "AWS OpsWorks."
+        ],
+        "correct_answers": [
+            "AWS Quick Start reference deployments."
+        ]
+    },
+    {
+        "question_number": "Question 50",
+        "question": "An organization has decided to purchase an Amazon EC2 Reserved Instance (RI) for three years in order to reduce costs. It is possible that the application workloads could change during the reservation period. What is the EC2 Reserved Instance (RI) type that will allow the company to exchange the purchased reserved instance for another reserved instance with higher computing power if they need to?",
+        "options": [
+            "Elastic RI.",
+            "Premium RI.",
+            "Standard RI.",
+            "Convertible RI."
+        ],
+        "correct_answers": [
+            "Convertible RI."
+        ]
+    },
+    {
+        "question_number": "Question 51",
+        "question": "A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?",
+        "options": [
+            "AWS Organizations.",
+            "AWS Trusted Advisor.",
+            "IAM User Groups.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Organizations."
+        ]
+    },
+    {
+        "question_number": "Question 52",
+        "question": "Which service provides object-level storage in AWS?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Instance Store.",
+            "Amazon EFS.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 53",
+        "question": "A company is concerned that they are spending money on underutilized compute resources in AWS. Which AWS feature will help ensure that their applications are automatically adding/removing EC2 compute capacity to closely match the required demand?",
+        "options": [
+            "AWS Elastic Load Balancer.",
+            "AWS Budgets.",
+            "AWS Auto Scaling.",
+            "AWS Cost Explorer."
+        ],
+        "correct_answers": [
+            "AWS Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 54",
+        "question": "Which S3 storage class is best for data with unpredictable access patterns?",
+        "options": [
+            "Amazon S3 Intelligent-Tiering.",
+            "Amazon S3 Glacier Flexible Retrieval.",
+            "Amazon S3 Standard.",
+            "Amazon S3 Standard-Infrequent Access."
+        ],
+        "correct_answers": [
+            "Amazon S3 Intelligent-Tiering."
+        ]
+    },
+    {
+        "question_number": "Question 55",
+        "question": "What is the AWS database service that allows you to upload data structured in key-value format?",
+        "options": [
+            "Amazon DynamoDB.",
+            "Amazon Aurora.",
+            "Amazon Redshift.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 56",
+        "question": "Which of the following is NOT correct regarding Amazon EC2 On-demand instances?",
+        "options": [
+            "You have to pay a start-up fee when launching a new instance for the first time.",
+            "The on-demand instances follow the AWS pay-as-you-go pricing model.",
+            "With on-demand instances, no longer-term commitments or upfront payments are needed.",
+            "When using on-demand Linux instances, you are charged per second based on an hourly rate."
+        ],
+        "correct_answers": [
+            "You have to pay a start-up fee when launching a new instance for the first time."
+        ]
+    },
+    {
+        "question_number": "Question 57",
+        "question": "A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector.",
+            "Amazon SNS.",
+            "Amazon CloudWatch.",
+            "Concierge Support Team."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector."
+        ]
+    },
+    {
+        "question_number": "Question 58",
+        "question": "What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?",
+        "options": [
+            "Encrypted keys.",
+            "Email verification.",
+            "AWS KMS.",
+            "AWS MFA."
+        ],
+        "correct_answers": [
+            "AWS MFA."
+        ]
+    },
+    {
+        "question_number": "Question 59",
+        "question": "A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?",
+        "options": [
+            "AWS Knowledge Center.",
+            "AWS Health Dashboard.",
+            "Infrastructure Event Management.",
+            "AWS Support Concierge Service."
+        ],
+        "correct_answers": [
+            "Infrastructure Event Management."
+        ]
+    },
+    {
+        "question_number": "Question 60",
+        "question": "You work as an on-premises MySQL DBA. The work of database configuration, backups, patching, and DR can be time-consuming and repetitive. Your company has decided to migrate to the AWS Cloud. Which of the following can help save time on database maintenance so you can focus on data architecture and performance?",
+        "options": [
+            "Amazon RDS.",
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    }
+]

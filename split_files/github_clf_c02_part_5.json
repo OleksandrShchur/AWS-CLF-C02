@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 81",
+        "question": "What are the default security credentials that are required to access the AWS management console for an IAM user account?",
+        "options": [
+            "MFA.",
+            "Security tokens.",
+            "A user name and password.",
+            "Access keys."
+        ],
+        "correct_answers": [
+            "A user name and password."
+        ]
+    },
+    {
+        "question_number": "Question 82",
+        "question": "In your on-premises environment, you can create as many virtual servers as you need from a single template. What can you use to perform the same in AWS?",
+        "options": [
+            "IAM.",
+            "An internet gateway.",
+            "EBS Snapshot.",
+            "AMI."
+        ],
+        "correct_answers": [
+            "AMI."
+        ]
+    },
+    {
+        "question_number": "Question 83",
+        "question": "What are two advantages of using Cloud Computing over using traditional data centers? (Choose TWO)",
+        "options": [
+            "Reserved Compute capacity.",
+            "Eliminating Single Points of Failure (SPOFs).",
+            "Distributed infrastructure.",
+            "Virtualized compute resources.",
+            "Dedicated hosting."
+        ],
+        "correct_answers": [
+            "Eliminating Single Points of Failure (SPOFs).",
+            "Distributed infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 84",
+        "question": "Which of the following aspects of security are managed by AWS? (Choose TWO)",
+        "options": [
+            "Encryption of EBS volumes.",
+            "VPC security.",
+            "Access permissions.",
+            "Hardware patching.",
+            "Securing global physical infrastructure."
+        ],
+        "correct_answers": [
+            "Hardware patching.",
+            "Securing global physical infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 85",
+        "question": "Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?",
+        "options": [
+            "The ability of a system to recover gracefully from failure.",
+            "The efficient use of computing resources to meet requirements.",
+            "The ability to monitor systems and improve supporting processes and procedures.",
+            "The ability to manage datacenter operations more efficiently."
+        ],
+        "correct_answers": [
+            "The ability to monitor systems and improve supporting processes and procedures."
+        ]
+    },
+    {
+        "question_number": "Question 86",
+        "question": "AWS has created a large number of Edge Locations as part of its Global Infrastructure. Which of the following is NOT a benefit of using Edge Locations?",
+        "options": [
+            "Edge locations are used by CloudFront to cache the most recent responses.",
+            "Edge locations are used by CloudFront to improve your end users' experience when uploading files.",
+            "Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency.",
+            "Edge locations are used by CloudFront to distribute content to global users with low latency."
+        ],
+        "correct_answers": [
+            "Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency."
+        ]
+    },
+    {
+        "question_number": "Question 87",
+        "question": "What are the change management tools that helps AWS customers audit and monitor all resource changes in their AWS environment? (Choose TWO)",
+        "options": [
+            "AWS CloudTrail.",
+            "Amazon Comprehend.",
+            "AWS Transit Gateway.",
+            "AWS X-Ray.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail.",
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 88",
+        "question": "Which of the following services allows you to run containerized applications on a cluster of EC2 instances?",
+        "options": [
+            "Amazon ECS.",
+            "AWS Data Pipeline.",
+            "AWS Cloud9.",
+            "AWS Personal Health Dashboard."
+        ],
+        "correct_answers": [
+            "Amazon ECS."
+        ]
+    },
+    {
+        "question_number": "Question 89",
+        "question": "Which of the following services will help businesses ensure compliance in AWS?",
+        "options": [
+            "CloudFront.",
+            "CloudEndure Migration.",
+            "CloudWatch.",
+            "CloudTrail."
+        ],
+        "correct_answers": [
+            "CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 90",
+        "question": "Which of the following procedures will help reduce your Amazon S3 costs?",
+        "options": [
+            "Use the Import/Export feature to move old files automatically to Amazon Glacier.",
+            "Use the right combination of storage classes based on different use cases.",
+            "Pick the right Availability Zone for your S3 bucket.",
+            "Move all the data stored in S3 standard to EBS."
+        ],
+        "correct_answers": [
+            "Use the right combination of storage classes based on different use cases."
+        ]
+    },
+    {
+        "question_number": "Question 91",
+        "question": "What are the AWS services/features that can help you maintain a highly available and fault-tolerant architecture in AWS? (Choose TWO)",
+        "options": [
+            "AWS Direct Connect.",
+            "Amazon EC2 Auto Scaling.",
+            "Elastic Load Balancer.",
+            "CloudFormation.",
+            "Network ACLs."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Auto Scaling.",
+            "Elastic Load Balancer."
+        ]
+    },
+    {
+        "question_number": "Question 92",
+        "question": "Which of the following activities may help reduce your AWS monthly costs?",
+        "options": [
+            "Enabling Amazon EC2 Auto Scaling for all of your workloads.",
+            "Using the AWS Network Load Balancer (NLB) to load balance the incoming HTTP requests.",
+            "Removing all of your Cost Allocation Tags.",
+            "Deploying your AWS resources across multiple Availability Zones."
+        ],
+        "correct_answers": [
+            "Enabling Amazon EC2 Auto Scaling for all of your workloads."
+        ]
+    },
+    {
+        "question_number": "Question 93",
+        "question": "What is the AWS service/feature that takes advantage of Amazon CloudFront's globally distributed edge locations to transfer files to S3 with higher upload speeds?",
+        "options": [
+            "S3 Transfer Acceleration.",
+            "AWS WAF.",
+            "AWS Snowmobile.",
+            "AWS Snowball."
+        ],
+        "correct_answers": [
+            "S3 Transfer Acceleration."
+        ]
+    },
+    {
+        "question_number": "Question 94",
+        "question": "Which of the following AWS security features is associated with an EC2 instance and functions to filter incoming traffic requests?",
+        "options": [
+            "AWS X-Ray.",
+            "Network ACL.",
+            "Security Groups.",
+            "VPC Flow logs."
+        ],
+        "correct_answers": [
+            "Security Groups."
+        ]
+    },
+    {
+        "question_number": "Question 95",
+        "question": "Which AWS services can be used to improve the performance of a global application and reduce latency for its users? (Choose TWO)",
+        "options": [
+            "AWS KMS.",
+            "AWS Global accelerator.",
+            "AWS Direct Connect.",
+            "AWS Glue.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "AWS Global accelerator.",
+            "Amazon CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 96",
+        "question": "Using Amazon RDS falls under the shared responsibility model. Which of the following are customer responsibilities? (Choose TWO)",
+        "options": [
+            "Building the relational database schema.",
+            "Performing backups.",
+            "Managing the database settings.",
+            "Patching the database software.",
+            "Installing the database software."
+        ],
+        "correct_answers": [
+            "Building the relational database schema.",
+            "Managing the database settings."
+        ]
+    },
+    {
+        "question_number": "Question 97",
+        "question": "A company has a large amount of structured data stored in their on-premises data center. They are planning to migrate all the data to AWS, what is the most appropriate AWS database option?",
+        "options": [
+            "Amazon DynamoDB.",
+            "Amazon SNS.",
+            "Amazon RDS.",
+            "Amazon ElastiCache."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 98",
+        "question": "A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?",
+        "options": [
+            "APN Consulting Partners.",
+            "AWS TAM.",
+            "APN Technology Partners.",
+            "AWS Professional Services."
+        ],
+        "correct_answers": [
+            "APN Technology Partners."
+        ]
+    },
+    {
+        "question_number": "Question 99",
+        "question": "What is the AWS serverless service that allows you to run your applications without any administrative burden?",
+        "options": [
+            "Amazon LightSail.",
+            "AWS Lambda.",
+            "Amazon RDS instances.",
+            "Amazon EC2 instances."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 100",
+        "question": "Jessica is managing an e-commerce web application in AWS. The application is hosted on six EC2 instances. One day, three of the instances crashed; but none of her customers were affected. What has Jessica done correctly in this scenario?",
+        "options": [
+            "She has properly built an elastic system.",
+            "She has properly built a fault tolerant system.",
+            "She has properly built an encrypted system.",
+            "She has properly built a scalable system."
+        ],
+        "correct_answers": [
+            "She has properly built a fault tolerant system."
+        ]
+    }
+]

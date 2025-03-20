@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Quiz App</h1>
+
+    <!-- File Upload -->
+    <div>
+        <input type="file" id="file-input" accept=".json">
+        <button onclick="handleFileUpload()">Upload</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" style="display: none;">
+        <h3>Questions</h3>
+        <div id="dashboard-list"></div>
+    </div>
+
+    <!-- Quiz Container -->
+    <div id="quiz-container" style="display: none;">
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <p id="question-number"></p>
+        <p id="question"></p>
+        <div id="options-container"></div>
+        <div class="button-container">
+            <button id="submit-button" onclick="checkAnswer()">Submit</button>
+            <button id="next-button" onclick="loadQuestion(currentQuestionIndex)">Next</button>
+            <button id="finish-button" onclick="finishQuiz()" style="display: none;">Finish Quiz</button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
