@@ -9,36 +9,43 @@
 </head>
 
 <body>
-    <h2>Quiz App. AWS CLF-C02 Exam test preparation</h2>
+    <b>Quiz App. AWS CLF-C02 Exam test preparation</b>
 
     <!-- Quiz Selection -->
-    <div>
-        <label for="quiz-select">Choose a quiz:</label>
-        <select id="quiz-select"></select>
-        <button onclick="loadSelectedQuiz()">Load Quiz</button>
+    <div class="quiz-box">
+        <div class="quiz-select-box">
+            <label for="quiz-select">Choose a quiz:</label>
+            <select id="quiz-select"></select>
+            <button onclick="loadSelectedQuiz()">Load Quiz</button>
+        </div>
+
+        <button onclick="generateSampleTest()">Generate sample test</button>
     </div>
 
-    <!-- Dashboard -->
-    <div id="dashboard" style="display: none;">
-        <b><span>Questions</span></b>
-        <div id="dashboard-list"></div>
+    <div class="page-container">
+        <!-- Dashboard -->
+        <div id="dashboard" style="display: none;">
+            <b><span>Questions</span></b>
+            <div id="dashboard-list"></div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" style="display: none;">
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <p id="question-number"></p>
+            <p id="question"></p>
+            <div id="options-container"></div>
+            <div class="button-container">
+                <button id="submit-button" onclick="checkAnswer()">Submit</button>
+                <button id="next-button" onclick="loadQuestion(currentQuestionIndex)">Next</button>
+                <button id="finish-button" onclick="finishQuiz()" style="display: none;">Finish Quiz</button>
+            </div>
+            <p id="result"></p>
+        </div>
     </div>
 
-    <!-- Quiz Container -->
-    <div id="quiz-container" style="display: none;">
-        <div id="progress-container">
-            <div id="progress-bar"></div>
-        </div>
-        <p id="question-number"></p>
-        <p id="question"></p>
-        <div id="options-container"></div>
-        <div class="button-container">
-            <button id="submit-button" onclick="checkAnswer()">Submit</button>
-            <button id="next-button" onclick="loadQuestion(currentQuestionIndex)">Next</button>
-            <button id="finish-button" onclick="finishQuiz()" style="display: none;">Finish Quiz</button>
-        </div>
-        <p id="result"></p>
-    </div>
 
     <script src="main.js"></script>
 </body>

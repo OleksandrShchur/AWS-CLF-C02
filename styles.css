@@ -21,7 +21,7 @@ body {
 #dashboard {
     text-align: center;
     margin: 10px auto;
-    width: 90%;
+    width: 95%;
     background: #f8f8f8;
     padding: 5px;
     border-radius: 8px;
@@ -111,4 +111,24 @@ button:hover {
 .button-container {
     display: flex;
     justify-content: space-between;
+}
+
+.quiz-box {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.quiz-select-box {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
 }

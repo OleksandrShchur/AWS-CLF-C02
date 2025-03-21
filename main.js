@@ -56,7 +56,7 @@ const availableQuizzes = [
 // Populate dropdown with available quizzes
 function populateQuizDropdown() {
     const quizSelect = document.getElementById("quiz-select");
-    
+
     availableQuizzes.forEach((url, index) => {
         const option = document.createElement("option");
         option.value = url;
@@ -234,6 +234,46 @@ function renderDashboard() {
 // Function to mark dashboard item
 function markDashboardItem(index, color) {
     document.getElementsByClassName("dashboard-item")[index].style.background = color;
+}
+
+// Function to generate a sample test with 65 random questions
+function generateSampleTest() {
+    const sampleTestUrl = "https://oleksandrshchur.github.io/AWS-CLF-C02/questions/unique_questions.json";
+
+    fetch(sampleTestUrl)
+        .then(response => response.json())
+        .then(data => {
+            if (data.length < 65) {
+                alert("Not enough questions in the source file.");
+                return;
+            }
+
+            questions = getRandomSubset(data, 65);
+            shuffleArray(questions);
+
+            document.getElementById("quiz-container").style.display = "block";
+            document.getElementById("dashboard").style.display = "block";
+            document.getElementById("finish-button").style.display = "inline";
+
+            currentQuestionIndex = 0;
+            answeredQuestions = {};
+            correctCount = 0;
+            incorrectCount = 0;
+
+            renderDashboard();
+            loadQuestion();
+        })
+        .catch(error => {
+            console.error("Error loading sample test:", error);
+            alert("Failed to load the sample test.");
+        });
+}
+
+// Helper function to get a random subset of questions
+function getRandomSubset(array, count) {
+    const shuffled = [...array];
+    shuffleArray(shuffled);
+    return shuffled.slice(0, count);
 }
 
 // Initialize dropdown on page load
