@@ -74,7 +74,6 @@ function loadSelectedQuiz() {
         .then(response => response.json())
         .then(data => {
             questions = data;
-            console.log("Questions loaded:", questions);
 
             if (questions.length > 0) {
                 shuffleArray(questions);
