@@ -4,33 +4,80 @@ let answeredQuestions = {};
 let correctCount = 0;
 let incorrectCount = 0;
 
-// Function to shuffle an array
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
+// Array of available quiz files (you can expand this dynamically if needed)
+const availableQuizzes = [
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_1.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_2.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_3.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_4.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_5.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_6.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_7.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_8.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_9.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_10.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_11.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_12.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_13.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_14.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_15.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_16.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_17.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_18.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_19.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_20.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_21.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_22.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_23.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_24.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_25.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_26.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_27.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_28.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_29.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_30.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_31.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_32.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_33.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_34.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_35.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_36.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_37.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_38.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_39.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_40.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_41.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_42.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_43.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_44.json",
+    "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_45.json"
+];
+
+// Populate dropdown with available quizzes
+function populateQuizDropdown() {
+    const quizSelect = document.getElementById("quiz-select");
+    
+    availableQuizzes.forEach((url, index) => {
+        const option = document.createElement("option");
+        option.value = url;
+        option.textContent = `Quiz ${index + 1}`;
+        quizSelect.appendChild(option);
+    });
 }
 
-// Function to handle file upload and shuffle questions
-function handleFileUpload() {
-    const fileInput = document.getElementById("file-input");
-    const file = fileInput.files[0];
+// Load selected quiz file
+function loadSelectedQuiz() {
+    const quizSelect = document.getElementById("quiz-select");
+    const selectedUrl = quizSelect.value;
 
-    if (!file) {
-        alert("Please select a JSON file.");
-        return;
-    }
-
-    const reader = new FileReader();
-    reader.onload = function (event) {
-        try {
-            questions = JSON.parse(event.target.result);
+    fetch(selectedUrl)
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
             console.log("Questions loaded:", questions);
 
             if (questions.length > 0) {
-                shuffleArray(questions); // Shuffle questions
-
+                shuffleArray(questions);
                 document.getElementById("quiz-container").style.display = "block";
                 document.getElementById("dashboard").style.display = "block";
                 document.getElementById("finish-button").style.display = "inline";
@@ -40,13 +87,19 @@ function handleFileUpload() {
             } else {
                 alert("The file is empty or has an incorrect format.");
             }
-        } catch (error) {
-            console.error("Invalid JSON format:", error);
-            alert("Invalid JSON file. Please upload a properly formatted file.");
-        }
-    };
+        })
+        .catch(error => {
+            console.error("Error loading quiz:", error);
+            alert("Failed to load the quiz file.");
+        });
+}
 
-    reader.readAsText(file);
+// Function to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 // Function to load a question with shuffled options
@@ -64,8 +117,8 @@ function loadQuestion(index = null) {
         const optionsContainer = document.getElementById("options-container");
         optionsContainer.innerHTML = "";
 
-        const shuffledOptions = [...questionObj.options]; // Copy options array
-        shuffleArray(shuffledOptions); // Shuffle options
+        const shuffledOptions = [...questionObj.options];
+        shuffleArray(shuffledOptions);
 
         const isMultiSelect = questionObj.correct_answers.length > 1;
         const inputType = isMultiSelect ? "checkbox" : "radio";
@@ -78,15 +131,13 @@ function loadQuestion(index = null) {
             input.name = "answer";
             input.value = option;
 
-            // Restore previous selections
             if (answeredQuestions[currentQuestionIndex]) {
                 input.disabled = true;
                 if (answeredQuestions[currentQuestionIndex].userAnswers.includes(option)) {
                     input.checked = true;
                 }
-                // Highlight correct answers
                 if (questionObj.correct_answers.includes(option)) {
-                    optionElement.style.background = "#c8e6c9"; // Light green
+                    optionElement.style.background = "#c8e6c9";
                 }
             }
 
@@ -116,7 +167,6 @@ function checkAnswer() {
     const userAnswers = Array.from(selectedOptions).map(option => option.value);
     const correctAnswers = questions[currentQuestionIndex].correct_answers;
 
-    // Strict check: User must select only the correct answers, no extra, no missing
     const isCorrect = arraysEqual(userAnswers.sort(), correctAnswers.sort());
 
     answeredQuestions[currentQuestionIndex] = { userAnswers, isCorrect };
@@ -185,3 +235,6 @@ function renderDashboard() {
 function markDashboardItem(index, color) {
     document.getElementsByClassName("dashboard-item")[index].style.background = color;
 }
+
+// Initialize dropdown on page load
+document.addEventListener("DOMContentLoaded", populateQuizDropdown);

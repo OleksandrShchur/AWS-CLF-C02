@@ -9,12 +9,13 @@
 </head>
 
 <body>
-    <h1>Quiz App</h1>
+    <h2>Quiz App. AWS CLF-C02 Exam test preparation</h2>
 
-    <!-- File Upload -->
+    <!-- Quiz Selection -->
     <div>
-        <input type="file" id="file-input" accept=".json">
-        <button onclick="handleFileUpload()">Upload</button>
+        <label for="quiz-select">Choose a quiz:</label>
+        <select id="quiz-select"></select>
+        <button onclick="loadSelectedQuiz()">Load Quiz</button>
     </div>
 
     <!-- Dashboard -->
