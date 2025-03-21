@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 493",
+        "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+        "options": [
+            "Amazon Rekognition provides automatic watermarking of images.",
+            "Amazon Rekognition provides automatic detection of objects appearing in pictures.",
+            "Amazon Recognition provides the ability to resize millions of images automatically.",
+            "Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs."
+        ],
+        "correct_answers": [
+            "Amazon Rekognition provides automatic detection of objects appearing in pictures."
+        ]
+    },
+    {
+        "question_number": "Question 494",
+        "question": "Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Redshift.",
+            "AWS CloudTrail.",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 495",
+        "question": "Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?",
+        "options": [
+            "AWS manages the data stored in Amazon RDS tables.",
+            "AWS manages the maintenance of the operating system.",
+            "AWS automatically scales up instance types on demand.",
+            "AWS manages the database type."
+        ],
+        "correct_answers": [
+            "AWS automatically scales up instance types on demand."
+        ]
+    },
+    {
+        "question_number": "Question 496",
+        "question": "A company's web application currently has light dependencies on underlying components so when one component fails the entire web application fails. Applying which AWS Cloud design principle will address the current design issue?",
+        "options": [
+            "Implementing elasticity enabling the application to scale up or scale down as demand changes.",
+            "Enabling several EC2 instances to run in parallel to achieve better performance.",
+            "Focusing on decoupling components by isolating them and ensuring individual components can function when other components.",
+            "Doubling EC2 computing resources to increase system fault tolerance."
+        ],
+        "correct_answers": [
+            "Focusing on decoupling components by isolating them and ensuring individual components can function when other components."
+        ]
+    },
+    {
+        "question_number": "Question 497",
+        "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+        "options": [
+            "AWS Partner Network Technology Partners.",
+            "AWS Marketplace.",
+            "AWS Partner Network Consulting Partners.",
+            "AWS Service Catalog."
+        ],
+        "correct_answers": [
+            "AWS Partner Network Consulting Partners."
+        ]
+    },
+    {
+        "question_number": "Question 498",
+        "question": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
+        "options": [
+            "Amazon Glacier.",
+            "AWS Storage Gateway.",
+            "Amazon S3.",
+            "Amazon EBS."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 499",
+        "question": "Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?",
+        "options": [
+            "Implement automation.",
+            "Design for agility.",
+            "Design for failure.",
+            "Implement elasticity."
+        ],
+        "correct_answers": [
+            "Design for failure."
+        ]
+    },
+    {
+        "question_number": "Question 500",
+        "question": "Which service should a customer use to consolidate and centrally manage multiple AWS accounts?",
+        "options": [
+            "AWS IAM.",
+            "AWS Organizations.",
+            "AWS Schema Conversion Tool.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Organizations."
+        ]
+    },
+    {
+        "question_number": "Question 501",
+        "question": "How can a company reduce its Total Cost of Ownership (TCO) using AWS?",
+        "options": [
+            "By minimizing large capital expenditures.",
+            "By having no responsibility for third-party license costs.",
+            "By having no operational expenditures.",
+            "By having AWS manage applications."
+        ],
+        "correct_answers": [
+            "By minimizing large capital expenditures."
+        ]
+    },
+    {
+        "question_number": "Question 502",
+        "question": "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Select TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Online Tech Talks.",
+            "AWS Blog.",
+            "AWS Forums.",
+            "AWS Classroom Training."
+        ],
+        "correct_answers": [
+            "AWS Online Tech Talks.",
+            "AWS Classroom Training."
+        ]
+    },
+    {
+        "question_number": "Question 503",
+        "question": "Which of the following will enhance the security of access to the AWS Management Console'? (Select TWO)",
+        "options": [
+            "AWS Secrets Manager.",
+            "AWS Certificate Manager.",
+            "AWS Multi-Factor Authentication (AWS MFA).",
+            "Security groups.",
+            "Password policies."
+        ],
+        "correct_answers": [
+            "AWS Multi-Factor Authentication (AWS MFA).",
+            "Password policies."
+        ]
+    },
+    {
+        "question_number": "Question 504",
+        "question": "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Select TWO)",
+        "options": [
+            "Amazon CloudFront distributions.",
+            "Amazon Route 53.",
+            "Security Groups.",
+            "Subnets.",
+            "Elastic Load Balancing."
+        ],
+        "correct_answers": [
+            "Security Groups.",
+            "Subnets."
+        ]
+    },
+    {
+        "question_number": "Question 505",
+        "question": "For which auditing process does AWS have sole responsibility?",
+        "options": [
+            "AWS IAM policies.",
+            "Physical security.",
+            "Amazon S3 bucket policies.",
+            "AWS CloudTrail Logs."
+        ],
+        "correct_answers": [
+            "Physical security."
+        ]
+    },
+    {
+        "question_number": "Question 506",
+        "question": "Which of the following are advantages of AWS consolidated billing? (Select TWO)",
+        "options": [
+            "The ability to receive one bill for multiple accounts.",
+            "Service limits increasing by default in all accounts.",
+            "A fixed discount on the monthly bill.",
+            "Potential volume discounts, as usage in all accounts is combined.",
+            "The automatic extension of the master account's AWS support plan to all accounts."
+        ],
+        "correct_answers": [
+            "The ability to receive one bill for multiple accounts.",
+            "Potential volume discounts, as usage in all accounts is combined."
+        ]
+    },
+    {
+        "question_number": "Question 507",
+        "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Select TWO)",
+        "options": [
+            "Patching databases software.",
+            "Testing application releases.",
+            "Backing up databases.",
+            "Creating database schema.",
+            "Running penetration tests."
+        ],
+        "correct_answers": [
+            "Patching databases software.",
+            "Backing up databases."
+        ]
+    },
+    {
+        "question_number": "Question 508",
+        "question": "A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?",
+        "options": [
+            "Contact an AWS Account Manager to sign a new contract.",
+            "Move an Availability Zone to the new Region.",
+            "Begin deploying resources in the second Region.",
+            "Download the AWS Management Console for the new Region."
+        ],
+        "correct_answers": [
+            "Begin deploying resources in the second Region."
+        ]
+    },
+    {
+        "question_number": "Question 509",
+        "question": "Why is it beneficial to use Elastic Load Balancers with applications?",
+        "options": [
+            "They allow for the conversion from Application Load.",
+            "Balancers to Classic Load Balancers.",
+            "They are capable of handling constant changes in network traffic patterns.",
+            "They automatically adjust capacity. They are provided at no charge to users."
+        ],
+        "correct_answers": [
+            "They are capable of handling constant changes in network traffic patterns."
+        ]
+    },
+    {
+        "question_number": "Question 510",
+        "question": "Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?",
+        "options": [
+            "Enterprise.",
+            "Business.",
+            "Developer",
+            "Basic"
+        ],
+        "correct_answers": [
+            "Business."
+        ]
+    },
+    {
+        "question_number": "Question 511",
+        "question": "What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?",
+        "options": [
+            "Amazon S3.",
+            "Amazon Glacier.",
+            "Amazon EBS.",
+            "Amazon EC2 Instance Store."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 512",
+        "question": "What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?",
+        "options": [
+            "AWS Enterprise Support.",
+            "AWS Solutions Architects.",
+            "AWS Professional Services.",
+            "AWS Account Managers."
+        ],
+        "correct_answers": [
+            "AWS Professional Services."
+        ]
+    }
+]

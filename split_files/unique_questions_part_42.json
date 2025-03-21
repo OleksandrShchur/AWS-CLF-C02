@@ -1,0 +1,263 @@
+[
+    {
+        "question_number": "Question 65",
+        "question": "A company wants to launch its workload on AWS and requires the system to automatically recover from failure. Which pillar of the AWS Well-Architected Framework includes this requirement?",
+        "options": [
+            "Cost optimization",
+            "Operational excellence",
+            "Performance efficiency",
+            "Reliability"
+        ],
+        "correct_answers": [
+            "Reliability"
+        ]
+    },
+    {
+        "question_number": "Question 66",
+        "question": "A global company is building a simple time-tracking mobile app. The app needs to operate globally and must store collected data in a database. Data must be accessible from the AWS Region that is closest to the user. What should the company do to meet these data storage requirements with the LEAST amount of operational overhead?",
+        "options": [
+            "Use Amazon EC2 in multiple Regions to host separate databases",
+            "Use Amazon RDS cross-Region replication",
+            "Use Amazon DynamoDB global tables",
+            "Use AWS Database Migration Service (AWS DMS)"
+        ],
+        "correct_answers": [
+            "Use Amazon DynamoDB global tables"
+        ]
+    },
+    {
+        "question_number": "Question 67",
+        "question": "Which controls does the customer fully inherit from AWS in the AWS shared responsibility model?",
+        "options": [
+            "Patch management controls",
+            "Awareness and training controls",
+            "Physical and environmental controls",
+            "Configuration management controls"
+        ],
+        "correct_answers": [
+            "Physical and environmental controls"
+        ]
+    },
+    {
+        "question_number": "Question 68",
+        "question": "Which task is a customer's responsibility, according to the AWS shared responsibility model?",
+        "options": [
+            "Management of the guest operating systems",
+            "Maintenance of the configuration of infrastructure devices",
+            "Management of the host operating systems and virtualization",
+            "Maintenance of the software that powers Availability Zones"
+        ],
+        "correct_answers": [
+            "Management of the guest operating systems"
+        ]
+    },
+    {
+        "question_number": "Question 69",
+        "question": "A company needs to deliver new website features quickly in an iterative manner to minimize the time to market. Which AWS Cloud concept does this requirement represent?",
+        "options": [
+            "Reliability",
+            "Elasticity",
+            "Agility",
+            "High availability"
+        ],
+        "correct_answers": [
+            "Agility"
+        ]
+    },
+    {
+        "question_number": "Question 70",
+        "question": "A company wants to increase its ability to recover its infrastructure in the case of a natural disaster. Which pillar of the AWS Well-Architected Framework does this ability represent?",
+        "options": [
+            "Cost optimization",
+            "Performance efficiency",
+            "Reliability",
+            "Security"
+        ],
+        "correct_answers": [
+            "Reliability"
+        ]
+    },
+    {
+        "question_number": "Question 72",
+        "question": "Which benefits does a company gain when the company moves from on-premises IT architecture to the AWS Cloud? (Choose two.)",
+        "options": [
+            "Reduced or eliminated tasks for hardware troubleshooting, capacity planning, and procurement",
+            "Elimination of the need for trained IT staff",
+            "Automatic security configuration of all applications that are migrated to the cloud",
+            "Elimination of the need for disaster recovery planning",
+            "Faster deployment of new features and applications"
+        ],
+        "correct_answers": [
+            "Reduced or eliminated tasks for hardware troubleshooting, capacity planning, and procurement",
+            "Faster deployment of new features and applications"
+        ]
+    },
+    {
+        "question_number": "Question 73",
+        "question": "Which of the following is a benefit of decoupling an AWS Cloud architecture?",
+        "options": [
+            "Reduced latency",
+            "Ability to upgrade components independently",
+            "Decreased costs",
+            "Fewer components to manage"
+        ],
+        "correct_answers": [
+            "Ability to upgrade components independently"
+        ]
+    },
+    {
+        "question_number": "Question 74",
+        "question": "Which task is the responsibility of the customer according to the AWS shared responsibility model?",
+        "options": [
+            "Maintain the security of the hardware that runs Amazon EC2 instances.",
+            "Patch the guest operating system of Amazon EC2 instances.",
+            "Protect the security of the AWS global infrastructure.",
+            "Patch Amazon RDS software."
+        ],
+        "correct_answers": [
+            "Patch the guest operating system of Amazon EC2 instances."
+        ]
+    },
+    {
+        "question_number": "Question 75",
+        "question": "Which of the following is a cloud benefit that AWS offers to its users?",
+        "options": [
+            "The ability to configure AWS data center hypervisors",
+            "The ability to purchase hardware in advance of increased traffic",
+            "The ability to deploy to AWS on a global scale",
+            "Compliance audits for user IT environments"
+        ],
+        "correct_answers": [
+            "The ability to deploy to AWS on a global scale"
+        ]
+    },
+    {
+        "question_number": "Question 76",
+        "question": "What are the six pillars of the AWS Well-Architected Framework?",
+        "options": [
+            "Encryption, documentation, speed, hybrid design, and cost optimization",
+            "Containerization, cost margins, globalization, marketplace, and developer operations",
+            "Network, compute, storage, security, and developer operations",
+            "Operational excellence, reliability, performance efficiency, security, sustainability, and cost optimization"
+        ],
+        "correct_answers": [
+            "Operational excellence, reliability, performance efficiency, security, sustainability, and cost optimization"
+        ]
+    },
+    {
+        "question_number": "Question 77",
+        "question": "Which statements explain the business value of migration to the AWS Cloud? (Choose two.)",
+        "options": [
+            "The migration of enterprise applications to the AWS Cloud makes these applications automatically available on mobile devices.",
+            "AWS availability and security provide the ability to improve service level agreements (SLAs) while reducing risk and unplanned downtime.",
+            "Companies that migrate to the AWS Cloud eliminate the need to plan for high availability and disaster recovery.",
+            "Companies that migrate to the AWS Cloud reduce IT costs related to infrastructure, freeing budget for reinvestment in other areas.",
+            "Applications are modernized because migration to the AWS Cloud requires companies to rearchitect and rewrite all enterprise applications."
+        ],
+        "correct_answers": [
+            "AWS availability and security provide the ability to improve service level agreements (SLAs) while reducing risk and unplanned downtime.",
+            "Companies that migrate to the AWS Cloud reduce IT costs related to infrastructure, freeing budget for reinvestment in other areas."
+        ]
+    },
+    {
+        "question_number": "Question 78",
+        "question": "What is a proper definition of IAM Roles?",
+        "options": [
+            "An IAM entity that defines a set of permissions for making AWS service requests, that will be used by AWS services",
+            "IAM Users in multiple Groups",
+            "A password policy",
+            "Permissions assigned to Users to perform actions"
+        ],
+        "correct_answers": [
+            "An IAM entity that defines a set of permissions for making AWS service requests, that will be used by AWS services"
+        ]
+    },
+    {
+        "question_number": "Question 79",
+        "question": "Which of the following is an IAM Security Tool?",
+        "options": [
+            "IAM Credentials Report",
+            "IAM Root Account Manager",
+            "IAM Services Report",
+            "IAM Security Advisor"
+        ],
+        "correct_answers": [
+            "IAM Credentials Report"
+        ]
+    },
+    {
+        "question_number": "Question 80",
+        "question": "Which answer is INCORRECT regarding IAM Users?",
+        "options": [
+            "IAM Users can belong to multiple groups",
+            "IAM Users don't have to belong to a group",
+            "IAM Users can have policies assigned to them",
+            "IAM Users access AWS with the root account credentials"
+        ],
+        "correct_answers": [
+            "IAM Users access AWS with the root account credentials"
+        ]
+    },
+    {
+        "question_number": "Question 81",
+        "question": "Which of the following is an IAM best practice?",
+        "options": [
+            "Don't use the root user account",
+            "Create several users for a physical person",
+            "Share credentials so a colleague can perform a task for you",
+            "Do not enable MFA for easier access"
+        ],
+        "correct_answers": [
+            "Don't use the root user account"
+        ]
+    },
+    {
+        "question_number": "Question 82",
+        "question": "What are IAM Policies?",
+        "options": [
+            "AWS services performable actions",
+            "JSON documents to define Users, Groups or Roles' permissions",
+            "Rules to set up a password for IAM Users"
+        ],
+        "correct_answers": [
+            "JSON documents to define Users, Groups or Roles' permissions"
+        ]
+    },
+    {
+        "question_number": "Question 83",
+        "question": "Under the shared responsibility model, what is the customer responsible for in IAM?",
+        "options": [
+            "Infrastructure security",
+            "Compliance validation",
+            "Configuration and vulnerability analysis",
+            "Assigning users proper IAM Policies"
+        ],
+        "correct_answers": [
+            "Assigning users proper IAM Policies"
+        ]
+    },
+    {
+        "question_number": "Question 84",
+        "question": "Which of the following statements is TRUE?",
+        "options": [
+            "The AWS CLI can interact with AWS using commands in your command-line shell, while the AWS SDK can interact with AWS programmatically.",
+            "The AWS SDK can interact with AWS using commands in your command-line shell, while the AWS CLI can interact with AWS programmatically."
+        ],
+        "correct_answers": [
+            "The AWS CLI can interact with AWS using commands in your command-line shell, while the AWS SDK can interact with AWS programmatically."
+        ]
+    },
+    {
+        "question_number": "Question 85",
+        "question": "Which principle should you apply regarding IAM Permissions?",
+        "options": [
+            "Grant most privilege",
+            "Grant least privilege",
+            "Grant permissions if your employee asks you to",
+            "Restrict root account permissions"
+        ],
+        "correct_answers": [
+            "Grant least privilege"
+        ]
+    }
+]

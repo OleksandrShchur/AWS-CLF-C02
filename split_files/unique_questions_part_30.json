@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 412",
+        "question": "Which of the following are pillars of the AWS Well-Architected Framework? (Select TWO)",
+        "options": [
+            "Multiple Availability Zones.",
+            "Performance efficiency.",
+            "Security.",
+            "Encryption usage.",
+            "High availability."
+        ],
+        "correct_answers": [
+            "Performance efficiency.",
+            "Security."
+        ]
+    },
+    {
+        "question_number": "Question 413",
+        "question": "Which AWS service identifies security groups that allow unrestricted access to a user's AWS resources?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector.",
+            "Amazon CloudWatch.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 414",
+        "question": "Which design principles for cloud architecture are recommended when re-architecting a large monolithic application? (Select TWO)",
+        "options": [
+            "Use manual monitoring.",
+            "Use fixed servers.",
+            "Implement loose coupling.",
+            "Rely on individual components.",
+            "Design for scalability."
+        ],
+        "correct_answers": [
+            "Implement loose coupling.",
+            "Design for scalability."
+        ]
+    },
+    {
+        "question_number": "Question 415",
+        "question": "When architecting cloud applications, which of the following are a key design principle?",
+        "options": [
+            "Use the largest instance possible.",
+            "Provision capacity for peak load.",
+            "Use the Scrum development process.",
+            "Implement elasticity."
+        ],
+        "correct_answers": [
+            "Implement elasticity."
+        ]
+    },
+    {
+        "question_number": "Question 416",
+        "question": "A company has deployed several relational databases on Amazon EC2 instances Every month the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+        "options": [
+            "Connect to each database instance on a monthly basis and download and apply the necessary security patches from the vendor.",
+            "Enable automate patching for the instances using the Amazon RDS console.",
+            "In AWS Config. configure a rule for the instances and the required patch level.",
+            "Use AWS Systems Manager to automate database patching according to a schedule."
+        ],
+        "correct_answers": [
+            "Use AWS Systems Manager to automate database patching according to a schedule."
+        ]
+    },
+    {
+        "question_number": "Question 417",
+        "question": "Which mechanism allows developers to access AWS sendees from application code?",
+        "options": [
+            "AWS Software Development Kit.",
+            "AWS Management Console.",
+            "AWS CodePipeline.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Software Development Kit."
+        ]
+    },
+    {
+        "question_number": "Question 418",
+        "question": "Which AWS feature will reduce the customer's total cost of ownership (TCO)?",
+        "options": [
+            "Shared responsibility security model.",
+            "Single tenancy.",
+            "Elastic computing.",
+            "Encryption."
+        ],
+        "correct_answers": [
+            "Elastic computing."
+        ]
+    },
+    {
+        "question_number": "Question 419",
+        "question": "Which of the following is a benefit of using the AWS Cloud?",
+        "options": [
+            "Permissive security removes the administrative burden.",
+            "Ability to focus on revenue-generating activities.",
+            "Control over cloud network hardware.",
+            "Choice of specific cloud hardware vendors."
+        ],
+        "correct_answers": [
+            "Ability to focus on revenue-generating activities."
+        ]
+    },
+    {
+        "question_number": "Question 420",
+        "question": "Which of the following are categories of AWS Trusted Advisor? (Select TWO)",
+        "options": [
+            "Fault Tolerance.",
+            "Instance Usage.",
+            "Infrastructure.",
+            "Performance.",
+            "Storage Capacity."
+        ],
+        "correct_answers": [
+            "Fault Tolerance.",
+            "Performance."
+        ]
+    },
+    {
+        "question_number": "Question 421",
+        "question": "What is Amazon CloudWatch?",
+        "options": [
+            "A code repository with customizable build and team commit features.",
+            "A metrics repository with customizable notification thresholds and channels.",
+            "A security configuration repository with threat analytics.",
+            "A rule repository of a web application firewall with automated vulnerability prevention features."
+        ],
+        "correct_answers": [
+            "A metrics repository with customizable notification thresholds and channels."
+        ]
+    },
+    {
+        "question_number": "Question 422",
+        "question": "Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO)",
+        "options": [
+            "Patching operating system components for Amazon Relational Database Server (Amazon RDS).",
+            "Encrypting data on the client-side.",
+            "Training the data center staff.",
+            "Configuring Network Access Control Lists (ACL).",
+            "Maintaining environmental controls within a data center."
+        ],
+        "correct_answers": [
+            "Encrypting data on the client-side.",
+            "Configuring Network Access Control Lists (ACL)."
+        ]
+    },
+    {
+        "question_number": "Question 423",
+        "question": "Under the shared responsibility model, which of the following is a shared control between a customer and AWS?",
+        "options": [
+            "Physical controls.",
+            "Patch management.",
+            "Zone security.",
+            "Data center auditing."
+        ],
+        "correct_answers": [
+            "Patch management."
+        ]
+    },
+    {
+        "question_number": "Question 424",
+        "question": "Which AWS service is used to pay AWS bills, and monitor usage and budget costs?",
+        "options": [
+            "AWS Billing and Cost Management.",
+            "Consolidated billing.",
+            "Amazon CloudWatch.",
+            "Amazon GuickStght."
+        ],
+        "correct_answers": [
+            "Consolidated billing."
+        ]
+    },
+    {
+        "question_number": "Question 425",
+        "question": "How do customers benefit from Amazon's massive economies of scale?",
+        "options": [
+            "Periodic price reductions as the result of Amazon's operational efficiencies.",
+            "New Amazon EC2 instance types providing the latest hardware.",
+            "The ability to scale up and down when needed.",
+            "Increased reliability in the underlying hardware of Amazon EC2 instances."
+        ],
+        "correct_answers": [
+            "Periodic price reductions as the result of Amazon's operational efficiencies."
+        ]
+    },
+    {
+        "question_number": "Question 426",
+        "question": "Which AWS feature allows a company to take advantage of usage tiers for services across multiple member accounts?",
+        "options": [
+            "Service control policies (SCPs).",
+            "Consolidated billing.",
+            "All Upfront Reserved Instances.",
+            "AWS Cost Explorer."
+        ],
+        "correct_answers": [
+            "Consolidated billing."
+        ]
+    },
+    {
+        "question_number": "Question 427",
+        "question": "Which AWS services provide a way to extend an on-premises architecture to the AWS cloud? (Select TWO)",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Connect.",
+            "AWS Storage Gateway.",
+            "Amazon CloudFront.",
+            "AWS Direct Connect."
+        ],
+        "correct_answers": [
+            "AWS Storage Gateway.",
+            "AWS Direct Connect."
+        ]
+    },
+    {
+        "question_number": "Question 428",
+        "question": "Which of the following services will automatically scale with an expected increase in web traffic?",
+        "options": [
+            "AWS CodePipeline.",
+            "Elastic Load Balancing.",
+            "Amazon EBS.",
+            "AWS Direct Connect."
+        ],
+        "correct_answers": [
+            "Elastic Load Balancing."
+        ]
+    },
+    {
+        "question_number": "Question 429",
+        "question": "Which service provides a virtually unlimited amount of online highly durable object storage?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon Elastic File System (Amazon EFS).",
+            "Amazon Elastic Container Service (Amazon ECS).",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 430",
+        "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
+        "options": [
+            "AWS Direct Connect.",
+            "Availability Zones.",
+            "Data centers.",
+            "Amazon Virtual Private Cloud (Amazon VPC)."
+        ],
+        "correct_answers": [
+            "Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 431",
+        "question": "Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO)",
+        "options": [
+            "AWS WAF.",
+            "AWS Trusted Advisor.",
+            "AWS Direct Connect.",
+            "AWS Organizations.",
+            "Network ACLs."
+        ],
+        "correct_answers": [
+            "AWS WAF.",
+            "Network ACLs."
+        ]
+    }
+]

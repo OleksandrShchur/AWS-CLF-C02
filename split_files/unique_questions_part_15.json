@@ -1,0 +1,276 @@
+[
+    {
+        "question_number": "Question 111",
+        "question": "Using Amazon EC2 falls under which of the following cloud computing models?",
+        "options": [
+            "Iaas & SaaS.",
+            "IaaS.",
+            "SaaS.",
+            "PaaS."
+        ],
+        "correct_answers": [
+            "IaaS."
+        ]
+    },
+    {
+        "question_number": "Question 112",
+        "question": "Which of the below is a best-practice when building applications on AWS?",
+        "options": [
+            "Strengthen physical security by applying the principle of least privilege.",
+            "Ensure that the application runs on hardware from trusted vendors.",
+            "Use IAM policies to maintain performance.",
+            "Decouple the components of the application so that they run independently."
+        ],
+        "correct_answers": [
+            "Decouple the components of the application so that they run independently."
+        ]
+    },
+    {
+        "question_number": "Question 114",
+        "question": "Amazon Glacier is an Amazon S3 storage class that is suitable for storing [...] & [...]. (Choose TWO)",
+        "options": [
+            "active archives.",
+            "dynamic websites' assets.",
+            "long-term analytic data.",
+            "active databases.",
+            "cached data."
+        ],
+        "correct_answers": [
+            "active archives.",
+            "long-term analytic data."
+        ]
+    },
+    {
+        "question_number": "Question 115",
+        "question": "What does Amazon Elastic Beanstalk provide?",
+        "options": [
+            "A PaaS solution to automate application deployment.",
+            "A compute engine for Amazon ECS.",
+            "A scalable file storage solution for use with AWS and on-premises servers.",
+            "A NoSQL database service."
+        ],
+        "correct_answers": [
+            "A PaaS solution to automate application deployment."
+        ]
+    },
+    {
+        "question_number": "Question 116",
+        "question": "What is the AWS service that performs automated network assessments of Amazon EC2 instances to check for vulnerabilities?",
+        "options": [
+            "Amazon Kinesis.",
+            "Security groups.",
+            "Amazon Inspector.",
+            "AWS Network Access Control Lists."
+        ],
+        "correct_answers": [
+            "Amazon Inspector."
+        ]
+    },
+    {
+        "question_number": "Question 117",
+        "question": "Under the Shared Responsibility Model, which of the following controls do customers fully inherit from AWS? (Choose TWO)",
+        "options": [
+            "Patch management controls.",
+            "Database controls.",
+            "Awareness & Training.",
+            "Environmental controls.",
+            "Physical controls."
+        ],
+        "correct_answers": [
+            "Environmental controls.",
+            "Physical controls."
+        ]
+    },
+    {
+        "question_number": "Question 118",
+        "question": "A company needs to host a database in Amazon RDS for at least three years. Which of the following options would be the most cost-effective solution?",
+        "options": [
+            "Reserved instances - No Upfront.",
+            "Reserved instances - Partial Upfront.",
+            "On-Demand instances.",
+            "Spot Instances."
+        ],
+        "correct_answers": [
+            "Reserved instances - Partial Upfront."
+        ]
+    },
+    {
+        "question_number": "Question 119",
+        "question": "Your application has recently experienced significant global growth, and international users are complaining of high latency. What is the AWS characteristic that can help improve your international users' experience?",
+        "options": [
+            "Elasticity.",
+            "Global reach.",
+            "Data durability.",
+            "High availability."
+        ],
+        "correct_answers": [
+            "Global reach."
+        ]
+    },
+    {
+        "question_number": "Question 120",
+        "question": "Savings Plans are available for which of the following AWS compute services? (Choose TWO)",
+        "options": [
+            "AWS Batch.",
+            "AWS Outposts.",
+            "Amazon Lightsail.",
+            "Amazon EC2.",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "Amazon EC2.",
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 121",
+        "question": "A company has business critical workloads hosted on AWS and they are unwilling to accept any downtime. Which of the following is a recommended best practice to protect their workloads in the event of an unexpected natural disaster?",
+        "options": [
+            "Replicate data across multiple Edge Locations worldwide and use Amazon CloudFront to perform automatic failover in the event of an outage.",
+            "Deploy AWS resources across multiple Availability Zones within the same AWS Region.",
+            "Create point-in-time backups in another subnet and recover this data when a disaster occurs.",
+            "Deploy AWS resources to another AWS Region and implement an Active-Active disaster recovery strategy."
+        ],
+        "correct_answers": [
+            "Deploy AWS resources to another AWS Region and implement an Active-Active disaster recovery strategy."
+        ]
+    },
+    {
+        "question_number": "Question 122",
+        "question": "Which statement is correct with regards to AWS service limits? (Choose TWO)",
+        "options": [
+            "You can contact AWS support to increase the service limits.",
+            "Each IAM user has the same service limit.",
+            "There are no service limits on AWS.",
+            "You can use the AWS Trusted Advisor to monitor your service limits.",
+            "The Amazon Simple Email Service is responsible for sending email notifications when usage approaches a service limit."
+        ],
+        "correct_answers": [
+            "You can contact AWS support to increase the service limits.",
+            "You can use the AWS Trusted Advisor to monitor your service limits."
+        ]
+    },
+    {
+        "question_number": "Question 123",
+        "question": "What is the AWS tool that enables you to use scripts to manage all AWS services and resources?",
+        "options": [
+            "AWS Console.",
+            "AWS Service Catalog.",
+            "AWS OpsWorks.",
+            "AWS CLI."
+        ],
+        "correct_answers": [
+            "AWS CLI."
+        ]
+    },
+    {
+        "question_number": "Question 124",
+        "question": "What are the connectivity options that can be used to build hybrid cloud architectures? (Choose TWO)",
+        "options": [
+            "AWS Artifact.",
+            "AWS Cloud9.",
+            "AWS Direct Connect.",
+            "AWS CloudTrail.",
+            "AWS VPN."
+        ],
+        "correct_answers": [
+            "AWS Direct Connect.",
+            "AWS VPN."
+        ]
+    },
+    {
+        "question_number": "Question 125",
+        "question": "A company has deployed a new web application on multiple Amazon EC2 instances. Which of the following should they use to ensure that the incoming HTTP traffic is distributed evenly across the instances?",
+        "options": [
+            "AWS EC2 Auto Recovery.",
+            "AWS Auto Scaling.",
+            "AWS Network Load Balancer.",
+            "AWS Application Load Balancer."
+        ],
+        "correct_answers": [
+            "AWS Application Load Balancer."
+        ]
+    },
+    {
+        "question_number": "Question 126",
+        "question": "Which of the following AWS offerings is a MySQL-compatible relational database service that can scale capacity automatically based on demand?",
+        "options": [
+            "Amazon Neptune.",
+            "Amazon Aurora.",
+            "Amazon RDS for SQL Server.",
+            "Amazon RDS for PostgreSQL."
+        ],
+        "correct_answers": [
+            "Amazon Aurora."
+        ]
+    },
+    {
+        "question_number": "Question 127",
+        "question": "Which of the following can help protect your EC2 instances from DDoS attacks? (Choose TWO)",
+        "options": [
+            "AWS CloudHSM.",
+            "Security Groups.",
+            "AWS Batch.",
+            "AWS IAM.",
+            "Network Access Control Lists (Network ACLs)."
+        ],
+        "correct_answers": [
+            "Security Groups.",
+            "Network Access Control Lists (Network ACLs)."
+        ]
+    },
+    {
+        "question_number": "Question 128",
+        "question": "What is the AWS data warehouse service that supports a high level of query performance on large amounts of datasets?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon Kinesis.",
+            "Amazon DynamoDB.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon Redshift."
+        ]
+    },
+    {
+        "question_number": "Question 129",
+        "question": "Which of the following should be considered when performing a TCO analysis to compare the costs of running an application on AWS instead of on-premises?",
+        "options": [
+            "Application development.",
+            "Market research.",
+            "Business analysis.",
+            "Physical hardware."
+        ],
+        "correct_answers": [
+            "Physical hardware."
+        ]
+    },
+    {
+        "question_number": "Question 130",
+        "question": "How are AWS customers billed for Linux-based Amazon EC2 usage?",
+        "options": [
+            "EC2 instances will be billed on one second increments, with a minimum of one minute.",
+            "EC2 instances will be billed on one hour increments, with a minimum of one day.",
+            "EC2 instances will be billed on one minute increments, with a minimum of one hour.",
+            "EC2 instances will be billed on one day increments, with a minimum of one month."
+        ],
+        "correct_answers": [
+            "EC2 instances will be billed on one second increments, with a minimum of one minute."
+        ]
+    },
+    {
+        "question_number": "Question 131",
+        "question": "Which of the following will impact the price paid for an EC2 instance? (Choose TWO)",
+        "options": [
+            "Instance type.",
+            "The Availability Zone where the instance is provisioned.",
+            "Load balancing.",
+            "Number of buckets.",
+            "Number of private IPs."
+        ],
+        "correct_answers": [
+            "Instance type.",
+            "The Availability Zone where the instance is provisioned."
+        ]
+    }
+]

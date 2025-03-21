@@ -1,0 +1,270 @@
+[
+    {
+        "question_number": "Question 212",
+        "question": "Which of the following approaches will help you eliminate human error and automate the process of creating and updating your AWS environment?",
+        "options": [
+            "Use Software test automation tools.",
+            "Use AWS CodeDeploy to build and automate your AWS environment.",
+            "Use code to provision and operate your AWS infrastructure.",
+            "Migrate all of your applications to a dedicated host."
+        ],
+        "correct_answers": [
+            "Use code to provision and operate your AWS infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 213",
+        "question": "A company is seeking to better secure its AWS account from unauthorized access. Which of the below options can the customer use to achieve this goal?",
+        "options": [
+            "Restrict any API call made through SDKs or CLI.",
+            "Create one IAM account for each department in the company (Development, QA, Production), and share it across all staff in that department.",
+            "Require Multi-Factor Authentication (MFA) for all IAM User access.",
+            "Set up two login passwords."
+        ],
+        "correct_answers": [
+            "Require Multi-Factor Authentication (MFA) for all IAM User access."
+        ]
+    },
+    {
+        "question_number": "Question 214",
+        "question": "Which AWS Service offers volume discounts based on usage?",
+        "options": [
+            "Amazon VPC.",
+            "Amazon S3.",
+            "Amazon Lightsail.",
+            "AWS Cost Explorer."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 215",
+        "question": "Which of the following factors should be considered when determining the region in which AWS Resources will be deployed? (Choose TWO)",
+        "options": [
+            "The AWS Region's security level.",
+            "Data sovereignty.",
+            "Cost.",
+            "The planned number of VPCs.",
+            "Geographic proximity to the company's location."
+        ],
+        "correct_answers": [
+            "Data sovereignty.",
+            "Cost."
+        ]
+    },
+    {
+        "question_number": "Question 216",
+        "question": "You are running a financial services web application on AWS. The application uses a MySQL database to store the data. Which of the following AWS services would improve the performance of your application by allowing you to retrieve information from fast in-memory caches?",
+        "options": [
+            "Amazon EFS.",
+            "Amazon Neptune.",
+            "Amazon ElastiCache.",
+            "DAX."
+        ],
+        "correct_answers": [
+            "Amazon ElastiCache."
+        ]
+    },
+    {
+        "question_number": "Question 217",
+        "question": "What are the advantages of using Auto Scaling Groups for EC2 instances?",
+        "options": [
+            "Auto Scaling Groups caches the most recent responses at global edge locations to reduce latency and improve performance.",
+            "Auto Scaling Groups scales EC2 instances in multiple Availability Zones to increase application availability and fault tolerance.",
+            "Auto Scaling Groups scales EC2 instances across multiple regions to reduce latency for global users.",
+            "Auto Scaling Groups distributes application traffic across multiple Availability Zones to enhance performance."
+        ],
+        "correct_answers": [
+            "Auto Scaling Groups scales EC2 instances in multiple Availability Zones to increase application availability and fault tolerance."
+        ]
+    },
+    {
+        "question_number": "Question 218",
+        "question": "The TCO gap between AWS infrastructure and traditional infrastructure has widened over the recent years. Which of the following could be the reason for that?",
+        "options": [
+            "AWS helps customers invest more in capital expenditures.",
+            "AWS automates all infrastructure operations, so customers save more on human resources costs.",
+            "AWS continues to lower the cost of cloud computing for its customers.",
+            "AWS secures AWS resources at no additional charge."
+        ],
+        "correct_answers": [
+            "AWS continues to lower the cost of cloud computing for its customers."
+        ]
+    },
+    {
+        "question_number": "Question 219",
+        "question": "Which of the following are examples of the customer's responsibility to implement 'security IN the cloud'? (Choose TWO)",
+        "options": [
+            "Building a schema for an application.",
+            "Replacing physical hardware.",
+            "Creating a new hypervisor.",
+            "Patch management of the underlying infrastructure.",
+            "File system encryption."
+        ],
+        "correct_answers": [
+            "Patch management of the underlying infrastructure.",
+            "File system encryption."
+        ]
+    },
+    {
+        "question_number": "Question 220",
+        "question": "Which of the following is a type of MFA device that customers can use to protect their AWS resources?",
+        "options": [
+            "AWS CloudHSM.",
+            "U2F Security Key.",
+            "AWS Access Keys.",
+            "AWS Key Pair."
+        ],
+        "correct_answers": [
+            "U2F Security Key."
+        ]
+    },
+    {
+        "question_number": "Question 221",
+        "question": "A company is seeking to deploy an existing .NET application onto AWS as quickly as possible. Which AWS Service should the customer use to achieve this goal?",
+        "options": [
+            "Amazon SNS.",
+            "AWS Elastic Beanstalk.",
+            "AWS Systems Manager.",
+            "AWS Trusted Advisor."
+        ],
+        "correct_answers": [
+            "AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "question_number": "Question 222",
+        "question": "Which of the following is NOT a factor when estimating the costs of Amazon EC2? (Choose TWO)",
+        "options": [
+            "The amount of time the instances will be running.",
+            "Number of security groups.",
+            "Allocated Elastic IP Addresses.",
+            "Number of Hosted Zones.",
+            "Number of instances."
+        ],
+        "correct_answers": [
+            "Number of security groups.",
+            "Number of Hosted Zones."
+        ]
+    },
+    {
+        "question_number": "Question 223",
+        "question": "Which AWS Service helps enterprises extend their on-premises storage to AWS in a cost-effective manner?",
+        "options": [
+            "AWS Data Pipeline.",
+            "AWS Storage Gateway.",
+            "Amazon Aurora.",
+            "Amazon EFS."
+        ],
+        "correct_answers": [
+            "AWS Storage Gateway."
+        ]
+    },
+    {
+        "question_number": "Question 224",
+        "question": "A company is building an online cloud storage platform. They need a storage service that can scale capacity automatically, while minimizing cost. Which AWS storage service should the company use to meet these requirements?",
+        "options": [
+            "Amazon Simple Storage Service.",
+            "Amazon Elastic Block Store.",
+            "Amazon Elastic Container Service.",
+            "AWS Storage Gateway."
+        ],
+        "correct_answers": [
+            "Amazon Simple Storage Service."
+        ]
+    },
+    {
+        "question_number": "Question 225",
+        "question": "You have just hired a skilled sys-admin to join your team. As usual, you have created a new IAM user for him to interact with AWS services. On his first day, you ask him to create snapshots of all existing Amazon EBS volumes and save them in a new Amazon S3 bucket. However, the new member reports back that he is unable to create neither EBS snapshots nor S3 buckets. What might prevent him from doing this simple task?",
+        "options": [
+            "EBS and S3 are accessible only to the root account owner.",
+            "The systems administrator must contact AWS Support first to activate his new IAM account.",
+            "There is not enough space in S3 to store the snapshots.",
+            "There is a non-explicit deny to all new users."
+        ],
+        "correct_answers": [
+            "There is a non-explicit deny to all new users."
+        ]
+    },
+    {
+        "question_number": "Question 226",
+        "question": "An external auditor is requesting a log of all accesses to the AWS resources in the company's account. Which of the following services will provide the auditor with the requested information?",
+        "options": [
+            "AWS CloudTrail.",
+            "Amazon CloudFront.",
+            "AWS CloudFormation.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 227",
+        "question": "Which of the below options is true of Amazon Cloud Directory?",
+        "options": [
+            "Amazon Cloud Directory allows the organization of hierarchies of data across multiple dimensions.",
+            "Amazon Cloud Directory enables the analysis of video and data streams in real time.",
+            "Amazon Cloud Directory allows users to access AWS with their existing Active Directory credentials.",
+            "Amazon Cloud Directory allows for registration and management of domain names."
+        ],
+        "correct_answers": [
+            "Amazon Cloud Directory allows the organization of hierarchies of data across multiple dimensions."
+        ]
+    },
+    {
+        "question_number": "Question 228",
+        "question": "A user has opened a 'Production System Down' support case to get help from AWS Support after a production system disruption. What is the expected response time for this type of support case?",
+        "options": [
+            "12 hours.",
+            "15 minutes.",
+            "24 hours.",
+            "One hour."
+        ],
+        "correct_answers": [
+            "One hour."
+        ]
+    },
+    {
+        "question_number": "Question 229",
+        "question": "Which of the below options is a best practice for making your application on AWS highly available?",
+        "options": [
+            "Deploy the application to at least two Availability Zones.",
+            "Use Elastic Load Balancing (ELB) across multiple AWS Regions.",
+            "Deploy the application code on at least two servers in the same Availability Zone.",
+            "Rewrite the application code to handle all incoming requests."
+        ],
+        "correct_answers": [
+            "Deploy the application to at least two Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 230",
+        "question": "Which of the following should be taken into account when performing a TCO analysis regarding the costs of running an application on AWS VS on-premises? (Choose TWO)",
+        "options": [
+            "Labor and IT costs.",
+            "Cooling and power consumption.",
+            "Amazon EBS computing power.",
+            "Software architecture.",
+            "Software compatibility."
+        ],
+        "correct_answers": [
+            "Labor and IT costs.",
+            "Cooling and power consumption."
+        ]
+    },
+    {
+        "question_number": "Question 231",
+        "question": "Your company requires a response time of less than 15 minutes from support interactions about their business-critical systems that are hosted on AWS if those systems go down. Which AWS Support Plan should this company use?",
+        "options": [
+            "AWS Basic Support.",
+            "AWS Developer Support.",
+            "AWS Business Support.",
+            "AWS Enterprise Support."
+        ],
+        "correct_answers": [
+            "AWS Enterprise Support."
+        ]
+    }
+]

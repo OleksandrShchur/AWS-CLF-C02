@@ -1,0 +1,270 @@
+[
+    {
+        "question_number": "Question 51",
+        "question": "A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?",
+        "options": [
+            "AWS Organizations.",
+            "AWS Trusted Advisor.",
+            "IAM User Groups.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS Organizations."
+        ]
+    },
+    {
+        "question_number": "Question 52",
+        "question": "Which service provides object-level storage in AWS?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon Instance Store.",
+            "Amazon EFS.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 53",
+        "question": "A company is concerned that they are spending money on underutilized compute resources in AWS. Which AWS feature will help ensure that their applications are automatically adding/removing EC2 compute capacity to closely match the required demand?",
+        "options": [
+            "AWS Elastic Load Balancer.",
+            "AWS Budgets.",
+            "AWS Auto Scaling.",
+            "AWS Cost Explorer."
+        ],
+        "correct_answers": [
+            "AWS Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 54",
+        "question": "Which S3 storage class is best for data with unpredictable access patterns?",
+        "options": [
+            "Amazon S3 Intelligent-Tiering.",
+            "Amazon S3 Glacier Flexible Retrieval.",
+            "Amazon S3 Standard.",
+            "Amazon S3 Standard-Infrequent Access."
+        ],
+        "correct_answers": [
+            "Amazon S3 Intelligent-Tiering."
+        ]
+    },
+    {
+        "question_number": "Question 55",
+        "question": "What is the AWS database service that allows you to upload data structured in key-value format?",
+        "options": [
+            "Amazon DynamoDB.",
+            "Amazon Aurora.",
+            "Amazon Redshift.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 56",
+        "question": "Which of the following is NOT correct regarding Amazon EC2 On-demand instances?",
+        "options": [
+            "You have to pay a start-up fee when launching a new instance for the first time.",
+            "The on-demand instances follow the AWS pay-as-you-go pricing model.",
+            "With on-demand instances, no longer-term commitments or upfront payments are needed.",
+            "When using on-demand Linux instances, you are charged per second based on an hourly rate."
+        ],
+        "correct_answers": [
+            "You have to pay a start-up fee when launching a new instance for the first time."
+        ]
+    },
+    {
+        "question_number": "Question 57",
+        "question": "A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector.",
+            "Amazon SNS.",
+            "Amazon CloudWatch.",
+            "Concierge Support Team."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor.",
+            "Amazon Inspector."
+        ]
+    },
+    {
+        "question_number": "Question 58",
+        "question": "What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?",
+        "options": [
+            "Encrypted keys.",
+            "Email verification.",
+            "AWS KMS.",
+            "AWS MFA."
+        ],
+        "correct_answers": [
+            "AWS MFA."
+        ]
+    },
+    {
+        "question_number": "Question 59",
+        "question": "A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?",
+        "options": [
+            "AWS Knowledge Center.",
+            "AWS Health Dashboard.",
+            "Infrastructure Event Management.",
+            "AWS Support Concierge Service."
+        ],
+        "correct_answers": [
+            "Infrastructure Event Management."
+        ]
+    },
+    {
+        "question_number": "Question 60",
+        "question": "You work as an on-premises MySQL DBA. The work of database configuration, backups, patching, and DR can be time-consuming and repetitive. Your company has decided to migrate to the AWS Cloud. Which of the following can help save time on database maintenance so you can focus on data architecture and performance?",
+        "options": [
+            "Amazon RDS.",
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 61",
+        "question": "Which of the below is a best-practice when designing solutions on AWS?",
+        "options": [
+            "Invest heavily in architecting your environment, as it is not easy to change your design later.",
+            "Use AWS reservations to reduce costs when testing your production environment.",
+            "Automate wherever possible to make architectural (© ) experimentation easier.",
+            "Provision a large compute capacity to handle any spikes in load"
+        ],
+        "correct_answers": [
+            "Automate wherever possible to make architectural (© ) experimentation easier."
+        ]
+    },
+    {
+        "question_number": "Question 62",
+        "question": "According to the AWS Acceptable Use Policy, which of the following statements is true regarding penetration testing of EC2 instances?",
+        "options": [
+            "Penetration testing is not allowed in AWS.",
+            "Penetration testing is performed automatically by AWS to determine vulnerabilities in your AWS infrastructure.",
+            "Penetration testing can be performed by the customer on their own instances without prior authorization from AWS.",
+            "The AWS customers are only allowed to perform penetration testing on services managed by AWS."
+        ],
+        "correct_answers": [
+            "Penetration testing can be performed by the customer on their own instances without prior authorization from AWS."
+        ]
+    },
+    {
+        "question_number": "Question 63",
+        "question": "Which service is used to ensure that messages between software components are not lost if one or more components fail?",
+        "options": [
+            "Amazon SQS.",
+            "Amazon SES.",
+            "AWS Direct Connect.",
+            "Amazon Connect."
+        ],
+        "correct_answers": [
+            "Amazon SQS."
+        ]
+    },
+    {
+        "question_number": "Question 64",
+        "question": "The principle 'design for failure and nothing will fail' is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)",
+        "options": [
+            "Multi-factor authentication.",
+            "Availability Zones.",
+            "Elastic Load Balancing.",
+            "Penetration testing.",
+            "Vertical Scaling."
+        ],
+        "correct_answers": [
+            "Availability Zones.",
+            "Elastic Load Balancing."
+        ]
+    },
+    {
+        "question_number": "Question 65",
+        "question": "What is the AWS service that provides a virtual network dedicated to your AWS account?",
+        "options": [
+            "AWS VPN.",
+            "AWS Subnets.",
+            "AWS Dedicated Hosts.",
+            "Amazon VPC."
+        ],
+        "correct_answers": [
+            "Amazon VPC."
+        ]
+    },
+    {
+        "question_number": "Question 66",
+        "question": "According to the AWS Shared responsibility model, which of the following are the responsibility of the customer? (Choose TWO)",
+        "options": [
+            "Managing environmental events of AWS data centers.",
+            "Protecting the confidentiality of data in transit in Amazon S3.",
+            "Controlling physical access to AWS Regions.",
+            "Ensuring that the underlying EC2 host is configured properly.",
+            "Patching applications installed on Amazon EC2."
+        ],
+        "correct_answers": [
+            "Protecting the confidentiality of data in transit in Amazon S3.",
+            "Patching applications installed on Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 67",
+        "question": "Which of the following AWS services can be used as a compute resource? (Choose TWO)",
+        "options": [
+            "Amazon VPC.",
+            "Amazon CloudWatch.",
+            "Amazon S3.",
+            "Amazon EC2.",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "Amazon EC2.",
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 68",
+        "question": "Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon SQS.",
+            "Amazon S3.",
+            "Amazon Instance store."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 69",
+        "question": "Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?",
+        "options": [
+            "Instance Password.",
+            "Key pairs.",
+            "Access Keys.",
+            "MFA."
+        ],
+        "correct_answers": [
+            "Access Keys."
+        ]
+    },
+    {
+        "question_number": "Question 70",
+        "question": "What does Amazon ElastiCache provide?",
+        "options": [
+            "In-memory caching for read-heavy applications.",
+            "An Ehcache compatible in-memory data store.",
+            "An online software store that allows Customers to launch pre-configured software with just few clicks.",
+            "A domain name system in the cloud."
+        ],
+        "correct_answers": [
+            "In-memory caching for read-heavy applications."
+        ]
+    }
+]

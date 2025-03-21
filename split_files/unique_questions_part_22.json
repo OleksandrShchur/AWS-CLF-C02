@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 252",
+        "question": "Which features are included in the AWS Business Support Plan? (Choose TWO)",
+        "options": [
+            "24x7 access to customer service.",
+            "Access to Cloud Support Engineers via email only during business hours.",
+            "Access to the Infrastructure Event Management (IEM) feature for additional fee.",
+            "24x7 access to the TAM feature.",
+            "Partial access to the core Trusted Advisor checks."
+        ],
+        "correct_answers": [
+            "24x7 access to customer service.",
+            "Access to the Infrastructure Event Management (IEM) feature for additional fee."
+        ]
+    },
+    {
+        "question_number": "Question 253",
+        "question": "A company is developing a mobile application and wants to allow users to use their Amazon, Apple, Facebook, or Google identities to authenticate to the application. Which AWS Service should the company use for this purpose?",
+        "options": [
+            "Amazon GuardDuty.",
+            "Amazon Personalize.",
+            "Amazon Cognito.",
+            "AWS IAM."
+        ],
+        "correct_answers": [
+            "Amazon Cognito."
+        ]
+    },
+    {
+        "question_number": "Question 254",
+        "question": "Which AWS Service allows customers to create a template that programmatically defines policies and configurations of all AWS resources as code and so that the same template can be reused among multiple projects?",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Config.",
+            "AWS CloudTrail.",
+            "AWS Auto Scaling."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation."
+        ]
+    },
+    {
+        "question_number": "Question 255",
+        "question": "Which of the following are advantages of using AWS as a cloud computing provider? (Choose TWO)",
+        "options": [
+            "Eliminates the need to monitor servers and applications.",
+            "Manages all the compliance and auditing tasks.",
+            "Provides custom hardware to meet any specification.",
+            "Eliminates the need to guess on infrastructure capacity needs.",
+            "Enables customers to trade their capital expenses for operational expenses."
+        ],
+        "correct_answers": [
+            "Eliminates the need to guess on infrastructure capacity needs.",
+            "Enables customers to trade their capital expenses for operational expenses."
+        ]
+    },
+    {
+        "question_number": "Question 256",
+        "question": "A customer is planning to migrate their Microsoft SQL Server databases to AWS. Which AWS Services can the customer use to run their Microsoft SQL Server database on AWS? (Choose TWO)",
+        "options": [
+            "AWS Fargate.",
+            "Amazon Elastic Compute Cloud.",
+            "Amazon RDS.",
+            "AWS Database Migration service (DMS).",
+            "AWS Lambda."
+        ],
+        "correct_answers": [
+            "Amazon Elastic Compute Cloud.",
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 257",
+        "question": "Which AWS Service can perform health checks on Amazon EC2 instances?",
+        "options": [
+            "AWS CloudFormation.",
+            "Amazon Route 53.",
+            "Amazon Chime.",
+            "Amazon Aurora."
+        ],
+        "correct_answers": [
+            "Amazon Route 53."
+        ]
+    },
+    {
+        "question_number": "Question 258",
+        "question": "A company is developing an application that will leverage facial recognition to automate photo tagging. Which AWS Service should the company use for facial recognition?",
+        "options": [
+            "Amazon Comprehend.",
+            "AWS IAM.",
+            "Amazon Polly.",
+            "Amazon Rekognition."
+        ],
+        "correct_answers": [
+            "Amazon Rekognition."
+        ]
+    },
+    {
+        "question_number": "Question 259",
+        "question": "Which of the following are examples of AWS-managed databases? (Choose TWO)",
+        "options": [
+            "Amazon Neptune.",
+            "Amazon CloudSearch.",
+            "Microsoft SQL Server on Amazon EC2.",
+            "MySQL on Amazon EC2.",
+            "Amazon RDS for MySQL."
+        ],
+        "correct_answers": [
+            "Amazon Neptune.",
+            "Amazon RDS for MySQL."
+        ]
+    },
+    {
+        "question_number": "Question 260",
+        "question": "A company's AWS workflow requires that it periodically perform large-scale image and video processing jobs. The customer is seeking to minimize cost and has stated that the amount of time it takes to process these jobs is not critical, but that cost minimization is the most important factor in designing the solution. Which EC2 instance class is best suited for this processing?",
+        "options": [
+            "EC2 On-Demand Instances.",
+            "EC2 Reserved Instances - No Upfront.",
+            "EC2 Spot Instances.",
+            "EC2 Reserved Instances - All Upfront."
+        ],
+        "correct_answers": [
+            "EC2 Spot Instances."
+        ]
+    },
+    {
+        "question_number": "Question 261",
+        "question": "There is a requirement to grant a DevOps team full administrative access to all resources in an AWS account. Who can grant them these permissions?",
+        "options": [
+            "AWS account owner.",
+            "AWS technical account manager.",
+            "AWS security team.",
+            "AWS cloud support engineers."
+        ],
+        "correct_answers": [
+            "AWS account owner."
+        ]
+    },
+    {
+        "question_number": "Question 262",
+        "question": "You need to migrate a large number of on-premises workloads to AWS. Which AWS service is the most appropriate?",
+        "options": [
+            "AWS File Transfer Acceleration.",
+            "AWS Server Migration Service.",
+            "AWS Database Migration Service.",
+            "AWS Application Discovery Service."
+        ],
+        "correct_answers": [
+            "AWS Server Migration Service."
+        ]
+    },
+    {
+        "question_number": "Question 263",
+        "question": "What are some key benefits of using AWS CloudFormation? (Choose TWO)",
+        "options": [
+            "It helps AWS customers deploy their applications without worrying about the underlying infrastructure.",
+            "It applies advanced IAM security features automatically.",
+            "It automates the provisioning and updating of your infrastructure in a safe and controlled manner.",
+            "It allows you to model your entire infrastructure in just a text file.",
+            "It compiles and builds application code in a timely manner."
+        ],
+        "correct_answers": [
+            "It automates the provisioning and updating of your infrastructure in a safe and controlled manner.",
+            "It allows you to model your entire infrastructure in just a text file."
+        ]
+    },
+    {
+        "question_number": "Question 264",
+        "question": "Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?",
+        "options": [
+            "On-premises.",
+            "Mixed.",
+            "Hybrid.",
+            "Cloud."
+        ],
+        "correct_answers": [
+            "Hybrid."
+        ]
+    },
+    {
+        "question_number": "Question 265",
+        "question": "A company is hosting business critical workloads in an AWS Region. To protect against data loss and ensure business continuity, a mirror image of the current AWS environment should be created in another AWS Region. Company policy requires that the standby environment must be available in minutes in case of an outage in the primary AWS Region. Which AWS service can be used to meet these requirements?",
+        "options": [
+            "CloudEndure Disaster Recovery.",
+            "CloudEndure Migration.",
+            "AWS Backup.",
+            "AWS Glue."
+        ],
+        "correct_answers": [
+            "CloudEndure Disaster Recovery."
+        ]
+    },
+    {
+        "question_number": "Question 266",
+        "question": "Which of the following S3 storage classes is most appropriate to host static assets for a popular e-commerce website with stable access patterns?",
+        "options": [
+            "S3 Standard-IA.",
+            "S3 Intelligent-Tiering.",
+            "S3 Glacier Deep Archive.",
+            "S3 Standard."
+        ],
+        "correct_answers": [
+            "S3 Standard."
+        ]
+    },
+    {
+        "question_number": "Question 267",
+        "question": "You want to create a backup of your data in another geographical location. Where should you create this backup?",
+        "options": [
+            "In another Edge location.",
+            "In another Region.",
+            "In another VPC.",
+            "In another Availability Zone."
+        ],
+        "correct_answers": [
+            "In another Region."
+        ]
+    },
+    {
+        "question_number": "Question 268",
+        "question": "Which statement is true in relation to the security of Amazon EC2?",
+        "options": [
+            "You should use instance store volumes to store login data.",
+            "You should regularly patch the operating system and applications on your EC2 instances.",
+            "You should deploy critical components of your application in the Availability Zone that you trust.",
+            "You can track all API calls using Amazon Athena."
+        ],
+        "correct_answers": [
+            "You should regularly patch the operating system and applications on your EC2 instances."
+        ]
+    },
+    {
+        "question_number": "Question 269",
+        "question": "What does AWS Cost Explorer provide to help manage your AWS spend?",
+        "options": [
+            "Cost comparisons between AWS Cloud environments and on-premises environments.",
+            "Accurate estimates of AWS service costs based on your expected usage.",
+            "Consolidated billing.",
+            "Highly accurate cost forecasts for up to 12 months ahead."
+        ],
+        "correct_answers": [
+            "Highly accurate cost forecasts for up to 12 months ahead."
+        ]
+    },
+    {
+        "question_number": "Question 270",
+        "question": "Which of the following is a feature of Amazon RDS that performs automatic failover when the primary database fails to respond?",
+        "options": [
+            "RDS Single-AZ.",
+            "RDS Write Replica.",
+            "RDS Snapshots.",
+            "RDS Multi-AZ."
+        ],
+        "correct_answers": [
+            "RDS Write Replica."
+        ]
+    },
+    {
+        "question_number": "Question 271",
+        "question": "You are using several on-demand EC2 Instances to run your development environment. What is the best way to reduce your charges when these instances are not in use?",
+        "options": [
+            "Deleting all EBS volumes attached to the instances.",
+            "You cannot minimize charges for on-demand instances.",
+            "Terminating the instances.",
+            "Stopping the instances."
+        ],
+        "correct_answers": [
+            "Stopping the instances."
+        ]
+    }
+]

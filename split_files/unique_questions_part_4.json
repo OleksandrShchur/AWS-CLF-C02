@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question #61 Topic 1",
+        "question": "Which of the following is a fully managed MySQL-compatible database?",
+        "options": [
+            "A. Amazon S3",
+            "B. Amazon DynamoDB",
+            "C. Amazon Redshift",
+            "D. Amazon Aurora"
+        ],
+        "correct_answers": [
+            "D. Amazon Aurora"
+        ]
+    },
+    {
+        "question_number": "Question #62 Topic 1",
+        "question": "Which AWS service supports a hybrid architecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and tools to data centers, co-location environments, or on-premises facilities?",
+        "options": [
+            "A. AWS Snowmobile",
+            "B. AWS Local Zones",
+            "C. AWS Outposts",
+            "D. AWS Fargate"
+        ],
+        "correct_answers": [
+            "C. AWS Outposts"
+        ]
+    },
+    {
+        "question_number": "Question #63 Topic 1",
+        "question": "Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?",
+        "options": [
+            "A. Amazon DynamoDB",
+            "B. Amazon Athena",
+            "C. Amazon RDS",
+            "D. Amazon EMR"
+        ],
+        "correct_answers": [
+            "C. Amazon RDS"
+        ]
+    },
+    {
+        "question_number": "Question #64 Topic 1",
+        "question": "A company wants to provide managed Windows virtual desktops and applications to its remote employees over secure network connections. Which AWS services can the company use to meet these requirements? (Choose two.)",
+        "options": [
+            "A. Amazon Connect",
+            "B. Amazon AppStream 2.0",
+            "C. Amazon WorkSpaces",
+            "D. AWS Site-to-Site VPN",
+            "E. Amazon Elastic Container Service (Amazon ECS)"
+        ],
+        "correct_answers": [
+            "B. Amazon AppStream 2.0",
+            "C. Amazon WorkSpaces"
+        ]
+    },
+    {
+        "question_number": "Question #65 Topic 1",
+        "question": "A company wants to monitor for misconfigured security groups that are allowing unrestricted access to specific ports. Which AWS service will meet this requirement?",
+        "options": [
+            "A. AWS Trusted Advisor",
+            "B. Amazon CloudWatch",
+            "C. Amazon GuardDuty",
+            "D. AWS Health Dashboard"
+        ],
+        "correct_answers": [
+            "A. AWS Trusted Advisor"
+        ]
+    },
+    {
+        "question_number": "Question #66 Topic 1",
+        "question": "Which AWS service is a key-value database that provides sub-millisecond latency on a large scale?",
+        "options": [
+            "A. Amazon DynamoDB",
+            "B. Amazon Aurora",
+            "C. Amazon DocumentDB (with MongoDB compatibility)",
+            "D. Amazon Neptune"
+        ],
+        "correct_answers": [
+            "A. Amazon DynamoDB"
+        ]
+    },
+    {
+        "question_number": "Question #67 Topic 1",
+        "question": "A company is deploying a machine learning (ML) research project that will require a lot of compute power over several months. The ML processing jobs do not need to run at specific times. Which Amazon EC2 instance purchasing option will meet these requirements at the lowest cost?",
+        "options": [
+            "A. On-Demand Instances",
+            "B. Spot Instances",
+            "C. Reserved Instances",
+            "D. Dedicated Instances"
+        ],
+        "correct_answers": [
+            "B. Spot Instances"
+        ]
+    },
+    {
+        "question_number": "Question #68 Topic 1",
+        "question": "Which AWS services or features provide disaster recovery solutions for Amazon EC2 instances? (Choose two.)",
+        "options": [
+            "A. EC2 Reserved Instances",
+            "B. EC2 Amazon Machine Images (AMIs)",
+            "C. Amazon Elastic Block Store (Amazon EBS) snapshots",
+            "D. AWS Shield",
+            "E. Amazon GuardDuty"
+        ],
+        "correct_answers": [
+            "B. EC2 Amazon Machine Images (AMIs)",
+            "C. Amazon Elastic Block Store (Amazon EBS) snapshots"
+        ]
+    },
+    {
+        "question_number": "Question #69 Topic 1",
+        "question": "Which AWS service provides command line access to AWS tools and resources directly from a web browser?",
+        "options": [
+            "A. AWS CloudHSM",
+            "B. AWS CloudShell",
+            "C. Amazon WorkSpaces",
+            "D. AWS Cloud Map"
+        ],
+        "correct_answers": [
+            "B. AWS CloudShell"
+        ]
+    },
+    {
+        "question_number": "Question #70 Topic 1",
+        "question": "A network engineer needs to build a hybrid cloud architecture connecting on-premises networks to the AWS Cloud using AWS Direct Connect. The company has a few VPCs in a single AWS Region and expects to increase the number of VPCs to hundreds over time. Which AWS service or feature should the engineer use to simplify and scale this connectivity as the VPCs increase in number?",
+        "options": [
+            "A. VPC endpoints",
+            "B. AWS Transit Gateway",
+            "C. Amazon Route 53",
+            "D. AWS Secrets Manager"
+        ],
+        "correct_answers": [
+            "B. AWS Transit Gateway"
+        ]
+    },
+    {
+        "question_number": "Question #71 Topic 1",
+        "question": "A company wants to assess its operational readiness. It also wants to identify and mitigate any operational risks ahead of a new product launch. Which AWS Support plan offers guidance and support for this kind of event at no additional charge?",
+        "options": [
+            "A. AWS Business Support",
+            "B. AWS Basic Support",
+            "C. AWS Developer Support",
+            "D. AWS Enterprise Support"
+        ],
+        "correct_answers": [
+            "D. AWS Enterprise Support"
+        ]
+    },
+    {
+        "question_number": "Question #72 Topic 1",
+        "question": "A company wants to establish a schedule for rotating database user credentials. Which AWS service will support this requirement with the LEAST amount of operational overhead?",
+        "options": [
+            "A. AWS Systems Manager",
+            "B. AWS Secrets Manager",
+            "C. AWS License Manager",
+            "D. AWS Managed Services"
+        ],
+        "correct_answers": [
+            "B. AWS Secrets Manager"
+        ]
+    },
+    {
+        "question_number": "Question #73 Topic 1",
+        "question": "Which AWS service or feature can be used to create a private connection between an on-premises workload and an AWS Cloud workload?",
+        "options": [
+            "A. Amazon Route 53",
+            "B. Amazon Macie",
+            "C. AWS Direct Connect",
+            "D. AWS PrivateLink"
+        ],
+        "correct_answers": [
+            "C. AWS Direct Connect"
+        ]
+    },
+    {
+        "question_number": "Question #74 Topic 1",
+        "question": "Which AWS service is used to provide encryption for Amazon EBS?",
+        "options": [
+            "A. AWS Certificate Manager",
+            "B. AWS Systems Manager",
+            "C. AWS KMS",
+            "D. AWS Config"
+        ],
+        "correct_answers": [
+            "C. AWS KMS"
+        ]
+    },
+    {
+        "question_number": "Question #75 Topic 1",
+        "question": "A company wants to manage its AWS Cloud resources through a web interface. Which AWS service will meet this requirement?",
+        "options": [
+            "A. AWS Management Console",
+            "B. AWS CLI",
+            "C. AWS SDK",
+            "D. AWS Cloud9"
+        ],
+        "correct_answers": [
+            "A. AWS Management Console"
+        ]
+    },
+    {
+        "question_number": "Question #76 Topic 1",
+        "question": "Which of the following are advantages of the AWS Cloud? (Choose two.)",
+        "options": [
+            "A. Trade variable expenses for capital expenses",
+            "B. High economies of scale",
+            "C. Launch globally in minutes",
+            "D. Focus on managing hardware infrastructure",
+            "E. Overprovision to ensure capacity"
+        ],
+        "correct_answers": [
+            "B. High economies of scale",
+            "C. Launch globally in minutes"
+        ]
+    },
+    {
+        "question_number": "Question #77 Topic 1",
+        "question": "Which AWS Cloud benefit is shown by an architecture’s ability to withstand failures with minimal downtime?",
+        "options": [
+            "A. Agility",
+            "B. Elasticity",
+            "C. Scalability",
+            "D. High availability"
+        ],
+        "correct_answers": [
+            "D. High availability"
+        ]
+    },
+    {
+        "question_number": "Question #78 Topic 1",
+        "question": "A developer needs to maintain a development environment infrastructure and a production environment infrastructure in a repeatable fashion. Which AWS service should the developer use to meet these requirements?",
+        "options": [
+            "A. AWS Ground Station",
+            "B. AWS Shield",
+            "C. AWS IoT Device Defender",
+            "D. AWS CloudFormation"
+        ],
+        "correct_answers": [
+            "D. AWS CloudFormation"
+        ]
+    },
+    {
+        "question_number": "Question #79 Topic 1",
+        "question": "Which task is the customer’s responsibility, according to the AWS shared responsibility model?",
+        "options": [
+            "A. Maintain the security of the AWS Cloud.",
+            "B. Configure firewalls and networks.",
+            "C. Patch the operating system of Amazon RDS instances.",
+            "D. Implement physical and environmental controls."
+        ],
+        "correct_answers": [
+            "B. Configure firewalls and networks."
+        ]
+    },
+    {
+        "question_number": "Question #80 Topic 1",
+        "question": "Which AWS service helps deliver highly available applications with fast failover for multi-Region and Multi-AZ architectures?",
+        "options": [
+            "A. AWS WAF",
+            "B. AWS Global Accelerator",
+            "C. AWS Shield",
+            "D. AWS Direct Connect"
+        ],
+        "correct_answers": [
+            "B. AWS Global Accelerator"
+        ]
+    }
+]

@@ -1,0 +1,276 @@
+[
+    {
+        "question_number": "Question 19",
+        "question": "Which of the following is a shared control between a client and AWS under the shared responsibility model?",
+        "options": [
+            "Physical controls",
+            "Patch management",
+            "Zone security",
+            "Data center auditing"
+        ],
+        "correct_answers": [
+            "Patch management"
+        ]
+    },
+    {
+        "question_number": "Question 20",
+        "question": "How should an application be created to function on the AWS Cloud in accordance with best practices?",
+        "options": [
+            "Use tightly coupled components.",
+            "Use loosely coupled components.",
+            "Use infrequently coupled components.",
+            "Use frequently coupled components."
+        ],
+        "correct_answers": [
+            "Use loosely coupled components."
+        ]
+    },
+    {
+        "question_number": "Question 21",
+        "question": "Which cloud architectural concept is supported by a system that can scale in terms of users, traffic, or data quantity without sacrificing performance?",
+        "options": [
+            "Think parallel",
+            "Implement elasticity",
+            "Decouple your components",
+            "Design for failure"
+        ],
+        "correct_answers": [
+            "Implement elasticity"
+        ]
+    },
+    {
+        "question_number": "Question 22",
+        "question": "The following describes an application that spans various Availability Zones:",
+        "options": [
+            "being highly available",
+            "having global reach",
+            "using an economy of scale",
+            "having elasticity"
+        ],
+        "correct_answers": [
+            "being highly available"
+        ]
+    },
+    {
+        "question_number": "Question 23",
+        "question": "What are the advantages of AWS Cloud elasticity?",
+        "options": [
+            "Ensure web traffic is automatically spread across multiple AWS Regions.",
+            "Minimize storage costs by automatically archiving log data.",
+            "Enable AWS to automatically select the most cost-effective services.",
+            "Automatically adjust the required compute capacity to maintain consistent performance."
+        ],
+        "correct_answers": [
+            "Automatically adjust the required compute capacity to maintain consistent performance."
+        ]
+    },
+    {
+        "question_number": "Question 24",
+        "question": "Which of the following IT responsibilities may AWS relieve a company's IT team of? (Select two.)",
+        "options": [
+            "Patching database software",
+            "Storage capacity planning",
+            "Creating database schemas",
+            "Setting up access controls for data",
+            "Writing application code"
+        ],
+        "correct_answers": [
+            "Patching database software",
+            "Storage capacity planning"
+        ]
+    },
+    {
+        "question_number": "Question 25",
+        "question": "What is AWS accountable for under the AWS shared responsibility model?",
+        "options": [
+            "Configuring Amazon VPC",
+            "Managing application code",
+            "Maintaining application traffic",
+            "Managing the network infrastructure"
+        ],
+        "correct_answers": [
+            "Managing the network infrastructure"
+        ]
+    },
+    {
+        "question_number": "Question 26",
+        "question": "Which of the following is a customer duty under the AWS shared responsibility model?",
+        "options": [
+            "Installing security patches for the Xen and KVM hypervisors",
+            "Installing operating system patches for Amazon DynamoDB",
+            "Installing operating system security patches for Amazon EC2 database instances",
+            "Installing operating system security patches for Amazon RDS database instances"
+        ],
+        "correct_answers": [
+            "Installing operating system security patches for Amazon EC2 database instances"
+        ]
+    },
+    {
+        "question_number": "Question 27",
+        "question": "Which of the following is the customer's obligation under the AWS shared responsibility model?",
+        "options": [
+            "Patching guest OS and applications",
+            "Patching and fixing flaws in the infrastructure",
+            "Physical and environmental controls",
+            "Configuration of AWS infrastructure devices"
+        ],
+        "correct_answers": [
+            "Patching guest OS and applications"
+        ]
+    },
+    {
+        "question_number": "Question 28",
+        "question": "What is the AWS Cloud's value proposition?",
+        "options": [
+            "AWS is responsible for security in the AWS Cloud",
+            "No long-term contract is required",
+            "Provision new servers in days",
+            "AWS manages user applications in the AWS Cloud"
+        ],
+        "correct_answers": [
+            "No long-term contract is required"
+        ]
+    },
+    {
+        "question_number": "Question 29",
+        "question": "Which of the following describes elasticity in the AWS Cloud? (Select two.)",
+        "options": [
+            "How quickly an Amazon EC2 instance can be restarted",
+            "The ability to rightsize resources as demand shifts",
+            "The maximum amount of RAM an Amazon EC2 instance can use",
+            "The pay-as-you-go billing model",
+            "How easily resources can be produced when they are needed"
+        ],
+        "correct_answers": [
+            "The ability to rightsize resources as demand shifts",
+            "How easily resources can be produced when they are needed"
+        ]
+    },
+    {
+        "question_number": "Question 30",
+        "question": "According to the AWS shared responsibility model, which of the following is exclusively the responsibility of AWS?",
+        "options": [
+            "Patching of the guest operating system",
+            "Security awareness and training",
+            "Physical and environmental controls",
+            "Development of an IAM password policy"
+        ],
+        "correct_answers": [
+            "Physical and environmental controls"
+        ]
+    },
+    {
+        "question_number": "Question 31",
+        "question": "What can users do using AWS Marketplace? (Select two.)",
+        "options": [
+            "Sell unused Amazon EC2 Spot Instances.",
+            "Sell solutions to other AWS users.",
+            "Buy third-party software that runs on AWS.",
+            "Purchase AWS security and compliance documents.",
+            "Order AWS Snowball."
+        ],
+        "correct_answers": [
+            "Sell solutions to other AWS users.",
+            "Buy third-party software that runs on AWS."
+        ]
+    },
+    {
+        "question_number": "Question 32",
+        "question": "What are the possible uses for AWS edge locations? (Select two.)",
+        "options": [
+            "Hosting applications",
+            "Delivering content closer to users",
+            "Running NoSQL database caching services",
+            "Reducing traffic on the server by caching responses",
+            "Sending notification messages to end users"
+        ],
+        "correct_answers": [
+            "Delivering content closer to users",
+            "Reducing traffic on the server by caching responses"
+        ]
+    },
+    {
+        "question_number": "Question 33",
+        "question": "An online company was running a workload on premises and was struggling to launch new products and features. After migrating the workload to AWS, the company can quickly launch products and features and can scale its infrastructure as required. Which AWS Cloud value proposition does this scenario describe?",
+        "options": [
+            "Business agility",
+            "High availability",
+            "Security",
+            "Centralized auditing"
+        ],
+        "correct_answers": [
+            "Business agility"
+        ]
+    },
+    {
+        "question_number": "Question 35",
+        "question": "Which tasks are the responsibility of AWS, according to the AWS shared responsibility model? (Choose two.)",
+        "options": [
+            "Patch the Amazon EC2 guest operating system.",
+            "Upgrade the firmware of the network infrastructure.",
+            "Apply password rotation for IAM users.",
+            "Maintain the physical security of edge locations.",
+            "Maintain least privilege access to the root user account."
+        ],
+        "correct_answers": [
+            "Upgrade the firmware of the network infrastructure.",
+            "Maintain the physical security of edge locations."
+        ]
+    },
+    {
+        "question_number": "Question 36",
+        "question": "A company has designed its AWS Cloud infrastructure to run its workloads effectively. The company also has protocols in place to continuously improve supporting processes. Which pillar of the AWS Well-Architected Framework does this scenario represent?",
+        "options": [
+            "Security",
+            "Performance efficiency",
+            "Cost optimization",
+            "Operational excellence"
+        ],
+        "correct_answers": [
+            "Operational excellence"
+        ]
+    },
+    {
+        "question_number": "Question 38",
+        "question": "Which of the following are benefits of migrating to the AWS Cloud? (Choose two.)",
+        "options": [
+            "Operational resilience",
+            "Discounts for products on Amazon.com",
+            "Business agility",
+            "Business excellence",
+            "Increased staff retention"
+        ],
+        "correct_answers": [
+            "Operational resilience",
+            "Business agility"
+        ]
+    },
+    {
+        "question_number": "Question 39",
+        "question": "A company is planning to replace its physical on-premises compute servers with AWS serverless compute services. The company wants to be able to take advantage of advanced technologies quickly after the migration. Which pillar of the AWS Well-Architected Framework does this plan represent?",
+        "options": [
+            "Security",
+            "Performance efficiency",
+            "Operational excellence",
+            "Reliability"
+        ],
+        "correct_answers": [
+            "Performance efficiency"
+        ]
+    },
+    {
+        "question_number": "Question 40",
+        "question": "A company is migrating to the AWS Cloud instead of running its infrastructure on premises. Which of the following are advantages of this migration? (Choose two.)",
+        "options": [
+            "Elimination of the need to perform security auditing",
+            "Increased global reach and agility",
+            "Ability to deploy globally in minutes",
+            "Elimination of the cost of IT staff members",
+            "Redundancy by default for all compute services"
+        ],
+        "correct_answers": [
+            "Increased global reach and agility",
+            "Ability to deploy globally in minutes"
+        ]
+    }
+]

@@ -1,0 +1,264 @@
+[
+    {
+        "question_number": "Question 392",
+        "question": "Which AWS service delivers data, videos, applications, and APIs to users globally with low latency and high transfer speeds?",
+        "options": [
+            "Amazon Route 53.",
+            "Amazon Connect.",
+            "Amazon CloudFront.",
+            "Amazon EC2."
+        ],
+        "correct_answers": [
+            "Amazon CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 393",
+        "question": "Which of the following steps should be taken by a customer when conducting penetration testing on AWS?",
+        "options": [
+            "Conduct penetration testing using Amazon Inspector, and then notify AWS support.",
+            "Request and wait for approval from the customer's internal security team, and then conduct testing.",
+            "Notify AWS support, and then conduct testing immediately.",
+            "Request and wait for approval from AWS support, and then conduct testing."
+        ],
+        "correct_answers": [
+            "Request and wait for approval from the customer's internal security team, and then conduct testing."
+        ]
+    },
+    {
+        "question_number": "Question 394",
+        "question": "Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Budgets.",
+            "AWS Cost and Usage report.",
+            "AWS Billing dashboard."
+        ],
+        "correct_answers": [
+            "AWS Cost and Usage report."
+        ]
+    },
+    {
+        "question_number": "Question 395",
+        "question": "Which element of the AWS global infrastructure consists of one or more discrete data centers each with redundant power networking and connectivity which are housed in separate facilities?",
+        "options": [
+            "AWS Regions.",
+            "Availability Zones.",
+            "Edge locations.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 396",
+        "question": "How many Availability Zones should compute resources be provisioned across to achieve high availability?",
+        "options": [
+            "A minimum of one.",
+            "A minimum of two.",
+            "A minimum of three.",
+            "A minimum of four or more."
+        ],
+        "correct_answers": [
+            "A minimum of two."
+        ]
+    },
+    {
+        "question_number": "Question 397",
+        "question": "The AWS Cloud's multiple Regions are an example of:",
+        "options": [
+            "Agility.",
+            "Global infrastructure.",
+            "Elasticity.",
+            "Pay-as-you-go pricing."
+        ],
+        "correct_answers": [
+            "Global infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 398",
+        "question": "Which AWS service can be used to manually launch instances based on resource requirements?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon S3.",
+            "Amazon EC2.",
+            "Amazon ECS."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 399",
+        "question": "Which is a recommended pattern for designing a highly available architecture on AWS?",
+        "options": [
+            "Ensure that components have low-latency network connectivity.",
+            "Run enough Amazon EC2 instances to operate at peak load.",
+            "Ensure that the application is designed to accommodate failure of any single component.",
+            "Use a monolithic application that handles all operations."
+        ],
+        "correct_answers": [
+            "Ensure that the application is designed to accommodate failure of any single component."
+        ]
+    },
+    {
+        "question_number": "Question 400",
+        "question": "Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Select TWO)",
+        "options": [
+            "High availability.",
+            "Shared security model.",
+            "Elasticity.",
+            "Pay-as-you-go pricing.",
+            "Reliability."
+        ],
+        "correct_answers": [
+            "Elasticity.",
+            "Pay-as-you-go pricing."
+        ]
+    },
+    {
+        "question_number": "Question 401",
+        "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+        "options": [
+            "AWS Well-Architected Framework documentation.",
+            "Amazon CloudFront.",
+            "AWS CodeCommit.",
+            "AWS Quick Start reference deployments."
+        ],
+        "correct_answers": [
+            "AWS Quick Start reference deployments."
+        ]
+    },
+    {
+        "question_number": "Question 402",
+        "question": "What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)?",
+        "options": [
+            "It simplifies relational database administration tasks.",
+            "It provides 99.99999999999% reliability and durability.",
+            "It automatically scales databases for loads.",
+            "It enabled users to dynamically adjust CPU and RAM resources."
+        ],
+        "correct_answers": [
+            "It simplifies relational database administration tasks."
+        ]
+    },
+    {
+        "question_number": "Question 403",
+        "question": "Which of the following AWS Cloud services can be used to run a customer-managed relational database?",
+        "options": [
+            "Amazon EC2.",
+            "Amazon Route 53.",
+            "Amazon ElastiCache.",
+            "Amazon DynamoDB."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 404",
+        "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability. Which action should the user take?",
+        "options": [
+            "Launch the instances across multiple Availability Zones in a single AWS Region.",
+            "Launch the instances as EC2 Reserved Instances in the same AWS Region and the same Availability Zone.",
+            "Launch the instances in multiple AWS Regions but in the same Availability Zone.",
+            "Launch the instances as EC2 Spot Instances in the same AWS Region but in different Availability Zones."
+        ],
+        "correct_answers": [
+            "Launch the instances across multiple Availability Zones in a single AWS Region."
+        ]
+    },
+    {
+        "question_number": "Question 405",
+        "question": "Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?",
+        "options": [
+            "A public and private key-pair.",
+            "Amazon Inspector.",
+            "AWS Identity and Access Management (IAM) policies.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "AWS Identity and Access Management (IAM) policies."
+        ]
+    },
+    {
+        "question_number": "Question 406",
+        "question": "Which AWS service allows companies to connect an Amazon VPC to an on-premises data center?",
+        "options": [
+            "AWS VPN.",
+            "Amazon Redshift.",
+            "API Gateway.",
+            "Amazon Direct Connect."
+        ],
+        "correct_answers": [
+            "AWS VPN."
+        ]
+    },
+    {
+        "question_number": "Question 407",
+        "question": "Which AWS service of feature can be used to monitor CPU usage?",
+        "options": [
+            "AWS CloudTrail.",
+            "VPC Flow Logs.",
+            "Amazon CloudWatch.",
+            "AWSConfig."
+        ],
+        "correct_answers": [
+            "Amazon CloudWatch."
+        ]
+    },
+    {
+        "question_number": "Question 408",
+        "question": "Which task is AWS responsible for in the shared responsibility model for security and compliance?",
+        "options": [
+            "Granting access to individuals and services.",
+            "Encrypting data in transit.",
+            "Updating Amazon EC2 host firmware.",
+            "Updating operating systems."
+        ],
+        "correct_answers": [
+            "Updating Amazon EC2 host firmware."
+        ]
+    },
+    {
+        "question_number": "Question 409",
+        "question": "Which of the following security-related actions are available at no cost?",
+        "options": [
+            "Calling AWS Support.",
+            "Contacting AWS Professional Services to request a workshop.",
+            "Accessing forums, blogs, and whitepapers.",
+            "Attending AWS classes at a local university."
+        ],
+        "correct_answers": [
+            "Accessing forums, blogs, and whitepapers."
+        ]
+    },
+    {
+        "question_number": "Question 410",
+        "question": "Which storage service can be used as a low-cost option for hosting static websites?",
+        "options": [
+            "Amazon Glacier.",
+            "Amazon DynamoDB.",
+            "Amazon Elastic File System (Amazon EFS).",
+            "Amazon Simple Storage Service (Amazon S3)."
+        ],
+        "correct_answers": [
+            "Amazon Simple Storage Service (Amazon S3)."
+        ]
+    },
+    {
+        "question_number": "Question 411",
+        "question": "According to the AWS shared responsibility model what is the sole responsibility of AWS?",
+        "options": [
+            "Application security.",
+            "Edge location management.",
+            "Patch management.",
+            "Client-side data."
+        ],
+        "correct_answers": [
+            "Edge location management."
+        ]
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 192",
+        "question": "AWS recommends some practices to help organizations avoid unexpected charges on their bill. Which of the following is NOT one of these practices?",
+        "options": [
+            "Deleting unused EBS volumes after terminating an EC2instance.",
+            "Deleting unused AutoScaling launch configuration.",
+            "Deleting unused Elastic Load Balancers.",
+            "Releasing unused Elastic IPs after terminating an EC2instance."
+        ],
+        "correct_answers": [
+            "Deleting unused AutoScaling launch configuration."
+        ]
+    },
+    {
+        "question_number": "Question 193",
+        "question": "What is the AWS tool that can help a company visualize their AWS spending in the last few months?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Pricing Calculator.",
+            "AWS Budgets.",
+            "AWS Consolidated Billing."
+        ],
+        "correct_answers": [
+            "AWS Cost Explorer."
+        ]
+    },
+    {
+        "question_number": "Question 194",
+        "question": "When running a workload in AWS, the customer is NOT responsible for: (Select TWO)",
+        "options": [
+            "Running penetration tests.",
+            "Reserving capacity.",
+            "Data center operations.",
+            "Auditing and regulatory compliance.",
+            "Infrastructure security."
+        ],
+        "correct_answers": [
+            "Data center operations.",
+            "Infrastructure security."
+        ]
+    },
+    {
+        "question_number": "Question 195",
+        "question": "Which AWS service can be used to send promotional text messages (SMS) to more than 200 countries worldwide?",
+        "options": [
+            "Amazon Simple Email Service (Amazon SES).",
+            "Amazon Simple Storage Service (Amazon S3).",
+            "Amazon Simple Notification Service (Amazon SNS).",
+            "Amazon Simple Queue Service (Amazon SQS)."
+        ],
+        "correct_answers": [
+            "Amazon Simple Notification Service (Amazon SNS)."
+        ]
+    },
+    {
+        "question_number": "Question 196",
+        "question": "Which of the following allows you to create new RDS instances? (Choose TWO)",
+        "options": [
+            "AWS CodeDeploy.",
+            "AWS Quick Starts.",
+            "AWS CloudFormation.",
+            "AWS DMS.",
+            "AWS Management Console."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation.",
+            "AWS Management Console."
+        ]
+    },
+    {
+        "question_number": "Question 197",
+        "question": "One of the major advantages of using AWS is cost savings. What does AWS provide to reduce the cost of running Amazon EC2 instances?",
+        "options": [
+            "Low monthly instance maintenance costs.",
+            "Low-cost instance tagging.",
+            "Per-second instance billing.",
+            "Low instance start-up fees."
+        ],
+        "correct_answers": [
+            "Per-second instance billing."
+        ]
+    },
+    {
+        "question_number": "Question 198",
+        "question": "Which AWS Group assists customers in achieving their desired business outcomes?",
+        "options": [
+            "AWS Security Team.",
+            "AWS Professional Services.",
+            "AWS Trusted Advisor.",
+            "AWS Concierge Support Team."
+        ],
+        "correct_answers": [
+            "AWS Professional Services."
+        ]
+    },
+    {
+        "question_number": "Question 199",
+        "question": "Which AWS service or feature is used to manage the keys used to encrypt customer data?",
+        "options": [
+            "AWS KMS.",
+            "AWS Service Control Policies (SCPs).",
+            "Multi-Factor Authentication (MFA).",
+            "Amazon Macie."
+        ],
+        "correct_answers": [
+            "AWS KMS."
+        ]
+    },
+    {
+        "question_number": "Question 200",
+        "question": "Which AWS Service allows customers to download AWS SOC & PCI reports?",
+        "options": [
+            "AWS Well-Architected Tool.",
+            "AWS Artifact.",
+            "AWS Glue.",
+            "Amazon Chime."
+        ],
+        "correct_answers": [
+            "AWS Artifact."
+        ]
+    },
+    {
+        "question_number": "Question 201",
+        "question": "A company is using EC2 Instances to run their e-commerce site on the AWS platform. If the site becomes unavailable, the company will lose a significant amount of money for each minute the site is unavailable. Which design principle should the company use to minimize the risk of an outage?",
+        "options": [
+            "Least Privilege.",
+            "Pilot Light.",
+            "Fault Tolerance.",
+            "Multi-threading."
+        ],
+        "correct_answers": [
+            "Fault Tolerance."
+        ]
+    },
+    {
+        "question_number": "Question 202",
+        "question": "You decide to buy a reserved instance for a term of one year. Which option provides the largest total discount?",
+        "options": [
+            "All up-front reservation.",
+            "All reserved instance payment options provide the same discount level.",
+            "Partial up-front reservation.",
+            "No up-front reservation."
+        ],
+        "correct_answers": [
+            "All up-front reservation."
+        ]
+    },
+    {
+        "question_number": "Question 203",
+        "question": "What features does AWS offer to help protect your data in the Cloud? (Choose TWO)",
+        "options": [
+            "Access control.",
+            "Physical MFA devices.",
+            "Data encryption.",
+            "Unlimited storage.",
+            "Load balancing."
+        ],
+        "correct_answers": [
+            "Access control.",
+            "Data encryption."
+        ]
+    },
+    {
+        "question_number": "Question 204",
+        "question": "An AWS customer has used one Amazon Linux instance for 2 hours, 5 minutes and 9 seconds, and one CentOS instance for 4 hours, 23 minutes and 7 seconds. How much time will the customer be billed for?",
+        "options": [
+            "3 hours for the Linux instance and 5 hours for the CentOS instance.",
+            "2 hours, 5 minutes and 9 seconds for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance.",
+            "2 hours, 5 minutes and 9 seconds for the Linux instance and 5 hours for the CentOS instance.",
+            "3 hours for the Linux instance and 4 hours, 23 minutes and 7 seconds for the CentOS instance."
+        ],
+        "correct_answers": [
+            "2 hours, 5 minutes and 9 seconds for the Linux instance and 5 hours for the CentOS instance."
+        ]
+    },
+    {
+        "question_number": "Question 205",
+        "question": "What is the AWS Support feature that allows customers to manage support cases programmatically?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Operations Support.",
+            "AWS Support API.",
+            "AWS Personal Health Dashboard."
+        ],
+        "correct_answers": [
+            "AWS Support API."
+        ]
+    },
+    {
+        "question_number": "Question 206",
+        "question": "Which methods can be used by customers to interact with AWS Identity and Access Management (IAM)? (Choose TWO)",
+        "options": [
+            "AWS CLI.",
+            "AWS Security Groups.",
+            "AWS SDKs.",
+            "AWS Network Access Control Lists.",
+            "AWS CodeCommit."
+        ],
+        "correct_answers": [
+            "AWS CLI.",
+            "AWS SDKs."
+        ]
+    },
+    {
+        "question_number": "Question 207",
+        "question": "Which of the following are types of AWS Identity and Access Management (IAM) identities? (Choose TWO)",
+        "options": [
+            "AWS Resource Groups.",
+            "IAM Policies.",
+            "IAM Roles.",
+            "IAM Users.",
+            "AWS Organizations."
+        ],
+        "correct_answers": [
+            "IAM Roles.",
+            "IAM Users."
+        ]
+    },
+    {
+        "question_number": "Question 208",
+        "question": "Which of the following Amazon RDS features facilitates offloading of database read activity?",
+        "options": [
+            "Database Snapshots.",
+            "Multi-AZ Deployments.",
+            "Automated Backups.",
+            "Read Replicas."
+        ],
+        "correct_answers": [
+            "Read Replicas."
+        ]
+    },
+    {
+        "question_number": "Question 209",
+        "question": "How does AWS notify customers about security and privacy events pertaining to AWS services?",
+        "options": [
+            "Using the AWS ACM service.",
+            "Using Security Bulletins.",
+            "Using the AWS Management Console.",
+            "Using Compliance Resources."
+        ],
+        "correct_answers": [
+            "Using Security Bulletins."
+        ]
+    },
+    {
+        "question_number": "Question 210",
+        "question": "Which IAM entity can best be used to grant temporary access to your AWS resources?",
+        "options": [
+            "IAM Users.",
+            "Key Pair.",
+            "IAM Roles.",
+            "IAM Groups."
+        ],
+        "correct_answers": [
+            "IAM Roles."
+        ]
+    },
+    {
+        "question_number": "Question 211",
+        "question": "A company has a web application that is hosted on a single EC2 instance and is approaching 100 percent CPU Utilization during peak loads. Rather than scaling the server vertically, the company has decided to deploy three Amazon EC2 instances in parallel and to distribute traffic across the three servers. What AWS Service should the company use to distribute the traffic evenly?",
+        "options": [
+            "AWS Global Accelerator.",
+            "AWS Application Load Balancer (ALB).",
+            "Amazon CloudFront.",
+            "Transit VPC."
+        ],
+        "correct_answers": [
+            "AWS Application Load Balancer (ALB)."
+        ]
+    }
+]

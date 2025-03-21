@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question #81 Topic 1",
+        "question": "A company has a set of ecommerce applications. The applications need to be able to send messages to each other. Which AWS service meets this requirement?",
+        "options": [
+            "A. AWS Auto Scaling",
+            "B. Elastic Load Balancing",
+            "C. Amazon Simple Queue Service (Amazon SQS)",
+            "D. Amazon Kinesis Data Streams"
+        ],
+        "correct_answers": [
+            "C. Amazon Simple Queue Service (Amazon SQS)"
+        ]
+    },
+    {
+        "question_number": "Question #82 Topic 1",
+        "question": "What are the benefits of consolidated billing for AWS Cloud services? (Choose two.)",
+        "options": [
+            "A. Volume discounts",
+            "B. A minimal additional fee for use",
+            "C. One bill for multiple accounts",
+            "D. Installment payment options",
+            "E. Custom cost and usage budget creation"
+        ],
+        "correct_answers": [
+            "A. Volume discounts",
+            "C. One bill for multiple accounts"
+        ]
+    },
+    {
+        "question_number": "Question #83 Topic 1",
+        "question": "A user wants to review all Amazon S3 buckets with ACLs and S3 bucket policies in the S3 console. Which AWS service or resource will meet this requirement?",
+        "options": [
+            "A. S3 Multi-Region Access Points",
+            "B. S3 Storage Lens",
+            "C. AWS IAM Identity Center (AWS Single Sign-On)",
+            "D. Access Analyzer for S3"
+        ],
+        "correct_answers": [
+            "D. Access Analyzer for S3"
+        ]
+    },
+    {
+        "question_number": "Question #84 Topic 1",
+        "question": "What is the best resource for a user to find compliance-related information and reports about AWS?",
+        "options": [
+            "A. AWS Artifact",
+            "B. AWS Marketplace",
+            "C. Amazon Inspector",
+            "D. AWS Support"
+        ],
+        "correct_answers": [
+            "A. AWS Artifact"
+        ]
+    },
+    {
+        "question_number": "Question #85 Topic 1",
+        "question": "Which AWS service enables companies to deploy an application close to end users?",
+        "options": [
+            "A. Amazon CloudFront",
+            "B. AWS Auto Scaling",
+            "C. AWS AppSync",
+            "D. Amazon Route 53"
+        ],
+        "correct_answers": [
+            "A. Amazon CloudFront"
+        ]
+    },
+    {
+        "question_number": "Question #86 Topic 1",
+        "question": "Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?",
+        "options": [
+            "A. Route table",
+            "B. AWS Transit Gateway",
+            "C. AWS Global Accelerator",
+            "D. Amazon VPC"
+        ],
+        "correct_answers": [
+            "C. AWS Global Accelerator"
+        ]
+    },
+    {
+        "question_number": "Question #87 Topic 1",
+        "question": "Which AWS service provides highly durable object storage?",
+        "options": [
+            "A. Amazon S3",
+            "B. Amazon Elastic File System (Amazon EFS)",
+            "C. Amazon Elastic Block Store (Amazon EBS)",
+            "D. Amazon FSx"
+        ],
+        "correct_answers": [
+            "A. Amazon S3"
+        ]
+    },
+    {
+        "question_number": "Question #88 Topic 1",
+        "question": "Which responsibility belongs to AWS when a company hosts its databases on Amazon EC2 instances?",
+        "options": [
+            "A. Database backups",
+            "B. Database software patches",
+            "C. Operating system patches",
+            "D. Operating system installations"
+        ],
+        "correct_answers": [
+            "D. Operating system installations"
+        ]
+    },
+    {
+        "question_number": "Question #89 Topic 1",
+        "question": "Which of the following are advantages of moving to the AWS Cloud? (Choose two.)",
+        "options": [
+            "A. The ability to turn over the responsibility for all security to AWS.",
+            "B. The ability to use the pay-as-you-go model.",
+            "C. The ability to have full control over the physical infrastructure.",
+            "D. No longer having to guess what capacity will be required.",
+            "E. No longer worrying about users access controls."
+        ],
+        "correct_answers": [
+            "B. The ability to use the pay-as-you-go model.",
+            "D. No longer having to guess what capacity will be required."
+        ]
+    },
+    {
+        "question_number": "Question #90 Topic 1",
+        "question": "Which AWS service is a hybrid cloud storage service that provides on-premises users access to virtually unlimited cloud storage?",
+        "options": [
+            "A. AWS DataSync",
+            "B. Amazon S3 Glacier",
+            "C. AWS Storage Gateway",
+            "D. Amazon Elastic Block Store (Amazon EBS)"
+        ],
+        "correct_answers": [
+            "C. AWS Storage Gateway"
+        ]
+    },
+    {
+        "question_number": "Question #91 Topic 1",
+        "question": "A company plans to migrate to AWS and wants to create cost estimates for its AWS use cases. Which AWS service or tool can the company use to meet these requirements?",
+        "options": [
+            "A. AWS Pricing Calculator",
+            "B. Amazon CloudWatch",
+            "C. AWS Cost Explorer",
+            "D. AWS Budgets"
+        ],
+        "correct_answers": [
+            "A. AWS Pricing Calculator"
+        ]
+    },
+    {
+        "question_number": "Question #92 Topic 1",
+        "question": "Which tool should a developer use to integrate AWS service features directly into an application?",
+        "options": [
+            "A. AWS Software Development Kit",
+            "B. AWS CodeDeploy",
+            "C. AWS Lambda",
+            "D. AWS Batch"
+        ],
+        "correct_answers": [
+            "A. AWS Software Development Kit"
+        ]
+    },
+    {
+        "question_number": "Question #93 Topic 1",
+        "question": "Which of the following is a recommended design principle of the AWS Well-Architected Framework?",
+        "options": [
+            "A. Reduce downtime by making infrastructure changes infrequently and in large increments.",
+            "B. Invest the time to configure infrastructure manually.",
+            "C. Learn to improve from operational failures.",
+            "D. Use monolithic application design for centralization."
+        ],
+        "correct_answers": [
+            "C. Learn to improve from operational failures."
+        ]
+    },
+    {
+        "question_number": "Question #94 Topic 1",
+        "question": "Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:",
+        "options": [
+            "A. restricted access.",
+            "B. as-needed access.",
+            "C. least privilege access.",
+            "D. token access."
+        ],
+        "correct_answers": [
+            "C. least privilege access."
+        ]
+    },
+    {
+        "question_number": "Question #95 Topic 1",
+        "question": "Which AWS service or tool can be used to set up a firewall to control traffic going into and coming out of an Amazon VPC subnet?",
+        "options": [
+            "A. Security group",
+            "B. AWS WAF",
+            "C. AWS Firewall Manager",
+            "D. Network ACL"
+        ],
+        "correct_answers": [
+            "D. Network ACL"
+        ]
+    },
+    {
+        "question_number": "Question #96 Topic 1",
+        "question": "A company wants to operate a data warehouse to analyze data without managing the data warehouse infrastructure. Which AWS service will meet this requirement?",
+        "options": [
+            "A. Amazon Aurora",
+            "B. Amazon Redshift Serverless",
+            "C. AWS Lambda",
+            "D. Amazon RDS"
+        ],
+        "correct_answers": [
+            "B. Amazon Redshift Serverless"
+        ]
+    },
+    {
+        "question_number": "Question #97 Topic 1",
+        "question": "How does AWS Cloud computing help businesses reduce costs? (Choose two.)",
+        "options": [
+            "A. AWS charges the same prices for services in every AWS Region.",
+            "B. AWS enables capacity to be adjusted on demand.",
+            "C. AWS offers discounts for Amazon EC2 instances that remain idle for more than 1 week.",
+            "D. AWS does not charge for data sent from the AWS Cloud to the internet.",
+            "E. AWS eliminates many of the costs of building and maintaining on-premises data centers."
+        ],
+        "correct_answers": [
+            "B. AWS enables capacity to be adjusted on demand.",
+            "E. AWS eliminates many of the costs of building and maintaining on-premises data centers."
+        ]
+    },
+    {
+        "question_number": "Question #98 Topic 1",
+        "question": "A company wants to grant users in one AWS account access to resources in another AWS account. The users do not currently have permission to access the resources. Which AWS service will meet this requirement?",
+        "options": [
+            "A. IAM group",
+            "B. IAM role",
+            "C. IAM tag",
+            "D. IAM Access Analyzer"
+        ],
+        "correct_answers": [
+            "B. IAM role"
+        ]
+    },
+    {
+        "question_number": "Question #99 Topic 1",
+        "question": "Which task is the responsibility of AWS when using AWS services?",
+        "options": [
+            "A. Management of IAM user permissions",
+            "B. Creation of security group rules for outbound access",
+            "C. Maintenance of physical and environmental controls",
+            "D. Application of Amazon EC2 operating system patches"
+        ],
+        "correct_answers": [
+            "C. Maintenance of physical and environmental controls"
+        ]
+    },
+    {
+        "question_number": "Question #100 Topic 1",
+        "question": "A company wants to automate infrastructure deployment by using infrastructure as code (IaC). The company wants to scale production stacks so the stacks can be deployed in multiple AWS Regions. Which AWS service will meet these requirements?",
+        "options": [
+            "A. Amazon CloudWatch",
+            "B. AWS Config",
+            "C. AWS Trusted Advisor",
+            "D. AWS CloudFormation"
+        ],
+        "correct_answers": [
+            "D. AWS CloudFormation"
+        ]
+    }
+]

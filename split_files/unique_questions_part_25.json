@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 312",
+        "question": "Which of the following compute resources are serverless? (Choose TWO)",
+        "options": [
+            "Amazon EC2.",
+            "AWS Fargate.",
+            "AWS Lambda.",
+            "Amazon ECS.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "AWS Fargate.",
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 313",
+        "question": "For compliance and regulatory purposes, a government agency requires that their applications must run on hardware that is dedicated to them only. How can you meet this requirement?",
+        "options": [
+            "Use EC2 Dedicated Hosts.",
+            "Use EC2 Reserved Instances.",
+            "Use EC2 Spot Instances.",
+            "Use EC2 On-demand Instances."
+        ],
+        "correct_answers": [
+            "Use EC2 Dedicated Hosts."
+        ]
+    },
+    {
+        "question_number": "Question 314",
+        "question": "Which AWS Cost Governance best practice recommends refining workloads regularly to make the most of existing AWS resources and reduce costs?",
+        "options": [
+            "Tagging Enforcement.",
+            "Architecture Optimization.",
+            "Budgeting Processes.",
+            "Resource Controls."
+        ],
+        "correct_answers": [
+            "Architecture Optimization."
+        ]
+    },
+    {
+        "question_number": "Question 315",
+        "question": "An organization needs to build a financial application that requires support for ACID transactions. Which AWS database service is most appropriate in this case?",
+        "options": [
+            "RedShift.",
+            "RDS.",
+            "CloudHSM.",
+            "DMS."
+        ],
+        "correct_answers": [
+            "RDS."
+        ]
+    },
+    {
+        "question_number": "Question 316",
+        "question": "What can you use to assign permissions directly to an IAM user?",
+        "options": [
+            "IAM Identity.",
+            "IAM Group.",
+            "IAM Role.",
+            "IAM Policy."
+        ],
+        "correct_answers": [
+            "IAM Policy."
+        ]
+    },
+    {
+        "question_number": "Question 317",
+        "question": "The owner of an E-Commerce application notices that the compute capacity requirements vary heavily from time to time. What makes AWS more economical than traditional data centers for this type of application?",
+        "options": [
+            "AWS allows customers to launch powerful EC2 instances to handle spikes in load.",
+            "AWS allows customers to pay upfront to get bigger discounts.",
+            "AWS allows customers to launch and terminate EC2 instances based on demand.",
+            "AWS allows customers to choose cheaper types of EC2 instances that best fit their needs."
+        ],
+        "correct_answers": [
+            "AWS allows customers to launch and terminate EC2 instances based on demand."
+        ]
+    },
+    {
+        "question_number": "Question 318",
+        "question": "Amazon RDS supports multiple database engines to choose from. Which of the following is not one of them?",
+        "options": [
+            "PostgreSQL.",
+            "Oracle.",
+            "Microsoft SQL Server.",
+            "Teradata."
+        ],
+        "correct_answers": [
+            "Teradata."
+        ]
+    },
+    {
+        "question_number": "Question 319",
+        "question": "Which of the following AWS services would help you migrate on-premise databases to AWS?",
+        "options": [
+            "AWS DMS.",
+            "Amazon S3 Transfer Acceleration.",
+            "AWS Directory Service.",
+            "AWS Transit Gateway."
+        ],
+        "correct_answers": [
+            "AWS DMS."
+        ]
+    },
+    {
+        "question_number": "Question 320",
+        "question": "For new AWS customers, what is the EASIEST way to launch a simple WordPress website on AWS?",
+        "options": [
+            "Run WordPress on an Amazon Lightsail instance.",
+            "Install WordPress on an Amazon EC2 instance.",
+            "Use the Amazon S3 Web hosting feature.",
+            "Host the website directly on AWS Cloud Development Kit (AWS CDK)."
+        ],
+        "correct_answers": [
+            "Run WordPress on an Amazon Lightsail instance."
+        ]
+    },
+    {
+        "question_number": "Question 321",
+        "question": "Which of the following would you use to manage your encryption keys in the AWS Cloud? (Choose TWO)",
+        "options": [
+            "AWS KMS.",
+            "AWS Certificate Manager.",
+            "AWS CodeDeploy.",
+            "AWS CodeCommit.",
+            "CloudHSM."
+        ],
+        "correct_answers": [
+            "AWS KMS.",
+            "CloudHSM."
+        ]
+    },
+    {
+        "question_number": "Question 322",
+        "question": "Which of the following services allows you to install and run custom relational database software?",
+        "options": [
+            "Amazon EC2.",
+            "Amazon Cognito.",
+            "Amazon RDS.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 323",
+        "question": "Your application requirements for CPU and RAM are changing in an unpredictable way. Which service can be used to dynamically adjust these resources based on load?",
+        "options": [
+            "Auto Scaling.",
+            "ELB.",
+            "Amazon Route53.",
+            "Amazon Elastic Container Service."
+        ],
+        "correct_answers": [
+            "Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 324",
+        "question": "A company has infrastructure hosted in an on-premises data center. They currently have an operations team that takes care of identity management. If they decide to migrate to the AWS cloud, which of the following services would help them perform the same role in AWS?",
+        "options": [
+            "AWS IAM.",
+            "AWS Outposts.",
+            "AWS Federation.",
+            "Amazon Redshift."
+        ],
+        "correct_answers": [
+            "AWS IAM."
+        ]
+    },
+    {
+        "question_number": "Question 325",
+        "question": "What are some key design principles for designing public cloud systems? (Choose TWO)",
+        "options": [
+            "Reserved capacity instead of on demand.",
+            "Loose coupling over tight coupling.",
+            "Servers instead of managed services.",
+            "Disposable resources instead of fixed servers.",
+            "Multi-AZ deployments instead of multi-region deployments."
+        ],
+        "correct_answers": [
+            "Loose coupling over tight coupling.",
+            "Disposable resources instead of fixed servers."
+        ]
+    },
+    {
+        "question_number": "Question 326",
+        "question": "Where can AWS account owners get a list of all users in their account, including the status of their AWS credentials?",
+        "options": [
+            "AWS CloudTrail Trails.",
+            "IAM Credential Report.",
+            "AWS Artifact reports.",
+            "AWS Cost and Usage Report."
+        ],
+        "correct_answers": [
+            "IAM Credential Report."
+        ]
+    },
+    {
+        "question_number": "Question 327",
+        "question": "Which of the following services enables you to easily generate and use your own encryption keys in the AWS Cloud?",
+        "options": [
+            "AWS Shield.",
+            "AWS Certificate Manager.",
+            "AWS CloudHSM.",
+            "AWS WAF."
+        ],
+        "correct_answers": [
+            "AWS CloudHSM."
+        ]
+    },
+    {
+        "question_number": "Question 328",
+        "question": "You have developed a web application targeting a global audience. Which of the following will help you achieve the highest redundancy and fault tolerance from an infrastructure perspective?",
+        "options": [
+            "There is no need to architect for these capabilities in AWS, as AWS is redundant by default.",
+            "Deploy the application in a single Availability Zone.",
+            "Deploy the application in multiple Availability Zones in a single AWS region.",
+            "Deploy the application in multiple Availability Zones in multiple AWS regions."
+        ],
+        "correct_answers": [
+            "Deploy the application in multiple Availability Zones in multiple AWS regions."
+        ]
+    },
+    {
+        "question_number": "Question 329",
+        "question": "For some services, AWS automatically replicates data across multiple Availability Zones to provide fault tolerance in the event of a server failure or Availability Zone outage. Select TWO services that automatically replicate data across Availability Zones.",
+        "options": [
+            "Instance Store.",
+            "S3.",
+            "DynamoDB.",
+            "Amazon Route 53.",
+            "AWS VPN."
+        ],
+        "correct_answers": [
+            "S3.",
+            "DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 330",
+        "question": "Which of the following factors affect Amazon CloudFront cost? (Choose TWO)",
+        "options": [
+            "Number of Requests.",
+            "Traffic Distribution.",
+            "Number of Volumes.",
+            "Instance type.",
+            "Storage Class."
+        ],
+        "correct_answers": [
+            "Number of Requests.",
+            "Traffic Distribution."
+        ]
+    },
+    {
+        "question_number": "Question 331",
+        "question": "Which of the following resources can an AWS customer use to learn more about prohibited uses of the services offered by AWS?",
+        "options": [
+            "AWS Service Control Policies (SCPs).",
+            "AWS Artifact.",
+            "AWS Budgets.",
+            "AWS Acceptable Use Policy."
+        ],
+        "correct_answers": [
+            "AWS Acceptable Use Policy."
+        ]
+    }
+]

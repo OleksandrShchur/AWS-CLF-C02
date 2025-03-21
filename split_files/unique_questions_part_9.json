@@ -1,0 +1,266 @@
+[
+    {
+        "question_number": "Question #161 Topic 1",
+        "question": "A company is running a critical workload on an Amazon RDS DB instance. The company needs the DB instance to be highly available with a recovery time of less than 5 minutes.  Which solution will meet these requirements?",
+        "options": [
+            "A. Create a read replica of the DB instance.",
+            "B. Create a template of the DB instance by using AWS CloudFormation.",
+            "C. Take frequent snapshots of the DB instance. Store the snapshots in Amazon S3.",
+            "D. Modify the DB instance to be a Multi-AZ deployment."
+        ],
+        "correct_answers": [
+            "D. Modify the DB instance to be a Multi-AZ deployment."
+        ]
+    },
+    {
+        "question_number": "Question #162 Topic 1",
+        "question": "A company plans to migrate its application to AWS and run the application on Amazon EC2 instances. The application will have continuous usage for 1 year.  Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?",
+        "options": [
+            "A. Reserved Instances",
+            "B. Spot Instances",
+            "C. On-Demand Instances",
+            "D. Dedicated Hosts"
+        ],
+        "correct_answers": [
+            "A. Reserved Instances"
+        ]
+    },
+    {
+        "question_number": "Question #163 Topic 1",
+        "question": "A company needs to transfer data between an Amazon S3 bucket and an on-premises application.  Who is responsible for the security of this data, according to the AWS shared responsibility model?",
+        "options": [
+            "A. The company",
+            "B. AWS",
+            "C. Firewall vendor",
+            "D. AWS Marketplace partner"
+        ],
+        "correct_answers": [
+            "A. The company"
+        ]
+    },
+    {
+        "question_number": "Question #164 Topic 1",
+        "question": "Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?",
+        "options": [
+            "A. Security",
+            "B. Reliability",
+            "C. Performance efficiency",
+            "D. Cost optimization"
+        ],
+        "correct_answers": [
+            "B. Reliability"
+        ]
+    },
+    {
+        "question_number": "Question #165 Topic 1",
+        "question": "A company wants to identify Amazon S3 buckets that are shared with another AWS account.  Which AWS service or feature will meet these requirements?",
+        "options": [
+            "A. AWS Lake Formation",
+            "B. IAM credential report",
+            "C. Amazon CloudWatch",
+            "D. IAM Access Analyzer"
+        ],
+        "correct_answers": [
+            "D. IAM Access Analyzer"
+        ]
+    },
+    {
+        "question_number": "Question #166 Topic 1",
+        "question": "Which AWS service gives users the ability to build interactive business intelligence dashboards that include machine learning insights?",
+        "options": [
+            "A. Amazon Athena",
+            "B. Amazon Kendra",
+            "C. Amazon QuickSight",
+            "D. Amazon Redshift"
+        ],
+        "correct_answers": [
+            "C. Amazon QuickSight"
+        ]
+    },
+    {
+        "question_number": "Question #167 Topic 1",
+        "question": "Which of the following is an AWS value proposition that describes a user’s ability to scale infrastructure based on demand?",
+        "options": [
+            "A. Speed of innovation",
+            "B. Resource elasticity",
+            "C. Decoupled architecture",
+            "D. Global deployment"
+        ],
+        "correct_answers": [
+            "B. Resource elasticity"
+        ]
+    },
+    {
+        "question_number": "Question #168 Topic 1",
+        "question": "Which action is a security best practice for access to sensitive data that is stored in an Amazon S3 bucket?",
+        "options": [
+            "A. Enable S3 Cross-Region Replication (CRR) on the S3 bucket.",
+            "B. Use IAM roles for applications that require access to the S3 bucket.",
+            "C. Configure AWS WAF to prevent unauthorized access to the S3 bucket.",
+            "D. Configure Amazon GuardDuty to prevent unauthorized access to the S3 bucket."
+        ],
+        "correct_answers": [
+            "B. Use IAM roles for applications that require access to the S3 bucket."
+        ]
+    },
+    {
+        "question_number": "Question #169 Topic 1",
+        "question": "A company wants to know more about the benefits offered by cloud computing. The company wants to understand the operational advantage of agility. How does AWS provide agility for users?",
+        "options": [
+            "A. The ability the ensure high availability by deploying workloads to multiple regions",
+            "B. A pay-as-you-go model for many services and resources",
+            "C. The ability to transfer infrastructure management to the AWS Cloud",
+            "D. The ability to provision and deprovision resources quickly with minimal effort"
+        ],
+        "correct_answers": [
+            "D. The ability to provision and deprovision resources quickly with minimal effort"
+        ]
+    },
+    {
+        "question_number": "Question #170 Topic 1",
+        "question": "A company needs a central user portal so that users can log in to third-party business applications that support Security Assertion Markup Language (SAML) 2.0.  Which AWS service will meet this requirement?",
+        "options": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. Amazon Cognito",
+            "C. AWS IAM Identity Center (AWS Single Sign-On)",
+            "D. AWS CLI"
+        ],
+        "correct_answers": [
+            "C. AWS IAM Identity Center (AWS Single Sign-On)"
+        ]
+    },
+    {
+        "question_number": "Question 1",
+        "question": "AWS allows users to manage their resources using a web based user interface. What is the name of this interface?",
+        "options": [
+            "AWS CLI.",
+            "AWS API.",
+            "AWS SDK.",
+            "AWS Management Console."
+        ],
+        "correct_answers": [
+            "AWS Management Console."
+        ]
+    },
+    {
+        "question_number": "Question 2",
+        "question": "Which of the following is an example of horizontal scaling in the AWS Cloud?",
+        "options": [
+            "Replacing an existing EC2 instance with a larger, more powerful one.",
+            "Increasing the compute capacity of a single EC< instance to address the growing demands of an application.",
+            "Adding more RAM capacity to an EC2 instance.",
+            "Adding more EC2 instances of the same size to handle an increase in traffic."
+        ],
+        "correct_answers": [
+            "Adding more EC2 instances of the same size to handle an increase in traffic."
+        ]
+    },
+    {
+        "question_number": "Question 3",
+        "question": "You have noticed that several critical Amazon EC2 instances have been terminated. Which of the following AWS services would help you determine who took this action?",
+        "options": [
+            "Amazon Inspector.",
+            "AWS CloudTrail.",
+            "AWS Trusted Advisor.",
+            "EC2 Instance Usage Report."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 4",
+        "question": "Which of the below options are related to the reliability of AWS? (Choose TWO)",
+        "options": [
+            "Applying the principle of least privilege to all AWS resources.",
+            "Automatically provisioning new resources to meet demand.",
+            "All AWS services are considered Global Services, and this design helps customers serve their international users.",
+            "Providing compensation to customers if issues occur.",
+            "Ability to recover quickly from failures."
+        ],
+        "correct_answers": [
+            "Automatically provisioning new resources to meet demand.",
+            "Ability to recover quickly from failures."
+        ]
+    },
+    {
+        "question_number": "Question 5",
+        "question": "Which statement is true regarding the AWS Shared Responsibility Model?",
+        "options": [
+            "Responsibilities vary depending on the services used.",
+            "Security of the IaaS services is the responsibility of AWS.",
+            "Patching the guest OS is always the responsibility of AWS.",
+            "Security of the managed services is the responsibility of the customer."
+        ],
+        "correct_answers": [
+            "Responsibilities vary depending on the services used."
+        ]
+    },
+    {
+        "question_number": "Question 6",
+        "question": "You have set up consolidated billing for several AWS accounts. One of the accounts has purchased a number of reserved instances for 3 years. Which of the following is true regarding this scenario?",
+        "options": [
+            "The Reserved Instance discounts can only be shared with the master account.",
+            "All accounts can receive the hourly cost benefit of the Reserved Instances.",
+            "The purchased instances will have better performance than On-demand instances.",
+            "There are no cost benefits from using consolidated billing; It is for informational purposes only."
+        ],
+        "correct_answers": [
+            "All accounts can receive the hourly cost benefit of the Reserved Instances."
+        ]
+    },
+    {
+        "question_number": "Question 7",
+        "question": "A company has developed an eCommerce web application in AWS. What should they do to ensure that the application has the highest level of availability?",
+        "options": [
+            "Deploy the application across multiple Availability Zones and Edge locations.",
+            "Deploy the application across multiple Availability Zones and subnets.",
+            "Deploy the application across multiple Regions and Availability Zones.",
+            "Deploy the application across multiple VPC's and subnets."
+        ],
+        "correct_answers": [
+            "Deploy the application across multiple Regions and Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 8",
+        "question": "What does AWS Snowball provide? (Choose TWO)",
+        "options": [
+            "Built-in computing capabilities that allow customers to process data locally.",
+            "A catalog of third-party software solutions that customers need to build solutions and run their businesses.",
+            "A hybrid cloud storage between on-premises environments and the AWS Cloud.",
+            "An Exabyte-scale data transfer service that allows you to move extremely large amounts of data to AWS.",
+            "Secure transfer of large amounts of data into and out of the AWS."
+        ],
+        "correct_answers": [
+            "Built-in computing capabilities that allow customers to process data locally.",
+            "Secure transfer of large amounts of data into and out of the AWS."
+        ]
+    },
+    {
+        "question_number": "Question 9",
+        "question": "A company has an AWS Enterprise Support plan. They want quick and efficient guidance with their billing and account inquiries. Which of the following should the company use?",
+        "options": [
+            "AWS Health Dashboard.",
+            "AWS Support Concierge.",
+            "AWS Customer Service.",
+            "AWS Operations Support."
+        ],
+        "correct_answers": [
+            "AWS Support Concierge."
+        ]
+    },
+    {
+        "question_number": "Question 10",
+        "question": "A Japanese company hosts their applications on Amazon EC2 instances in the Tokyo Region. The company has opened new branches in the United States, and the US users are complaining of high latency. What can the company do to reduce latency for the users in the US while minimizing costs?",
+        "options": [
+            "Applying the Amazon Connect latency-based routing policy.",
+            "Registering a new US domain name to serve the users in the US.",
+            "Building a new data center in the US and implementing a hybrid model.",
+            "Deploying new Amazon EC2 instances in a Region located in the US."
+        ],
+        "correct_answers": [
+            "Deploying new Amazon EC2 instances in a Region located in the US."
+        ]
+    }
+]

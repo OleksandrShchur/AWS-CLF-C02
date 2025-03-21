@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 31",
+        "question": "Which of the following services allows customers to manage their agreements with AWS?",
+        "options": [
+            "AWS Artifact.",
+            "AWS Certificate Manager.",
+            "AWS Systems Manager.",
+            "AWS Organizations."
+        ],
+        "correct_answers": [
+            "AWS Artifact."
+        ]
+    },
+    {
+        "question_number": "Question 32",
+        "question": "Which of the following are examples of AWS-Managed Services, where AWS is responsible for the operational and maintenance burdens of running the service? (Choose TWO)",
+        "options": [
+            "Amazon VPC.",
+            "Amazon DynamoDB.",
+            "Amazon Elastic MapReduce.",
+            "AWS IAM.",
+            "Amazon Elastic Compute Cloud."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB.",
+            "Amazon Elastic MapReduce."
+        ]
+    },
+    {
+        "question_number": "Question 33",
+        "question": "Your company has a data store application that requires access to a NoSQL database. Which AWS database offering would meet this requirement?",
+        "options": [
+            "Amazon Aurora.",
+            "Amazon DynamoDB.",
+            "Amazon Elastic Block Store.",
+            "Amazon Redshift."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 34",
+        "question": "As part of the Enterprise support plan, who is the primary point of contact for ongoing support needs?",
+        "options": [
+            "AWS Identity and Access Management (IAM) user.",
+            "Infrastructure Event Management (IEM) engineer.",
+            "AWS Consulting Partners.",
+            "Technical Account Manager (TAM)."
+        ],
+        "correct_answers": [
+            "Technical Account Manager (TAM)."
+        ]
+    },
+    {
+        "question_number": "Question 35",
+        "question": "How can you view the distribution of AWS spending in one of your AWS accounts?",
+        "options": [
+            "By using Amazon VPC console.",
+            "By contacting the AWS Support team.",
+            "By using AWS Cost Explorer.",
+            "By contacting the AWS Finance team."
+        ],
+        "correct_answers": [
+            "By using AWS Cost Explorer."
+        ]
+    },
+    {
+        "question_number": "Question 36",
+        "question": "Which of the following must an IAM user provide to interact with AWS services using the AWS Command Line Interface (AWS CLI)?",
+        "options": [
+            "Access keys.",
+            "Secret token.",
+            "UserID.",
+            "User name and password."
+        ],
+        "correct_answers": [
+            "Access keys."
+        ]
+    },
+    {
+        "question_number": "Question 37",
+        "question": "You have AWS Basic support, and you have discovered that some AWS resources are being used maliciously, and those resources could potentially compromise your data. What should you do?",
+        "options": [
+            "Contact the AWS Customer Service team.",
+            "Contact the AWS Abuse team.",
+            "Contact the AWS Concierge team.",
+            "Contact the AWS Security team."
+        ],
+        "correct_answers": [
+            "Contact the AWS Abuse team."
+        ]
+    },
+    {
+        "question_number": "Question 38",
+        "question": "Select TWO examples of the AWS shared controls.",
+        "options": [
+            "Patch Management.",
+            "IAM Management.",
+            "VPC Management.",
+            "Configuration Management.",
+            "Data Center operations."
+        ],
+        "correct_answers": [
+            "Patch Management.",
+            "Configuration Management."
+        ]
+    },
+    {
+        "question_number": "Question 39",
+        "question": "In order to implement best practices when dealing with a 'Single Point of Failure,' you should attempt to build as much automation as possible in both detecting and reacting to failure. Which of the following AWS services would help? (Choose TWO)",
+        "options": [
+            "ELB.",
+            "Auto Scaling.",
+            "Amazon Athen.",
+            "ECR.",
+            "Amazon EC2."
+        ],
+        "correct_answers": [
+            "ELB.",
+            "Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 40",
+        "question": "A company is planning to host an educational website on AWS. Their video courses will be streamed all around the world. Which of the following AWS services will help achieve high transfer speeds?",
+        "options": [
+            "Amazon SNS.",
+            "Amazon Kinesis Video Streams.",
+            "AWS CloudFormation.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Amazon CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 41",
+        "question": "A developer is planning to build a two-tier web application that has a MySQL database layer. Which of the following AWS database services would provide automated backups for the application?",
+        "options": [
+            "A MySQL database installed on an EC2 instance.",
+            "Amazon Aurora.",
+            "Amazon DynamoDB.",
+            "Amazon Neptune."
+        ],
+        "correct_answers": [
+            "Amazon Aurora."
+        ]
+    },
+    {
+        "question_number": "Question 42",
+        "question": "What is the AWS service that enables AWS architects to manage infrastructure as code?",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Config.",
+            "Amazon SES.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation."
+        ]
+    },
+    {
+        "question_number": "Question 43",
+        "question": "Under the shared responsibility model, which of the following is the responsibility of AWS?",
+        "options": [
+            "Client-side encryption.",
+            "Configuring infrastructure devices.",
+            "Server-side encryption.",
+            "Filtering traffic with Security Groups."
+        ],
+        "correct_answers": [
+            "Configuring infrastructure devices."
+        ]
+    },
+    {
+        "question_number": "Question 44",
+        "question": "What does the AWS Health Dashboard provide? (Choose TWO)",
+        "options": [
+            "Detailed troubleshooting guidance to address AWS events impacting your resources.",
+            "Health checks for Auto Scaling instances.",
+            "Recommendations for Cost Optimization.",
+            "A dashboard detailing vulnerabilities in your applications.",
+            "Personalized view of AWS service health."
+        ],
+        "correct_answers": [
+            "Detailed troubleshooting guidance to address AWS events impacting your resources.",
+            "Personalized view of AWS service health."
+        ]
+    },
+    {
+        "question_number": "Question 45",
+        "question": "You have deployed your application on multiple Amazon EC2 instances. Your customers complain that sometimes they can't reach your application. Which AWS service allows you to monitor the performance of your EC2 instances to assist in troubleshooting these issues?",
+        "options": [
+            "AWS Lambda.",
+            "AWS Config.",
+            "Amazon CloudWatch.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "Amazon CloudWatch."
+        ]
+    },
+    {
+        "question_number": "Question 46",
+        "question": "Your company is developing a critical web application in AWS, and the security of the application is a top priority. Which of the following AWS services will provide infrastructure security optimization recommendations?",
+        "options": [
+            "AWS Shield.",
+            "AWS Management Console.",
+            "AWS Secrets Manager.",
+            "AWS Trusted Advisor."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 47",
+        "question": "Which of the following is not a benefit of Amazon S3? (Choose TWO)",
+        "options": [
+            "Amazon S3 provides unlimited storage for any type of data.",
+            "Amazon S3 can run any type of application or backend system.",
+            "Amazon S3 stores any number of objects, but with object size limits.",
+            "Amazon S3 can be scaled manually to store and retrieve any amount of data from anywhere.",
+            "Amazon S3 provides 99.999999999% (11 9's) of data durability."
+        ],
+        "correct_answers": [
+            "Amazon S3 can run any type of application or backend system.",
+            "Amazon S3 can be scaled manually to store and retrieve any amount of data from anywhere."
+        ]
+    },
+    {
+        "question_number": "Question 48",
+        "question": "In the AWS Shared responsibility Model, which of the following are the responsibility of the customer? (Choose TWO)",
+        "options": [
+            "Disk disposal.",
+            "Controlling physical access to compute resources.",
+            "Patching the Network infrastructure.",
+            "Setting password complexity rules.",
+            "Configuring network access rules."
+        ],
+        "correct_answers": [
+            "Setting password complexity rules.",
+            "Configuring network access rules."
+        ]
+    },
+    {
+        "question_number": "Question 49",
+        "question": "What does AWS provide to deploy popular technologies such as IBM MQ on AWS with the least amount of effort and time?",
+        "options": [
+            "Amazon Aurora.",
+            "Amazon CloudWatch.",
+            "AWS Quick Start reference deployments.",
+            "AWS OpsWorks."
+        ],
+        "correct_answers": [
+            "AWS Quick Start reference deployments."
+        ]
+    },
+    {
+        "question_number": "Question 50",
+        "question": "An organization has decided to purchase an Amazon EC2 Reserved Instance (RI) for three years in order to reduce costs. It is possible that the application workloads could change during the reservation period. What is the EC2 Reserved Instance (RI) type that will allow the company to exchange the purchased reserved instance for another reserved instance with higher computing power if they need to?",
+        "options": [
+            "Elastic RI.",
+            "Premium RI.",
+            "Standard RI.",
+            "Convertible RI."
+        ],
+        "correct_answers": [
+            "Convertible RI."
+        ]
+    }
+]

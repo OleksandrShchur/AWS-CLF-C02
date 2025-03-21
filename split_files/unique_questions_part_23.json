@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 272",
+        "question": "Which of the following strategies helps protect your AWS root account?",
+        "options": [
+            "Delete root user access keys if you do not need them.",
+            "Apply MFA for the root account and use it for all of your work.",
+            "Access the root account only from your personal Mobile Phone.",
+            "Only share your AWS account password or access keys with trusted persons."
+        ],
+        "correct_answers": [
+            "Delete root user access keys if you do not need them."
+        ]
+    },
+    {
+        "question_number": "Question 273",
+        "question": "Which of the following are factors should be considered for Amazon EBS pricing? (Choose TWO)",
+        "options": [
+            "The size of volumes provisioned per month.",
+            "The compute capacity you consume.",
+            "The amount of data you have stored in snapshots.",
+            "The compute time you consume.",
+            "The number of Snowball storage devices you request."
+        ],
+        "correct_answers": [
+            "The size of volumes provisioned per month.",
+            "The amount of data you have stored in snapshots."
+        ]
+    },
+    {
+        "question_number": "Question 274",
+        "question": "You have just set up your AWS environment and have created six IAM user accounts for the DevOps team. What is the AWS recommendation when granting permissions to these IAM accounts?",
+        "options": [
+            "Attach a separate IAM policy for each individual account.",
+            "Apply the Principle of Least Privilege.",
+            "For security purposes, you should not grant any permission to the DevOps team.",
+            "Create six different IAM passwords."
+        ],
+        "correct_answers": [
+            "Apply the Principle of Least Privilege."
+        ]
+    },
+    {
+        "question_number": "Question 275",
+        "question": "Which of the following has the greatest impact on cost? (Choose TWO)",
+        "options": [
+            "Compute charges.",
+            "The number of services used.",
+            "Data Transfer In charges.",
+            "Data Transfer Out charges.",
+            "The number of IAM roles provisioned."
+        ],
+        "correct_answers": [
+            "Compute charges.",
+            "Data Transfer Out charges."
+        ]
+    },
+    {
+        "question_number": "Question 276",
+        "question": "Who from the following will get the largest discount?",
+        "options": [
+            "A user who chooses to buy On-demand, Convertible, Partial upfront instances.",
+            "A user who chooses to buy Reserved, Convertible, All upfront instances.",
+            "A user who chooses to buy Reserved, Standard, No upfront instances.",
+            "A user who chooses to buy Reserved, Standard, All upfront instances."
+        ],
+        "correct_answers": [
+            "A user who chooses to buy Reserved, Standard, All upfront instances."
+        ]
+    },
+    {
+        "question_number": "Question 277",
+        "question": "Which of the following is an available option when purchasing Amazon EC2 instances?",
+        "options": [
+            "The ability to bid to get the lowest possible prices.",
+            "The ability to register EC2 instances to get volume discounts on every hour the instances are running.",
+            "The ability to buy Dedicated Instances for up to 90% discount.",
+            "The ability to pay upfront to get lower hourly costs."
+        ],
+        "correct_answers": [
+            "The ability to pay upfront to get lower hourly costs."
+        ]
+    },
+    {
+        "question_number": "Question 278",
+        "question": "What does the term 'Economies of scale' mean?",
+        "options": [
+            "It means that you save more when you consume more.",
+            "It means as more time passes using AWS, you pay more for its services.",
+            "It means that AWS will continuously lower costs as it grows.",
+            "It means that you have the ability to pay as you go."
+        ],
+        "correct_answers": [
+            "It means that AWS will continuously lower costs as it grows."
+        ]
+    },
+    {
+        "question_number": "Question 279",
+        "question": "A company experiences fluctuations in traffic patterns to their e-commerce website when running flash sales. What service can help the company dynamically match the required compute capacity to handle spikes in traffic during flash sales?",
+        "options": [
+            "AWS Auto Scaling.",
+            "Amazon Elastic Compute Cloud.",
+            "Amazon Elastic File System.",
+            "Amazon ElastiCache."
+        ],
+        "correct_answers": [
+            "AWS Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 280",
+        "question": "Which of the below options is true of Amazon VPC?",
+        "options": [
+            "Amazon VPC allows customers to control user interactions with all other AWS resources.",
+            "AWS Customers have complete control over their Amazon VPC virtual networking environment.",
+            "AWS is responsible for all the management and configuration details of Amazon VPC.",
+            "Amazon VPC helps customers to review their AWS architecture and adopt best practices."
+        ],
+        "correct_answers": [
+            "AWS Customers have complete control over their Amazon VPC virtual networking environment."
+        ]
+    },
+    {
+        "question_number": "Question 281",
+        "question": "Which tool can a non-AWS customer use to compare the cost of on-premises environment resources to AWS?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Pricing Calculator.",
+            "AWS Budgets.",
+            "AWS TCO Calculator."
+        ],
+        "correct_answers": [
+            "AWS TCO Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 282",
+        "question": "Which of the following services provide real-time auditing for compliance and vulnerabilities? (Choose TWO)",
+        "options": [
+            "AWS Config.",
+            "Amazon Redshift.",
+            "Amazon MQ.",
+            "AWS Trusted Advisor.",
+            "Amazon Cognito."
+        ],
+        "correct_answers": [
+            "AWS Config.",
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 283",
+        "question": "Which of the following AWS services uses Puppet to automate how EC2 instances are configured?",
+        "options": [
+            "AWS OpsWorks.",
+            "AWS CloudFormation.",
+            "AWS Quick Starts.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS OpsWorks."
+        ]
+    },
+    {
+        "question_number": "Question 284",
+        "question": "An organization uses a hybrid cloud architecture to run their business. Which AWS service enables them to deploy their applications to any AWS or on-premises server?",
+        "options": [
+            "Amazon Kinesis.",
+            "Amazon QuickSight.",
+            "AWS CodeDeploy.",
+            "Amazon Athena."
+        ],
+        "correct_answers": [
+            "AWS CodeDeploy."
+        ]
+    },
+    {
+        "question_number": "Question 285",
+        "question": "Select the services that are server-based: (Choose TWO)",
+        "options": [
+            "Amazon RDS.",
+            "Amazon DynamoDB.",
+            "AWS Lambda.",
+            "AWS Fargate.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "Amazon RDS.",
+            "Amazon EMR."
+        ]
+    },
+    {
+        "question_number": "Question 286",
+        "question": "What best describes penetration testing?",
+        "options": [
+            "Testing your application's response time from different locations.",
+            "Testing your network to find security vulnerabilities that an attacker could exploit.",
+            "Testing your instances to check for the unhealthy ones.",
+            "Testing your software for bugs and errors."
+        ],
+        "correct_answers": [
+            "Testing your network to find security vulnerabilities that an attacker could exploit."
+        ]
+    },
+    {
+        "question_number": "Question 287",
+        "question": "Which of the following are use cases for Amazon EMR? (Choose TWO)",
+        "options": [
+            "Enables you to backup extremely large amounts of data at very low costs.",
+            "Enables you to move Exabyte-scale data from on-premises datacenters into AWS.",
+            "Enables you to analyze and process extremely large amounts of data in a timely manner.",
+            "Enables you to easily run and scale Apache Spark, Hadoop,and other Big Data frameworks.",
+            "Enables you to easily run and manage Docker containers."
+        ],
+        "correct_answers": [
+            "Enables you to analyze and process extremely large amounts of data in a timely manner.",
+            "Enables you to easily run and scale Apache Spark, Hadoop,and other Big Data frameworks."
+        ]
+    },
+    {
+        "question_number": "Question 288",
+        "question": "Your CTO has asked you to contact AWS support using the chat feature to ask for guidance related to EBS. However, when you open the AWS support center you can't see a way to contact support via Chat. What should you do?",
+        "options": [
+            "There is no chat feature in AWS support.",
+            "The chat feature is available for all plans for an additional fee, but you have to request it first.",
+            "At a minimum, upgrade to Business support plan.",
+            "Upgrade from the Basic Support plan to Developer Support."
+        ],
+        "correct_answers": [
+            "At a minimum, upgrade to Business support plan."
+        ]
+    },
+    {
+        "question_number": "Question 289",
+        "question": "A developer wants to quickly deploy and manage his application in the AWS Cloud, but he doesn't have any experience with cloud computing. Which of the following AWS services would help the developer achieve his goal?",
+        "options": [
+            "AWS Fargate.",
+            "AWS Batch.",
+            "Amazon Personalize.",
+            "AWS Elastic Beanstalk."
+        ],
+        "correct_answers": [
+            "AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "question_number": "Question 290",
+        "question": "Which statement best describes the AWS Pay-As-You-Go pricing model?",
+        "options": [
+            "With AWS, you replace low upfront expenses with large variable payments.",
+            "With AWS, you replace low upfront expenses with large fixed payments.",
+            "With AWS, you replace large upfront expenses with low fixed payments.",
+            "With AWS, you replace large capital expenses with low variable payments."
+        ],
+        "correct_answers": [
+            "With AWS, you replace large capital expenses with low variable payments."
+        ]
+    },
+    {
+        "question_number": "Question 291",
+        "question": "For Amazon RDS databases, what does AWS perform on your behalf? (Choose TWO)",
+        "options": [
+            "Database setup.",
+            "Network traffic protection.",
+            "Management of the operating system.",
+            "Access management.",
+            "Management of firewall rules."
+        ],
+        "correct_answers": [
+            "Database setup.",
+            "Management of the operating system."
+        ]
+    }
+]

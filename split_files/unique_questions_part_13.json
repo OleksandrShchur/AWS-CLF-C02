@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 71",
+        "question": "What is the AWS service that enables you to manage all of your AWS accounts from a single master account?",
+        "options": [
+            "AWS WAF.",
+            "AWS Trusted Advisor.",
+            "AWS Organizations.",
+            "Amazon Config."
+        ],
+        "correct_answers": [
+            "AWS Organizations."
+        ]
+    },
+    {
+        "question_number": "Question 72",
+        "question": "Which of the following EC2 instance purchasing options supports the Bring Your Own License (BYOL) model for almost every BYOL scenario?",
+        "options": [
+            "Dedicated Instances.",
+            "Dedicated Hosts.",
+            "On-demand Instances.",
+            "Reserved Instances."
+        ],
+        "correct_answers": [
+            "Dedicated Hosts."
+        ]
+    },
+    {
+        "question_number": "Question 73",
+        "question": "Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?",
+        "options": [
+            "Free support for all enterprise customers.",
+            "Automatic data protection.",
+            "Reduced Capital Expenditure (CapEx).",
+            "AWS holds responsibility for managing customer applications."
+        ],
+        "correct_answers": [
+            "Reduced Capital Expenditure (CapEx)."
+        ]
+    },
+    {
+        "question_number": "Question 74",
+        "question": "Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)",
+        "options": [
+            "Always use Global Services in your architecture rather than Regional Services.",
+            "Always choose to pay as you go.",
+            "Treat servers as fixed resources.",
+            "Automate wherever possible.",
+            "Remove single points of failure."
+        ],
+        "correct_answers": [
+            "Automate wherever possible.",
+            "Remove single points of failure."
+        ]
+    },
+    {
+        "question_number": "Question 75",
+        "question": "Which AWS Service can be used to establish a dedicated, private network connection between AWS and your datacenter?",
+        "options": [
+            "AWS Direct Connect.",
+            "Amazon CloudFront.",
+            "AWS Snowball.",
+            "Amazon Route 53."
+        ],
+        "correct_answers": [
+            "AWS Direct Connect."
+        ]
+    },
+    {
+        "question_number": "Question 76",
+        "question": "You are working on two projects that require completely different network configurations. Which AWS service or feature will allow you to isolate resources and network configurations?",
+        "options": [
+            "Internet gateways.",
+            "Virtual Private Cloud.",
+            "Security Groups.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Virtual Private Cloud."
+        ]
+    },
+    {
+        "question_number": "Question 77",
+        "question": "Which of the following services can help protect your web applications from SQL injection and other vulnerabilities in your application code?",
+        "options": [
+            "Amazon Cognito.",
+            "AWS IAM.",
+            "Amazon Aurora.",
+            "AWS WAF."
+        ],
+        "correct_answers": [
+            "AWS WAF."
+        ]
+    },
+    {
+        "question_number": "Question 78",
+        "question": "An organization needs to analyze and process a large number of data sets. Which AWS service should they use?",
+        "options": [
+            "Amazon EMR.",
+            "Amazon MQ.",
+            "Amazon SNS.",
+            "Amazon SQS."
+        ],
+        "correct_answers": [
+            "Amazon EMR."
+        ]
+    },
+    {
+        "question_number": "Question 79",
+        "question": "Based on the AWS Shared Responsibility Model, which of the following are the sole responsibility of AWS? (Choose TWO)",
+        "options": [
+            "Monitoring network performance.",
+            "Installing software on EC2 instances.",
+            "Creating hypervisors.",
+            "Configuring Access Control Lists (ACLs).",
+            "Hardware maintenance."
+        ],
+        "correct_answers": [
+            "Creating hypervisors.",
+            "Hardware maintenance."
+        ]
+    },
+    {
+        "question_number": "Question 80",
+        "question": "What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon EC2.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 81",
+        "question": "What are the default security credentials that are required to access the AWS management console for an IAM user account?",
+        "options": [
+            "MFA.",
+            "Security tokens.",
+            "A user name and password.",
+            "Access keys."
+        ],
+        "correct_answers": [
+            "A user name and password."
+        ]
+    },
+    {
+        "question_number": "Question 82",
+        "question": "In your on-premises environment, you can create as many virtual servers as you need from a single template. What can you use to perform the same in AWS?",
+        "options": [
+            "IAM.",
+            "An internet gateway.",
+            "EBS Snapshot.",
+            "AMI."
+        ],
+        "correct_answers": [
+            "AMI."
+        ]
+    },
+    {
+        "question_number": "Question 83",
+        "question": "What are two advantages of using Cloud Computing over using traditional data centers? (Choose TWO)",
+        "options": [
+            "Reserved Compute capacity.",
+            "Eliminating Single Points of Failure (SPOFs).",
+            "Distributed infrastructure.",
+            "Virtualized compute resources.",
+            "Dedicated hosting."
+        ],
+        "correct_answers": [
+            "Eliminating Single Points of Failure (SPOFs).",
+            "Distributed infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 84",
+        "question": "Which of the following aspects of security are managed by AWS? (Choose TWO)",
+        "options": [
+            "Encryption of EBS volumes.",
+            "VPC security.",
+            "Access permissions.",
+            "Hardware patching.",
+            "Securing global physical infrastructure."
+        ],
+        "correct_answers": [
+            "Hardware patching.",
+            "Securing global physical infrastructure."
+        ]
+    },
+    {
+        "question_number": "Question 85",
+        "question": "Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?",
+        "options": [
+            "The ability of a system to recover gracefully from failure.",
+            "The efficient use of computing resources to meet requirements.",
+            "The ability to monitor systems and improve supporting processes and procedures.",
+            "The ability to manage datacenter operations more efficiently."
+        ],
+        "correct_answers": [
+            "The ability to monitor systems and improve supporting processes and procedures."
+        ]
+    },
+    {
+        "question_number": "Question 86",
+        "question": "AWS has created a large number of Edge Locations as part of its Global Infrastructure. Which of the following is NOT a benefit of using Edge Locations?",
+        "options": [
+            "Edge locations are used by CloudFront to cache the most recent responses.",
+            "Edge locations are used by CloudFront to improve your end users' experience when uploading files.",
+            "Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency.",
+            "Edge locations are used by CloudFront to distribute content to global users with low latency."
+        ],
+        "correct_answers": [
+            "Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency."
+        ]
+    },
+    {
+        "question_number": "Question 87",
+        "question": "What are the change management tools that helps AWS customers audit and monitor all resource changes in their AWS environment? (Choose TWO)",
+        "options": [
+            "AWS CloudTrail.",
+            "Amazon Comprehend.",
+            "AWS Transit Gateway.",
+            "AWS X-Ray.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail.",
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 88",
+        "question": "Which of the following services allows you to run containerized applications on a cluster of EC2 instances?",
+        "options": [
+            "Amazon ECS.",
+            "AWS Data Pipeline.",
+            "AWS Cloud9.",
+            "AWS Personal Health Dashboard."
+        ],
+        "correct_answers": [
+            "Amazon ECS."
+        ]
+    },
+    {
+        "question_number": "Question 89",
+        "question": "Which of the following services will help businesses ensure compliance in AWS?",
+        "options": [
+            "CloudFront.",
+            "CloudEndure Migration.",
+            "CloudWatch.",
+            "CloudTrail."
+        ],
+        "correct_answers": [
+            "CloudTrail."
+        ]
+    },
+    {
+        "question_number": "Question 90",
+        "question": "Which of the following procedures will help reduce your Amazon S3 costs?",
+        "options": [
+            "Use the Import/Export feature to move old files automatically to Amazon Glacier.",
+            "Use the right combination of storage classes based on different use cases.",
+            "Pick the right Availability Zone for your S3 bucket.",
+            "Move all the data stored in S3 standard to EBS."
+        ],
+        "correct_answers": [
+            "Use the right combination of storage classes based on different use cases."
+        ]
+    }
+]

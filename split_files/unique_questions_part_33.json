@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question 473",
+        "question": "A company wants to focus on business activities instead of managing compute and capacity. Which AWS service can be used to automatically add or remove Amazon EC2 instances based on demand?",
+        "options": [
+            "Elastic Load Balancer.",
+            "Amazon EC2 Auto Scaling.",
+            "Amazon Route 53.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 474",
+        "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+        "options": [
+            "Enterprise.",
+            "Business.",
+            "Developer.",
+            "Basic."
+        ],
+        "correct_answers": [
+            "Enterprise."
+        ]
+    },
+    {
+        "question_number": "Question 475",
+        "question": "Access keys in AWS Identity and Access Management (IM1) are used to:",
+        "options": [
+            "Log in to the AWS Management Console.",
+            "Make programmatic calls to AWS from AWS APIs.",
+            "Log in to Amazon EC2 instances.",
+            "Authenticate to AWS CodeCommit repositories."
+        ],
+        "correct_answers": [
+            "Make programmatic calls to AWS from AWS APIs."
+        ]
+    },
+    {
+        "question_number": "Question 476",
+        "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+        "options": [
+            "AWS Glue.",
+            "AWS Data Pipeline.",
+            "Amazon CloudSearch.",
+            "Amazon Athena."
+        ],
+        "correct_answers": [
+            "Amazon Athena."
+        ]
+    },
+    {
+        "question_number": "Question 477",
+        "question": "How does AWS shorten the time to provision IT resources?",
+        "options": [
+            "It supplies an online IT ticketing platform for resource requests.",
+            "It supports automatic code validation services.",
+            "It provides the ability to programmatically provision existing resources.",
+            "It automates the resource request process from a company's IT vendor list."
+        ],
+        "correct_answers": [
+            "It provides the ability to programmatically provision existing resources."
+        ]
+    },
+    {
+        "question_number": "Question 478",
+        "question": "Which AWS services can be used to gather information about AWS account activity? (Select TWO)",
+        "options": [
+            "Amazon CloudFront.",
+            "AWS Cloud9.",
+            "AWS CloudTrail.",
+            "AWS CloudHSM.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "AWS CloudTrail.",
+            "Amazon CloudWatch."
+        ]
+    },
+    {
+        "question_number": "Question 479",
+        "question": "Which of the following are characteristics of Amazon S3? (Select TWO)",
+        "options": [
+            "A global file system.",
+            "An object store.",
+            "A local file store.",
+            "A network file system.",
+            "A durable storage system."
+        ],
+        "correct_answers": [
+            "An object store.",
+            "A durable storage system."
+        ]
+    },
+    {
+        "question_number": "Question 480",
+        "question": "A user wants guidance on possible savings when migrating from on-premises to AWS. Which tool is suitable for this scenario?",
+        "options": [
+            "AWS Budgets.",
+            "Cost Explorer.",
+            "AWS Total Cost of Ownership (TCO) Calculator.",
+            "AWS Well-Architected Tool."
+        ],
+        "correct_answers": [
+            "AWS Total Cost of Ownership (TCO) Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 481",
+        "question": "Which of the following services is in the category of AWS serverless platform?",
+        "options": [
+            "Amazon EMR.",
+            "Elastic Load Balancing.",
+            "AWS Lambda.",
+            "AWS Mobile Hub."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 482",
+        "question": "The use of what AWS feature or service allows companies to track and categorize spending on a detailed level?",
+        "options": [
+            "Cost allocation tags.",
+            "Consolidated billing.",
+            "AWS Budgets.",
+            "AWS Marketplace."
+        ],
+        "correct_answers": [
+            "Cost allocation tags."
+        ]
+    },
+    {
+        "question_number": "Question 483",
+        "question": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Trusted Advisor.",
+            "Consolidated billing.",
+            "Detailed billing."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 484",
+        "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
+        "options": [
+            "Cloud-native.",
+            "Partner network.",
+            "Hybrid architecture.",
+            "Infrastructure as a service."
+        ],
+        "correct_answers": [
+            "Hybrid architecture."
+        ]
+    },
+    {
+        "question_number": "Question 485",
+        "question": "What technology enables compute capacity to adjust as loads change?",
+        "options": [
+            "Load balancing.",
+            "Automatic failover.",
+            "Round robin.",
+            "Auto Scaling."
+        ],
+        "correct_answers": [
+            "Auto Scaling."
+        ]
+    },
+    {
+        "question_number": "Question 486",
+        "question": "Which AWS service is a managed NoSQL database?",
+        "options": [
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon Aurora.",
+            "Amazon RDS for ManaDB."
+        ],
+        "correct_answers": [
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 487",
+        "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+        "options": [
+            "Data centers contain regions.",
+            "Regions contain Availability Zones.",
+            "Availability Zones contain edge locations.",
+            "Edge locations contain regions."
+        ],
+        "correct_answers": [
+            "Regions contain Availability Zones."
+        ]
+    },
+    {
+        "question_number": "Question 488",
+        "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
+        "options": [
+            "Using many instances in parallel.",
+            "Using a single large instance during off-peak hours.",
+            "Using dedicated hardware.",
+            "Using a large GPU instance type."
+        ],
+        "correct_answers": [
+            "Using many instances in parallel."
+        ]
+    },
+    {
+        "question_number": "Question 489",
+        "question": "Which AWS services can host a Microsoft SQL Server database? (Select TWO)",
+        "options": [
+            "Amazon EC2.",
+            "Amazon Relational Database Service (Amazon RDS).",
+            "Amazon Aurora.",
+            "Amazon Redshift.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon EC2.",
+            "Amazon Relational Database Service (Amazon RDS)."
+        ]
+    },
+    {
+        "question_number": "Question 490",
+        "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
+        "options": [
+            "API keys.",
+            "Access keys.",
+            "User names/Passwords.",
+            "SSH keys."
+        ],
+        "correct_answers": [
+            "Access keys."
+        ]
+    },
+    {
+        "question_number": "Question 491",
+        "question": "The user is fully responsible for which action when running workloads on AWS?",
+        "options": [
+            "Patching the infrastructure components.",
+            "Maintaining the underlying infrastructure components.",
+            "Maintaining physical and environmental controls.",
+            "Implementing controls to route application traffic."
+        ],
+        "correct_answers": [
+            "Patching the infrastructure components."
+        ]
+    },
+    {
+        "question_number": "Question 492",
+        "question": "Which AWS support plan includes a dedicated Technical Account Manager?",
+        "options": [
+            "Developer.",
+            "Enterprise.",
+            "Business.",
+            "Basic."
+        ],
+        "correct_answers": [
+            "Enterprise."
+        ]
+    }
+]

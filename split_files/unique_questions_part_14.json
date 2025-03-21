@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 91",
+        "question": "What are the AWS services/features that can help you maintain a highly available and fault-tolerant architecture in AWS? (Choose TWO)",
+        "options": [
+            "AWS Direct Connect.",
+            "Amazon EC2 Auto Scaling.",
+            "Elastic Load Balancer.",
+            "CloudFormation.",
+            "Network ACLs."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Auto Scaling.",
+            "Elastic Load Balancer."
+        ]
+    },
+    {
+        "question_number": "Question 92",
+        "question": "Which of the following activities may help reduce your AWS monthly costs?",
+        "options": [
+            "Enabling Amazon EC2 Auto Scaling for all of your workloads.",
+            "Using the AWS Network Load Balancer (NLB) to load balance the incoming HTTP requests.",
+            "Removing all of your Cost Allocation Tags.",
+            "Deploying your AWS resources across multiple Availability Zones."
+        ],
+        "correct_answers": [
+            "Enabling Amazon EC2 Auto Scaling for all of your workloads."
+        ]
+    },
+    {
+        "question_number": "Question 93",
+        "question": "What is the AWS service/feature that takes advantage of Amazon CloudFront's globally distributed edge locations to transfer files to S3 with higher upload speeds?",
+        "options": [
+            "S3 Transfer Acceleration.",
+            "AWS WAF.",
+            "AWS Snowmobile.",
+            "AWS Snowball."
+        ],
+        "correct_answers": [
+            "S3 Transfer Acceleration."
+        ]
+    },
+    {
+        "question_number": "Question 94",
+        "question": "Which of the following AWS security features is associated with an EC2 instance and functions to filter incoming traffic requests?",
+        "options": [
+            "AWS X-Ray.",
+            "Network ACL.",
+            "Security Groups.",
+            "VPC Flow logs."
+        ],
+        "correct_answers": [
+            "Security Groups."
+        ]
+    },
+    {
+        "question_number": "Question 95",
+        "question": "Which AWS services can be used to improve the performance of a global application and reduce latency for its users? (Choose TWO)",
+        "options": [
+            "AWS KMS.",
+            "AWS Global accelerator.",
+            "AWS Direct Connect.",
+            "AWS Glue.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "AWS Global accelerator.",
+            "Amazon CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 96",
+        "question": "Using Amazon RDS falls under the shared responsibility model. Which of the following are customer responsibilities? (Choose TWO)",
+        "options": [
+            "Building the relational database schema.",
+            "Performing backups.",
+            "Managing the database settings.",
+            "Patching the database software.",
+            "Installing the database software."
+        ],
+        "correct_answers": [
+            "Building the relational database schema.",
+            "Managing the database settings."
+        ]
+    },
+    {
+        "question_number": "Question 97",
+        "question": "A company has a large amount of structured data stored in their on-premises data center. They are planning to migrate all the data to AWS, what is the most appropriate AWS database option?",
+        "options": [
+            "Amazon DynamoDB.",
+            "Amazon SNS.",
+            "Amazon RDS.",
+            "Amazon ElastiCache."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 98",
+        "question": "A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?",
+        "options": [
+            "APN Consulting Partners.",
+            "AWS TAM.",
+            "APN Technology Partners.",
+            "AWS Professional Services."
+        ],
+        "correct_answers": [
+            "APN Technology Partners."
+        ]
+    },
+    {
+        "question_number": "Question 99",
+        "question": "What is the AWS serverless service that allows you to run your applications without any administrative burden?",
+        "options": [
+            "Amazon LightSail.",
+            "AWS Lambda.",
+            "Amazon RDS instances.",
+            "Amazon EC2 instances."
+        ],
+        "correct_answers": [
+            "AWS Lambda."
+        ]
+    },
+    {
+        "question_number": "Question 100",
+        "question": "Jessica is managing an e-commerce web application in AWS. The application is hosted on six EC2 instances. One day, three of the instances crashed; but none of her customers were affected. What has Jessica done correctly in this scenario?",
+        "options": [
+            "She has properly built an elastic system.",
+            "She has properly built a fault tolerant system.",
+            "She has properly built an encrypted system.",
+            "She has properly built a scalable system."
+        ],
+        "correct_answers": [
+            "She has properly built a fault tolerant system."
+        ]
+    },
+    {
+        "question_number": "Question 101",
+        "question": "Where can you store files in AWS? (Choose TWO)",
+        "options": [
+            "Amazon EFS.",
+            "Amazon SNS.",
+            "Amazon EBS.",
+            "Amazon ECS.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "Amazon EFS.",
+            "Amazon EBS."
+        ]
+    },
+    {
+        "question_number": "Question 102",
+        "question": "Which AWS service can be used to store and reliably deliver messages across distributed systems?",
+        "options": [
+            "Amazon Simple Queue Service.",
+            "AWS Storage Gateway.",
+            "Amazon Simple Email Service.",
+            "Amazon Simple Storage Service."
+        ],
+        "correct_answers": [
+            "Amazon Simple Queue Service."
+        ]
+    },
+    {
+        "question_number": "Question 103",
+        "question": "Which of the following describes the payment model that AWS makes available for customers that can commit to using Amazon EC2 over a one or 3-year term to reduce their total computing costs?",
+        "options": [
+            "Pay less as AWS grows.",
+            "Pay as you go.",
+            "Pay less by using more.",
+            "Save when you reserve."
+        ],
+        "correct_answers": [
+            "Save when you reserve."
+        ]
+    },
+    {
+        "question_number": "Question 104",
+        "question": "A company is migrating its on-premises database to Amazon RDS. What should the company do to ensure Amazon RDS costs are kept to a minimum?",
+        "options": [
+            "Right-size before and after migration.",
+            "Use a Multi-Region Active-Passive architecture.",
+            "Combine On-demand Capacity Reservations with Saving Plans.",
+            "Use a Multi-Region Active-Active architecture."
+        ],
+        "correct_answers": [
+            "Right-size before and after migration."
+        ]
+    },
+    {
+        "question_number": "Question 105",
+        "question": "What is the primary storage service used by Amazon RDS database instances?",
+        "options": [
+            "Amazon Glacier.",
+            "Amazon EBS.",
+            "Amazon EFS.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon EBS."
+        ]
+    },
+    {
+        "question_number": "Question 106",
+        "question": "A company is developing a new application using a microservices framework. The new application is having performance and latency issues. Which AWS Service should be used to troubleshoot these issues?",
+        "options": [
+            "AWS CodePipeline.",
+            "AWS X-Ray.",
+            "Amazon Inspector.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS X-Ray."
+        ]
+    },
+    {
+        "question_number": "Question 107",
+        "question": "Which of the following AWS services is designed with native Multi-AZ fault tolerance in mind? (Choose TWO)",
+        "options": [
+            "Amazon Redshift.",
+            "AWS Snowball.",
+            "Amazon Simple Storage Service.",
+            "Amazon EBS.",
+            "Amazon DynamoDB."
+        ],
+        "correct_answers": [
+            "Amazon Simple Storage Service.",
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 108",
+        "question": "What are the Amazon RDS features that can be used to improve the availability of your database? (Choose TWO)",
+        "options": [
+            "AWS Regions.",
+            "Multi-AZ Deployment.",
+            "Automatic patching.",
+            "Read Replicas.",
+            "Edge Locations."
+        ],
+        "correct_answers": [
+            "Multi-AZ Deployment.",
+            "Read Replicas."
+        ]
+    },
+    {
+        "question_number": "Question 109",
+        "question": "Sarah has deployed an application in the Northern California (us-west-1) region. After examining the application's traffic, she notices that about 30% of the traffic is coming from Asia. What can she do to reduce latency for the users in Asia?",
+        "options": [
+            "Replicate the current resources across multiple Availability Zones within the same region.",
+            "Migrate the application to a hosting provider in Asia.",
+            "Recreate the website content.",
+            "Create a CDN using CloudFront, so that content is cached at Edge Locations close to and in Asia."
+        ],
+        "correct_answers": [
+            "Create a CDN using CloudFront, so that content is cached at Edge Locations close to and in Asia."
+        ]
+    },
+    {
+        "question_number": "Question 110",
+        "question": "An organization runs many systems and uses many AWS products. Which of the following services enables them to control how each developer interacts with these products?",
+        "options": [
+            "AWS Identity and Access Management.",
+            "Amazon RDS.",
+            "Network Access Control Lists.",
+            "Amazon EMR."
+        ],
+        "correct_answers": [
+            "AWS Identity and Access Management."
+        ]
+    }
+]

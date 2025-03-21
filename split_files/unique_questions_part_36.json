@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 534",
+        "question": "Which AWS service should be used for long-term, low-cost storage of data backups?",
+        "options": [
+            "Amazon RDS.",
+            "Amazon Glacier.",
+            "AWS Snowball.",
+            "AWS EBS."
+        ],
+        "correct_answers": [
+            "Amazon Glacier."
+        ]
+    },
+    {
+        "question_number": "Question 535",
+        "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+        "options": [
+            "Enterprise.",
+            "Business.",
+            "Developer.",
+            "Basic."
+        ],
+        "correct_answers": [
+            "Business."
+        ]
+    },
+    {
+        "question_number": "Question 536",
+        "question": "Which Amazon EC2 instance pricing model can provide discounts of up to 90%?",
+        "options": [
+            "Reserved Instances.",
+            "On-Demand.",
+            "Dedicated Hosts.",
+            "Spot Instances."
+        ],
+        "correct_answers": [
+            "Spot Instances."
+        ]
+    },
+    {
+        "question_number": "Question 537",
+        "question": "Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO)",
+        "options": [
+            "appGateway.",
+            "Amazon S3.",
+            "Amazon Elastic File System (EFS).",
+            "Amazon Glacier.",
+            "Amazom CloudFront."
+        ],
+        "correct_answers": [
+            "Amazon S3.",
+            "Amazom CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 538",
+        "question": "What can AWS edge locations be used for? (Select TWO)",
+        "options": [
+            "Hosting applications.",
+            "Delivering content closer to users.",
+            "Running NoSQL database caching services.",
+            "Reducing traffic on the server by caching responses.",
+            "Sending notification messages to end users."
+        ],
+        "correct_answers": [
+            "Delivering content closer to users.",
+            "Reducing traffic on the server by caching responses."
+        ]
+    },
+    {
+        "question_number": "Question 539",
+        "question": "A company is planning to migrate from on-premises to the AWS Cloud. When AWS tool or service provides detailed reports on estimated cost savings after migration?",
+        "options": [
+            "AWS Total Cost of Ownership (TCO) Calculator.",
+            "Cost Explorer.",
+            "AWS Budgets.",
+            "AWS Migration Hub."
+        ],
+        "correct_answers": [
+            "AWS Total Cost of Ownership (TCO) Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 540",
+        "question": "Which AWS service provides a customized view of the health of specific AWS services that power a customer's workloads running on AWS?",
+        "options": [
+            "AWS Service Health Dashboard.",
+            "AWS X-Ray.",
+            "AWS Personal Health Dashboard.",
+            "Amazon CloudWatch."
+        ],
+        "correct_answers": [
+            "AWS Personal Health Dashboard."
+        ]
+    },
+    {
+        "question_number": "Question 541",
+        "question": "One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:",
+        "options": [
+            "It allows the business to eliminate IT bills.",
+            "It allows the business to put a server in each customer's data center.",
+            "It allows the business to focus on business activities.",
+            "It allows the business to leave servers unpatched."
+        ],
+        "correct_answers": [
+            "It allows the business to focus on business activities."
+        ]
+    },
+    {
+        "question_number": "Question 542",
+        "question": "How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?",
+        "options": [
+            "AWS Senior Support Engineers.",
+            "AWS Technical Account Managers.",
+            "AWS Trusted Advisor.",
+            "AWS Discussion Forums."
+        ],
+        "correct_answers": [
+            "AWS Discussion Forums."
+        ]
+    },
+    {
+        "question_number": "Question 543",
+        "question": "How can a user protect against AWS service disruptions if a natural disaster affects an entire geographic area?",
+        "options": [
+            "Deploy applications across multiple Availability Zones within an AWS Region.",
+            "Use a hybrid cloud computing deployment model within the geographic area.",
+            "Deploy applications across multiple AWS Regions.",
+            "Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions."
+        ],
+        "correct_answers": [
+            "Deploy applications across multiple AWS Regions."
+        ]
+    },
+    {
+        "question_number": "Question 544",
+        "question": "Which activity is a customer responsibility in the AWS Cloud according to the AWS shared responsibility model?",
+        "options": [
+            "Ensuring network connectivity from AWS to the internet.",
+            "Patching and fixing flaws within the AWS Cloud infrastructure.",
+            "Ensuring the physical security of cloud data centers.",
+            "Ensuring Amazon EBS volumes are backed up."
+        ],
+        "correct_answers": [
+            "Ensuring Amazon EBS volumes are backed up."
+        ]
+    },
+    {
+        "question_number": "Question 545",
+        "question": "In which scenario should Amazon EC2 Spot Instances be used?",
+        "options": [
+            "A company wants to move its main website to AWS from an on-premises web server.",
+            "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.",
+            "A company's heavily used legacy database is currently running on-premises.",
+            "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
+        ],
+        "correct_answers": [
+            "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
+        ]
+    },
+    {
+        "question_number": "Question 546",
+        "question": "A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer's decision? (Select TWO)",
+        "options": [
+            "Reduced latency to users.",
+            "The application's presentation in the local language.",
+            "Data sovereignty compliance.",
+            "Cooling costs in hotter climates.",
+            "Proximity to the customer's office for on-site visits."
+        ],
+        "correct_answers": [
+            "Reduced latency to users.",
+            "Data sovereignty compliance."
+        ]
+    },
+    {
+        "question_number": "Question 547",
+        "question": "Which AWS service provides alerts when an AWS event may impact a company's AWS resources?",
+        "options": [
+            "AWS Personal Health Dashboard.",
+            "AWS Service Health Dashboard.",
+            "AWS Trusted Advisor.",
+            "AWS Infrastructure Event Management."
+        ],
+        "correct_answers": [
+            "AWS Personal Health Dashboard."
+        ]
+    },
+    {
+        "question_number": "Question 548",
+        "question": "Which disaster recovery scenario offers the lowest probability of down time?",
+        "options": [
+            "Backup and restore.",
+            "Pilot light.",
+            "Warm standby.",
+            "Multi-site active-active."
+        ],
+        "correct_answers": [
+            "Multi-site active-active."
+        ]
+    },
+    {
+        "question_number": "Question 549",
+        "question": "Which service's PRIMARY purpose is software version control?",
+        "options": [
+            "Amazon CodeStar.",
+            "AWS Command Line Interface (AWS CLI).",
+            "Amazon Cognito.",
+            "AWS CodeCommit."
+        ],
+        "correct_answers": [
+            "AWS CodeCommit."
+        ]
+    },
+    {
+        "question_number": "Question 550",
+        "question": "How can a customer increase security to AWS account logons? (Select TWO)",
+        "options": [
+            "Configure AWS Certificate Manager",
+            "Enable Multi-Factor Authentication (MFA)",
+            "Use Amazon Cognito to manage access",
+            "Configure a strong password policy",
+            "Enable AWS Organizations"
+        ],
+        "correct_answers": [
+            "Enable Multi-Factor Authentication (MFA)",
+            "Configure a strong password policy"
+        ]
+    },
+    {
+        "question_number": "Question 551",
+        "question": "Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
+        "options": [
+            "Availability Zone",
+            "Edge location",
+            "Region",
+            "Private networking"
+        ],
+        "correct_answers": [
+            "Availability Zone"
+        ]
+    },
+    {
+        "question_number": "Question 552",
+        "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+        "options": [
+            "The ability to bid for a lower hourly cost.",
+            "Paying a daily rate regardless of time used.",
+            "Paying only for time used.",
+            "Pre-paying for instances and paying a lower hourly rate."
+        ],
+        "correct_answers": [
+            "Paying only for time used."
+        ]
+    },
+    {
+        "question_number": "Question 553",
+        "question": "What can assist in evaluating an application for migration to the cloud? (Select TWO)",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Professional Services.",
+            "AWS Systems Manager.",
+            "AWS Partner Network (APN).",
+            "AWS Secrets Manager."
+        ],
+        "correct_answers": [
+            "AWS Professional Services.",
+            "AWS Partner Network (APN)."
+        ]
+    }
+]

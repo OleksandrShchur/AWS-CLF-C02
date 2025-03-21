@@ -1,0 +1,274 @@
+[
+    {
+        "question_number": "Question 554",
+        "question": "A characteristic of edge locations is that they:",
+        "options": [
+            "Host Amazon EC2 instances closer to users.",
+            "Help lower latency and improve performance for users.",
+            "Cache frequently changing data without reaching the origin server.",
+            "Refresh data changes daily."
+        ],
+        "correct_answers": [
+            "Cache frequently changing data without reaching the origin server."
+        ]
+    },
+    {
+        "question_number": "Question 555",
+        "question": "Which of the following are valid ways for a customer to interact with AWS services? (Select TWO)",
+        "options": [
+            "Command line interface.",
+            "On-premises.",
+            "Software Development Kits.",
+            "Software-as-a-service.",
+            "Hybrid."
+        ],
+        "correct_answers": [
+            "Command line interface.",
+            "Software Development Kits."
+        ]
+    },
+    {
+        "question_number": "Question 556",
+        "question": "What is a value proposition of the AWS Cloud?",
+        "options": [
+            "AWS is responsible for security in the AWS Cloud.",
+            "No long-term contract is required.",
+            "Provision new servers in days.",
+            "AWS manages user applications in the AWS Cloud."
+        ],
+        "correct_answers": [
+            "No long-term contract is required."
+        ]
+    },
+    {
+        "question_number": "Question 557",
+        "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame. Which pricing construct would provide the MOST cost-effective solution?",
+        "options": [
+            "Amazon EC2 Spot Instances.",
+            "Amazon EC2 Dedicated Instances.",
+            "Amazon EC2 On-Demand Instances.",
+            "Amazon EC2 Reserved Instances."
+        ],
+        "correct_answers": [
+            "Amazon EC2 Reserved Instances."
+        ]
+    },
+    {
+        "question_number": "Question 558",
+        "question": "Which AWS service is used to track record, and audit configuration changes made to AWS resources?",
+        "options": [
+            "AWS Shield.",
+            "AWS Config.",
+            "AWS IAM.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 559",
+        "question": "Which feature of the AWS Cloud will support an international company's requirement for low latency to all of its customers?",
+        "options": [
+            "Fault tolerance.",
+            "Global reach.",
+            "Pay-as-you-go pricing.",
+            "High availability."
+        ],
+        "correct_answers": [
+            "Global reach."
+        ]
+    },
+    {
+        "question_number": "Question 560",
+        "question": "How can one AWS account use Reserved Instances from another AWS account?",
+        "options": [
+            "By using Amazon EC2 Dedicated Instances.",
+            "By using AWS Organizations consolidated billing.",
+            "By using the AWS Cost Explorer tool.",
+            "By using AWS Budgets."
+        ],
+        "correct_answers": [
+            "By using AWS Organizations consolidated billing."
+        ]
+    },
+    {
+        "question_number": "Question 561",
+        "question": "What are the benefits of developing and running a new application in the AWS Cloud compared to on-premises? (Select TWO)",
+        "options": [
+            "AWS automatically distributes the data globally for higher durability.",
+            "AWS will take care of operating the application.",
+            "AWS makes it easy to architect for high availability.",
+            "AWS can easily accommodate application demand changes.",
+            "AWS takes care of application security patching."
+        ],
+        "correct_answers": [
+            "AWS makes it easy to architect for high availability.",
+            "AWS can easily accommodate application demand changes."
+        ]
+    },
+    {
+        "question_number": "Question 562",
+        "question": "Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?",
+        "options": [
+            "Amazon RDS.",
+            "Amazon EC2.",
+            "Amazon ElastiCache.",
+            "AWS Fargate."
+        ],
+        "correct_answers": [
+            "Amazon EC2."
+        ]
+    },
+    {
+        "question_number": "Question 563",
+        "question": "AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Select TWO)",
+        "options": [
+            "Implementing Amazon Rekognition.",
+            "Using AWS Shield-protected resources.",
+            "Blocking access with Security Groups.",
+            "Using Multi-Factor Authentication (MFA).",
+            "Enforcing password strength and expiration."
+        ],
+        "correct_answers": [
+            "Using Multi-Factor Authentication (MFA).",
+            "Enforcing password strength and expiration."
+        ]
+    },
+    {
+        "question_number": "Question 564",
+        "question": "Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?",
+        "options": [
+            "Amazon Glacier",
+            "AWS Snowball",
+            "AWS Storage Gateway",
+            "Amazon Elastic Block Storage (Amazon EBS)"
+        ],
+        "correct_answers": [
+            "AWS Storage Gateway"
+        ]
+    },
+    {
+        "question_number": "Question 565",
+        "question": "Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?",
+        "options": [
+            "AWS Marketplace.",
+            "Amazon Lumberyard.",
+            "AWS Artifact.",
+            "Amazon CloudSearch."
+        ],
+        "correct_answers": [
+            "AWS Marketplace."
+        ]
+    },
+    {
+        "question_number": "Question 566",
+        "question": "Which of the following is a component of the AWS Global Infrastructure?",
+        "options": [
+            "Amazon Alexa.",
+            "AWS Regions.",
+            "Amazon Lightsail.",
+            "AWS Organizations."
+        ],
+        "correct_answers": [
+            "AWS Regions."
+        ]
+    },
+    {
+        "question_number": "Question 567",
+        "question": "Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?",
+        "options": [
+            "On-Demand Instances.",
+            "Reserved Instances.",
+            "Spot Instances.",
+            "Convertible Reserved Instances."
+        ],
+        "correct_answers": [
+            "Spot Instances."
+        ]
+    },
+    {
+        "question_number": "Question 568",
+        "question": "A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. What combination of actions will enable the company to accomplish this goals? (Select TWO)",
+        "options": [
+            "Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated.",
+            "Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.",
+            "Use Amazon Athena to query data from the on-premises database servers.",
+            "Connect the company's on-premises data center to AWS using AWS Direct Connect.",
+            "Leverage Amazon CloudFront to restrict access to static web content provided through the company's on-premises web servers."
+        ],
+        "correct_answers": [
+            "Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.",
+            "Connect the company's on-premises data center to AWS using AWS Direct Connect."
+        ]
+    },
+    {
+        "question_number": "Question 569",
+        "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
+        "options": [
+            "Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
+            "Run AWS Trusted Advisor and review the findings.",
+            "Open the AWS IAM console and check the inbound rule filters for open access.",
+            "In AWS Config, create a custom rule that invokes an AWS Lambda function to review firewall rules for inbound access."
+        ],
+        "correct_answers": [
+            "Run AWS Trusted Advisor and review the findings."
+        ]
+    },
+    {
+        "question_number": "Question 570",
+        "question": "Which of the following security-related services does AWS offer? (Select TWO)",
+        "options": [
+            "Multi-factor authentication physical tokens.",
+            "AWS Trusted Advisor security checks.",
+            "Data encryption.",
+            "Automated penetration testing.",
+            "Amazon S3 copyrighted content detection."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor security checks.",
+            "Data encryption."
+        ]
+    },
+    {
+        "question_number": "Question 571",
+        "question": "Which of the following services have Distributed Denial of Service (DDoS) mitigation features? (Select TWO)",
+        "options": [
+            "AWS WAF.",
+            "Amazon DynamoDB.",
+            "Amazon EC2.",
+            "Amazon CloudFront.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "AWS WAF.",
+            "Amazon CloudFront."
+        ]
+    },
+    {
+        "question_number": "Question 572",
+        "question": "Which of the following AWS features enables a user to launch a pre-configured Amazon Elastic Compute Cloud (Amazon EC2) instance?",
+        "options": [
+            "Amazon Elastic Block Store (Amazon EBS).",
+            "Amazon Machine Image.",
+            "Amazon EC2 Systems Manager.",
+            "Amazon AppStream 2.0."
+        ],
+        "correct_answers": [
+            "Amazon Machine Image."
+        ]
+    },
+    {
+        "question_number": "Question 573",
+        "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
+        "options": [
+            "Think parallel.",
+            "Implement elasticity.",
+            "Decouple your components.",
+            "Design for failure."
+        ],
+        "correct_answers": [
+            "Implement elasticity."
+        ]
+    }
+]

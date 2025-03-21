@@ -1,0 +1,268 @@
+[
+    {
+        "question_number": "Question 513",
+        "question": "A company needs 24/7 phone email and chat access with a response time of less than 1 hour if a production system has a service interruption. Which AWS Support plan meets these requirements at the LOWEST cost?",
+        "options": [
+            "Basic.",
+            "Developer.",
+            "Business.",
+            "Enterprise."
+        ],
+        "correct_answers": [
+            "Business."
+        ]
+    },
+    {
+        "question_number": "Question 514",
+        "question": "If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?",
+        "options": [
+            "AWS Config.",
+            "AWS Trusted Advisor.",
+            "Amazon CloudWatch.",
+            "Amazon Inspector."
+        ],
+        "correct_answers": [
+            "AWS Config."
+        ]
+    },
+    {
+        "question_number": "Question 515",
+        "question": "How does AWS Trusted Advisor provide guidance to users of the AWS Cloud? (Select TWO)",
+        "options": [
+            "It identifies software vulnerabilities in applications running on AWS.",
+            "It provides a list of cost optimization recommendations based on current AWS usage.",
+            "It detects potential security vulnerabilities caused by permissions settings on account resources.",
+            "It automatically corrects potential security issues caused by permissions settings on account resources.",
+            "It provides proactive alerting whenever an Amazon EC2 instance has been compromised."
+        ],
+        "correct_answers": [
+            "It provides a list of cost optimization recommendations based on current AWS usage.",
+            "It detects potential security vulnerabilities caused by permissions settings on account resources."
+        ]
+    },
+    {
+        "question_number": "Question 516",
+        "question": "Which AWS managed service is used to host databases?",
+        "options": [
+            "AWS Batch.",
+            "AWS Artifact.",
+            "AWS Data Pipeline.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "Amazon RDS."
+        ]
+    },
+    {
+        "question_number": "Question 517",
+        "question": "Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?",
+        "options": [
+            "IAM group.",
+            "IAM user.",
+            "IAM role.",
+            "IAM policy."
+        ],
+        "correct_answers": [
+            "IAM user."
+        ]
+    },
+    {
+        "question_number": "Question 518",
+        "question": "Under the shared responsibility model, which of the following is the customer responsible for?",
+        "options": [
+            "Ensuring that disk drives are wiped after use.",
+            "Ensuring that firmware is updated on hardware devices.",
+            "Ensuring that data is encrypted at rest.",
+            "Ensuring that network cables are category six or higher."
+        ],
+        "correct_answers": [
+            "Ensuring that data is encrypted at rest."
+        ]
+    },
+    {
+        "question_number": "Question 519",
+        "question": "Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?",
+        "options": [
+            "Amazon S3.",
+            "Amazon Glacier.",
+            "Amazon EBS.",
+            "Amazon EFS."
+        ],
+        "correct_answers": [
+            "Amazon EFS."
+        ]
+    },
+    {
+        "question_number": "Question 520",
+        "question": "What credential components are required to gain programmatic access to an AWS account? (Select TWO)",
+        "options": [
+            "An access key ID.",
+            "A primary key.",
+            "A secret access key.",
+            "A user ID.",
+            "A secondary key."
+        ],
+        "correct_answers": [
+            "An access key ID.",
+            "A secret access key."
+        ]
+    },
+    {
+        "question_number": "Question 521",
+        "question": "Which of the following is a shared control between the customer and AWS?",
+        "options": [
+            "Providing a key for Amazon S3 client-side encryption.",
+            "Configuration of an Amazon EC2 instance.",
+            "Environmental controls of physical AWS data centers.",
+            "Awareness."
+        ],
+        "correct_answers": [
+            "Awareness."
+        ]
+    },
+    {
+        "question_number": "Question 522",
+        "question": "Which type of AWS storage is ephemeral and is deleted when an instance is stopped Of terminated?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon EC2 instance store.",
+            "Amazon EFS.",
+            "Amazon S3."
+        ],
+        "correct_answers": [
+            "Amazon EC2 instance store."
+        ]
+    },
+    {
+        "question_number": "Question 523",
+        "question": "Which of the following is an advantage of consolidated billing on AWS?",
+        "options": [
+            "Volume pricing qualification.",
+            "Shared access permissions.",
+            "Multiple bills per account.",
+            "Eliminates the need for tagging."
+        ],
+        "correct_answers": [
+            "Volume pricing qualification."
+        ]
+    },
+    {
+        "question_number": "Question 524",
+        "question": "Which services are parts of the AWS serverless platform?",
+        "options": [
+            "Amazon EC2, Amazon S3, Amazon Athena.",
+            "Amazon Kinesis, Amazon SQS, Amazon EMR.",
+            "AWS Step Functions, Amazon DynamoDB, Amazon SNS.",
+            "Amazon Athena, Amazon Cognito, Amazon EC2."
+        ],
+        "correct_answers": [
+            "AWS Step Functions, Amazon DynamoDB, Amazon SNS."
+        ]
+    },
+    {
+        "question_number": "Question 525",
+        "question": "Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software licenses?",
+        "options": [
+            "Spot Instances.",
+            "Reserved Instances.",
+            "Dedicated Hosts.",
+            "On-Demand Instances."
+        ],
+        "correct_answers": [
+            "Dedicated Hosts."
+        ]
+    },
+    {
+        "question_number": "Question 526",
+        "question": "Which of the following security measures protect access to an AWS account? (Select TWO)",
+        "options": [
+            "Enable AWS CloudTrail.",
+            "Grant least privilege access to IAM users.",
+            "Create one IAM user and share with many developers and users.",
+            "Enable Amazon CloudFront.",
+            "Activate multi-factor authentication (MFA) for privileged users."
+        ],
+        "correct_answers": [
+            "Grant least privilege access to IAM users.",
+            "Activate multi-factor authentication (MFA) for privileged users."
+        ]
+    },
+    {
+        "question_number": "Question 528",
+        "question": "What is an advantage of deploying an application across multiple Availability Zones?",
+        "options": [
+            "There is a lower risk of service failure if a natural disaster causes a service disruption in a given AWS Region.",
+            "The application will have higher availability because it can withstand a service disruption in one Availability Zone.",
+            "There will be better coverage as Availability Zones are geographical^ distant and can serve a wider area.",
+            "There will be decreased application latency that will improve the user experience."
+        ],
+        "correct_answers": [
+            "The application will have higher availability because it can withstand a service disruption in one Availability Zone."
+        ]
+    },
+    {
+        "question_number": "Question 529",
+        "question": "A customer needs to run a MySQL database that easily scales. Which AWS service should they use?",
+        "options": [
+            "Amazon Aurora.",
+            "Amazon Redshift.",
+            "Amazon DynamoDB.",
+            "Amazon ElastiCache."
+        ],
+        "correct_answers": [
+            "Amazon Aurora."
+        ]
+    },
+    {
+        "question_number": "Question 530",
+        "question": "Which of the following is an AWS Cloud architecture design principle?",
+        "options": [
+            "Implement single points of failure.",
+            "Implement loose coupling.",
+            "Implement monolithic design.",
+            "Implement vertical scaling."
+        ],
+        "correct_answers": [
+            "Implement loose coupling."
+        ]
+    },
+    {
+        "question_number": "Question 531",
+        "question": "AWS Enterprise Support users have access to which service or feature that is not available to users with other AWS Support plans?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Support case.",
+            "Concierge team.",
+            "Amazon Connect."
+        ],
+        "correct_answers": [
+            "Concierge team."
+        ]
+    },
+    {
+        "question_number": "Question 532",
+        "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
+        "options": [
+            "Moving from variable operational expense ( opex ) to upfront capital expense (capex).",
+            "Moving from upfront capital expense (capex) to variable capital expense (capex).",
+            "Moving from upfront capital expense (capex) to variable operational expense ( opex ).",
+            "Elimination of upfront capital expense (capex) and elimination of variable operational expense ( opex )."
+        ],
+        "correct_answers": [
+            "Moving from upfront capital expense (capex) to variable operational expense ( opex )."
+        ]
+    },
+    {
+        "question_number": "Question 533",
+        "question": "When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?",
+        "options": [
+            "Dedicated Hosts",
+            "Reserved Instances",
+            "On-Demand Instances",
+            "No Upfront Reserved Instances"
+        ],
+        "correct_answers": [
+            "Dedicated Hosts"
+        ]
+    }
+]

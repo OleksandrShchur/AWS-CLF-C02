@@ -1,0 +1,272 @@
+[
+    {
+        "question_number": "Question 232",
+        "question": "Which of the following AWS offerings are serverless services? (Choose TWO)",
+        "options": [
+            "Amazon EC2.",
+            "AWS Lambda.",
+            "Amazon DynamoDB.",
+            "Amazon EMR.",
+            "Amazon RDS."
+        ],
+        "correct_answers": [
+            "AWS Lambda.",
+            "Amazon DynamoDB."
+        ]
+    },
+    {
+        "question_number": "Question 233",
+        "question": "Which AWS service enables you to quickly purchase and deploy SSL/TLS certificates?",
+        "options": [
+            "Amazon GuardDuty.",
+            "AWS ACM.",
+            "Amazon Detective.",
+            "AWS WAF."
+        ],
+        "correct_answers": [
+            "AWS ACM."
+        ]
+    },
+    {
+        "question_number": "Question 234",
+        "question": "Which AWS Service provides integration with Chef to automate the configuration of EC2 instances?",
+        "options": [
+            "AWS Config.",
+            "AWS OpsWorks.",
+            "AutoScaling.",
+            "AWS CloudFormation."
+        ],
+        "correct_answers": [
+            "AWS OpsWorks."
+        ]
+    },
+    {
+        "question_number": "Question 235",
+        "question": "A customer is seeking to store objects in their AWS environment and to make those objects downloadable over the internet. Which AWS Service can be used to accomplish this?",
+        "options": [
+            "Amazon EBS.",
+            "Amazon EFS.",
+            "Amazon S3.",
+            "Amazon Instance Store."
+        ],
+        "correct_answers": [
+            "Amazon S3."
+        ]
+    },
+    {
+        "question_number": "Question 236",
+        "question": "Which of the following services can be used to monitor the HTTP and HTTPS requests that are forwarded to Amazon CloudFront?",
+        "options": [
+            "AWS WAF.",
+            "Amazon CloudWatch.",
+            "AWS Cloud9.",
+            "AWS CloudTrail."
+        ],
+        "correct_answers": [
+            "AWS WAF."
+        ]
+    },
+    {
+        "question_number": "Question 237",
+        "question": "A company is migrating a web application to AWS. The application's compute capacity is continually utilized throughout the year. Which of the below options offers the company the most cost-effective solution?",
+        "options": [
+            "On-demand Instances.",
+            "Dedicated Hosts.",
+            "Spot Instances.",
+            "Reserved Instances."
+        ],
+        "correct_answers": [
+            "Reserved Instances."
+        ]
+    },
+    {
+        "question_number": "Question 238",
+        "question": "A company wants to grant a new employee long-term access to manage Amazon DynamoDB databases. Which of the following is a recommended best-practice when granting these permissions?",
+        "options": [
+            "Create an IAM role and attach a policy with Amazon DynamoDB access permissions.",
+            "Create an IAM role and attach a policy with Administrator access permissions.",
+            "Create an IAM user and attach a policy with Amazon DynamoDB access permissions.",
+            "Create an IAM user and attach a policy with Administrator access permissions."
+        ],
+        "correct_answers": [
+            "Create an IAM user and attach a policy with Amazon DynamoDB access permissions."
+        ]
+    },
+    {
+        "question_number": "Question 239",
+        "question": "When granting permissions to applications running on Amazon EC2 instances, which of the following is considered best practice?",
+        "options": [
+            "Generate new IAM access keys every time you delegate permissions.",
+            "Store the required AWS credentials directly within the application code.",
+            "Use temporary security credentials (IAM roles) instead of long-term access keys.",
+            "Do nothing; Applications that run on Amazon EC2 instances do not need permission to interact with other AWS services or resources."
+        ],
+        "correct_answers": [
+            "Use temporary security credentials (IAM roles) instead of long-term access keys."
+        ]
+    },
+    {
+        "question_number": "Question 240",
+        "question": "Which of the following will help AWS customers save on costs when migrating their workloads to AWS?",
+        "options": [
+            "Use servers instead of managed services.",
+            "Use existing third-party software licenses on AWS.",
+            "Migrate production workloads to AWS edge locations instead of AWS Regions.",
+            "Use AWS Outposts to run all workloads in a cost-optimized environment."
+        ],
+        "correct_answers": [
+            "Use existing third-party software licenses on AWS."
+        ]
+    },
+    {
+        "question_number": "Question 241",
+        "question": "An organization has a legacy application designed using monolithic-based architecture. Which AWS Service can be used to decouple the components of the application?",
+        "options": [
+            "Amazon SQS.",
+            "Virtual Private Gateway.",
+            "AWS Artifact.",
+            "Amazon CloudFront."
+        ],
+        "correct_answers": [
+            "Amazon SQS."
+        ]
+    },
+    {
+        "question_number": "Question 242",
+        "question": "Which of the following can be used to enable the Virtual Multi-Factor Authentication? (Choose TWO)",
+        "options": [
+            "Amazon Connect.",
+            "AWS CLI.",
+            "AWS Identity and Access Management (IAM).",
+            "Amazon SNS.",
+            "Amazon Virtual Private Cloud."
+        ],
+        "correct_answers": [
+            "AWS CLI.",
+            "AWS Identity and Access Management (IAM)."
+        ]
+    },
+    {
+        "question_number": "Question 243",
+        "question": "According to best practices, which of the below options is best suited for processing a large number of binary files?",
+        "options": [
+            "Vertically scaling EC2 instances.",
+            "Running RDS instances in parallel.",
+            "Vertically scaling RDS instances.",
+            "Running EC2 instances in parallel."
+        ],
+        "correct_answers": [
+            "Running EC2 instances in parallel."
+        ]
+    },
+    {
+        "question_number": "Question 244",
+        "question": "A company is planning to use Amazon S3 and Amazon CloudFront to distribute its video courses globally. What tool can the company use to estimate the costs of these services?",
+        "options": [
+            "AWS Cost Explorer.",
+            "AWS Pricing Calculator.",
+            "AWS Budgets.",
+            "AWS Cost & Usage Report."
+        ],
+        "correct_answers": [
+            "AWS Pricing Calculator."
+        ]
+    },
+    {
+        "question_number": "Question 245",
+        "question": "What should you do if you see resources, which you don't remember creating, in the AWS Management Console? (Choose TWO)",
+        "options": [
+            "Stop all running services and open an investigation.",
+            "Give your root account password to AWS Support so that they can assistin troubleshooting and securing the account.",
+            "Check the AWS CloudTrail logs and delete all IAM users that have access to your resources.",
+            "Open an investigation and delete any potentially compromised IAM users.",
+            "Change your AWS root account password and the passwords of any IAM users."
+        ],
+        "correct_answers": [
+            "Open an investigation and delete any potentially compromised IAM users.",
+            "Change your AWS root account password and the passwords of any IAM users."
+        ]
+    },
+    {
+        "question_number": "Question 246",
+        "question": "A key practice when designing solutions on AWS is to minimize dependencies between components so that the failure of a single component does not impact other components. What is this practice called?",
+        "options": [
+            "Elastic coupling.",
+            "Loosely coupling.",
+            "Scalable coupling.",
+            "Tightly coupling."
+        ],
+        "correct_answers": [
+            "Loosely coupling."
+        ]
+    },
+    {
+        "question_number": "Question 247",
+        "question": "Which AWS Service offers an NFS file system that can be mounted concurrently from multiple EC2 instances?",
+        "options": [
+            "Amazon Elastic File System.",
+            "Amazon Simple Storage Service.",
+            "Amazon Elastic Block Store.",
+            "AWS Storage Gateway."
+        ],
+        "correct_answers": [
+            "Amazon Elastic File System."
+        ]
+    },
+    {
+        "question_number": "Question 248",
+        "question": "Availability Zones within a Region are connected over low-latency links. Which of the following is a benefit of these links?",
+        "options": [
+            "Create private connection to your data center.",
+            "Achieve global high availability.",
+            "Automate the process of provisioning new compute resources.",
+            "Make synchronous replication of your data possible."
+        ],
+        "correct_answers": [
+            "Make synchronous replication of your data possible."
+        ]
+    },
+    {
+        "question_number": "Question 249",
+        "question": "Which of the following are true regarding the languages that are supported on AWS Lambda? (Choose TWO)",
+        "options": [
+            "Lambda only supports Python and Node.js, but third party plugins are available to convert code in other languages to these formats.",
+            "Lambda natively supports a number of programming languages such as Node.js, Python, and Java.",
+            "Lambda is AWS' proprietary programming language for microservices.",
+            "Lambda doesn't support programming languages; it is a serverless compute service.",
+            "Lambda can support any programming language using an API."
+        ],
+        "correct_answers": [
+            "Lambda natively supports a number of programming languages such as Node.js, Python, and Java.",
+            "Lambda can support any programming language using an API."
+        ]
+    },
+    {
+        "question_number": "Question 250",
+        "question": "What are the capabilities of AWS X-Ray? (Choose TWO)",
+        "options": [
+            "Automatically decouples application components.",
+            "Facilitates tracking of user requests to identify application issues.",
+            "Helps improve application performance.",
+            "Deploys applications to Amazon EC2 instances.",
+            "Deploys applications to on-premises servers."
+        ],
+        "correct_answers": [
+            "Facilitates tracking of user requests to identify application issues.",
+            "Helps improve application performance."
+        ]
+    },
+    {
+        "question_number": "Question 251",
+        "question": "Which of the following is true regarding the AWS availability zones and edge locations?",
+        "options": [
+            "Edge locations are located in separate Availability Zones worldwide to serve global customers.",
+            "An availability zone exists within an edge location to distribute content globally with low latency.",
+            "An Availability Zone is a geographic location where AWS provides multiple, physically separated and isolated edge locations.",
+            "An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide."
+        ],
+        "correct_answers": [
+            "An AWS Availability Zone is an isolated location within an AWS Region, however edge locations are located in multiple cities worldwide."
+        ]
+    }
+]

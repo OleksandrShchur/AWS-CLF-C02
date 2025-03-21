@@ -1,0 +1,271 @@
+[
+    {
+        "question_number": "Question 132",
+        "question": "A customer spent a lot of time configuring a newly deployed Amazon EC2 instance. After the workload increases, the customer decides to provision another EC2 instance with an identical configuration. How can the customer achieve this?",
+        "options": [
+            "By creating an AWS Config template from the old instance and launching a new instance from it.",
+            "By creating an EBS Snapshot of the old instance.",
+            "By installing Aurora on EC2 and launching a new instance from it.",
+            "By creating an AMI from the old instance and launching a new instance from it."
+        ],
+        "correct_answers": [
+            "By creating an AMI from the old instance and launching a new instance from it."
+        ]
+    },
+    {
+        "question_number": "Question 133",
+        "question": "A company uses AWS Organizations to manage all of its AWS accounts. Which of the following allows the company to restrict what services and actions are allowed in each individual account?",
+        "options": [
+            "IAM Principals.",
+            "AWS Service Control Policies (SCPs).",
+            "IAM policies.",
+            "AWS Fargate."
+        ],
+        "correct_answers": [
+            "AWS Service Control Policies (SCPs)."
+        ]
+    },
+    {
+        "question_number": "Question 134",
+        "question": "Which of the following statements describes the AWS Cloud's agility?",
+        "options": [
+            "AWS allows you to host your applications in multiple regions around the world.",
+            "AWS provides customizable hardware at the lowest possible cost.",
+            "AWS allows you to provision resources in minutes.",
+            "AWS allows you to pay upfront to reduce costs."
+        ],
+        "correct_answers": [
+            "AWS allows you to provision resources in minutes."
+        ]
+    },
+    {
+        "question_number": "Question 135",
+        "question": "What are the benefits of using the Amazon Relational Database Service? (Choose TWO)",
+        "options": [
+            "Lower administrative burden.",
+            "Complete control over the underlying host.",
+            "Resizable compute capacity.",
+            "Scales automatically to larger or smaller instance types.",
+            "Supports the document and key-value data structure."
+        ],
+        "correct_answers": [
+            "Lower administrative burden.",
+            "Resizable compute capacity."
+        ]
+    },
+    {
+        "question_number": "Question 136",
+        "question": "What is the connectivity option that uses Internet Protocol Security (IPSec) to establish encrypted connectivity between an on-premises network and the AWS Cloud?",
+        "options": [
+            "Internet Gateway.",
+            "AWS IQ.",
+            "AWS Direct Connect.",
+            "AWS Site-to-Site VPN."
+        ],
+        "correct_answers": [
+            "AWS Site-to-Site VPN."
+        ]
+    },
+    {
+        "question_number": "Question 137",
+        "question": "What is the minimum level of AWS support that provides 24x7 access to technical support engineers via phone and chat?",
+        "options": [
+            "Enterprise Support.",
+            "Developer Support.",
+            "Basic Support.",
+            "Business Support."
+        ],
+        "correct_answers": [
+            "Business Support."
+        ]
+    },
+    {
+        "question_number": "Question 138",
+        "question": "Which of the following is used to control network traffic in AWS? (Choose TWO)",
+        "options": [
+            "Network Access Control Lists (NACLs).",
+            "Key Pairs.",
+            "Access Keys.",
+            "IAM Policies.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "Network Access Control Lists (NACLs).",
+            "Security Groups."
+        ]
+    },
+    {
+        "question_number": "Question 139",
+        "question": "A company has developed a media transcoding application in AWS. The application is designed to recover quickly from hardware failures. Which one of the following types of instance would be the most cost-effective choice to use?",
+        "options": [
+            "Reserved instances.",
+            "Spot Instances.",
+            "On-Demand instances.",
+            "Dedicated instances."
+        ],
+        "correct_answers": [
+            "Spot Instances."
+        ]
+    },
+    {
+        "question_number": "Question 140",
+        "question": "Which AWS Service provides the current status of all AWS Services in all AWS Regions?",
+        "options": [
+            "AWS Service Health Dashboard.",
+            "AWS Management Console.",
+            "Amazon CloudWatch.",
+            "AWS Personal Health Dashboard."
+        ],
+        "correct_answers": [
+            "AWS Service Health Dashboard."
+        ]
+    },
+    {
+        "question_number": "Question 141",
+        "question": "Which AWS service or feature can be used to call AWS Services from different programming languages?",
+        "options": [
+            "AWS Software Development Kit.",
+            "AWS Command Line Interface.",
+            "AWS CodeDeploy.",
+            "AWS Management Console."
+        ],
+        "correct_answers": [
+            "AWS Software Development Kit."
+        ]
+    },
+    {
+        "question_number": "Question 142",
+        "question": "Which AWS Service can be used to register a new domain name?",
+        "options": [
+            "Amazon Personalize.",
+            "Amazon Route 53.",
+            "AWS KMS.",
+            "AWS Config."
+        ],
+        "correct_answers": [
+            "Amazon Route 53."
+        ]
+    },
+    {
+        "question_number": "Question 143",
+        "question": "App development companies move their business to AWS to reduce time-to-market and improve customer satisfaction, what are the AWS automation tools that help them deploy their applications faster? (Choose TWO)",
+        "options": [
+            "AWS CloudFormation.",
+            "AWS Migration Hub.",
+            "AWS IAM.",
+            "AWS Elastic Beanstalk.",
+            "Amazon Macie."
+        ],
+        "correct_answers": [
+            "AWS CloudFormation.",
+            "AWS Elastic Beanstalk."
+        ]
+    },
+    {
+        "question_number": "Question 144",
+        "question": "Which AWS service provides cost-optimization recommendations?",
+        "options": [
+            "AWS Trusted Advisor.",
+            "AWS Pricing Calculator.",
+            "Amazon QuickSight.",
+            "AWS X-Ray."
+        ],
+        "correct_answers": [
+            "AWS Trusted Advisor."
+        ]
+    },
+    {
+        "question_number": "Question 145",
+        "question": "A company has hundreds of VPCs in multiple AWS Regions worldwide. What service does AWS offer to simplify the connection management among the VPCs?",
+        "options": [
+            "VPC Peering.",
+            "AWS Transit Gateway.",
+            "Amazon Connect.",
+            "Security Groups."
+        ],
+        "correct_answers": [
+            "AWS Transit Gateway."
+        ]
+    },
+    {
+        "question_number": "Question 146",
+        "question": "What is one benefit and one drawback of buying a reserved EC2 instance? (Select TWO)",
+        "options": [
+            "Instances can be shut down by AWS at any time with no notification.",
+            "Reserved instances require at least a one-year pricing commitment.",
+            "There is no additional charge for using dedicated instances.",
+            "Reserved instances provide a significant discount compared to on-demand instances."
+        ],
+        "correct_answers": [
+            "Reserved instances require at least a one-year pricing commitment.",
+            "Reserved instances provide a significant discount compared to on-demand instances."
+        ]
+    },
+    {
+        "question_number": "Question 147",
+        "question": "Why does every AWS Region contain multiple Availability Zones?",
+        "options": [
+            "Multiple Availability Zones allows you to build resilient and highly available architectures.",
+            "Multiple Availability Zones results in lower total cost compared to deploying in a single Availability Zone.",
+            "Multiple Availability Zones allows for data replication and global reach.",
+            "Multiple Availability Zones within a region increases the storage capacity available in that region."
+        ],
+        "correct_answers": [
+            "Multiple Availability Zones allows you to build resilient and highly available architectures."
+        ]
+    },
+    {
+        "question_number": "Question 148",
+        "question": "What is the most cost-effective purchasing option for running a set of EC2 instances that must always be available for a period of two months?",
+        "options": [
+            "On-Demand Instances.",
+            "Spot Instances.",
+            "Reserved Instances - All Upfront.",
+            "Reserved Instances - No Upfront."
+        ],
+        "correct_answers": [
+            "On-Demand Instances."
+        ]
+    },
+    {
+        "question_number": "Question 149",
+        "question": "Which of the following is a benefit of running an application in multiple Availability Zones?",
+        "options": [
+            "Allows you to exceed AWS service limits.",
+            "Reduces application response time between servers and global users.",
+            "Increases available compute capacity.",
+            "Increases the availability of your application."
+        ],
+        "correct_answers": [
+            "Increases the availability of your application."
+        ]
+    },
+    {
+        "question_number": "Question 150",
+        "question": "Data security is one of the top priorities of AWS. How does AWS deal with old storage devices that have reached the end of their useful life?",
+        "options": [
+            "AWS sells the old devices to other hosting providers.",
+            "AWS destroys the old devices in accordance with industry-standard practices.",
+            "AWS sends the old devices for remanufacturing.",
+            "AWS stores the old devices in a secure place."
+        ],
+        "correct_answers": [
+            "AWS destroys the old devices in accordance with industry-standard practices."
+        ]
+    },
+    {
+        "question_number": "Question 151",
+        "question": "A developer needs to set up an SSL security certificate for a client's eCommerce website in order to use the HTTPS protocol. Which of the following AWS services can be used to deploy the required SSL server certificates? (Choose TWO)",
+        "options": [
+            "Amazon Route 53.",
+            "AWS ACM.",
+            "AWS Directory Service.",
+            "AWS Identity & Access Management.",
+            "AWS Data Pipeline."
+        ],
+        "correct_answers": [
+            "AWS ACM.",
+            "AWS Identity & Access Management."
+        ]
+    }
+]

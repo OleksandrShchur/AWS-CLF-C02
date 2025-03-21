@@ -18,10 +18,11 @@ def split_json_file(file_path, batch_size=20):
         
         print(f"Created {filename} with {len(batch)} questions.")
 
-files = ["./q_and_a/exam_topic_clf_c02.json", 
-         "./q_and_a/github_clf_c02.json", 
-         "./q_and_a/pass_exam_clf_c02_1_part.json", 
-         "./q_and_a/pass_exam_clf_c02_2_part.json"]
+# files = ["./q_and_a/exam_topic_clf_c02.json", 
+#          "./q_and_a/github_clf_c02.json", 
+#          "./q_and_a/pass_exam_clf_c02_1_part.json", 
+#          "./q_and_a/pass_exam_clf_c02_2_part.json"]
+files = ["./questions/unique_questions.json"]
 
 
 for file in files:
