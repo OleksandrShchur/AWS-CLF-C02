@@ -63,6 +63,9 @@ function populateQuizDropdown() {
         option.textContent = `Quiz ${index + 1}`;
         quizSelect.appendChild(option);
     });
+
+    const sampleTestButton = document.getElementsByClassName("sample-test-button");
+    sampleTestButton.onclick = generateSampleTest;
 }
 
 // Load selected quiz file
