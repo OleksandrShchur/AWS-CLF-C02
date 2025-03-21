@@ -70,6 +70,8 @@ function populateQuizDropdown() {
 
 // Load selected quiz file
 function loadSelectedQuiz() {
+    removeResultContainerIfExists();
+
     const quizSelect = document.getElementById("quiz-select");
     const selectedUrl = quizSelect.value;
 
@@ -137,6 +139,7 @@ function loadQuestion(index = null) {
                 input.disabled = true;
                 if (answeredQuestions[currentQuestionIndex].userAnswers.includes(option)) {
                     input.checked = true;
+                    optionElement.style.background = "#e6c8c8";
                 }
                 if (questionObj.correct_answers.includes(option)) {
                     optionElement.style.background = "#c8e6c9";
@@ -190,9 +193,23 @@ function checkAnswer() {
     updateProgressBar();
 }
 
+function removeResultContainerIfExists() {
+    // Check if a result container already exists
+    const existingResultContainer = document.querySelector("#quiz-container .result-container");
+
+    // If it exists, remove the old one
+    if (existingResultContainer) {
+        existingResultContainer.remove();
+    }
+}
+
 // Function to finish the quiz early and display results at the top
 function finishQuiz() {
+    removeResultContainerIfExists();
+
+    // Create a new result container
     const resultContainer = document.createElement("div");
+    resultContainer.classList.add("result-container"); // Add a class to easily identify it
     resultContainer.innerHTML = `<h2>Quiz Completed!</h2>
                                  <p>Correct: ${correctCount}</p>
                                  <p>Incorrect: ${incorrectCount}</p>`;
@@ -202,9 +219,11 @@ function finishQuiz() {
     resultContainer.style.marginBottom = "20px";
     resultContainer.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)";
 
+    // Prepend the new result container to the quiz container
     const quizContainer = document.getElementById("quiz-container");
     quizContainer.prepend(resultContainer);
 
+    // Hide the finish button
     document.getElementById("finish-button").style.display = "none";
 }
 
@@ -240,6 +259,8 @@ function markDashboardItem(index, color) {
 
 // Function to generate a sample test with 65 random questions
 function generateSampleTest() {
+    removeResultContainerIfExists();
+
     const sampleTestUrl = "https://oleksandrshchur.github.io/AWS-CLF-C02/questions/unique_questions.json";
 
     fetch(sampleTestUrl)
