@@ -184,7 +184,6 @@ function loadQuestion(index = null) {
     }
 }
 
-// Function to check the answer
 function checkAnswer() {
     const selectedOptions = document.querySelectorAll("input[name='answer']:checked");
     if (selectedOptions.length === 0) {
@@ -208,6 +207,19 @@ function checkAnswer() {
         incorrectCount++;
         markDashboardItem(currentQuestionIndex, "red");
     }
+
+    // Highlight correct and incorrect answers
+    document.querySelectorAll(".option").forEach(optionElement => {
+        const input = optionElement.querySelector("input");
+        if (input) {
+            if (correctAnswers.includes(input.value)) {
+                optionElement.style.background = "#c8e6c9"; // Green for correct answers
+            }
+            if (userAnswers.includes(input.value) && !correctAnswers.includes(input.value)) {
+                optionElement.style.background = "#e6c8c8"; // Red for incorrect answers
+            }
+        }
+    });
 
     document.getElementById("submit-button").style.display = "none";
     document.getElementById("next-button").style.display = "inline";
