@@ -3,262 +3,262 @@
         "question_number": "Question #141 Topic 1",
         "question": "Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?",
         "options": [
-            "A. AWS Budgets",
-            "B. AWS Cost Explorer",
-            "C. AWS Cost Allocation Tags",
-            "D. AWS Organizations"
+            "AWS Budgets",
+            "AWS Cost Explorer",
+            "AWS Cost Allocation Tags",
+            "AWS Organizations"
         ],
         "correct_answers": [
-            "A. AWS Budgets"
+            "AWS Budgets"
         ]
     },
     {
         "question_number": "Question #142 Topic 1",
         "question": "A company plans to migrate to the AWS Cloud. The company wants to use the AWS Cloud Adoption Framework (AWS CAF) to define and track business outcomes as part of its cloud transformation journey.  Which AWS CAF governance perspective capability will meet these requirements?",
         "options": [
-            "A. Benefits management",
-            "B. Risk management",
-            "C. Application portfolio management",
-            "D. Cloud financial management"
+            "Benefits management",
+            "Risk management",
+            "Application portfolio management",
+            "Cloud financial management"
         ],
         "correct_answers": [
-            "A. Benefits management"
+            "Benefits management"
         ]
     },
     {
         "question_number": "Question #143 Topic 1",
         "question": "A company needs to quickly and securely move files over long distances between its client and an Amazon S3 bucket.  Which S3 feature will meet this requirement?",
         "options": [
-            "A. S3 Versioning",
-            "B. S3 Transfer Acceleration",
-            "C. S3ACLs",
-            "D. S3 Intelligent-Tiering"
+            "S3 Versioning",
+            "S3 Transfer Acceleration",
+            "S3ACLs",
+            "S3 Intelligent-Tiering"
         ],
         "correct_answers": [
-            "B. S3 Transfer Acceleration"
+            "S3 Transfer Acceleration"
         ]
     },
     {
         "question_number": "Question #144 Topic 1",
         "question": "A company needs to continuously run an experimental workload on an Amazon EC2 instance and stop the instance after 12 hours.  Which instance purchasing option will meet this requirement MOST cost-effectively?",
         "options": [
-            "A. On-Demand Instances",
-            "B. Reserved Instances",
-            "C. Spot Instances",
-            "D. Dedicated Instances"
+            "On-Demand Instances",
+            "Reserved Instances",
+            "Spot Instances",
+            "Dedicated Instances"
         ],
         "correct_answers": [
-            "A. On-Demand Instances"
+            "On-Demand Instances"
         ]
     },
     {
         "question_number": "Question #145 Topic 1",
         "question": "Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demonstrating how the cloud helps accelerate business outcomes?",
         "options": [
-            "A. Scale",
-            "B. Envision",
-            "C. Align",
-            "D. Launch"
+            "Scale",
+            "Envision",
+            "Align",
+            "Launch"
         ],
         "correct_answers": [
-            "B. Envision"
+            "Envision"
         ]
     },
     {
         "question_number": "Question #146 Topic 1",
         "question": "Which option is a customer responsibility under the AWS shared responsibility model?",
         "options": [
-            "A. Maintenance of underlying hardware of Amazon EC2 instances",
-            "B. Application data security",
-            "C. Physical security of data centers",
-            "D. Maintenance of VPC components"
+            "Maintenance of underlying hardware of Amazon EC2 instances",
+            "Application data security",
+            "Physical security of data centers",
+            "Maintenance of VPC components"
         ],
         "correct_answers": [
-            "B. Application data security"
+            "Application data security"
         ]
     },
     {
         "question_number": "Question #147 Topic 1",
         "question": "A company wants its Amazon EC2 instances to operate in a highly available environment, even if there is a natural disaster in a particular geographic area.  Which approach will achieve this goal?",
         "options": [
-            "A. Use EC2 instances in multiple AWS Regions.",
-            "B. Use EC2 instances in multiple Amazon CloudFront locations.",
-            "C. Use EC2 instances in multiple edge locations.",
-            "D. Use EC2 instances in AWS Local Zones."
+            "Use EC2 instances in multiple AWS Regions.",
+            "Use EC2 instances in multiple Amazon CloudFront locations.",
+            "Use EC2 instances in multiple edge locations.",
+            "Use EC2 instances in AWS Local Zones."
         ],
         "correct_answers": [
-            "A. Use EC2 instances in multiple AWS Regions."
+            "Use EC2 instances in multiple AWS Regions."
         ]
     },
     {
         "question_number": "Question #148 Topic 1",
         "question": "A company wants to modernize and convert a monolithic application into microservices. The company wants to move the application to AWS.  Which migration strategy should the company use?",
         "options": [
-            "A. Rehost",
-            "B. Replatform",
-            "C. Repurchase",
-            "D. Refactor"
+            "Rehost",
+            "Replatform",
+            "Repurchase",
+            "Refactor"
         ],
         "correct_answers": [
-            "D. Refactor"
+            "Refactor"
         ]
     },
     {
         "question_number": "Question #149 Topic 1",
         "question": "A systems administrator created a new IAM user for a developer and assigned the user an access key instead of a user name and password. What is the access key used for?",
         "options": [
-            "A. To access the AWS account as the AWS account root user",
-            "B. To access the AWS account through the AWS Management Console",
-            "C. To access the AWS account through a CLI",
-            "D. To access all of a company’s AWS accounts"
+            "To access the AWS account as the AWS account root user",
+            "To access the AWS account through the AWS Management Console",
+            "To access the AWS account through a CLI",
+            "To access all of a company’s AWS accounts"
         ],
         "correct_answers": [
-            "C. To access the AWS account through a CLI"
+            "To access the AWS account through a CLI"
         ]
     },
     {
         "question_number": "Question #150 Topic 1",
         "question": "Which option is an environment that consists of one or more data centers?",
         "options": [
-            "A. Amazon CloudFront",
-            "B. Availability Zone",
-            "C. VPC",
-            "D. AWS Outposts"
+            "Amazon CloudFront",
+            "Availability Zone",
+            "VPC",
+            "AWS Outposts"
         ],
         "correct_answers": [
-            "B. Availability Zone"
+            "Availability Zone"
         ]
     },
     {
         "question_number": "Question #151 Topic 1",
         "question": "A company is moving an on-premises data center to the AWS Cloud. The company must migrate 50 petabytes of file storage data to AWS with the least possible operational overhead.  Which AWS service or resource should the company use to meet these requirements?",
         "options": [
-            "A. AWS Snowmobile",
-            "B. AWS Snowball Edge",
-            "C. AWS Data Exchange",
-            "D. AWS Database Migration Service (AWS DMS)"
+            "AWS Snowmobile",
+            "AWS Snowball Edge",
+            "AWS Data Exchange",
+            "AWS Database Migration Service (AWS DMS)"
         ],
         "correct_answers": [
-            "A. AWS Snowmobile"
+            "AWS Snowmobile"
         ]
     },
     {
         "question_number": "Question #152 Topic 1",
         "question": "A company has an application with robust hardware requirements. The application must be accessed by students who are using lightweight, low-cost laptops.  Which AWS service will help the company deploy the application without investing in backend infrastructure or high-end client hardware?",
         "options": [
-            "A. Amazon AppStream 2.0",
-            "B. AWS AppSync",
-            "C. Amazon WorkLink",
-            "D. AWS Elastic Beanstalk"
+            "Amazon AppStream 2.0",
+            "AWS AppSync",
+            "Amazon WorkLink",
+            "AWS Elastic Beanstalk"
         ],
         "correct_answers": [
-            "A. Amazon AppStream 2.0"
+            "Amazon AppStream 2.0"
         ]
     },
     {
         "question_number": "Question #153 Topic 1",
         "question": "A company wants to query its server logs to gain insights about its customers’ experiences.  Which AWS service will store this data MOST cost-effectively?",
         "options": [
-            "A. Amazon Aurora",
-            "B. Amazon Elastic File System (Amazon EFS)",
-            "C. Amazon Elastic Block Store (Amazon EBS)",
-            "D. Amazon S3"
+            "Amazon Aurora",
+            "Amazon Elastic File System (Amazon EFS)",
+            "Amazon Elastic Block Store (Amazon EBS)",
+            "Amazon S3"
         ],
         "correct_answers": [
-            "D. Amazon S3"
+            "Amazon S3"
         ]
     },
     {
         "question_number": "Question #154 Topic 1",
         "question": "Which of the following is a recommended design principle for AWS Cloud architecture?",
         "options": [
-            "A. Design tightly coupled components.",
-            "B. Build a single application component that can handle all the application functionality.",
-            "C. Make large changes on fewer iterations to reduce chances of failure.",
-            "D. Avoid monolithic architecture by segmenting workloads."
+            "Design tightly coupled components.",
+            "Build a single application component that can handle all the application functionality.",
+            "Make large changes on fewer iterations to reduce chances of failure.",
+            "Avoid monolithic architecture by segmenting workloads."
         ],
         "correct_answers": [
-            "D. Avoid monolithic architecture by segmenting workloads."
+            "Avoid monolithic architecture by segmenting workloads."
         ]
     },
     {
         "question_number": "Question #155 Topic 1",
         "question": "Which AWS service helps users audit API activity across their AWS account?",
         "options": [
-            "A. AWS CloudTrail",
-            "B. Amazon Inspector",
-            "C. AWS WAF",
-            "D. AWS Config"
+            "AWS CloudTrail",
+            "Amazon Inspector",
+            "AWS WAF",
+            "AWS Config"
         ],
         "correct_answers": [
-            "A. AWS CloudTrail"
+            "AWS CloudTrail"
         ]
     },
     {
         "question_number": "Question #156 Topic 1",
         "question": "Which task is a customer’s responsibility, according to the AWS shared responsibility model?",
         "options": [
-            "A. Management of the guest operating systems",
-            "B. Maintenance of the configuration of infrastructure devices",
-            "C. Management of the host operating systems and virtualization",
-            "D. Maintenance of the software that powers Availability Zones"
+            "Management of the guest operating systems",
+            "Maintenance of the configuration of infrastructure devices",
+            "Management of the host operating systems and virtualization",
+            "Maintenance of the software that powers Availability Zones"
         ],
         "correct_answers": [
-            "A. Management of the guest operating systems"
+            "Management of the guest operating systems"
         ]
     },
     {
         "question_number": "Question #157 Topic 1",
         "question": "A company wants to automatically add and remove Amazon EC2 instances. The company wants the EC2 instances to adjust to varying workloads dynamically.  Which service or feature will meet these requirements?",
         "options": [
-            "A. Amazon DynamoDB",
-            "B. Amazon EC2 Spot Instances",
-            "C. AWS Snow Family",
-            "D. Amazon EC2 Auto Scaling"
+            "Amazon DynamoDB",
+            "Amazon EC2 Spot Instances",
+            "AWS Snow Family",
+            "Amazon EC2 Auto Scaling"
         ],
         "correct_answers": [
-            "D. Amazon EC2 Auto Scaling"
+            "Amazon EC2 Auto Scaling"
         ]
     },
     {
         "question_number": "Question #158 Topic 1",
         "question": "A user wants to securely automate the management and rotation of credentials that are shared between applications, while spending the least amount of time on managing tasks.  Which AWS service or feature can be used to accomplish this?",
         "options": [
-            "A. AWS CloudHSM",
-            "B. AWS Key Management Service (AWS KMS)",
-            "C. AWS Secrets Manager",
-            "D. Server-side encryption"
+            "AWS CloudHSM",
+            "AWS Key Management Service (AWS KMS)",
+            "AWS Secrets Manager",
+            "Server-side encryption"
         ],
         "correct_answers": [
-            "C. AWS Secrets Manager"
+            "AWS Secrets Manager"
         ]
     },
     {
         "question_number": "Question #159 Topic 1",
         "question": "Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?",
         "options": [
-            "A. Amazon GuardDuty",
-            "B. Amazon Macie",
-            "C. Amazon Inspector",
-            "D. AWS Shield"
+            "Amazon GuardDuty",
+            "Amazon Macie",
+            "Amazon Inspector",
+            "AWS Shield"
         ],
         "correct_answers": [
-            "B. Amazon Macie"
+            "Amazon Macie"
         ]
     },
     {
         "question_number": "Question #160 Topic 1",
         "question": "Which actions are best practices for an AWS account root user? (Choose two.)",
         "options": [
-            "A. Share root user credentials with team members.",
-            "B. Create multiple root users for the account, separated by environment.",
-            "C. Enable multi-factor authentication (MFA) on the root user.",
-            "D. Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user.",
-            "E. Use programmatic access instead of the root user and password."
+            "Share root user credentials with team members.",
+            "Create multiple root users for the account, separated by environment.",
+            "Enable multi-factor authentication (MFA) on the root user.",
+            "Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user.",
+            "Use programmatic access instead of the root user and password."
         ],
         "correct_answers": [
-            "C. Enable multi-factor authentication (MFA) on the root user.",
-            "D. Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user."
+            "Enable multi-factor authentication (MFA) on the root user.",
+            "Create an IAM user with administrator privileges for daily administrative tasks, instead of using the root user."
         ]
     }
 ]

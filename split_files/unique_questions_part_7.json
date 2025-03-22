@@ -3,268 +3,268 @@
         "question_number": "Question #121 Topic 1",
         "question": "A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers. Which AWS service will meet these requirements?",
         "options": [
-            "A. Amazon Elastic Kubernetes Service (Amazon EKS)",
-            "B. AWS Fargate",
-            "C. Amazon EC2",
-            "D. Amazon Elastic Container Service (Amazon ECS)"
+            "Amazon Elastic Kubernetes Service (Amazon EKS)",
+            "AWS Fargate",
+            "Amazon EC2",
+            "Amazon Elastic Container Service (Amazon ECS)"
         ],
         "correct_answers": [
-            "C. Amazon EC2"
+            "Amazon EC2"
         ]
     },
     {
         "question_number": "Question #122 Topic 1",
         "question": "Which AWS service or feature allows users to create new AWS accounts, group multiple accounts to organize workflows, and apply policies to groups of accounts?",
         "options": [
-            "A. AWS Identity and Access Management (IAM)",
-            "B. AWS Trusted Advisor",
-            "C. AWS CloudFormation",
-            "D. AWS Organizations"
+            "AWS Identity and Access Management (IAM)",
+            "AWS Trusted Advisor",
+            "AWS CloudFormation",
+            "AWS Organizations"
         ],
         "correct_answers": [
-            "D. AWS Organizations"
+            "AWS Organizations"
         ]
     },
     {
         "question_number": "Question #123 Topic 1",
         "question": "A company wants to store and retrieve files in Amazon S3 for its existing on-premises applications by using industry-standard file system protocols. Which AWS service will meet these requirements?",
         "options": [
-            "A. AWS DataSync",
-            "B. AWS Snowball Edge",
-            "C. Amazon S3 File Gateway",
-            "D. AWS Transfer Family"
+            "AWS DataSync",
+            "AWS Snowball Edge",
+            "Amazon S3 File Gateway",
+            "AWS Transfer Family"
         ],
         "correct_answers": [
-            "C. Amazon S3 File Gateway"
+            "Amazon S3 File Gateway"
         ]
     },
     {
         "question_number": "Question #124 Topic 1",
         "question": "A company wants to block SQL injection attacks. Which AWS service or feature should the company use to meet this requirement?",
         "options": [
-            "A. AWS WAF",
-            "B. Network ACLs",
-            "C. Security groups",
-            "D. AWS Certificate Manager (ACM)"
+            "AWS WAF",
+            "Network ACLs",
+            "Security groups",
+            "AWS Certificate Manager (ACM)"
         ],
         "correct_answers": [
-            "A. AWS WAF"
+            "AWS WAF"
         ]
     },
     {
         "question_number": "Question #125 Topic 1",
         "question": "A company wants a unified tool to provide a consistent method to interact with AWS services. Which AWS service or tool will meet this requirement?",
         "options": [
-            "A. AWS CLI",
-            "B. Amazon Elastic Container Service (Amazon ECS)",
-            "C. AWS Cloud9",
-            "D. AWS Virtual Private Network (AWS VPN)"
+            "AWS CLI",
+            "Amazon Elastic Container Service (Amazon ECS)",
+            "AWS Cloud9",
+            "AWS Virtual Private Network (AWS VPN)"
         ],
         "correct_answers": [
-            "A. AWS CLI"
+            "AWS CLI"
         ]
     },
     {
         "question_number": "Question #126 Topic 1",
         "question": "A company needs to evaluate its AWS environment and provide best practice recommendations in five categories: cost, performance, service limits, fault tolerance and security. Which AWS service can the company use to meet these requirements?",
         "options": [
-            "A. AWS Shield",
-            "B. AWS WAF",
-            "C. AWS Trusted Advisor",
-            "D. AWS Service Catalog"
+            "AWS Shield",
+            "AWS WAF",
+            "AWS Trusted Advisor",
+            "AWS Service Catalog"
         ],
         "correct_answers": [
-            "C. AWS Trusted Advisor"
+            "AWS Trusted Advisor"
         ]
     },
     {
         "question_number": "Question #127 Topic 1",
         "question": "Which perspective in the AWS Cloud Adoption Framework (AWS CAF) includes capabilities for configuration management and patch management?",
         "options": [
-            "A. Platform",
-            "B. Operations",
-            "C. Security",
-            "D. Governance"
+            "Platform",
+            "Operations",
+            "Security",
+            "Governance"
         ],
         "correct_answers": [
-            "B. Operations"
+            "Operations"
         ]
     },
     {
         "question_number": "Question #128 Topic 1",
         "question": "A company has a compute workload that is steady, predictable, and uninterruptible. Which Amazon EC2 instance purchasing options meet these requirements MOST cost-effectively? (Choose two.)",
         "options": [
-            "A. On-Demand Instances",
-            "B. Reserved Instances",
-            "C. Spot Instances",
-            "D. Saving Plans",
-            "E. Dedicated Hosts"
+            "On-Demand Instances",
+            "Reserved Instances",
+            "Spot Instances",
+            "Saving Plans",
+            "Dedicated Hosts"
         ],
         "correct_answers": [
-            "B. Reserved Instances",
-            "D. Saving Plans"
+            "Reserved Instances",
+            "Saving Plans"
         ]
     },
     {
         "question_number": "Question #129 Topic 1",
         "question": "Which Amazon EC2 pricing model is the MOST cost efficient for an uninterruptible workload that runs once a year for 24 hours?",
         "options": [
-            "A. On-Demand Instances",
-            "B. Reserved Instances",
-            "C. Spot Instances",
-            "D. Dedicated Instances"
+            "On-Demand Instances",
+            "Reserved Instances",
+            "Spot Instances",
+            "Dedicated Instances"
         ],
         "correct_answers": [
-            "A. On-Demand Instances"
+            "On-Demand Instances"
         ]
     },
     {
         "question_number": "Question #130 Topic 1",
         "question": "Which option is a shared responsibility between AWS and its customers under the AWS shared responsibility model?",
         "options": [
-            "A. Configuration of Amazon EC2 instance operating systems",
-            "B. Application file system server-side encryption",
-            "C. Patch management",
-            "D. Security of the physical infrastructure"
+            "Configuration of Amazon EC2 instance operating systems",
+            "Application file system server-side encryption",
+            "Patch management",
+            "Security of the physical infrastructure"
         ],
         "correct_answers": [
-            "C. Patch management"
+            "Patch management"
         ]
     },
     {
         "question_number": "Question #131 Topic 1",
         "question": "A company wants to migrate its on-premises workloads to the AWS Cloud. The company wants to separate workloads for chargeback to different departments. Which AWS services or features will meet these requirements? (Choose two.)",
         "options": [
-            "A. Placement groups",
-            "B. Consolidated billing",
-            "C. Edge locations",
-            "D. AWS Config",
-            "E. Multiple AWS accounts"
+            "Placement groups",
+            "Consolidated billing",
+            "Edge locations",
+            "AWS Config",
+            "Multiple AWS accounts"
         ],
         "correct_answers": [
-            "B. Consolidated billing",
-            "E. Multiple AWS accounts"
+            "Consolidated billing",
+            "Multiple AWS accounts"
         ]
     },
     {
         "question_number": "Question #132 Topic 1",
         "question": "Which task is a responsibility of AWS, according to the AWS shared responsibility model?",
         "options": [
-            "A. Enable client-side encryption for objects that are stored in Amazon S3.",
-            "B. Configure IAM security policies to comply with the principle of least privilege.",
-            "C. Patch the guest operating system on an Amazon EC2 instance.",
-            "D. Apply updates to the Nitro Hypervisor."
+            "Enable client-side encryption for objects that are stored in Amazon S3.",
+            "Configure IAM security policies to comply with the principle of least privilege.",
+            "Patch the guest operating system on an Amazon EC2 instance.",
+            "Apply updates to the Nitro Hypervisor."
         ],
         "correct_answers": [
-            "D. Apply updates to the Nitro Hypervisor."
+            "Apply updates to the Nitro Hypervisor."
         ]
     },
     {
         "question_number": "Question #133 Topic 1",
         "question": "Which option is a benefit of using AWS for cloud computing?",
         "options": [
-            "A. Trade variable expense for fixed expense",
-            "B. Pay-as-you-go pricing",
-            "C. Decreased speed and agility",
-            "D. Spending money running and maintaining data centers"
+            "Trade variable expense for fixed expense",
+            "Pay-as-you-go pricing",
+            "Decreased speed and agility",
+            "Spending money running and maintaining data centers"
         ],
         "correct_answers": [
-            "B. Pay-as-you-go pricing"
+            "Pay-as-you-go pricing"
         ]
     },
     {
         "question_number": "Question #134 Topic 1",
         "question": "Which option is an AWS Cloud Adoption Framework (AWS CAF) business perspective capability?",
         "options": [
-            "A. Culture evolution",
-            "B. Event management",
-            "C. Data monetization",
-            "D. Platform architecture"
+            "Culture evolution",
+            "Event management",
+            "Data monetization",
+            "Platform architecture"
         ],
         "correct_answers": [
-            "C. Data monetization"
+            "Data monetization"
         ]
     },
     {
         "question_number": "Question #135 Topic 1",
         "question": "A company is assessing its AWS Business Support plan to determine if the plan still meets the company’s needs. The company is considering switching to AWS Enterprise Support. Which additional benefit will the company receive with AWS Enterprise Support?",
         "options": [
-            "A. A full set of AWS Trusted Advisor checks",
-            "B. Phone, email, and chat access to cloud support engineers 24 hours a day, 7 days a week",
-            "C. A designated technical account manager (TAM) to assist in monitoring and optimization",
-            "D. A consultative review and architecture guidance for the company’s applications"
+            "A full set of AWS Trusted Advisor checks",
+            "Phone, email, and chat access to cloud support engineers 24 hours a day, 7 days a week",
+            "A designated technical account manager (TAM) to assist in monitoring and optimization",
+            "A consultative review and architecture guidance for the company’s applications"
         ],
         "correct_answers": [
-            "C. A designated technical account manager (TAM) to assist in monitoring and optimization"
+            "A designated technical account manager (TAM) to assist in monitoring and optimization"
         ]
     },
     {
         "question_number": "Question #136 Topic 1",
         "question": "Which pricing model will interrupt a running Amazon EC2 instance if capacity becomes temporarily unavailable?",
         "options": [
-            "A. On-Demand Instances",
-            "B. Standard Reserved Instances",
-            "C. Spot Instances",
-            "D. Convertible Reserved Instances"
+            "On-Demand Instances",
+            "Standard Reserved Instances",
+            "Spot Instances",
+            "Convertible Reserved Instances"
         ],
         "correct_answers": [
-            "C. Spot Instances"
+            "Spot Instances"
         ]
     },
     {
         "question_number": "Question #137 Topic 1",
         "question": "Which options are AWS Cloud Adoption Framework (AWS CAF) security perspective capabilities? (Choose two.)",
         "options": [
-            "A. Observability",
-            "B. Incident and problem management",
-            "C. Incident response",
-            "D. Infrastructure protection",
-            "E. Availability and continuity"
+            "Observability",
+            "Incident and problem management",
+            "Incident response",
+            "Infrastructure protection",
+            "Availability and continuity"
         ],
         "correct_answers": [
-            "C. Incident response",
-            "D. Infrastructure protection"
+            "Incident response",
+            "Infrastructure protection"
         ]
     },
     {
         "question_number": "Question #138 Topic 1",
         "question": "A company wants to run its workload on Amazon EC2 instances for more than 1 year. This workload will run continuously.  Which option offers a discounted hourly rate compared to the hourly rate of On-Demand Instances?",
         "options": [
-            "A. AWS Graviton processor",
-            "B. Dedicated Hosts",
-            "C. EC2 Instance Savings Plans",
-            "D. Amazon EC2 Auto Scaling instances"
+            "AWS Graviton processor",
+            "Dedicated Hosts",
+            "EC2 Instance Savings Plans",
+            "Amazon EC2 Auto Scaling instances"
         ],
         "correct_answers": [
-            "C. EC2 Instance Savings Plans"
+            "EC2 Instance Savings Plans"
         ]
     },
     {
         "question_number": "Question #139 Topic 1",
         "question": "Which characteristic of the AWS Cloud helps users eliminate underutilized CPU capacity?",
         "options": [
-            "A. Agility",
-            "B. Elasticity",
-            "C. Reliability",
-            "D. Durability"
+            "Agility",
+            "Elasticity",
+            "Reliability",
+            "Durability"
         ],
         "correct_answers": [
-            "B. Elasticity"
+            "Elasticity"
         ]
     },
     {
         "question_number": "Question #140 Topic 1",
         "question": "Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)",
         "options": [
-            "A. Amazon WorkSpaces",
-            "B. Amazon Simple Queue Service (Amazon SQS)",
-            "C. Amazon Connect",
-            "D. AWS Trusted Advisor",
-            "E. AWS Step Functions"
+            "Amazon WorkSpaces",
+            "Amazon Simple Queue Service (Amazon SQS)",
+            "Amazon Connect",
+            "AWS Trusted Advisor",
+            "AWS Step Functions"
         ],
         "correct_answers": [
-            "B. Amazon Simple Queue Service (Amazon SQS)",
-            "E. AWS Step Functions"
+            "Amazon Simple Queue Service (Amazon SQS)",
+            "AWS Step Functions"
         ]
     }
 ]

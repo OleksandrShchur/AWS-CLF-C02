@@ -3,264 +3,264 @@
         "question_number": "Question #41 Topic 1",
         "question": "Which service enables customers to audit API calls in their AWS accounts?",
         "options": [
-            "A. AWS CloudTrail",
-            "B. AWS Trusted Advisor",
-            "C. Amazon Inspector",
-            "D. AWS X-Ray"
+            "AWS CloudTrail",
+            "AWS Trusted Advisor",
+            "Amazon Inspector",
+            "AWS X-Ray"
         ],
         "correct_answers": [
-            "A. AWS CloudTrail"
+            "AWS CloudTrail"
         ]
     },
     {
         "question_number": "Question #42 Topic 1",
         "question": "What is a customer responsibility when using AWS Lambda according to the AWS shared responsibility model?",
         "options": [
-            "A. Managing the code within the Lambda function",
-            "B. Confirming that the hardware is working in the data center",
-            "C. Patching the operating system",
-            "D. Shutting down Lambda functions when they are no longer in use"
+            "Managing the code within the Lambda function",
+            "Confirming that the hardware is working in the data center",
+            "Patching the operating system",
+            "Shutting down Lambda functions when they are no longer in use"
         ],
         "correct_answers": [
-            "A. Managing the code within the Lambda function"
+            "Managing the code within the Lambda function"
         ]
     },
     {
         "question_number": "Question #43 Topic 1",
         "question": "A company has 5 TB of data stored in Amazon S3. The company plans to occasionally run queries on the data for analysis. Which AWS service should the company use to run these queries in the MOST cost-effective manner?",
         "options": [
-            "A. Amazon Redshift",
-            "B. Amazon Athena",
-            "C. Amazon Kinesis",
-            "D. Amazon RDS"
+            "Amazon Redshift",
+            "Amazon Athena",
+            "Amazon Kinesis",
+            "Amazon RDS"
         ],
         "correct_answers": [
-            "B. Amazon Athena"
+            "Amazon Athena"
         ]
     },
     {
         "question_number": "Question #44 Topic 1",
         "question": "Which AWS service can be used at no additional cost?",
         "options": [
-            "A. Amazon SageMaker",
-            "B. AWS Config",
-            "C. AWS Organizations",
-            "D. Amazon CloudWatch"
+            "Amazon SageMaker",
+            "AWS Config",
+            "AWS Organizations",
+            "Amazon CloudWatch"
         ],
         "correct_answers": [
-            "C. AWS Organizations"
+            "AWS Organizations"
         ]
     },
     {
         "question_number": "Question #45 Topic 1",
         "question": "Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the people perspective?",
         "options": [
-            "A. Data architecture",
-            "B. Event management",
-            "C. Cloud fluency",
-            "D. Strategic partnership"
+            "Data architecture",
+            "Event management",
+            "Cloud fluency",
+            "Strategic partnership"
         ],
         "correct_answers": [
-            "C. Cloud fluency"
+            "Cloud fluency"
         ]
     },
     {
         "question_number": "Question #46 Topic 1",
         "question": "A company wants to make an upfront commitment for continued use of its production Amazon EC2 instances in exchange for a reduced overall cost. Which pricing options meet these requirements with the LOWEST cost? (Choose two.)",
         "options": [
-            "A. Spot Instances",
-            "B. On-Demand Instances",
-            "C. Reserved Instances",
-            "D. Savings Plans",
-            "E. Dedicated Hosts"
+            "Spot Instances",
+            "On-Demand Instances",
+            "Reserved Instances",
+            "Savings Plans",
+            "Dedicated Hosts"
         ],
         "correct_answers": [
-            "C. Reserved Instances",
-            "D. Savings Plans"
+            "Reserved Instances",
+            "Savings Plans"
         ]
     },
     {
         "question_number": "Question #47 Topic 1",
         "question": "A company wants to migrate its on-premises relational databases to the AWS Cloud. The company wants to use infrastructure as close to its current geographical location as possible. Which AWS service or resource should the company use to select its Amazon RDS deployment area?",
         "options": [
-            "A. Amazon Connect",
-            "B. AWS Wavelength",
-            "C. AWS Regions",
-            "D. AWS Direct Connect"
+            "Amazon Connect",
+            "AWS Wavelength",
+            "AWS Regions",
+            "AWS Direct Connect"
         ],
         "correct_answers": [
-            "C. AWS Regions"
+            "AWS Regions"
         ]
     },
     {
         "question_number": "Question #48 Topic 1",
         "question": "A company is exploring the use of the AWS Cloud, and needs to create a cost estimate for a project before the infrastructure is provisioned. Which AWS service or feature can be used to estimate costs before deployment?",
         "options": [
-            "A. AWS Free Tier",
-            "B. AWS Pricing Calculator",
-            "C. AWS Billing and Cost Management",
-            "D. AWS Cost and Usage Report"
+            "AWS Free Tier",
+            "AWS Pricing Calculator",
+            "AWS Billing and Cost Management",
+            "AWS Cost and Usage Report"
         ],
         "correct_answers": [
-            "B. AWS Pricing Calculator"
+            "AWS Pricing Calculator"
         ]
     },
     {
         "question_number": "Question #49 Topic 1",
         "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?",
         "options": [
-            "A. Deliver the content through Amazon CloudFront.",
-            "B. Store the content on Amazon S3 and enable S3 cross-region replication.",
-            "C. Implement a VPN across multiple AWS Regions.",
-            "D. Deliver the content through AWS PrivateLink."
+            "Deliver the content through Amazon CloudFront.",
+            "Store the content on Amazon S3 and enable S3 cross-region replication.",
+            "Implement a VPN across multiple AWS Regions.",
+            "Deliver the content through AWS PrivateLink."
         ],
         "correct_answers": [
-            "A. Deliver the content through Amazon CloudFront."
+            "Deliver the content through Amazon CloudFront."
         ]
     },
     {
         "question_number": "Question #50 Topic 1",
         "question": "Which option is a benefit of the economies of scale based on the advantages of cloud computing?",
         "options": [
-            "A. The ability to trade variable expense for fixed expense",
-            "B. Increased speed and agility",
-            "C. Lower variable costs over fixed costs",
-            "D. Increased operational costs across data centers"
+            "The ability to trade variable expense for fixed expense",
+            "Increased speed and agility",
+            "Lower variable costs over fixed costs",
+            "Increased operational costs across data centers"
         ],
         "correct_answers": [
-            "C. Lower variable costs over fixed costs"
+            "Lower variable costs over fixed costs"
         ]
     },
     {
         "question_number": "Question #51 Topic 1",
         "question": "Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation?",
         "options": [
-            "A. AWS CLI",
-            "B. AWS Developer Center",
-            "C. AWS Cloud Development Kit (AWS CDK)",
-            "D. AWS CodeStar"
+            "AWS CLI",
+            "AWS Developer Center",
+            "AWS Cloud Development Kit (AWS CDK)",
+            "AWS CodeStar"
         ],
         "correct_answers": [
-            "C. AWS Cloud Development Kit (AWS CDK)"
+            "AWS Cloud Development Kit (AWS CDK)"
         ]
     },
     {
         "question_number": "Question #52 Topic 1",
         "question": "A company is developing an application that uses multiple AWS services. The application needs to use temporary, limited-privilege credentials for authentication with other AWS APIs. Which AWS service or feature should the company use to meet these authentication requirements?",
         "options": [
-            "A. Amazon API Gateway",
-            "B. IAM users",
-            "C. AWS Security Token Service (AWS STS)",
-            "D. IAM instance profiles"
+            "Amazon API Gateway",
+            "IAM users",
+            "AWS Security Token Service (AWS STS)",
+            "IAM instance profiles"
         ],
         "correct_answers": [
-            "C. AWS Security Token Service (AWS STS)"
+            "AWS Security Token Service (AWS STS)"
         ]
     },
     {
         "question_number": "Question #53 Topic 1",
         "question": "Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?",
         "options": [
-            "A. AWS Security Hub",
-            "B. AWS Trusted Advisor",
-            "C. Amazon EventBridge",
-            "D. Amazon GuardDuty"
+            "AWS Security Hub",
+            "AWS Trusted Advisor",
+            "Amazon EventBridge",
+            "Amazon GuardDuty"
         ],
         "correct_answers": [
-            "A. AWS Security Hub"
+            "AWS Security Hub"
         ]
     },
     {
         "question_number": "Question #54 Topic 1",
         "question": "Which AWS service is always provided at no charge?",
         "options": [
-            "A. Amazon S3",
-            "B. AWS Identity and Access Management (IAM)",
-            "C. Elastic Load Balancers",
-            "D. AWS WAF"
+            "Amazon S3",
+            "AWS Identity and Access Management (IAM)",
+            "Elastic Load Balancers",
+            "AWS WAF"
         ],
         "correct_answers": [
-            "B. AWS Identity and Access Management (IAM)"
+            "AWS Identity and Access Management (IAM)"
         ]
     },
     {
         "question_number": "Question #55 Topic 1",
         "question": "To reduce costs, a company is planning to migrate a NoSQL database to AWS. Which AWS service is fully managed and can automatically scale throughput capacity to meet database workload demands?",
         "options": [
-            "A. Amazon Redshift",
-            "B. Amazon Aurora",
-            "C. Amazon DynamoDB",
-            "D. Amazon RDS"
+            "Amazon Redshift",
+            "Amazon Aurora",
+            "Amazon DynamoDB",
+            "Amazon RDS"
         ],
         "correct_answers": [
-            "C. Amazon DynamoDB"
+            "Amazon DynamoDB"
         ]
     },
     {
         "question_number": "Question #56 Topic 1",
         "question": "A company is using Amazon DynamoDB. Which task is the company’s responsibility, according to the AWS shared responsibility model?",
         "options": [
-            "A. Patch the operating system.",
-            "B. Provision hosts.",
-            "C. Manage database access permissions.",
-            "D. Secure the operating system."
+            "Patch the operating system.",
+            "Provision hosts.",
+            "Manage database access permissions.",
+            "Secure the operating system."
         ],
         "correct_answers": [
-            "C. Manage database access permissions."
+            "Manage database access permissions."
         ]
     },
     {
         "question_number": "Question #57 Topic 1",
         "question": "A company has a test AWS environment. A company is planning on testing an application within AWS. The application testing can be interrupted and does not need to run continuously. Which Amazon EC2 purchasing option will meet these requirements MOST cost-effectively?",
         "options": [
-            "A. On-Demand Instances",
-            "B. Dedicated Instances",
-            "C. Spot Instances",
-            "D. Reserved Instances"
+            "On-Demand Instances",
+            "Dedicated Instances",
+            "Spot Instances",
+            "Reserved Instances"
         ],
         "correct_answers": [
-            "C. Spot Instances"
+            "Spot Instances"
         ]
     },
     {
         "question_number": "Question #58 Topic 1",
         "question": "Which AWS service gives users the ability to discover and protect sensitive data that is stored in Amazon S3 buckets?",
         "options": [
-            "A. Amazon Macie",
-            "B. Amazon Detective",
-            "C. Amazon GuardDuty",
-            "D. AWS IAM Access Analyzer"
+            "Amazon Macie",
+            "Amazon Detective",
+            "Amazon GuardDuty",
+            "AWS IAM Access Analyzer"
         ],
         "correct_answers": [
-            "A. Amazon Macie"
+            "Amazon Macie"
         ]
     },
     {
         "question_number": "Question #59 Topic 1",
         "question": "Which of the following services can be used to block network traffic to an instance? (Choose two.)",
         "options": [
-            "A. Security groups",
-            "B. Amazon Virtual Private Cloud (Amazon VPC) flow logs",
-            "C. Network ACLs",
-            "D. Amazon CloudWatch",
-            "E. AWS CloudTrail"
+            "Security groups",
+            "Amazon Virtual Private Cloud (Amazon VPC) flow logs",
+            "Network ACLs",
+            "Amazon CloudWatch",
+            "AWS CloudTrail"
         ],
         "correct_answers": [
-            "A. Security groups",
-            "C. Network ACLs"
+            "Security groups",
+            "Network ACLs"
         ]
     },
     {
         "question_number": "Question #60 Topic 1",
         "question": "Which AWS service can identify when an Amazon EC2 instance was terminated?",
         "options": [
-            "A. AWS Identity and Access Management (IAM)",
-            "B. AWS CloudTrail",
-            "C. AWS Compute Optimizer",
-            "D. Amazon EventBridge"
+            "AWS Identity and Access Management (IAM)",
+            "AWS CloudTrail",
+            "AWS Compute Optimizer",
+            "Amazon EventBridge"
         ],
         "correct_answers": [
-            "B. AWS CloudTrail"
+            "AWS CloudTrail"
         ]
     }
 ]

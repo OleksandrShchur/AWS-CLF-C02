@@ -3,270 +3,270 @@
         "question_number": "Question #21 Topic 1",
         "question": "Which AWS service or feature allows a user to establish a dedicated network connection between a company’s on-premises data center and the AWS Cloud?",
         "options": [
-            "A. AWS Direct Connect",
-            "B. VPC peering",
-            "C. AWS VPN",
-            "D. Amazon Route 53"
+            "AWS Direct Connect",
+            "VPC peering",
+            "AWS VPN",
+            "Amazon Route 53"
         ],
         "correct_answers": [
-            "A. AWS Direct Connect"
+            "AWS Direct Connect"
         ]
     },
     {
         "question_number": "Question #22 Topic 1",
         "question": "Which option is a physical location of the AWS global infrastructure?",
         "options": [
-            "A. AWS DataSync",
-            "B. AWS Region",
-            "C. Amazon Connect",
-            "D. AWS Organizations"
+            "AWS DataSync",
+            "AWS Region",
+            "Amazon Connect",
+            "AWS Organizations"
         ],
         "correct_answers": [
-            "B. AWS Region"
+            "AWS Region"
         ]
     },
     {
         "question_number": "Question #23 Topic 1",
         "question": "A company wants to protect its AWS Cloud information, systems, and assets while performing risk assessment and mitigation tasks. Which pillar of the AWS Well-Architected Framework is supported by these goals?",
         "options": [
-            "A. Reliability",
-            "B. Security",
-            "C. Operational excellence",
-            "D. Performance efficiency"
+            "Reliability",
+            "Security",
+            "Operational excellence",
+            "Performance efficiency"
         ],
         "correct_answers": [
-            "B. Security"
+            "Security"
         ]
     },
     {
         "question_number": "Question #24 Topic 1",
         "question": "What is the purpose of having an internet gateway within a VPC?",
         "options": [
-            "A. To create a VPN connection to the VPC",
-            "B. To allow communication between the VPC and the internet",
-            "C. To impose bandwidth constraints on internet traffic",
-            "D. To load balance traffic from the internet across Amazon EC2 instances"
+            "To create a VPN connection to the VPC",
+            "To allow communication between the VPC and the internet",
+            "To impose bandwidth constraints on internet traffic",
+            "To load balance traffic from the internet across Amazon EC2 instances"
         ],
         "correct_answers": [
-            "B. To allow communication between the VPC and the internet"
+            "To allow communication between the VPC and the internet"
         ]
     },
     {
         "question_number": "Question #25 Topic 1",
         "question": "A company is running a monolithic on-premises application that does not scale and is difficult to maintain. The company has a plan to migrate the application to AWS and divide the application into microservices. Which best practice of the AWS Well-Architected Framework is the company following with this plan?",
         "options": [
-            "A. Integrate functional testing as part of AWS deployment.",
-            "B. Use automation to deploy changes.",
-            "C. Deploy the application to multiple locations.",
-            "D. Implement loosely coupled dependencies."
+            "Integrate functional testing as part of AWS deployment.",
+            "Use automation to deploy changes.",
+            "Deploy the application to multiple locations.",
+            "Implement loosely coupled dependencies."
         ],
         "correct_answers": [
-            "D. Implement loosely coupled dependencies."
+            "Implement loosely coupled dependencies."
         ]
     },
     {
         "question_number": "Question #26 Topic 1",
         "question": "A company has an AWS account. The company wants to audit its password and access key rotation details for compliance purposes. Which AWS service or tool will meet this requirement?",
         "options": [
-            "A. IAM Access Analyzer",
-            "B. AWS Artifact",
-            "C. IAM credential report",
-            "D. AWS Audit Manager"
+            "IAM Access Analyzer",
+            "AWS Artifact",
+            "IAM credential report",
+            "AWS Audit Manager"
         ],
         "correct_answers": [
-            "C. IAM credential report"
+            "IAM credential report"
         ]
     },
     {
         "question_number": "Question #27 Topic 1",
         "question": "A company wants to receive a notification when a specific AWS cost threshold is reached. Which AWS services or tools can the company use to meet this requirement? (Choose two.)",
         "options": [
-            "A. Amazon Simple Queue Service (Amazon SQS)",
-            "B. AWS Budgets",
-            "C. Cost Explorer",
-            "D. Amazon CloudWatch",
-            "E. AWS Cost and Usage Report"
+            "Amazon Simple Queue Service (Amazon SQS)",
+            "AWS Budgets",
+            "Cost Explorer",
+            "Amazon CloudWatch",
+            "AWS Cost and Usage Report"
         ],
         "correct_answers": [
-            "B. AWS Budgets",
-            "D. Amazon CloudWatch"
+            "AWS Budgets",
+            "Amazon CloudWatch"
         ]
     },
     {
         "question_number": "Question #28 Topic 1",
         "question": "Which AWS service or resource provides answers to the most frequently asked security-related questions that AWS receives from its users?",
         "options": [
-            "A. AWS Artifact",
-            "B. Amazon Connect",
-            "C. AWS Chatbot",
-            "D. AWS Knowledge Center"
+            "AWS Artifact",
+            "Amazon Connect",
+            "AWS Chatbot",
+            "AWS Knowledge Center"
         ],
         "correct_answers": [
-            "D. AWS Knowledge Center"
+            "AWS Knowledge Center"
         ]
     },
     {
         "question_number": "Question #29 Topic 1",
         "question": "Which tasks are customer responsibilities, according to the AWS shared responsibility model? (Choose two.)",
         "options": [
-            "A. Configure the AWS provided security group firewall.",
-            "B. Classify company assets in the AWS Cloud.",
-            "C. Determine which Availability Zones to use for Amazon S3 buckets.",
-            "D. Patch or upgrade Amazon DynamoDB.",
-            "E. Select Amazon EC2 instances to run AWS Lambda on."
+            "Configure the AWS provided security group firewall.",
+            "Classify company assets in the AWS Cloud.",
+            "Determine which Availability Zones to use for Amazon S3 buckets.",
+            "Patch or upgrade Amazon DynamoDB.",
+            "Select Amazon EC2 instances to run AWS Lambda on."
         ],
         "correct_answers": [
-            "A. Configure the AWS provided security group firewall.",
-            "B. Classify company assets in the AWS Cloud."
+            "Configure the AWS provided security group firewall.",
+            "Classify company assets in the AWS Cloud."
         ]
     },
     {
         "question_number": "Question #30 Topic 1",
         "question": "Which of the following are pillars of the AWS Well-Architected Framework? (Choose two.)",
         "options": [
-            "A. Availability",
-            "B. Reliability",
-            "C. Scalability",
-            "D. Responsive design",
-            "E. Operational excellence"
+            "Availability",
+            "Reliability",
+            "Scalability",
+            "Responsive design",
+            "Operational excellence"
         ],
         "correct_answers": [
-            "B. Reliability",
-            "E. Operational excellence"
+            "Reliability",
+            "Operational excellence"
         ]
     },
     {
         "question_number": "Question #31 Topic 1",
         "question": "Which AWS service or feature is used to send both text and email messages from distributed applications?",
         "options": [
-            "A. Amazon Simple Notification Service (Amazon SNS)",
-            "B. Amazon Simple Email Service (Amazon SES)",
-            "C. Amazon CloudWatch alerts",
-            "D. Amazon Simple Queue Service (Amazon SQS)"
+            "Amazon Simple Notification Service (Amazon SNS)",
+            "Amazon Simple Email Service (Amazon SES)",
+            "Amazon CloudWatch alerts",
+            "Amazon Simple Queue Service (Amazon SQS)"
         ],
         "correct_answers": [
-            "A. Amazon Simple Notification Service (Amazon SNS)"
+            "Amazon Simple Notification Service (Amazon SNS)"
         ]
     },
     {
         "question_number": "Question #32 Topic 1",
         "question": "A user needs programmatic access to AWS resources through the AWS CLI or the AWS API. Which option will provide the user with the appropriate access?",
         "options": [
-            "A. Amazon Inspector",
-            "B. Access keys",
-            "C. SSH public keys",
-            "D. AWS Key Management Service (AWS KMS) keys"
+            "Amazon Inspector",
+            "Access keys",
+            "SSH public keys",
+            "AWS Key Management Service (AWS KMS) keys"
         ],
         "correct_answers": [
-            "B. Access keys"
+            "Access keys"
         ]
     },
     {
         "question_number": "Question #33 Topic 1",
         "question": "A company runs thousands of simultaneous simulations using AWS Batch. Each simulation is stateless, is fault tolerant, and runs for up to 3 hours. Which pricing model enables the company to optimize costs and meet these requirements?",
         "options": [
-            "A. Reserved Instances",
-            "B. Spot Instances",
-            "C. On-Demand Instances",
-            "D. Dedicated Instances"
+            "Reserved Instances",
+            "Spot Instances",
+            "On-Demand Instances",
+            "Dedicated Instances"
         ],
         "correct_answers": [
-            "B. Spot Instances"
+            "Spot Instances"
         ]
     },
     {
         "question_number": "Question #34 Topic 1",
         "question": "What does the concept of agility mean in AWS Cloud computing? (Choose two.)",
         "options": [
-            "A. The speed at which AWS resources are implemented",
-            "B. The speed at which AWS creates new AWS Regions",
-            "C. The ability to experiment quickly",
-            "D. The elimination of wasted capacity",
-            "E. The low cost of entry into cloud computing"
+            "The speed at which AWS resources are implemented",
+            "The speed at which AWS creates new AWS Regions",
+            "The ability to experiment quickly",
+            "The elimination of wasted capacity",
+            "The low cost of entry into cloud computing"
         ],
         "correct_answers": [
-            "A. The speed at which AWS resources are implemented",
-            "C. The ability to experiment quickly"
+            "The speed at which AWS resources are implemented",
+            "The ability to experiment quickly"
         ]
     },
     {
         "question_number": "Question #35 Topic 1",
         "question": "A company needs to block SQL injection attacks. Which AWS service or feature can meet this requirement?",
         "options": [
-            "A. AWS WAF",
-            "B. AWS Shield",
-            "C. Network ACLs",
-            "D. Security groups"
+            "AWS WAF",
+            "AWS Shield",
+            "Network ACLs",
+            "Security groups"
         ],
         "correct_answers": [
-            "A. AWS WAF"
+            "AWS WAF"
         ]
     },
     {
         "question_number": "Question #36 Topic 1",
         "question": "Which AWS service or feature identifies whether an Amazon S3 bucket or an IAM role has been shared with an external entity?",
         "options": [
-            "A. AWS Service Catalog",
-            "B. AWS Systems Manager",
-            "C. AWS IAM Access Analyzer",
-            "D. AWS Organizations"
+            "AWS Service Catalog",
+            "AWS Systems Manager",
+            "AWS IAM Access Analyzer",
+            "AWS Organizations"
         ],
         "correct_answers": [
-            "C. AWS IAM Access Analyzer"
+            "AWS IAM Access Analyzer"
         ]
     },
     {
         "question_number": "Question #37 Topic 1",
         "question": "A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?",
         "options": [
-            "A. Contact the AWS Compliance team.",
-            "B. Download the reports from AWS Artifact.",
-            "C. Open a case with AWS Support.",
-            "D. Generate the reports with Amazon Macie."
+            "Contact the AWS Compliance team.",
+            "Download the reports from AWS Artifact.",
+            "Open a case with AWS Support.",
+            "Generate the reports with Amazon Macie."
         ],
         "correct_answers": [
-            "B. Download the reports from AWS Artifact."
+            "Download the reports from AWS Artifact."
         ]
     },
     {
         "question_number": "Question #38 Topic 1",
         "question": "An ecommerce company has migrated its IT infrastructure from an on-premises data center to the AWS Cloud. Which cost is the company’s direct responsibility?",
         "options": [
-            "A. Cost of application software licenses",
-            "B. Cost of the hardware infrastructure on AWS",
-            "C. Cost of power for the AWS servers",
-            "D. Cost of physical security for the AWS data center"
+            "Cost of application software licenses",
+            "Cost of the hardware infrastructure on AWS",
+            "Cost of power for the AWS servers",
+            "Cost of physical security for the AWS data center"
         ],
         "correct_answers": [
-            "A. Cost of application software licenses"
+            "Cost of application software licenses"
         ]
     },
     {
         "question_number": "Question #39 Topic 1",
         "question": "A company is setting up AWS Identity and Access Management (IAM) on an AWS account. Which recommendation complies with IAM security best practices?",
         "options": [
-            "A. Use the account root user access keys for administrative tasks.",
-            "B. Grant broad permissions so that all company employees can access the resources they need.",
-            "C. Turn on multi-factor authentication (MFA) for added security during the login process.",
-            "D. Avoid rotating credentials to prevent issues in production applications."
+            "Use the account root user access keys for administrative tasks.",
+            "Grant broad permissions so that all company employees can access the resources they need.",
+            "Turn on multi-factor authentication (MFA) for added security during the login process.",
+            "Avoid rotating credentials to prevent issues in production applications."
         ],
         "correct_answers": [
-            "C. Turn on multi-factor authentication (MFA) for added security during the login process."
+            "Turn on multi-factor authentication (MFA) for added security during the login process."
         ]
     },
     {
         "question_number": "Question #40 Topic 1",
         "question": "Elasticity in the AWS Cloud refers to which of the following? (Choose two.)",
         "options": [
-            "A. How quickly an Amazon EC2 instance can be restarted",
-            "B. The ability to rightsize resources as demand shifts",
-            "C. The maximum amount of RAM an Amazon EC2 instance can use",
-            "D. The pay-as-you-go billing model",
-            "E. How easily resources can be procured when they are needed"
+            "How quickly an Amazon EC2 instance can be restarted",
+            "The ability to rightsize resources as demand shifts",
+            "The maximum amount of RAM an Amazon EC2 instance can use",
+            "The pay-as-you-go billing model",
+            "How easily resources can be procured when they are needed"
         ],
         "correct_answers": [
-            "B. The ability to rightsize resources as demand shifts",
-            "E. How easily resources can be procured when they are needed"
+            "The ability to rightsize resources as demand shifts",
+            "How easily resources can be procured when they are needed"
         ]
     }
 ]
