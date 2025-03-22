@@ -3,6 +3,7 @@ let currentQuestionIndex = 0;
 let answeredQuestions = {};
 let correctCount = 0;
 let incorrectCount = 0;
+let isQuizFinished = false;
 
 // Array of available quiz files (you can expand this dynamically if needed)
 const availableQuizzes = [
@@ -53,6 +54,15 @@ const availableQuizzes = [
     "https://oleksandrshchur.github.io/AWS-CLF-C02/split_files/unique_questions_part_45.json"
 ];
 
+function startQuiz() {
+    isQuizFinished = false;
+    questions = [];
+    currentQuestionIndex = 0;
+    answeredQuestions = {};
+    correctCount = 0;
+    incorrectCount = 0;
+}
+
 // Populate dropdown with available quizzes
 function populateQuizDropdown() {
     const quizSelect = document.getElementById("quiz-select");
@@ -70,6 +80,7 @@ function populateQuizDropdown() {
 
 // Load selected quiz file
 function loadSelectedQuiz() {
+    startQuiz();
     removeResultContainerIfExists();
 
     const quizSelect = document.getElementById("quiz-select");
@@ -130,11 +141,17 @@ function loadQuestion(index = null) {
         shuffledOptions.forEach(option => {
             const optionElement = document.createElement("div");
             optionElement.classList.add("option");
+            
+            const label = document.createElement("label");
+            label.style.cursor = "pointer";
+            label.style.display = "flex";
+            label.style.alignItems = "center";
+            
             const input = document.createElement("input");
             input.type = inputType;
             input.name = "answer";
             input.value = option;
-
+            
             if (answeredQuestions[currentQuestionIndex]) {
                 input.disabled = true;
                 if (answeredQuestions[currentQuestionIndex].userAnswers.includes(option)) {
@@ -146,8 +163,9 @@ function loadQuestion(index = null) {
                 }
             }
 
-            optionElement.appendChild(input);
-            optionElement.appendChild(document.createTextNode(` ${option}`));
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(` ${option}`));
+            optionElement.appendChild(label);
             optionsContainer.appendChild(optionElement);
         });
 
@@ -205,6 +223,7 @@ function removeResultContainerIfExists() {
 
 // Function to finish the quiz early and display results at the top
 function finishQuiz() {
+    isQuizFinished = true;
     removeResultContainerIfExists();
 
     // Create a new result container
@@ -259,6 +278,7 @@ function markDashboardItem(index, color) {
 
 // Function to generate a sample test with 65 random questions
 function generateSampleTest() {
+    startQuiz();
     removeResultContainerIfExists();
 
     const sampleTestUrl = "https://oleksandrshchur.github.io/AWS-CLF-C02/questions/unique_questions.json";
