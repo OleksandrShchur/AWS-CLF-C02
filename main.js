@@ -132,8 +132,13 @@ function loadQuestion(index = null) {
         const optionsContainer = document.getElementById("options-container");
         optionsContainer.innerHTML = "";
 
-        const shuffledOptions = [...questionObj.options];
-        shuffleArray(shuffledOptions);
+        let shuffledOptions;
+        if (answeredQuestions[currentQuestionIndex]) {
+            shuffledOptions = [...questionObj.options]; // Maintain original order for answered questions
+        } else {
+            shuffledOptions = [...questionObj.options];
+            shuffleArray(shuffledOptions); // Shuffle only if not answered
+        }
 
         const isMultiSelect = questionObj.correct_answers.length > 1;
         const inputType = isMultiSelect ? "checkbox" : "radio";
