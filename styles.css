@@ -236,53 +236,6 @@ input:checked + .slider:before {
     color: #ffffff;
 }
 
-/* Apply dark mode to the main quiz container */
-.dark-mode .quiz-container {
-    background-color: #222 !important;
-    color: #fff !important;
-}
-
-/* Ensure radio button background and border are visible */
-.dark-mode input[type="radio"] {
-    accent-color: #bbb; /* Light gray for better visibility */
-}
-
-/* Make sure answer options are dark */
-.dark-mode .answer-option {
-    background-color: #333 !important;
-    color: #fff !important;
-    border: 1px solid #555;
-}
-
-/* Fix progress bar colors */
-.dark-mode .progress-bar {
-    background-color: #444 !important;
-}
-
-.dark-mode .progress-bar div {
-    background-color: #4caf50 !important; /* Green progress */
-}
-
-/* Fix buttons */
-.dark-mode button {
-    background-color: #444 !important;
-    color: #fff !important;
-    border: 1px solid #666 !important;
-}
-
-/* Ensure the navigation bar (questions list) is dark */
-.dark-mode .question-nav {
-    background-color: #333 !important;
-    color: #fff !important;
-}
-
-/* Update the question buttons */
-.dark-mode .question-nav button {
-    background-color: #555 !important;
-    color: #fff !important;
-    border: 1px solid #777;
-}
-
 p, span, label {
-    color: #000000;
+    color: black;
 }

@@ -246,7 +246,7 @@ function finishQuiz() {
     // Create a new result container
     const resultContainer = document.createElement("div");
     resultContainer.classList.add("result-container"); // Add a class to easily identify it
-    resultContainer.innerHTML = `<h2>Quiz Completed!</h2>
+    resultContainer.innerHTML = `<b><p>Quiz Completed!</p></b>
                                  <p>Correct: ${correctCount}</p>
                                  <p>Incorrect: ${incorrectCount}</p>`;
     resultContainer.style.background = "#f8f8f8";
