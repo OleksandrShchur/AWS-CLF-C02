@@ -132,3 +132,157 @@ button:hover {
     align-items: center;
     gap: 15px;
 }
+
+/*dark mode styles*/
+
+/* Default light mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Toggle switch styling */
+.theme-switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode a {
+    color: #bb86fc; /* Soft purple for links */
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+.dark-mode input, 
+.dark-mode textarea {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dark-mode table {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+.dark-mode table th,
+.dark-mode table td {
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+.dark-mode .card, 
+.dark-mode .container, 
+.dark-mode .header, 
+.dark-mode .footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Apply dark mode to the main quiz container */
+.dark-mode .quiz-container {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+
+/* Ensure radio button background and border are visible */
+.dark-mode input[type="radio"] {
+    accent-color: #bbb; /* Light gray for better visibility */
+}
+
+/* Make sure answer options are dark */
+.dark-mode .answer-option {
+    background-color: #333 !important;
+    color: #fff !important;
+    border: 1px solid #555;
+}
+
+/* Fix progress bar colors */
+.dark-mode .progress-bar {
+    background-color: #444 !important;
+}
+
+.dark-mode .progress-bar div {
+    background-color: #4caf50 !important; /* Green progress */
+}
+
+/* Fix buttons */
+.dark-mode button {
+    background-color: #444 !important;
+    color: #fff !important;
+    border: 1px solid #666 !important;
+}
+
+/* Ensure the navigation bar (questions list) is dark */
+.dark-mode .question-nav {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+/* Update the question buttons */
+.dark-mode .question-nav button {
+    background-color: #555 !important;
+    color: #fff !important;
+    border: 1px solid #777;
+}
+
+p, span, label {
+    color: #000000;
+}

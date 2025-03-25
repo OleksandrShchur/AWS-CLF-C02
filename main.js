@@ -338,3 +338,30 @@ function getRandomSubset(array, count) {
 
 // Initialize dropdown on page load
 document.addEventListener("DOMContentLoaded", populateQuizDropdown);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleSwitch = document.getElementById("dark-mode-toggle");
+
+    function applyDarkMode() {
+        document.body.classList.add("dark-mode");
+        document.querySelectorAll(".quiz-container, .answer-option, .question-nav, button, input, .progress-bar")
+            .forEach(el => el.classList.add("dark-mode"));
+        localStorage.setItem("dark-mode", "enabled");
+    }
+
+    function removeDarkMode() {
+        document.body.classList.remove("dark-mode");
+        document.querySelectorAll(".quiz-container, .answer-option, .question-nav, button, input, .progress-bar")
+            .forEach(el => el.classList.remove("dark-mode"));
+        localStorage.setItem("dark-mode", "disabled");
+    }
+
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        applyDarkMode();
+        toggleSwitch.checked = true;
+    }
+
+    toggleSwitch.addEventListener("change", function () {
+        toggleSwitch.checked ? applyDarkMode() : removeDarkMode();
+    });
+});
