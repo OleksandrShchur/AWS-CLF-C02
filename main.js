@@ -270,8 +270,10 @@ function arraysEqual(a, b) {
 
 // Function to update progress bar
 function updateProgressBar() {
-    const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
-    document.getElementById("progress-bar").style.width = `${progress}%`;
+    if (currentQuestionIndex < questions.length) {
+        const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+        document.getElementById("progress-bar").style.width = `${progress}%`;
+    }
 }
 
 // Function to render dashboard
