@@ -100,14 +100,12 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-
-    background-color: #333;
-    color: #ffffff;
-    border: 1px solid #555;
+    background: blue;
+    color: white;
 }
 
 button:hover {
-    background: rgb(2, 2, 28);
+    background: darkblue;
 }
 
 .button-container {
